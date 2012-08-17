@@ -1,0 +1,5 @@
+conectar-apps-debian (1.0-1) wizy; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- ragnarok <ragnarok@docksud.com.ar>  Fri, 17 Aug 2012 18:15:31 -0300

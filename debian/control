@@ -1,0 +1,15 @@
+Source: conectar-apps-debian
+Section: main
+Priority: extra
+Maintainer: ragnarok <ragnarok@docksud.com.ar>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Homepage: http://www.conectar.gov.ar
+#Vcs-Git: git://git.debian.org/collab-maint/conectar-apps-debian.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/conectar-apps-debian.git;a=summary
+
+Package: conectar-apps-debian
+Architecture: all
+Depends: ${misc:Depends}, arista, audacity
+Description: Aplicaciones de la distro incluidas en el repositorio de debian
+ Aplicaciones de la distro incluidas en el repositorio de debian
