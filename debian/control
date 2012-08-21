@@ -1,0 +1,15 @@
+Source: conectar-apps-distro
+Section: main
+Priority: extra
+Maintainer: ragnarok <ragnarok@docksud.com.ar>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Homepage: http://www.conectar.gob.ar
+#Vcs-Git: git://git.debian.org/collab-maint/conectar-apps-distro.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/conectar-apps-distro.git;a=summary
+
+Package: conectar-apps-distro
+Architecture: all
+Depends: ${misc:Depends}, python-pilas, xul-ext-downloadhelper, firefox
+Description: Aplicaciones de la distro del repositorio propio 
+ Aplicaciones de la distro del repositorio propio 
