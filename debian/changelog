@@ -1,5 +1,5 @@
-conectar-apps-distro (1.0-1) wizi; urgency=low
+conectar-apps-distro (1.0-1) wizy; urgency=low
 
   * Initial release
 
- -- ragnarok <ragnarok@docksud.com.ar>  Fri, 17 Aug 2012 18:52:09 -0300
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 17 Aug 2012 18:52:09 -0300
