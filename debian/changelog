@@ -1,3 +1,9 @@
+conectar-apps-distro (1.0-3) wizy; urgency=low
+
+  * agregando dependencia de conectar-bullets
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Wed,  12 Sep 2012 14:48:26 -0300
+
 conectar-apps-distro (1.0-2) wizy; urgency=low
 
   * agregando el archivo en usr/bin
