@@ -1,3 +1,9 @@
+conectar-apps-distro (1.0-14) wizi; urgency=low
+
+  * agregando adduser local
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 13 Sep 2012 17:40:16 -0300
+
 conectar-apps-distro (1.0-13) wizy; urgency=low
 
   * cambiando enteros por true o false
