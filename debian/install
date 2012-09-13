@@ -1,2 +1,2 @@
-usr/bin/conectar-default-settings usr/bin/
+debian/bin/conectar-default-settings usr/bin/
 debian/images/* usr/share/images/desktop-base/
