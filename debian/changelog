@@ -1,3 +1,9 @@
+conectar-apps-distro (1.0-12) wizy; urgency=low
+
+  * agregando extensiones de gnome
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 13 Sep 2012 15:55:32 -0300
+
 conectar-apps-distro (1.0-11) wizy; urgency=low
 
   * syntax error picture-uri

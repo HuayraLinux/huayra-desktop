@@ -10,6 +10,7 @@ Homepage: http://www.conectar.gob.ar
 
 Package: conectar-apps-distro
 Architecture: all
-Depends: ${misc:Depends}, python-pilas, xul-ext-downloadhelper, firefox, dconf-tools, conectar-bullets
+Depends: ${misc:Depends}, python-pilas, xul-ext-downloadhelper, firefox, dconf-tools, conectar-bullets, 
+  conectar-gnome-shell-extensions
 Description: Aplicaciones de la distro del repositorio propio 
  Aplicaciones de la distro del repositorio propio 
