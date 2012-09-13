@@ -10,28 +10,28 @@ dconf write /org/gnome/shell/enabled-extensions "['alternate-tab@gnome-shell-ext
 dconf write /org/gnome/shell/favorite-apps "['nautilus.desktop','firefox.desktop','gimp.desktop','audacity.desktop','vlc.desktop','cheese.desktop','libreoffice-startcenter.desktop','gnome-terminal.desktop']"
 
 #mostrar icono de mi computadora
-dconf write /org/gnome/nautilus/desktop/computer-icon-visible 0
+dconf write /org/gnome/nautilus/desktop/computer-icon-visible false
 
 # mostrar papelera
-dconf write /org/gnome/nautilus/desktop/trash-icon-visible 1
+dconf write /org/gnome/nautilus/desktop/trash-icon-visible true
 dconf write /org/gnome/nautilus/desktop/trash-icon-name "'Papelera'"
 
 #mostrar icon home
-dconf write /org/gnome/nautilus/desktop/home-icon-visible 1
+dconf write /org/gnome/nautilus/desktop/home-icon-visible true
 dconf write /org/gnome/nautilus/desktop/home-icon-name "'Carpeta Personal'"
 
 # mostrar dispositivos montados en el desktop
-dconf write /org/gnome/nautilus/desktop/volumen-visible 1
+dconf write /org/gnome/nautilus/desktop/volumen-visible true
 
 # se puede cambiar los keybindings
-dconf write /org/gnome/desktop/interface/can-change-accels 1
+dconf write /org/gnome/desktop/interface/can-change-accels true
 
 #nautilus captura el desktop en gnome shell
-dconf write /org/gnome/desktop/background/draw-background 1
-dconf write /org/gnome/desktop/background/show-desktop-icons 1
+dconf write /org/gnome/desktop/background/draw-background true
+dconf write /org/gnome/desktop/background/show-desktop-icons true
 
 # screensaver sin password de bloqueo
-dconf write /org/gnome/desktop/screensaver/lock-enabled 0
+dconf write /org/gnome/desktop/screensaver/lock-enabled false
 
 #botones ventana
 dconf write /org/gnome/shell/overrides/button-layout "':minimize,maximize,close'"

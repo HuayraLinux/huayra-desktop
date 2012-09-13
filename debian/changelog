@@ -1,3 +1,9 @@
+conectar-apps-distro (1.0-13) wizy; urgency=low
+
+  * cambiando enteros por true o false
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 13 Sep 2012 17:23:55 -0300
+
 conectar-apps-distro (1.0-12) wizy; urgency=low
 
   * agregando extensiones de gnome
