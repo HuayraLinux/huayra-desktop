@@ -32,3 +32,6 @@ dconf write /org/gnome/desktop/background/show-desktop-icons 1
 
 # screensaver sin password de bloqueo
 dconf write /org/gnome/desktop/screensaver/lock-enabled 0
+
+#botones ventana
+dconf write /org/gnome/shell/overrides/button-layout "':minimize,maximize,close'"
