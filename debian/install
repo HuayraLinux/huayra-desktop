@@ -1,3 +1,4 @@
 debian/bin/conectar-default-settings usr/bin/
 debian/images/* usr/share/images/desktop-base/
 debian/etc/skel/* etc/skel/
+debian/etc/skel/.config/* etc/skel/.config/

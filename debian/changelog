@@ -1,3 +1,10 @@
+conectar-apps-distro (1.0-9) wizy; urgency=low
+
+  * los string de GVariant se escapan con comllas simples y dobles, se
+    agrego tambien el .config
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 13 Sep 2012 15:09:04 -0300
+
 conectar-apps-distro (1.0-8) wizy; urgency=low
 
   * el paquete es dconf-tools

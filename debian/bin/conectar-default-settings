@@ -14,11 +14,11 @@ dconf write /org/gnome/nautilus/desktop/computer-icon-visible 0
 
 # mostrar papelera
 dconf write /org/gnome/nautilus/desktop/trash-icon-visible 1
-dconf write /org/gnome/nautilus/desktop/trash-icon-name "Papelera"
+dconf write /org/gnome/nautilus/desktop/trash-icon-name "'Papelera'"
 
 #mostrar icon home
 dconf write /org/gnome/nautilus/desktop/home-icon-visible 1
-dconf write /org/gnome/nautilus/desktop/home-icon-name "Carpeta Personal"
+dconf write /org/gnome/nautilus/desktop/home-icon-name "'Carpeta Personal'"
 
 # mostrar dispositivos montados en el desktop
 dconf write /org/gnome/nautilus/desktop/volumen-visible 1
