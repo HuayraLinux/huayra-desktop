@@ -29,3 +29,6 @@ dconf write /org/gnome/desktop/interface/can-change-accels 1
 #nautilus captura el desktop en gnome shell
 dconf write /org/gnome/desktop/background/draw-background 1
 dconf write /org/gnome/desktop/background/show-desktop-icons 1
+
+# screensaver sin password de bloqueo
+dconf write /org/gnome/desktop/screensaver/lock-enabled 0
