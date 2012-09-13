@@ -35,3 +35,10 @@ dconf write /org/gnome/desktop/screensaver/lock-enabled 0
 
 #botones ventana
 dconf write /org/gnome/shell/overrides/button-layout "':minimize,maximize,close'"
+
+# bookmarks de nautilus/gtk
+echo  "file://$HOME/Descargas" > "$HOME/.gtk-bookmarks"
+echo  "file://$HOME/Documentos" >> "$HOME/.gtk-bookmarks"
+echo  "file://$HOME/Imágenes" >> "$HOME/.gtk-bookmarks"
+echo  "file://$HOME/Vídeos" >> "$HOME/.gtk-bookmarks"
+echo  "file://$HOME/Música" >> "$HOME/.gtk-bookmarks"
