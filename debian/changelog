@@ -1,3 +1,9 @@
+conectar-apps-distro (1.0-3) wizy; urgency=low
+
+  * Mas opciones por defecto y dependencias de dconf
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 13 Sep 2012 11:34:03 -0300
+
 conectar-apps-distro (1.0-2) wizy; urgency=low
 
   * agregando el archivo en usr/bin

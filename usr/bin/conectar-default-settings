@@ -9,6 +9,23 @@ dconf write /org/gnome/shell/enabled-extensions "['alternate-tab@gnome-shell-ext
 #favoritos del dash
 dconf write /org/gnome/shell/favorite-apps "['nautilus.desktop','firefox.desktop','gimp.desktop','audacity.desktop','vlc.desktop','cheese.desktop','libreoffice-startcenter.desktop','gnome-terminal.desktop']"
 
-dconf write /org/gnome/nautilus/desktop/computer-icon-visible FALSE
-dconf write /org/gnome/nautilus/desktop/trash-icon-visible TRUE
+#mostrar icono de mi computadora
+dconf write /org/gnome/nautilus/desktop/computer-icon-visible 0
 
+# mostrar papelera
+dconf write /org/gnome/nautilus/desktop/trash-icon-visible 1
+dconf write /org/gnome/nautilus/desktop/trash-icon-name "Papelera"
+
+#mostrar icon home
+dconf write /org/gnome/nautilus/desktop/home-icon-visible 1
+dconf write /org/gnome/nautilus/desktop/home-icon-name "Carpeta Personal"
+
+# mostrar dispositivos montados en el desktop
+dconf write /org/gnome/nautilus/desktop/volumen-visible 1
+
+# se puede cambiar los keybindings
+dconf write /org/gnome/desktop/interface/can-change-accels 1
+
+#nautilus captura el desktop en gnome shell
+dconf write /org/gnome/desktop/background/draw-background 1
+dconf write /org/gnome/desktop/background/show-desktop-icons 1
