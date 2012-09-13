@@ -1,3 +1,9 @@
+conectar-apps-distro (1.0-8) wizy; urgency=low
+
+  * el paquete es dconf-tools
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 13 Sep 2012 14:49:17 -0300
+
 conectar-apps-distro (1.0-7) wizy; urgency=low
 
   * reordenando todos los archivos
