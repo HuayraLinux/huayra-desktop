@@ -1,3 +1,9 @@
+conectar-apps-distro (1.0-11) wizy; urgency=low
+
+  * syntax error picture-uri
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 13 Sep 2012 15:41:04 -0300
+
 conectar-apps-distro (1.0-10) wizy; urgency=low
 
   * background en default settings

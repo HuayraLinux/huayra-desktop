@@ -44,4 +44,4 @@ echo  "file://$HOME/Vídeos" >> "$HOME/.gtk-bookmarks"
 echo  "file://$HOME/Música" >> "$HOME/.gtk-bookmarks"
 
 #background
-dconf write /org/gnome/desktop/background/picture-url "'file:///usr/share/images/desktop-base/punku_1024x600_verdolaga.jpg'"
+dconf write /org/gnome/desktop/background/picture-uri "'file:///usr/share/images/desktop-base/punku_1024x600_verdolaga.jpg'"
