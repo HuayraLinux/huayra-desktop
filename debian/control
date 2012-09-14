@@ -1,12 +1,10 @@
 Source: conectar-apps-debian
 Section: main
 Priority: extra
-Maintainer: ragnarok <ragnarok@docksud.com.ar>
+Maintainer: Fernando Toledo <ragnarok@docksud.com.ar>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.3
 Homepage: http://www.conectar.gov.ar
-#Vcs-Git: git://git.debian.org/collab-maint/conectar-apps-debian.git
-#Vcs-Browser: http://git.debian.org/?p=collab-maint/conectar-apps-debian.git;a=summary
 
 Package: conectar-apps-debian
 Architecture: all
@@ -47,6 +45,6 @@ Depends: ${misc:Depends},
          simple-scan (>= 3.4.2), software-center (>= 5.1.2debian2),
          sozi (>= 12.05), stellarium (>= 0.11.3), tuxguitar (>= 1.2), 
          tuxpaint (>= 1:0.9.21), ufraw (>= 0.18), vlc (>= 2.0.2),
-         python-wxgtk2.8 (>= 2.8.12.1), xchat (>= 2.8.8-6), unrar
+         python-wxgtk2.8 (>= 2.8.12.1), xchat (>= 2.8.8-6), unrar (>= 1:4.1.4)
 Description: Aplicaciones de la distro incluidas en el repositorio de debian
  Aplicaciones de la distro incluidas en el repositorio de debian

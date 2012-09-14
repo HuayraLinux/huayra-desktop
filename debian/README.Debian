@@ -1,6 +1,6 @@
 conectar-apps-debian for Debian
 -------------------------------
 
-<possible notes regarding this package - if none, delete this file>
+Este paquete solamente contiene dependencias hacia otros paquetes.
 
- -- ragnarok <ragnarok@docksud.com.ar>  Fri, 17 Aug 2012 18:15:31 -0300
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 17 Aug 2012 18:15:31 -0300
