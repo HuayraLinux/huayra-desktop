@@ -1,5 +1,11 @@
+conectar-apps-debian (1.0-2) wizy; urgency=low
+
+  * agrgando unrar
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 14 Sep 2012 13:53:36 -0300
+
 conectar-apps-debian (1.0-1) wizy; urgency=low
 
   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 
- -- ragnarok <ragnarok@docksud.com.ar>  Fri, 17 Aug 2012 18:15:31 -0300
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 17 Aug 2012 18:15:31 -0300

@@ -47,6 +47,6 @@ Depends: ${misc:Depends},
          simple-scan (>= 3.4.2), software-center (>= 5.1.2debian2),
          sozi (>= 12.05), stellarium (>= 0.11.3), tuxguitar (>= 1.2), 
          tuxpaint (>= 1:0.9.21), ufraw (>= 0.18), vlc (>= 2.0.2),
-         python-wxgtk2.8 (>= 2.8.12.1), xchat (>= 2.8.8-6)
+         python-wxgtk2.8 (>= 2.8.12.1), xchat (>= 2.8.8-6), unrar
 Description: Aplicaciones de la distro incluidas en el repositorio de debian
  Aplicaciones de la distro incluidas en el repositorio de debian
