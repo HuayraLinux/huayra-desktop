@@ -1,3 +1,15 @@
+conectar-apps-distro (1.0-19) wizy; urgency=low
+
+  * varios fiex de comillas, e icono duplicado, y dconf a nivel sistema
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Sat, 15 Sep 2012 03:12:09 -0300
+
+conectar-apps-distro (1.0-18) wizy; urgency=low
+
+  * agregando dconf a nivel sistema
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Sat, 15 Sep 2012 02:54:25 -0300
+
 conectar-apps-distro (1.0-17) wizy; urgency=low
 
   * probando sacar el firefox par el live
