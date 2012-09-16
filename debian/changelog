@@ -1,3 +1,9 @@
+conectar-apps-distro (1.0-20) wizy; urgency=low
+
+  * agregando postinst para que ejecute dconf update
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Sun, 16 Sep 2012 02:12:36 -0300
+
 conectar-apps-distro (1.0-19) wizy; urgency=low
 
   * varios fiex de comillas, e icono duplicado, y dconf a nivel sistema

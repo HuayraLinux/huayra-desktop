@@ -1,0 +1,10 @@
+#!/bin/sh -e
+
+set -e
+
+#DEBHELPER#
+
+if [ "$1" = "configure" ]; then
+  dconf update
+fi
+
