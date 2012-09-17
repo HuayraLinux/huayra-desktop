@@ -1,4 +1,4 @@
-conectar-apps-debian (1.3) UNRELEASED; urgency=low
+conectar-apps-debian (1.3) wizyx; urgency=low
 
   * NMU.
   * Las versiones del paquete pasan al formato "native".
