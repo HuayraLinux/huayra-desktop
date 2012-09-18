@@ -23,6 +23,6 @@ Depends: ${misc:Depends},
          openshot, pidgin, python-pygame, python-serial, python-webkit,
          python-wxglade, python-wxgtk2.8, rar, unrar, scilab, scribus, 
          simple-scan, software-center, sozi, stellarium, tuxguitar, tuxpaint,
-         ufraw, vlc, xchat
+         ufraw, vlc, xchat, lighttpd, cpufrequtils
 Description: Aplicaciones de la distro incluidas en el repositorio de debian
  Aplicaciones de la distro incluidas en el repositorio de debian

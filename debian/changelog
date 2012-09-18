@@ -1,3 +1,15 @@
+conectar-apps-debian (1.6) wizy; urgency=low
+
+  * agregando cpufrequtils
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 18 Sep 2012 15:34:19 -0300
+
+conectar-apps-debian (1.5) wizy; urgency=low
+
+  * agregando lighty
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 18 Sep 2012 15:24:53 -0300
+
 conectar-apps-debian (1.4) wizy; urgency=low
 
   * NMU.
