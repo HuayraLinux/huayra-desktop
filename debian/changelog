@@ -1,3 +1,9 @@
+conectar-apps-distro (1.0-21) wizy; urgency=low
+
+  * agregando nuevas imagenes
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 18 Sep 2012 15:21:47 -0300
+
 conectar-apps-distro (1.0-20) wizy; urgency=low
 
   * agregando postinst para que ejecute dconf update

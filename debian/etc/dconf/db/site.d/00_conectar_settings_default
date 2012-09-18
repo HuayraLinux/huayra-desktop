@@ -20,6 +20,6 @@ lock-enabled=false
 button-layout=':minimize,maximize,close'
 
 [org/gnome/desktop/background]
-picture-uri='file:///usr/share/images/desktop-base/punku_1024x600_verdolaga.jpg'
+picture-uri='file:///usr/share/images/desktop-base/huayra_background.jpg'
 draw-background=true
 show-desktop-icons=true
