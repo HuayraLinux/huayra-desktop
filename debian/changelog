@@ -1,3 +1,9 @@
+conectar-apps-distro (1.0-22) wizy; urgency=low
+
+  * de vuelta firefox
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 18 Sep 2012 22:07:03 -0300
+
 conectar-apps-distro (1.0-21) wizy; urgency=low
 
   * agregando nuevas imagenes
