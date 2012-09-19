@@ -1,3 +1,9 @@
+conectar-apps-distro (1.0-23) wizy; urgency=low
+
+  * rollback del firefox
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 19 Sep 2012 00:44:21 -0300
+
 conectar-apps-distro (1.0-22) wizy; urgency=low
 
   * de vuelta firefox
