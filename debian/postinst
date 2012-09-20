@@ -2,9 +2,17 @@
 
 set -e
 
-#DEBHELPER#
-
 if [ "$1" = "configure" ]; then
   dconf update
+
+  if ! dpkg-statoverride --list --quiet "/var/www" >/dev/null; 
+  then
+      dpkg-statoverride --force --quiet --update \
+          --add alumno www-data 0755 "/var/www"
+  fi
+
 fi
 
+
+
+#DEBHELPER#

@@ -1,3 +1,10 @@
+conectar-apps-distro (1.0-25) wizy; urgency=low
+
+  * NMU.
+  * Agrego dpkg-statoverrides para que puedan escribir en /var/www
+
+ -- Mauro Lizaur <mauro@debian.org>  Thu, 20 Sep 2012 16:46:00 -0300
+
 conectar-apps-distro (1.0-24) wizy; urgency=low
 
   * importar skel de c-a-debian a c-a-distro
