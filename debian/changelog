@@ -1,3 +1,9 @@
+conectar-apps-distro (1.0-24) wizy; urgency=low
+
+  * importar skel de c-a-debian a c-a-distro
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 20 Sep 2012 14:26:28 -0300
+
 conectar-apps-distro (1.0-23) wizy; urgency=low
 
   * rollback del firefox
