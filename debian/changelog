@@ -1,3 +1,9 @@
+conectar-apps-debian (1.8) wizy; urgency=low
+
+  * pasando skel a c-a-distro
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 20 Sep 2012 14:23:20 -0300
+
 conectar-apps-debian (1.7) wizy; urgency=low
 
   * Libreoffice math menu access
