@@ -1,3 +1,9 @@
+conectar-apps-distro (1.0-26) wizy; urgency=low
+
+  * Perms de escritura para el user y el grupo.
+
+ -- Mauro Lizaur <mauro@debian.org>  Mon, 24 Sep 2012 21:10:22 -0300
+
 conectar-apps-distro (1.0-25.1) wizy; urgency=low
 
   * Non-maintainer upload.
