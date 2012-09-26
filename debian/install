@@ -1,5 +1,6 @@
 debian/bin/conectar-default-settings usr/bin/
 debian/sbin/adduser.local usr/local/sbin/
 debian/images/* usr/share/images/desktop-base/
+debian/icons/* usr/share/icons/huayra/
 debian/etc/skel/* etc/skel/
 debian/etc/skel/.config/* etc/skel/.config/

@@ -1,0 +1,25 @@
+#! /bin/sh
+set -e
+
+#write_cache()
+#{
+#if [ -x /usr/bin/gtk-update-icon-cache-3.0 ]; then
+#    if ! gtk-update-icon-cache-3.0 --force --quiet /usr/share/icons/gnome; then
+#        echo "WARNING: icon cache generation failed"
+#    fi
+#fi
+#}
+
+if [ "$1" = "triggered" ]; then
+    SIZES=$(ls /usr/share/icons/gnome/*/places | sed -rn 's,^.*/([0-9]+)x[0-9]+/.*$,\1,p')
+
+    update-alternatives --install /usr/share/icons/huayra/scalable/axemenu/start-here.svg start-here.svg /usr/share/icons/huayra/scalable/axemenu/start-here.svg 10
+
+    update-alternatives --slave /usr/share/icons/gnome/$SIZE/places/start-here.png start-here.png /usr/share/icons/huayra/axemenu/$SIZEx/axemenu.png
+
+    #write_cache
+    exit 0
+fi
+
+
+#DEBHELPER#
