@@ -1,0 +1,25 @@
+[org/gnome/shell]
+enabled-extensions=['alternate-tab@gnome-shell-extensions.gcampax.github.com', 'alternative-status-menu@gnome-shell-extensions.gcampax.github.com', 'axemenu@wheezy', 'panel-docklet@quina.at', 'quitbutton@azathoth92.hotmail.it', 'remove-workspaces-sidebar@jancborchardt.net']
+favorite-apps=['nautilus.desktop','firefox.desktop','gimp.desktop','audacity.desktop','vlc.desktop','cheese.desktop','libreoffice-startcenter.desktop','gnome-terminal.desktop']
+
+[org/gnome/nautilus/desktop]
+computer-icon-visible=false
+trash-icon-visible=true
+trash-icon-name='Papelera'
+home-icon-visible=true
+home-icon-name='Carpeta Personal'
+volumen-visible=true
+
+[org/gnome/desktop/interface]
+can-change-accels=true
+
+[org/gnome/desktop/screensaver]
+lock-enabled=false
+
+[org/gnome/shell/overrides]
+button-layout=':minimize,maximize,close'
+
+[org/gnome/desktop/background]
+picture-uri='file:///usr/share/images/desktop-base/huayra_background.jpg'
+draw-background=true
+show-desktop-icons=true
