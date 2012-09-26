@@ -37,4 +37,5 @@ dconf write /org/gnome/desktop/screensaver/lock-enabled false
 dconf write /org/gnome/shell/overrides/button-layout "':minimize,maximize,close'"
 
 #background
-dconf write /org/gnome/desktop/background/picture-uri "'file:///usr/share/images/desktop-base/huayra_background.jpg'"
+dconf write /org/gnome/desktop/background/picture-uri "'file:///usr/share/images/desktop-base/wallpaper_1024x600C_mod.jpg'"
+
