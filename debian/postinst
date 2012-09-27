@@ -19,7 +19,7 @@ if [ "$1" = "configure" ]; then
           --add alumno www-data 0775 "/var/www"
   fi
 
-  update-alternatives --install /usr/share/icons/gnome/scalable/start-here.svg start-here.svg /usr/share/icons/huayra/scalable/start-here.svg 10
+  update-alternatives --install /usr/share/icons/gnome/scalable/places/start-here.svg start-here.svg /usr/share/icons/huayra/scalable/places/start-here.svg 10
 
   write_cache
   exit 0
