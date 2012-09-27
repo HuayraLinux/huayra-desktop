@@ -10,17 +10,6 @@ set -e
 #fi
 #}
 
-if [ "$1" = "triggered" ]; then
-    SIZES=$(ls /usr/share/icons/gnome/*/places | sed -rn 's,^.*/([0-9]+)x[0-9]+/.*$,\1,p')
-
-    update-alternatives --install /usr/share/icons/huayra/scalable/axemenu/start-here.svg start-here.svg /usr/share/icons/huayra/scalable/axemenu/start-here.svg 10
-
-    update-alternatives --slave /usr/share/icons/gnome/$SIZE/places/start-here.png start-here.png /usr/share/icons/huayra/axemenu/$SIZEx/axemenu.png
-
-    #write_cache
-    exit 0
-fi
-
 if [ "$1" = "configure" ]; then
   dconf update
 
@@ -29,6 +18,16 @@ if [ "$1" = "configure" ]; then
       dpkg-statoverride --force --quiet --update \
           --add alumno www-data 0775 "/var/www"
   fi
+
+  update-alternatives --install /usr/share/icons/huayra/axemenu/scalable/axemenu.svg start-here.svg /usr/share/icons/huayra/axemenu/scalable/axemenu.svg 10
+
+  for SIZE in `echo 128 16 256 32 64`;
+  do
+      update-alternatives --slave /usr/share/icons/huayra/axemenu/${SIZE}x${SIZE}/axemenu.png start-here-${SIZE}.png /usr/share/icons/huayra/axemenu/${SIZE}x${SIZE}/axemenu.png;
+  done
+
+  #write_cache
+  exit 0
 
 fi
 
