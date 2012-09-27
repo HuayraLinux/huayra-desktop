@@ -1,14 +1,14 @@
 #! /bin/sh
 set -e
 
-#write_cache()
-#{
-#if [ -x /usr/bin/gtk-update-icon-cache-3.0 ]; then
-#    if ! gtk-update-icon-cache-3.0 --force --quiet /usr/share/icons/gnome; then
-#        echo "WARNING: icon cache generation failed"
-#    fi
-#fi
-#}
+write_cache()
+{
+if [ -x /usr/bin/gtk-update-icon-cache-3.0 ]; then
+    if ! gtk-update-icon-cache-3.0 --force --quiet /usr/share/icons/huayra; then
+        echo "WARNING: icon cache generation failed"
+    fi
+fi
+}
 
 if [ "$1" = "configure" ]; then
   dconf update
@@ -19,14 +19,9 @@ if [ "$1" = "configure" ]; then
           --add alumno www-data 0775 "/var/www"
   fi
 
-  update-alternatives --install /usr/share/icons/huayra/axemenu/scalable/axemenu.svg start-here.svg /usr/share/icons/huayra/axemenu/scalable/axemenu.svg 10
+  update-alternatives --install /usr/share/icons/gnome/scalable/start-here.svg start-here.svg /usr/share/icons/huayra/scalable/start-here.svg 10
 
-  for SIZE in `echo 128 16 256 32 64`;
-  do
-      update-alternatives --slave /usr/share/icons/huayra/axemenu/${SIZE}x${SIZE}/axemenu.png start-here-${SIZE}.png /usr/share/icons/huayra/axemenu/${SIZE}x${SIZE}/axemenu.png;
-  done
-
-  #write_cache
+  write_cache
   exit 0
 
 fi
