@@ -1,4 +1,4 @@
-conectar-apps-distro (1.0-27) UNRELEASED; urgency=low
+conectar-apps-distro (1.27) wizy; urgency=low
 
   * Fondos nuevos.
   * Imagenes de grub.
@@ -6,6 +6,7 @@ conectar-apps-distro (1.0-27) UNRELEASED; urgency=low
   * Modifique postinstall para agregar como
     alternativa al icono de Huayra en AxeMenu.
   * Agregue default.js para panel-docklet en el etc/skel.
+  * Versionado como paquete nativo.
 
  -- Mauro Lizaur <mauro@debian.org>  Wed, 26 Sep 2012 13:46:20 -0300
 
