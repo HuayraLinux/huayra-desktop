@@ -1,3 +1,11 @@
+conectar-apps-distro (1.28) wizy; urgency=low
+
+  * NMU
+  * Agregando dependencia de httpd (por el statoverride del /var/www)
+  * Corrección del owner de /var/www 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 27 Sep 2012 18:32:32 -0300
+
 conectar-apps-distro (1.27) wizy; urgency=low
 
   * Fondos nuevos.
