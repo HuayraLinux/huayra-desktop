@@ -1,15 +1,6 @@
 #! /bin/sh
 set -e
 
-write_cache()
-{
-if [ -x /usr/bin/gtk-update-icon-cache-3.0 ]; then
-    if ! gtk-update-icon-cache-3.0 --force --quiet /usr/share/icons/huayra; then
-        echo "WARNING: icon cache generation failed"
-    fi
-fi
-}
-
 if [ "$1" = "configure" ]; then
   dconf update
 
@@ -19,9 +10,6 @@ if [ "$1" = "configure" ]; then
           --add www-data www-data 0775 "/var/www"
   fi
 
-  update-alternatives --install /usr/share/icons/gnome/scalable/places/start-here.svg start-here.svg /usr/share/icons/huayra/scalable/places/start-here.svg 10
-
-  write_cache
   exit 0
 
 fi
