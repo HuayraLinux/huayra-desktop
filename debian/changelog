@@ -1,3 +1,9 @@
+conectar-apps-distro (1.34) wizy; urgency=low
+
+  * dep conectar-hostname-setup
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Fri,  28 Sep 2012 17:43:15 -0300
+
 conectar-apps-distro (1.33) wizy; urgency=low
 
   * fix typo 
