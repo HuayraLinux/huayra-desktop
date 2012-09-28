@@ -16,7 +16,7 @@ if [ "$1" = "configure" ]; then
   if ! dpkg-statoverride --list --quiet "/var/www" >/dev/null; 
   then
       dpkg-statoverride --force --quiet --update \
-          --add alumno www-data 0775 "/var/www"
+          --add www-data www-data 0775 "/var/www"
   fi
 
   update-alternatives --install /usr/share/icons/gnome/scalable/places/start-here.svg start-here.svg /usr/share/icons/huayra/scalable/places/start-here.svg 10
