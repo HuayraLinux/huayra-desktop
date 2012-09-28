@@ -10,6 +10,11 @@ if [ "$1" = "configure" ]; then
           --add www-data www-data 0775 "/var/www"
   fi
 
+  if ! dpkg-statoverride --list --quiet "/var/www/index.lighttpd.html" >/dev/null; 
+  then
+      dpkg-statoverride --force --quiet --update \
+          --add www-data www-data 0664 "/var/www/index.lighttpd.html"
+  fi
   gconftool-2 --direct --config-source xml:readwrite:/etc/gconf/gconf.xml.defaults/ --set --type bool /apps/gksu/sudo-mode 1
 
   exit 0
