@@ -1,3 +1,15 @@
+conectar-apps-distro (1.33) wizy; urgency=low
+
+  * fix typo 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 28 Sep 2012 16:44:55 -0300
+
+conectar-apps-distro (1.32) wizy; urgency=low
+
+  * organizando imagenes
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 28 Sep 2012 16:34:02 -0300
+
 conectar-apps-distro (1.31) wizy; urgency=low
 
   * Cambio de background por defecto 
