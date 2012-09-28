@@ -10,6 +10,8 @@ if [ "$1" = "configure" ]; then
           --add www-data www-data 0775 "/var/www"
   fi
 
+  gconftool-2 --direct --config-source xml:readwrite:/etc/gconf/gconf.xml.defaults/ --set --type bool /apps/gksu/sudo-mode 1
+
   exit 0
 
 fi

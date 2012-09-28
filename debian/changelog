@@ -1,3 +1,16 @@
+conectar-apps-distro (1.31) wizy; urgency=low
+
+  * Cambio de background por defecto 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 28 Sep 2012 02:09:41 -0300
+
+conectar-apps-distro (1.30) wizy; urgency=low
+
+  * Non-maintainer upload.
+  * Dependencia de gconf2 y portinst para setear opcion de sudo por defecto
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 28 Sep 2012 01:56:54 -0300
+
 conectar-apps-distro (1.29) wizy; urgency=low
 
   * Ahora depende de huayra-icon-theme
