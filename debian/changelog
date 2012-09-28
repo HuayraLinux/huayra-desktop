@@ -7,6 +7,7 @@ conectar-apps-distro (1.27) wizy; urgency=low
     alternativa al icono de Huayra en AxeMenu.
   * Agregue default.js para panel-docklet en el etc/skel.
   * Versionado como paquete nativo.
+  * Iconito de Huayra en gdm3
 
  -- Mauro Lizaur <mauro@debian.org>  Wed, 26 Sep 2012 13:46:20 -0300
 
