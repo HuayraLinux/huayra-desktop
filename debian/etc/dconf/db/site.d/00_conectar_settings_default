@@ -24,3 +24,6 @@ picture-uri='file:///usr/share/images/desktop-base/huayra-wallpaper.jpg'
 draw-background=true
 show-desktop-icons=true
 picture-options='stretched'
+
+[org/gnome/settings-daemon/peripherals/touchpad]
+tap-to-click=true
