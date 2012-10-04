@@ -12,6 +12,9 @@ trash-icon-name="'Papelera'"
 
 [org.gnome.desktop.interface]
 can-change-accels=true
+toolkit-accesibility=true
+icon-theme="'Huayra'"
+enable-animations=false
 
 [org.gnome.desktop.background]
 draw-background=true
