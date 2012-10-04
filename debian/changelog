@@ -5,6 +5,8 @@ conectar-apps-distro (1.37) wizy; urgency=low
   * Agrego gsettings-override.
   * Agrego conf para gimp.
   * Agrego theme small para gimp.
+  * Agrego config para los nombres de los directorios
+  * Modifico menu de axemenu.
 
  -- Mauro Lizaur <mauro@debian.org>  Thu, 04 Oct 2012 00:06:22 -0300
 
