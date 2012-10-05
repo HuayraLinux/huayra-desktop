@@ -1,5 +1,5 @@
 [org/gnome/shell]
-enabled-extensions=['alternate-tab@gnome-shell-extensions.gcampax.github.com', 'alternative-status-menu@gnome-shell-extensions.gcampax.github.com', 'axemenu@wheezy', 'panel-docklet@quina.at', 'quitbutton@azathoth92.hotmail.it', 'remove-workspaces-sidebar@jancborchardt.net']
+enabled-extensions=['alternate-tab@gnome-shell-extensions.gcampax.github.com', 'alternative-status-menu@gnome-shell-extensions.gcampax.github.com', 'axemenu@wheezy', 'panel-docklet@quina.at', 'quitbutton@azathoth92.hotmail.it', 'remove-workspaces-sidebar@jancborchardt.net','Bottom_Panel@rmy.pobox.com']
 favorite-apps=['nautilus.desktop','firefox.desktop','gimp.desktop','audacity.desktop','vlc.desktop','cheese.desktop','libreoffice-startcenter.desktop','gnome-terminal.desktop']
 
 [org/gnome/nautilus/desktop]
