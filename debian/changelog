@@ -1,6 +1,7 @@
 conectar-apps-distro (1.38) wizy; urgency=low
 
   * Movi al gsettings-override a conectar-gnome-shell-extensions.
+  * Agrego cambios al bin/conectar-default-settings
 
  -- Mauro Lizaur <mauro@debian.org>  Fri, 05 Oct 2012 03:32:22 -0300
 
