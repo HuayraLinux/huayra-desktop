@@ -1,3 +1,9 @@
+conectar-apps-distro (1.39) wizy; urgency=low
+
+  * Cambio Compartir carpeta 
+
+ -- Mauro Lizaur <mauro@debian.org>  Fri, 05 Oct 2012 13:32:22 -0300
+
 conectar-apps-distro (1.38) wizy; urgency=low
 
   * Movi al gsettings-override a conectar-gnome-shell-extensions.
