@@ -1,6 +1,6 @@
 conectar-apps-distro (1.39) wizy; urgency=low
 
-  * Cambio Compartir carpeta 
+  * Cambio Compartir carpeta a Compartir Web
 
  -- Mauro Lizaur <mauro@debian.org>  Fri, 05 Oct 2012 13:32:22 -0300
 
