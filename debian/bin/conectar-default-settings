@@ -26,8 +26,19 @@ dconf write /org/gnome/nautilus/desktop/volumen-visible true
 # se puede cambiar los keybindings
 dconf write /org/gnome/desktop/interface/can-change-accels true
 
+#toolkit accesibility
+dconf write /org/gnome/desktop/interface/toolkit-accesibility true
+
+#huayra nofx
+dconf write /org/gnome/desktop/interface/enable-animations false
+
+#iconos huayra
+dconf write /org/gnome/desktop/interface/icon-theme "'Huayra'"
+
 #nautilus captura el desktop en gnome shell
 dconf write /org/gnome/desktop/background/draw-background true
+
+#muestra iconos en el escritorio
 dconf write /org/gnome/desktop/background/show-desktop-icons true
 
 # screensaver sin password de bloqueo
