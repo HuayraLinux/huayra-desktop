@@ -2,9 +2,10 @@ debian/bin/conectar-default-settings usr/bin/
 debian/bin/adduser.local usr/bin/
 debian/images/* usr/share/images/desktop-base/
 debian/etc/skel/* etc/skel/
-debian/etc/skel/Desktop/Carpeta* etc/skel/
+debian/etc/skel/Compartir* etc/skel/
 debian/etc/skel/.config/* etc/skel/.config/
 debian/etc/dconf/db/site.d/* etc/dconf/db/site.d/
 debian/etc/dconf/profile/user etc/dconf/profile
 debian/etc/skel/.local/share/applications/libreoffice-math.desktop etc/skel/.local/share/applications/
 debian/boot/grub/splashimages/* boot/grub/splashimages/
+debian/etc/lsb-release etc/
