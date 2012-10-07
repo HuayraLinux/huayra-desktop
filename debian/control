@@ -10,6 +10,15 @@ Homepage: http://www.conectar.gob.ar
 
 Package: conectar-apps-distro
 Architecture: all
-Depends: ${misc:Depends}, python-pilas, xul-ext-downloadhelper, gconf2, dconf-tools, conectar-bullets, conectar-gnome-shell-extensions, lighttpd, huayra-icon-theme, conectar-hostname-setup
+Depends: huayra-desktop
+Description: Transitional dummy package
+ This is a dummy package to ease transition from previous 
+ versions of huayra-desktops.
+ .
+ It can be safely removed from your system.
+
+Package: huayra-desktop
+Architecture: all
+Depends: ${misc:Depends}, python-pilas, xul-ext-downloadhelper, gconf2, dconf-tools, conectar-bullets, huayra-gnome-shell-extensions, lighttpd, huayra-icon-theme, conectar-hostname-setup
 Description: Aplicaciones de la distro del repositorio propio 
  Aplicaciones de la distro del repositorio propio 
