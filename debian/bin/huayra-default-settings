@@ -4,7 +4,7 @@
 gconftool-2 -t bool -s /apps/gksu/sudo-mode 1
 
 # extensiones
-dconf write /org/gnome/shell/enabled-extensions "['alternate-tab@gnome-shell-extensions.gcampax.github.com', 'alternative-status-menu@gnome-shell-extensions.gcampax.github.com', 'axemenu@wheezy', 'panel-docklet@quina.at', 'quitbutton@azathoth92.hotmail.it', 'remove-workspaces-sidebar@jancborchardt.net','Bottom_Panel@rmy.pobox.com','show-desktop@l300lvl.tk']"
+dconf write /org/gnome/shell/enabled-extensions "['alternate-tab@gnome-shell-extensions.gcampax.github.com', 'alternative-status-menu@gnome-shell-extensions.gcampax.github.com', 'axemenu@wheezy', 'quitbutton@azathoth92.hotmail.it', 'remove-workspaces-sidebar@jancborchardt.net','Bottom_Panel@rmy.pobox.com','show-desktop@l300lvl.tk']"
 
 #favoritos del dash
 dconf write /org/gnome/shell/favorite-apps "['nautilus.desktop','firefox.desktop','gimp.desktop','audacity.desktop','vlc.desktop','cheese.desktop','libreoffice-startcenter.desktop','gnome-terminal.desktop']"
@@ -48,7 +48,7 @@ dconf write /org/gnome/desktop/screensaver/lock-enabled false
 dconf write /org/gnome/shell/overrides/button-layout "':minimize,maximize,close'"
 
 #background
-dconf write /org/gnome/desktop/background/picture-uri "'file:///usr/share/images/desktop-base/wallpaper_1024x600C_mod.jpg'"
+dconf write /org/gnome/desktop/background/picture-uri "'file:///usr/share/images/huayra-desktop/huayra-wallpaper.jpg'"
 
 # iconito de gdm3
-dconf write /org/gnome/login-screen/logo "'file:///usr/share/icons/huayra/64x64/places/start-here.png'"
+dconf write /org/gnome/login-screen/logo "'file:///usr/share/icons/huayra/128x128/places/start-here.png'"

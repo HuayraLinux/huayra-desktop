@@ -1,6 +1,6 @@
 debian/bin/huayra-default-settings usr/bin/
 debian/bin/adduser.local usr/bin/
-debian/images/* usr/share/images/desktop-base/
+debian/images/* usr/share/images/huayra-desktop/
 debian/etc/skel/* etc/skel/
 debian/etc/skel/Compartir* etc/skel/
 debian/etc/skel/Escritorio etc/skel/
