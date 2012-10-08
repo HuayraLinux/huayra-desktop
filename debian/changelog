@@ -1,3 +1,9 @@
+huayra-desktop (1.41) wizy; urgency=low
+
+  * Agrego directorios faltantes
+
+ -- Mauro Lizaur <mauro@debian.org>  Mon, 08 Oct 2012 19:35:53 -0300
+
 huayra-desktop (1.40) wizy; urgency=low
 
   * Ahora se llama huayra-desktop.
