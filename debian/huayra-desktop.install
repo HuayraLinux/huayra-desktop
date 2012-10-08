@@ -1,8 +1,15 @@
-debian/bin/conectar-default-settings usr/bin/
+debian/bin/huayra-default-settings usr/bin/
 debian/bin/adduser.local usr/bin/
 debian/images/* usr/share/images/desktop-base/
 debian/etc/skel/* etc/skel/
 debian/etc/skel/Compartir* etc/skel/
+debian/etc/skel/Escritorio etc/skel/
+debian/etc/skel/Descargas etc/skel/
+debian/etc/skel/Plantillas etc/skel/
+debian/etc/skel/Documentos etc/skel/
+debian/etc/skel/Música etc/skel/
+debian/etc/skel/Imágenes etc/skel/
+debian/etc/skel/Vídeos etc/skel/
 debian/etc/skel/.config/* etc/skel/.config/
 debian/etc/dconf/db/site.d/* etc/dconf/db/site.d/
 debian/etc/dconf/profile/user etc/dconf/profile
