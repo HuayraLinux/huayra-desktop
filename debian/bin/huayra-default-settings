@@ -33,7 +33,7 @@ dconf write /org/gnome/desktop/interface/toolkit-accesibility true
 dconf write /org/gnome/desktop/interface/enable-animations false
 
 #iconos huayra
-dconf write /org/gnome/desktop/interface/icon-theme "'Huayra'"
+dconf write /org/gnome/desktop/interface/icon-theme "'huayra'"
 
 #nautilus captura el desktop en gnome shell
 dconf write /org/gnome/desktop/background/draw-background true
