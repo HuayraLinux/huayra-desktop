@@ -1,3 +1,9 @@
+huayra-desktop (1.42) wizy; urgency=low
+
+  * Modifico entradas en huayra-desktop.install
+
+ -- Mauro Lizaur <mauro@debian.org>  Mon, 08 Oct 2012 20:23:39 -0300
+
 huayra-desktop (1.41) wizy; urgency=low
 
   * Agrego directorios faltantes
