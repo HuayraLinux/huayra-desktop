@@ -10,7 +10,7 @@ Homepage: http://www.conectar.gob.ar
 
 Package: conectar-apps-distro
 Architecture: all
-Depends: huayra-desktop
+Depends: ${misc:Depends}, huayra-desktop
 Description: Transitional dummy package
  This is a dummy package to ease transition from previous 
  versions of huayra-desktop.
