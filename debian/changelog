@@ -5,6 +5,7 @@ huayra-desktop (1.44) wizy; urgency=low
 
   [ Mauro ]
   * Agrego huayra-desktop.dirs para crear los directorios.
+  * Agrego dep en adduser.
 
  -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Tue, 09 Oct 2012 13:52:11 -0300
 
