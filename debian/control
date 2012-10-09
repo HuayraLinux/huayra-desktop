@@ -13,7 +13,7 @@ Architecture: all
 Depends: huayra-desktop
 Description: Transitional dummy package
  This is a dummy package to ease transition from previous 
- versions of huayra-desktops.
+ versions of huayra-desktop.
  .
  It can be safely removed from your system.
 
