@@ -1,3 +1,9 @@
+huayra-desktop (1.44) wizy; urgency=low
+
+  * Dependencias huayra-hostname-setup huayra-bullets
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Tue, 09 Oct 2012 13:52:11 -0300
+
 huayra-desktop (1.43) wizy; urgency=low
 
   * Sigo migrando
