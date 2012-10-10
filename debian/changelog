@@ -1,4 +1,4 @@
-huayra-desktop (1.45) UNRELEASED; urgency=low
+huayra-desktop (1.45) wizy; urgency=low
 
   * Remuevo la innecesaria y problematica dep en adduser
 
