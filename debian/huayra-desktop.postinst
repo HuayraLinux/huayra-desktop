@@ -17,8 +17,6 @@ if [ "$1" = "configure" ]; then
   fi
   gconftool-2 --direct --config-source xml:readwrite:/etc/gconf/gconf.xml.defaults/ --set --type bool /apps/gksu/sudo-mode 1
 
-  [ -z "`groups alumno|grep www-data`" ] && adduser alumno www-data;
-
   exit 0
 
 fi
