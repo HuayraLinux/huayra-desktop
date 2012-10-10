@@ -18,4 +18,3 @@ debian/etc/dconf/db/site.d/* etc/dconf/db/site.d/
 debian/etc/dconf/profile/user etc/dconf/profile
 debian/etc/skel/.local/share/applications/libreoffice-math.desktop etc/skel/.local/share/applications/
 debian/boot/grub/splashimages/* boot/grub/splashimages/
-debian/etc/lsb-release etc/
