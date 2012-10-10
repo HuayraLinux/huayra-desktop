@@ -1,3 +1,10 @@
+huayra-desktop (1.46) wizy; urgency=low
+
+  * Non-maintainer upload.
+  * Quitando lsb-release porque fallan los hook de live-build
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 10 Oct 2012 10:00:38 -0300
+
 huayra-desktop (1.45) wizy; urgency=low
 
   * Remuevo la innecesaria y problematica dep en adduser
