@@ -1,3 +1,9 @@
+huayra-desktop (1.48) wizy; urgency=low
+
+  * Agrego 2 PDF de Documentacion.
+
+ -- Mauro Lizaur <mauro@debian.org>  Thu, 11 Oct 2012 17:24:30 -0300
+
 huayra-desktop (1.47) wizy; urgency=low
 
   * fix extensiones habilitadas 
