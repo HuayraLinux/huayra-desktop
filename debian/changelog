@@ -1,6 +1,7 @@
 huayra-desktop (1.48) wizy; urgency=low
 
   * Agrego 2 PDF de Documentacion.
+  * Cambio icono en Acceso de ayuda a la Doc.
 
  -- Mauro Lizaur <mauro@debian.org>  Thu, 11 Oct 2012 17:24:30 -0300
 
