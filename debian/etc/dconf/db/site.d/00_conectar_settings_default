@@ -13,7 +13,7 @@ volumen-visible=true
 [org/gnome/desktop/interface]
 can-change-accels=true
 toolkit-accesibility=true
-icon-theme="'huayra'"
+icon-theme='huayra'
 enable-animations=false
 
 [org/gnome/desktop/screensaver]
