@@ -1,3 +1,9 @@
+huayra-desktop (1.49) wizy; urgency=low
+
+  * Correccion en el ayuda.desktop
+
+ -- Mauro Lizaur <mauro@debian.org>  Fri, 12 Oct 2012 03:13:26 -0300
+
 huayra-desktop (1.48) wizy; urgency=low
 
   * Agrego 2 PDF de Documentacion.
