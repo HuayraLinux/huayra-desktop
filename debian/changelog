@@ -1,3 +1,9 @@
+huayra-desktop (1.50) wizy; urgency=low
+
+  * Cambio huayra-wallpaper.jpg
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Fri, 12 Oct 2012 15:03:12 -0300
+
 huayra-desktop (1.49) wizy; urgency=low
 
   * Correccion en el ayuda.desktop
