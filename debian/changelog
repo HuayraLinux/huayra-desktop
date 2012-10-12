@@ -1,3 +1,9 @@
+huayra-desktop (1.53) wizy; urgency=low
+
+  * Defaults de libreoffice
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Fri, 12 Oct 2012 18:13:12 -0300
+
 huayra-desktop (1.52) wizy; urgency=low
 
   * Nuevamente el ayuda.desktop
