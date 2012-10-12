@@ -1,3 +1,10 @@
+huayra-desktop (1.51) wizy; urgency=low
+
+  * Actualizo ayuda.desktop
+  * Agrego dependencia en huayra-backgrounds-extras.
+
+ -- Mauro Lizaur <mauro@debian.org>  Fri, 12 Oct 2012 16:51:19 -0300
+
 huayra-desktop (1.50) wizy; urgency=low
 
   * Cambio huayra-wallpaper.jpg
