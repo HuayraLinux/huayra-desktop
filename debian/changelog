@@ -1,8 +1,48 @@
-huayra-desktop (1.47) UNRELEASED; urgency=low
+huayra-desktop (1.53) wizy; urgency=low
 
-  * Agrego 2 PDF nuevos.
+  * Defaults de libreoffice
 
- -- Mauro Lizaur <mauro@debian.org>  Thu, 11 Oct 2012 17:22:20 -0300
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Fri, 12 Oct 2012 18:13:12 -0300
+
+huayra-desktop (1.52) wizy; urgency=low
+
+  * Nuevamente el ayuda.desktop
+  * Agrego dir de huayra-desktop y links que apunten ahi.
+
+ -- mauro <mauro@pureville>  Fri, 12 Oct 2012 17:56:26 -0300
+
+huayra-desktop (1.51) wizy; urgency=low
+
+  * Actualizo ayuda.desktop
+  * Agrego dependencia en huayra-backgrounds-extras.
+
+ -- Mauro Lizaur <mauro@debian.org>  Fri, 12 Oct 2012 16:51:19 -0300
+
+huayra-desktop (1.50) wizy; urgency=low
+
+  * Cambio huayra-wallpaper.jpg
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Fri, 12 Oct 2012 15:03:12 -0300
+
+huayra-desktop (1.49) wizy; urgency=low
+
+  * Correccion en el ayuda.desktop
+
+ -- Mauro Lizaur <mauro@debian.org>  Fri, 12 Oct 2012 03:13:26 -0300
+
+huayra-desktop (1.48) wizy; urgency=low
+
+  * Agrego 2 PDF de Documentacion.
+  * Cambio icono en Acceso de ayuda a la Doc.
+
+ -- Mauro Lizaur <mauro@debian.org>  Thu, 11 Oct 2012 17:24:30 -0300
+
+huayra-desktop (1.47) wizy; urgency=low
+
+  * fix extensiones habilitadas 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 11 Oct 2012 13:49:40 -0300
+>>>>>>> ca14bdeeeafd9e213d8338228fbbff8905457f17
 
 huayra-desktop (1.46) wizy; urgency=low
 

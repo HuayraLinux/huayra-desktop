@@ -1,5 +1,5 @@
 [org/gnome/shell]
-enabled-extensions=['alternate-tab@gnome-shell-extensions.gcampax.github.com', 'alternative-status-menu@gnome-shell-extensions.gcampax.github.com', 'axemenu@wheezy', 'quitbutton@azathoth92.hotmail.it', 'remove-workspaces-sidebar@jancborchardt.net','Bottom_Panel@rmy.pobox.com','show-desktop@l300lvl.tk',]
+enabled-extensions=['alternate-tab@gnome-shell-extensions.gcampax.github.com', 'alternative-status-menu@gnome-shell-extensions.gcampax.github.com', 'axemenu@wheezy', 'quitbutton@azathoth92.hotmail.it', 'remove-workspaces-sidebar@jancborchardt.net','Bottom_Panel@rmy.pobox.com','show-desktop@l300lvl.tk']
 favorite-apps=['nautilus.desktop','firefox.desktop','gimp.desktop','audacity.desktop','vlc.desktop','cheese.desktop','libreoffice-startcenter.desktop','gnome-terminal.desktop']
 
 [org/gnome/nautilus/desktop]
@@ -13,7 +13,7 @@ volumen-visible=true
 [org/gnome/desktop/interface]
 can-change-accels=true
 toolkit-accesibility=true
-icon-theme="'huayra'"
+icon-theme='huayra'
 enable-animations=false
 
 [org/gnome/desktop/screensaver]
