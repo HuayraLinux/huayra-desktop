@@ -1,3 +1,9 @@
+huayra-desktop (1.47) UNRELEASED; urgency=low
+
+  * Agrego 2 PDF nuevos.
+
+ -- Mauro Lizaur <mauro@debian.org>  Thu, 11 Oct 2012 17:22:20 -0300
+
 huayra-desktop (1.46) wizy; urgency=low
 
   * Non-maintainer upload.
