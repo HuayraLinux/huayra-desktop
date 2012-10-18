@@ -42,7 +42,6 @@ huayra-desktop (1.47) wizy; urgency=low
   * fix extensiones habilitadas 
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 11 Oct 2012 13:49:40 -0300
->>>>>>> ca14bdeeeafd9e213d8338228fbbff8905457f17
 
 huayra-desktop (1.46) wizy; urgency=low
 
