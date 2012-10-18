@@ -1,3 +1,9 @@
+huayra-desktop (1.55) wizy; urgency=low
+
+  * Depends preziplayer
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Thu, 18 Oct 2012 01:50:22 -0300
+
 huayra-desktop (1.54) wizy; urgency=low
 
   * Referencia a huayra-destop wallpaper en /usr/share/gnome-background-properties/

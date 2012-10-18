@@ -19,6 +19,9 @@ Description: Transitional dummy package
 
 Package: huayra-desktop
 Architecture: all
-Depends: ${misc:Depends}, python-pilas, xul-ext-downloadhelper, gconf2, dconf-tools, huayra-bullets, huayra-gnome-shell-extensions, lighttpd, huayra-icon-theme, huayra-hostname-setup, huayra-backgrounds-extras
+Depends: ${misc:Depends}, python-pilas, xul-ext-downloadhelper, gconf2,
+ dconf-tools, huayra-bullets, huayra-gnome-shell-extensions, lighttpd,
+ huayra-icon-theme, huayra-hostname-setup, huayra-backgrounds-extras,
+ preziplayer
 Description: Aplicaciones de la distro del repositorio propio 
  Aplicaciones de la distro del repositorio propio 
