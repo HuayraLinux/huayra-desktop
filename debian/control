@@ -4,7 +4,7 @@ Priority: extra
 Maintainer: ragnarok <ragnarok@docksud.com.ar>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.3
-Homepage: http://www.conectar.gob.ar
+Homepage: http://huayra.conectarigualdad.gob.ar
 #Vcs-Git: git://git.debian.org/collab-maint/conectar-apps-distro.git
 #Vcs-Browser: http://git.debian.org/?p=collab-maint/conectar-apps-distro.git;a=summary
 
