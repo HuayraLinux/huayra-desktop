@@ -1,3 +1,9 @@
+huayra-desktop (1.57) testing; urgency=low
+
+  * Plantillas para crear nuevos documentos.
+
+ -- Mauro Lizaur <mauro@debian.org>  Wed, 24 Oct 2012 03:32:45 -0300
+
 huayra-desktop (1.56) testing; urgency=low
 
   * links para background del grub 
