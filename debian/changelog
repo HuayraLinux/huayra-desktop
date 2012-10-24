@@ -1,3 +1,9 @@
+huayra-desktop (1.59) testing; urgency=low
+
+  * imagen del grub nueva
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 24 Oct 2012 19:09:11 -0300
+
 huayra-desktop (1.58) testing; urgency=low
 
   * quitando icono de firefox del skel 
