@@ -1,3 +1,14 @@
+huayra-desktop (1.60) testing; urgency=low
+
+  * Chau conectar-apps-distro.
+  * Agrego huayra-apps que depende de todas las apps que agregamos.
+  * huayra-desktop ahora solo depende de huayra-* y no de todas las apps
+    que subimos.
+  * Agrego iconito de Navegador Web al escritorio.
+  * Retoque unos detalles en ayuda.desktop
+
+ -- Mauro Lizaur <mauro@debian.org>  Thu, 25 Oct 2012 01:17:54 -0300
+
 huayra-desktop (1.59) testing; urgency=low
 
   * imagen del grub nueva

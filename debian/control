@@ -5,23 +5,22 @@ Maintainer: ragnarok <ragnarok@docksud.com.ar>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.3
 Homepage: http://huayra.conectarigualdad.gob.ar
-#Vcs-Git: git://git.debian.org/collab-maint/conectar-apps-distro.git
-#Vcs-Browser: http://git.debian.org/?p=collab-maint/conectar-apps-distro.git;a=summary
 
-Package: conectar-apps-distro
+Package: huayra-apps
 Architecture: all
-Depends: ${misc:Depends}, huayra-desktop
-Description: Transitional dummy package
- This is a dummy package to ease transition from previous 
- versions of huayra-desktop.
+Depends: ${misc:Depends}, anagramarama, ayni, gimp-paint-studio,
+         icaro, miescritorio, preziplayer, python-pilas, tortucaro, 
+         xul-ext-downloadhelper, xul-ext-spellchecker-es-ar
+Description: Suite completa de aplicaciones para Huayra
+ Aqui se encuentran una serie de aplicaciones pensadas para Huayra.
  .
- It can be safely removed from your system.
+ Este meta-paquete depende de un conjunto de aplicaciones que proveen las
+ herramientas necesarias para tener un entorno para trabajar o estudiar.
 
 Package: huayra-desktop
 Architecture: all
-Depends: ${misc:Depends}, python-pilas, xul-ext-downloadhelper, gconf2,
- dconf-tools, huayra-bullets, huayra-gnome-shell-extensions, lighttpd,
- huayra-icon-theme, huayra-hostname-setup, huayra-backgrounds-extras,
- preziplayer
-Description: Aplicaciones de la distro del repositorio propio 
- Aplicaciones de la distro del repositorio propio 
+Depends: ${misc:Depends}, gconf2, lighttpd, dconf-tools, huayra-bullets, 
+ huayra-gnome-shell-extensions, huayra-icon-theme, huayra-hostname-setup, 
+ huayra-backgrounds-extras, huayra-apps 
+Description: Configuraciones de Huayra 
+ Aqui se encuentran las diferentes configuraciones de Huayra 
