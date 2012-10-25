@@ -8,7 +8,6 @@ Icon=/usr/share/icons/huayra/scalable/apps/web-browser.svg
 Terminal=false
 X-MultipleArgs=false
 Type=Application
-Icon=iceweasel
 Categories=Network;WebBrowser;
 MimeType=text/html;text/xml;application/xhtml+xml;application/xml;application/vnd.mozilla.xul+xml;application/rss+xml;application/rdf+xml;image/gif;image/jpeg;image/png;x-scheme-handler/http;x-scheme-handler/https;
 StartupWMClass=Firefox-bin
