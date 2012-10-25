@@ -3,9 +3,8 @@
 [Desktop Entry]
 Name=Navegador Web
 Comment=Navegador Web
-Exec=iceweasel
-Icon=/usr/share/icons/huayra/scalable/apps/web-browser.svg
 Exec=iceweasel %u
+Icon=/usr/share/icons/huayra/scalable/apps/web-browser.svg
 Terminal=false
 X-MultipleArgs=false
 Type=Application
