@@ -10,7 +10,7 @@ Package: huayra-apps
 Architecture: all
 Depends: ${misc:Depends}, anagramarama, ayni, gimp-paint-studio,
          icaro, miescritorio, preziplayer, python-pilas, tortucaro, 
-         xul-ext-downloadhelper, xul-ext-spellchecker-es-ar
+         xul-ext-downloadhelper, xul-ext-spellchecker-es-ar, cdpedia
 Description: Suite completa de aplicaciones para Huayra
  Aqui se encuentran una serie de aplicaciones pensadas para Huayra.
  .
@@ -21,6 +21,6 @@ Package: huayra-desktop
 Architecture: all
 Depends: ${misc:Depends}, gconf2, lighttpd, dconf-tools, huayra-bullets, 
  huayra-gnome-shell-extensions, huayra-icon-theme, huayra-hostname-setup, 
- huayra-backgrounds-extras, huayra-apps 
+ huayra-backgrounds-extras, huayra-tuxguitar-settings, huayra-apps 
 Description: Configuraciones de Huayra 
  Aqui se encuentran las diferentes configuraciones de Huayra 

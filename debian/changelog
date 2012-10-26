@@ -1,3 +1,10 @@
+huayra-desktop (1.61) testing; urgency=low
+
+  * huayra-desktop depende de huayra-tuxguitar-settings.
+  * huayra-apps depende de cdpedia
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Fri, 26 Oct 2012 15:10:10 -0300
+
 huayra-desktop (1.60) testing; urgency=low
 
   * Chau conectar-apps-distro.
