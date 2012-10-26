@@ -1,3 +1,9 @@
+huayra-desktop (1.62) testing; urgency=low
+
+  * Se agrega huayra-apps-debian.
+
+ -- Mauro Lizaur <mauro@debian.org>  Fri, 26 Oct 2012 18:27:11 -0300
+
 huayra-desktop (1.61) testing; urgency=low
 
   * huayra-desktop depende de huayra-tuxguitar-settings.
