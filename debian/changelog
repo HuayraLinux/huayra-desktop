@@ -1,3 +1,9 @@
+huayra-desktop (1.64) testing; urgency=low
+
+  * Pasando lista de dependencias al paquete.
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 30 Oct 2012 17:21:20 -0300
+
 huayra-desktop (1.63) testing; urgency=low
 
   * Agregue dependencia italc-master a huayra-apps-debian.

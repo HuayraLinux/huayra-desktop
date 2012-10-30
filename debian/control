@@ -9,7 +9,7 @@ Homepage: http://huayra.conectarigualdad.gob.ar
 Package: huayra-apps
 Architecture: all
 Depends: ${misc:Depends}, anagramarama, ayni, gimp-paint-studio,
-         icaro, miescritorio, preziplayer, python-pilas, tortucaro, 
+         icaro, miescritorio, preziplayer, python-pilas, tortucaro,
          xul-ext-downloadhelper, xul-ext-spellchecker-es-ar, cdpedia
 Description: Suite completa de aplicaciones para Huayra
  Aqui se encuentran una serie de aplicaciones pensadas para Huayra.
@@ -19,27 +19,46 @@ Description: Suite completa de aplicaciones para Huayra
 
 Package: huayra-apps-debian
 Architecture: all
-Depends: ${misc:Depends}, arista, audacity, avahi-daemon, avogadro, babiloo,
-         bkchem, blender, bluefish, calibre, celestia, cheese, clementine,
-         cpufrequtils, default-jre, devede, dia, djmount, drgeo, etoys,
-         euler, file-roller, flashplugin-nonfree, freeciv-client-gtk,
-         freeciv-server, freemind, fusioninventory-agent, gambas3, gcalctool,
-         gcompris, gcompris-sound-es, gdebi, geogebra, gimp, gimp-help-es,
-         gnucap, gnuchess, gscan2pdf, gstreamer0.10-ffmpeg,
-         gstreamer0.10-fluendo-mp3, gstreamer0.10-plugins-bad,
-         gstreamer0.10-plugins-good, gstreamer0.10-plugins-ugly,
-         gstreamer0.10-pulseaudio, gthumb, gtk-recordmydesktop, guvcview,
-         gv, httrack, icedove, icedtea-6-plugin, iceweasel, imagej,
-         inkscape, iptux, ipython, italc-client, italc-master, jclic, jmol,
-         libreoffice, lighttpd, lyx, mc, mdns-scan, mixxx, mypaint,
-         nautilus-image-converter, openjdk-6-jre, openshot, pidgin,
-         python-pygame, python-serial, python-tk, python-webkit,
-         python-wxglade, python-wxgtk2.8, rar, scilab, scribus, shotwell,
-         simple-scan, software-center, sozi, sshfs, stellarium,
-         transmission-gtk, tuxguitar, tuxpaint, ufraw, unrar, vim,
-         vinagre, vlc, zip, pd-aubio, pd-csound, pd-cyclone, pd-purepd,
-         puredata, puredata-core, puredata-doc, puredata-extra,
-         puredata-gui, puredata-utils, puredata-import
+Depends: ${misc:Depends}, arista, audacity, avahi-daemon, avogadro,
+          babiloo, bkchem, blender, bluefish, calibre, caribou,
+          celestia, cheese, clementine, cpufrequtils, default-jre,
+          devede, dia, djmount, drgeo, eog, etoys, euler, evince,
+          file-roller, flashplugin-nonfree, freeciv-client-gtk,
+          freeciv-server, freemind, fusioninventory-agent, gambas3,
+          gcalctool, gcompris, gcompris-sound-es, gdebi, gdm3, gedit,
+          geogebra, gimp, gimp-help-es, gnome-applets, gnome-bluetooth,
+          gnome-control-center, gnome-documents, gnome-keyring,
+          gnome-mag, gnome-media, gnome-menus, gnome-orca, gnome-panel,
+          gnome-power-manager, gnome-screensaver, gnome-screenshot,
+          gnome-search-tool, gnome-session, gnome-session-fallback,
+          gnome-shell, gnome-subtitles, gnome-system-monitor,
+          gnome-terminal, gnome-themes-standard, gnome-tweak-tool,
+          gnucap, gnuchess, gscan2pdf, gstreamer0.10-ffmpeg,
+          gstreamer0.10-fluendo-mp3, gstreamer0.10-plugins-bad,
+          gstreamer0.10-plugins-good, gstreamer0.10-plugins-ugly,
+          gstreamer0.10-pulseaudio, gthumb, gtk-recordmydesktop,
+          guvcview, gv, httrack, icedove, icedtea-6-plugin, iceweasel,
+          imagej, inkscape, iptux, ipython, italc-client, italc-master,
+          jclic, jmol, libreoffice, lighttpd, lyx, mc, mdns-scan, menu,
+          menu-xdg, mixxx, mypaint, nautilus-image-converter,
+          nautilus-open-terminal, network-manager-gnome,
+          network-manager-openvpn-gnome, openjdk-6-jre, openshot,
+          pd-aubio, pd-csound, pd-cyclone, pd-purepd, pidgin, puredata,
+          puredata-core, puredata-doc, puredata-extra, puredata-gui,
+          puredata-import, puredata-utils, python-pygame,
+          python-serial, python-tk, python-webkit, python-wxglade,
+          python-wxgtk2.8, rar, scilab, scribus, shotwell, simple-scan,
+          software-center, sozi, sshfs, stellarium, sudo, transmission-gtk,
+          tuxguitar, tuxpaint, ufraw, unetbootin, unrar, 
+          update-manager-gnome, vim,
+          vinagre, vlc, xdg-user-dirs, xdg-user-dirs-gtk, xdg-utils, zip,
+          acpi, acpi-support, acpi-support-base, dosfstools, e2fsprogs, 
+          firmware-brcm80211, firmware-intelwimax, firmware-iwlwifi, 
+          firmware-linux, firmware-linux-nonfree, firmware-ralink, 
+          firmware-realtek, gparted, grub-common, grub-pc, mawk, ntfs-3g,
+          rfkill, wireless-tools, xserver-xorg,
+          libreoffice-l10n-es, gimp-help-es, aspell-es, 
+          iceweasel-l10n-es-ar, icedove-l10n-es-ar
 Description: Suite completa de aplicaciones disponibles en Debian para Huayra
  Aqui se encuentran una serie de aplicaciones disponibles en Debian incluidas
  en la instalacion de Huayra.
@@ -49,8 +68,8 @@ Description: Suite completa de aplicaciones disponibles en Debian para Huayra
 
 Package: huayra-desktop
 Architecture: all
-Depends: ${misc:Depends}, gconf2, lighttpd, dconf-tools, huayra-bullets, 
- huayra-gnome-shell-extensions, huayra-icon-theme, huayra-hostname-setup, 
- huayra-backgrounds-extras, huayra-tuxguitar-settings, huayra-apps 
-Description: Configuraciones de Huayra 
- Aqui se encuentran las diferentes configuraciones de Huayra 
+Depends: ${misc:Depends}, gconf2, lighttpd, dconf-tools, huayra-bullets,
+ huayra-gnome-shell-extensions, huayra-icon-theme, huayra-hostname-setup,
+ huayra-backgrounds-extras, huayra-tuxguitar-settings, huayra-apps
+Description: Configuraciones de Huayra
+ Aqui se encuentran las diferentes configuraciones de Huayra
