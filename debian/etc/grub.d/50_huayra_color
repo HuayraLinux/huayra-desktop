@@ -1,0 +1,6 @@
+#!/bin/sh
+exec tail -n +3 $0
+# Huayra tweeks
+#
+set color_normal=black/black
+ 

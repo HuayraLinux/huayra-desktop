@@ -1,3 +1,9 @@
+huayra-desktop (1.65) testing; urgency=low
+
+  * hook de grub para color de texto 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 30 Oct 2012 17:48:49 -0300
+
 huayra-desktop (1.64) testing; urgency=low
 
   * Pasando lista de dependencias al paquete.
