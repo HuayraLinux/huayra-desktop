@@ -1,3 +1,9 @@
+huayra-desktop (1.71) testing; urgency=low
+
+  * ouch , falto el then! porque pdebuilder no me genera este error? 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 31 Oct 2012 03:05:23 -0300
+
 huayra-desktop (1.70) testing; urgency=low
 
   * poner nombre de la distro en grub (no es permanente aun) 
