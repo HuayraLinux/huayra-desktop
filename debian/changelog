@@ -1,9 +1,15 @@
-huayra-desktop (1.67) testing; urgency=low
+huayra-desktop (1.68) testing; urgency=low
 
   * archivos por defecto de otros paquetes
   * se agrego archivo de doc que faltaba 
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 31 Oct 2012 01:49:38 -0300
+
+huayra-desktop (1.67) testing; urgency=low
+
+  * Agregue dependencia arduino a huayra-apps-debian.
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Tue, 31 Oct 2012 01:41:12 -0300
 
 huayra-desktop (1.66) testing; urgency=low
 
