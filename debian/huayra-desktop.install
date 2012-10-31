@@ -19,3 +19,4 @@ debian/etc/dconf/profile/user etc/dconf/profile
 debian/etc/skel/.local/share/applications/libreoffice-math.desktop etc/skel/.local/share/applications/
 debian/huayra-desktop.xml /usr/share/gnome-background-properties/
 debian/etc/grub.d/* etc/grub.d/
+debian/etc/huayra/gdm3/* etc/huayra/gdm3/
