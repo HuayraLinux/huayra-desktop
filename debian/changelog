@@ -1,3 +1,9 @@
+huayra-desktop (1.73) testing; urgency=low
+
+  * dependencia at-spi2-core accesibilidad 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 31 Oct 2012 14:59:08 -0300
+
 huayra-desktop (1.72) testing; urgency=low
 
   * dependencia de pulseaudio
