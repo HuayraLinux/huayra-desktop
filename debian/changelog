@@ -1,3 +1,9 @@
+huayra-desktop (1.69) testing; urgency=low
+
+  * color del texto del grub por dark-gray 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 31 Oct 2012 02:06:22 -0300
+
 huayra-desktop (1.68) testing; urgency=low
 
   * archivos por defecto de otros paquetes
