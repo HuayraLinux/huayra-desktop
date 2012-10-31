@@ -1,3 +1,9 @@
+huayra-desktop (1.66) testing; urgency=low
+
+  * agregando paquetes que faltan (nautilus y libgl1-mesa-dri 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 31 Oct 2012 01:08:46 -0300
+
 huayra-desktop (1.65) testing; urgency=low
 
   * hook de grub para color de texto 
