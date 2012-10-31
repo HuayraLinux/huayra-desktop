@@ -1,3 +1,9 @@
+huayra-desktop (1.67) testing; urgency=low
+
+  * Agregue dependencia arduino a huayra-apps-debian.
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Tue, 31 Oct 2012 01:41:12 -0300
+
 huayra-desktop (1.66) testing; urgency=low
 
   * agregando paquetes que faltan (nautilus y libgl1-mesa-dri 
