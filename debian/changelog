@@ -1,3 +1,9 @@
+huayra-desktop (1.75) testing; urgency=low
+
+  * Removiendo dependencia miescritorio de huayra-app.
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Thu, 1 Nov 2012 18:21:22 -0300
+
 huayra-desktop (1.74) testing; urgency=low
 
   * Agregue dependencia fritzing a huayra-apps-debian.
