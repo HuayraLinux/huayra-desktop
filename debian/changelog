@@ -1,3 +1,9 @@
+huayra-desktop (1.74) testing; urgency=low
+
+  * Agregue dependencia fritzing a huayra-apps-debian.
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Thu, 1 Nov 2012 15:27:33 -0300
+
 huayra-desktop (1.73) testing; urgency=low
 
   * dependencia at-spi2-core accesibilidad 
