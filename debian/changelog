@@ -1,3 +1,9 @@
+huayra-desktop (1.78) testing; urgency=low
+
+  * comprobacion de paquetes
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 02 Nov 2012 18:14:06 -0300
+
 huayra-desktop (1.77) testing; urgency=low
 
   * dependencia de synaptic e iconos para software-center cierra #153 
