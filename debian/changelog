@@ -1,3 +1,15 @@
+huayra-desktop (1.77) testing; urgency=low
+
+  * dependencia de synaptic e iconos para software-center cierra #153 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 02 Nov 2012 17:16:32 -0300
+
+huayra-desktop (1.76) testing; urgency=low
+
+  * colores de grub 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 01 Nov 2012 18:50:28 -0300
+
 huayra-desktop (1.75) testing; urgency=low
 
   * Removiendo dependencia miescritorio de huayra-app.
