@@ -60,7 +60,7 @@ Depends: ${misc:Depends}, arduino, arista, at-spi2-core, audacity,
           acpi, acpi-support, acpi-support-base, dosfstools, e2fsprogs, 
           firmware-brcm80211, firmware-intelwimax, firmware-iwlwifi, 
           firmware-linux, firmware-linux-nonfree, firmware-ralink, 
-          firmware-realtek, gparted, grub-common, grub-pc, mawk, ntfs-3g,
+          firmware-realtek, gparted, grub-pc, mawk, ntfs-3g,
           rfkill, wireless-tools, xserver-xorg,
           libreoffice-l10n-es, gimp-help-es, aspell-es, 
           iceweasel-l10n-es-ar, icedove-l10n-es-ar

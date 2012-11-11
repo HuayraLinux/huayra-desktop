@@ -1,3 +1,9 @@
+huayra-desktop (1.81) testing; urgency=low
+
+  * sacando grub-common que es de grub1 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Sun, 11 Nov 2012 18:40:22 -0300
+
 huayra-desktop (1.80) testing; urgency=low
 
   * dependencia gnome-font-viewer 
