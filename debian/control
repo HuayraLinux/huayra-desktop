@@ -62,13 +62,13 @@ Depends: ${misc:Depends}, arduino, arista, at-spi2-core, audacity,
           firmware-linux, firmware-linux-nonfree, firmware-ralink, 
           firmware-realtek, gparted, grub-pc, mawk, ntfs-3g,
           rfkill, wireless-tools, xserver-xorg,
-          libreoffice-l10n-es, gimp-help-es, aspell-es, 
+          libreoffice-l10n-es, aspell-es, 
           iceweasel-l10n-es-ar, icedove-l10n-es-ar
 Description: Suite completa de aplicaciones disponibles en Debian para Huayra
  Aqui se encuentran una serie de aplicaciones disponibles en Debian incluidas
  en la instalacion de Huayra.
  .
- Este meta-paquete depende de un conjunto de aplicaciones que proveen las
+ Este meta-paquete virtual depende de un conjunto de aplicaciones que proveen las
  herramientas necesarias para tener un entorno para trabajar o estudiar.
 
 Package: huayra-desktop

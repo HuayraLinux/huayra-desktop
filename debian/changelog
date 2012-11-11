@@ -1,3 +1,9 @@
+huayra-desktop (1.82) testing; urgency=low
+
+  * correccion warnings de lintian (prueba de script) 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Sun, 11 Nov 2012 19:41:12 -0300
+
 huayra-desktop (1.81) testing; urgency=low
 
   * sacando grub-common que es de grub1 
@@ -186,7 +192,7 @@ huayra-desktop (1.52) wizy; urgency=low
   * Nuevamente el ayuda.desktop
   * Agrego dir de huayra-desktop y links que apunten ahi.
 
- -- mauro <mauro@pureville>  Fri, 12 Oct 2012 17:56:26 -0300
+ -- mauro <mauro@debian.org>  Fri, 12 Oct 2012 17:56:26 -0300
 
 huayra-desktop (1.51) wizy; urgency=low
 
