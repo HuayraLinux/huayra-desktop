@@ -30,3 +30,6 @@ picture-options='stretched'
 
 [org/gnome/settings-daemon/peripherals/touchpad]
 tap-to-click=true
+
+[org/gnome/desktop/default-applications/office/calendar]
+exec='icedove'
