@@ -1,3 +1,10 @@
+huayra-desktop (1.83) UNRELEASED; urgency=low
+
+  * Agrego lanzador de navegador
+  * Cambio config de aplicacion para gestionar al calendario.
+
+ -- Mauro Lizaur <mauro@debian.org>  Mon, 12 Nov 2012 20:04:52 -0300
+
 huayra-desktop (1.82) testing; urgency=low
 
   * correccion warnings de lintian (prueba de script) 
