@@ -1,0 +1,22 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Name=Navegador Web
+Name[es]=Navegador Web 
+Comment=Navege por la web
+Comment[es]=Navegue por la web
+GenericName=Navegador Web
+GenericName[es]=Navegador web
+Exec=iceweasel %u
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/usr/share/icons/huayra/scalable/apps/web-browser.svg
+Categories=GNOME;GTK;Network;WebBrowser;
+MimeType=text/html;text/xml;application/xhtml+xml;application/xml;application/rss+xml;application/rdf+xml;image/gif;image/jpeg;image/png;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/ftp;x-scheme-handler/chrome;video/webm;application/x-xpinstall;
+StartupNotify=true
+
+[NewWindow Shortcut Group]
+Name=Open a New Window
+Name[es]=Abrir una ventana nueva
+Exec=iceweasel %u -new-window
