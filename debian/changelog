@@ -1,3 +1,9 @@
+huayra-desktop (1.84) testing; urgency=low
+
+  * dependencia de os-prober
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 16 Nov 2012 11:30:31 -0300
+
 huayra-desktop (1.83) testing; urgency=low
 
   * Agrego lanzador de navegador y correo.
