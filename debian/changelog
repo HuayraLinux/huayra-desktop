@@ -1,7 +1,8 @@
 huayra-desktop (1.83) testing; urgency=low
 
-  * Agrego lanzador de navegador
+  * Agrego lanzador de navegador y correo.
   * Cambio config de aplicacion para gestionar al calendario.
+  * Agrego dependencia en iceowl-extension para el calendario.
 
  -- Mauro Lizaur <mauro@debian.org>  Mon, 12 Nov 2012 20:04:52 -0300
 

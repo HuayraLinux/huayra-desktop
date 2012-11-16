@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Correo Electronico
+Comment=Lector de Correos Electronicos
+GenericName=Correo Electronico
+Exec=icedove %u
+Terminal=false
+X-MultipleArgs=false
+Type=Application
+Icon=/usr/share/icons/huayra/scalable/actions/mail_new.svg
+Categories=Network;Email;News;GTK;
+MimeType=message/rfc822;x-scheme-handler/mailto;
+StartupWMClass=Icedove-bin
+StartupNotify=true
