@@ -1,3 +1,9 @@
+huayra-desktop (1.85) UNRELEASED; urgency=low
+
+  * D testing dependecia libnss-mdns
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 16 Nov 2012 12:49:23 -0300
+
 huayra-desktop (1.84) testing; urgency=low
 
   * dependencia de os-prober
