@@ -21,4 +21,3 @@ debian/huayra-desktop.xml /usr/share/gnome-background-properties/
 debian/etc/grub.d/* etc/grub.d/
 debian/etc/huayra/gdm3/* etc/huayra/gdm3/
 debian/huayra-navegador.desktop usr/share/applications/
-debian/huayra-navegador.desktop usr/share/app-install/desktop/

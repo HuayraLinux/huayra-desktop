@@ -1,4 +1,4 @@
-huayra-desktop (1.83) UNRELEASED; urgency=low
+huayra-desktop (1.83) testing; urgency=low
 
   * Agrego lanzador de navegador
   * Cambio config de aplicacion para gestionar al calendario.
