@@ -55,3 +55,10 @@ dconf write /org/gnome/login-screen/logo "'file:///usr/share/icons/huayra/128x12
 
 # abri calendario con icedove
 gsettings set org.gnome.desktop.default-applications.office.calendar exec icedove
+
+# habilitamos a dir-listing mod de lighty.
+if [ `id -u` = 0 ];
+then
+    lighty-enable-mod dir-listing
+    invoke-rc.d lighttpd restart
+fi
