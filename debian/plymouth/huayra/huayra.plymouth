@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=Huayra
+Description=La vaca piloto.
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/huayra
+ScriptFile=/usr/share/plymouth/themes/huayra/huayra.script
