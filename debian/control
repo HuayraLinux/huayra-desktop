@@ -9,7 +9,7 @@ Homepage: http://huayra.conectarigualdad.gob.ar
 Package: huayra-apps
 Architecture: all
 Depends: ${misc:Depends}, anagramarama, ayni, gimp-paint-studio,
-         icaro, miescritorio, preziplayer, python-pilas, apicaro,
+         huayra-ayuda, icaro, miescritorio, preziplayer, python-pilas, apicaro,
          xul-ext-downloadhelper, xul-ext-spellchecker-es-ar, cdpedia
 Description: Suite completa de aplicaciones para Huayra
  Aqui se encuentran una serie de aplicaciones pensadas para Huayra.

@@ -1,8 +1,14 @@
-huayra-desktop (1.86) testing; urgency=low
+huayra-desktop (1.87) testing; urgency=low
 
   * cambio de wallpaper
 
- -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 19 Nov 2012 19:34:49 -0300
+ -- Fernando Toledo <ragnarok@docksud.com.arm>  Mon, 20 Nov 2012 19:20:21 -0300
+
+huayra-desktop (1.86) testing; urgency=low
+
+  * dependecia huayra-ayuda
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Mon, 19 Nov 2012 19:20:21 -0300
 
 huayra-desktop (1.85) testing; urgency=low
 
