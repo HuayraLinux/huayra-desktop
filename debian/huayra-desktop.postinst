@@ -17,7 +17,11 @@ if [ "$1" = "configure" ]; then
   fi
   gconftool-2 --direct --config-source xml:readwrite:/etc/gconf/gconf.xml.defaults/ --set --type bool /apps/gksu/sudo-mode 1
   if [ -f /etc/default/grub ]; then
-      sed -i -e '/GRUB_DISTRIBUTOR=/ s/=.*/=Huayra/' /etc/default/grub
+      sed -i -e '/GRUB_DISTRIBUTOR=/ s/=.*/=Huayra/' \
+          -e 's,#GRUB_GFXMODE,GRUB_GFXMODE,g' \
+          -e '/GRUB_GFXMODE=/ s/=.*/=1024x600x32/' \
+          -e '/GRUB_CMDLINE_LINUX_DEFAULT=/ s/=.*/="quiet splash"/' \
+          /etc/default/grub
   fi 
   exit 0
 

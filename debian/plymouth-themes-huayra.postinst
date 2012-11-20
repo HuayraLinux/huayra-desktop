@@ -1,0 +1,33 @@
+#! /bin/sh
+
+set -e
+
+case "$1" in
+
+    configure)
+
+       if [ -f /etc/default/grub ]; then
+         sed -i -e '/GRUB_DISTRIBUTOR=/ s/=.*/=Huayra/' \
+                -e 's,#GRUB_GFXMODE,GRUB_GFXMODE,g' \
+                -e '/GRUB_GFXMODE=/ s/=.*/=1024x600x32/' \
+                -e '/GRUB_CMDLINE_LINUX_DEFAULT=/ s/=.*/="quiet splash"/' \
+                /etc/default/grub
+       fi 
+       
+       update-grub2
+
+    ;;
+
+    abort-upgrade|abort-remove|abort-deconfigure)
+    ;;
+
+    *)
+        echo "postinst called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+
+esac
+
+#DEBHELPER#
+
+exit 0

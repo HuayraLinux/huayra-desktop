@@ -3,7 +3,7 @@ Section: x11
 Priority: extra
 Maintainer: Fernando Toledo <ragnarok@docksud.com.ar>
 Build-Depends: debhelper (>= 8.0.0)
-Standards-Version: 3.9.3
+Standards-Version: 3.9.1
 Homepage: http://huayra.conectarigualdad.gob.ar
 
 Package: huayra-desktop
@@ -65,23 +65,24 @@ Depends: ${misc:Depends}, arduino, arista, at-spi2-core, audacity,
           transmission-gtk, tuxguitar, tuxpaint, ufraw, unetbootin, unrar, 
           update-manager-gnome, vim,
           vinagre, vlc, xdg-user-dirs, xdg-user-dirs-gtk, xdg-utils, zip,
-          acpi, acpi-support, acpi-support-base, dosfstools, e2fsprogs, 
-          firmware-brcm80211, firmware-intelwimax, firmware-iwlwifi, 
-          firmware-linux, firmware-linux-nonfree, firmware-ralink, 
-          firmware-realtek, gparted, grub-pc, mawk, ntfs-3g,
-          rfkill, wireless-tools, xserver-xorg,
-          libreoffice-l10n-es, aspell-es, 
-          iceweasel-l10n-es-ar, icedove-l10n-es-ar
+          acpi, acpi-support, acpi-support-base, dosfstools, 
+          e2fsprogs (>= 1.42.5-1), firmware-brcm80211, firmware-intelwimax, 
+          firmware-iwlwifi, firmware-linux, firmware-linux-nonfree, 
+          firmware-ralink, firmware-realtek, gparted, grub-pc, mawk, 
+          ntfs-3g, rfkill, wireless-tools, xserver-xorg, libreoffice-l10n-es, 
+          aspell-es, iceweasel-l10n-es-ar, icedove-l10n-es-ar
 Description: Suite completa de aplicaciones disponibles en Debian para Huayra
  Aqui se encuentran una serie de aplicaciones disponibles en Debian incluidas
  en la instalacion de Huayra.
  .
- Este meta-paquete virtual depende de un conjunto de aplicaciones que proveen las
- herramientas necesarias para tener un entorno para trabajar o estudiar.
+ Este dummy meta-paquete virtual depende de un conjunto de aplicaciones que 
+ proveen las herramientas necesarias para tener un entorno para trabajar o 
+ estudiar.
 
 Package: plymouth-themes-huayra
 Architecture: all
-Depends: ${misc:Depends}, plymouth-drm (>= 0.8.5.1-5)
+Depends: ${misc:Depends}, plymouth-drm (>= 0.8.5.1-5), 
+         firmware-linux-nonfree, debianutils
 Provides: plymouth-theme
 Description: Graphical Boot Animation and Logger (Huayra theme)
  Plymouth provides an attractive boot animation in place of the text messages
