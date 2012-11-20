@@ -6,6 +6,14 @@ Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.3
 Homepage: http://huayra.conectarigualdad.gob.ar
 
+Package: huayra-desktop
+Architecture: all
+Depends: ${misc:Depends}, gconf2, lighttpd, dconf-tools, huayra-bullets,
+ huayra-gnome-shell-extensions, huayra-icon-theme, huayra-hostname-setup,
+ huayra-backgrounds-extras, huayra-tuxguitar-settings, huayra-apps
+Description: Configuraciones de Huayra
+ Aqui se encuentran las diferentes configuraciones de Huayra
+
 Package: huayra-apps
 Architecture: all
 Depends: ${misc:Depends}, anagramarama, ayni, gimp-paint-studio,
@@ -14,8 +22,8 @@ Depends: ${misc:Depends}, anagramarama, ayni, gimp-paint-studio,
 Description: Suite completa de aplicaciones para Huayra
  Aqui se encuentran una serie de aplicaciones pensadas para Huayra.
  .
- Este meta-paquete depende de un conjunto de aplicaciones que proveen las
- herramientas necesarias para tener un entorno para trabajar o estudiar.
+ Este dummy meta-paquete depende de un conjunto de aplicaciones que proveen 
+ las herramientas necesarias para tener un entorno para trabajar o estudiar.
 
 Package: huayra-apps-debian
 Architecture: all
@@ -71,10 +79,13 @@ Description: Suite completa de aplicaciones disponibles en Debian para Huayra
  Este meta-paquete virtual depende de un conjunto de aplicaciones que proveen las
  herramientas necesarias para tener un entorno para trabajar o estudiar.
 
-Package: huayra-desktop
+Package: plymouth-themes-huayra
 Architecture: all
-Depends: ${misc:Depends}, gconf2, lighttpd, dconf-tools, huayra-bullets,
- huayra-gnome-shell-extensions, huayra-icon-theme, huayra-hostname-setup,
- huayra-backgrounds-extras, huayra-tuxguitar-settings, huayra-apps
-Description: Configuraciones de Huayra
- Aqui se encuentran las diferentes configuraciones de Huayra
+Depends: ${misc:Depends}, plymouth-drm (>= 0.8.5.1-5)
+Provides: plymouth-theme
+Description: Graphical Boot Animation and Logger (Huayra theme)
+ Plymouth provides an attractive boot animation in place of the text messages
+ that normally get shown. Text messages are instead redirected to a logfile for
+ viewing after boot.
+ .
+ This package contains the Huayra theme featuring its friendly Vaca Piloto.
