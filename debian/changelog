@@ -2,6 +2,8 @@ huayra-desktop (1.88) testing; urgency=low
 
   * Agrego configuraciones de lighty para listar los archivos en directorios.
     (Relacionado: http://bugs.debian.org/680755)
+  * Varias limpiadas de lintian
+  * Agrego theme plymouth-themes-huayra con la vaca piloto.
 
  -- Mauro Lizaur <mauro@debian.org>  Mon, 19 Nov 2012 22:10:51 -0300
 
