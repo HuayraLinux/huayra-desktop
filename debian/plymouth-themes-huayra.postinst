@@ -13,8 +13,26 @@ case "$1" in
                 -e '/GRUB_CMDLINE_LINUX_DEFAULT=/ s/=.*/="quiet splash"/' \
                 /etc/default/grub
        fi 
+
+       # hay grub? podemos actualizar?
+       if [ -n "`which update-grub2`" ];
+       then
+                # actualizame al grub.
+                update-grub2;
+       fi
        
-       update-grub2
+       # podemos setear al theme?
+       if [ -x /usr/sbin/plymouth-set-default-theme ];
+       then
+                # actualizame al grub.
+                /usr/sbin/plymouth-set-default-theme huayra
+       fi
+
+       # podemos generar la imagen?
+       if [ -n "`which update-initramfs`" ];
+       then
+                update-initramfs -u
+       fi
 
     ;;
 
