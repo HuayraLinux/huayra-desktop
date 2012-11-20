@@ -1,4 +1,4 @@
-huayra-desktop (1.88) testing; urgency=low
+huayra-desktop (1.89) testing; urgency=low
 
   * Dependencia en plymouth-themes-huayra
   * Agrego lintian overrides.
