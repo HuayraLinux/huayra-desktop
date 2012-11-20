@@ -1,0 +1,8 @@
+# necesitamos estos para que los usuarios se generen ok.
+huayra-desktop binary: binary-without-manpage usr/bin/adduser.local
+huayra-desktop binary: binary-without-manpage usr/bin/huayra-default-settings
+thuayra-desktop binary: file-in-unusual-dir usr/local/sbin/adduser.local
+
+# son accesos directos, no jodas lintian.
+huayra-desktop binary: desktop-command-not-in-package usr/share/applications/huayra-correo.desktop
+huayra-desktop binary: desktop-command-not-in-package usr/share/applications/huayra-navegador.desktop

@@ -1,5 +1,12 @@
 huayra-desktop (1.88) testing; urgency=low
 
+  * Dependencia en plymouth-themes-huayra
+  * Agrego lintian overrides.
+
+ -- Mauro Lizaur <mauro@debian.org>  Tue, 20 Nov 2012 02:27:23 -0300
+
+huayra-desktop (1.88) testing; urgency=low
+
   * Agrego configuraciones de lighty para listar los archivos en directorios.
     (Relacionado: http://bugs.debian.org/680755)
   * Apuntando al deb Lintian clean.
