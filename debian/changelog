@@ -1,9 +1,21 @@
-huayra-desktop (1.86) testing; urgency=low
+huayra-desktop (1.88) testing; urgency=low
 
   * Agrego configuraciones de lighty para listar los archivos en directorios.
     (Relacionado: http://bugs.debian.org/680755)
 
- -- Mauro Lizaur <mauro@debian.org>  Sat, 17 Nov 2012 15:43:21 -0300
+ -- Mauro Lizaur <mauro@debian.org>  Mon, 19 Nov 2012 22:10:51 -0300
+
+huayra-desktop (1.87) testing; urgency=low
+
+  * cambio de wallpaper
+
+ -- Fernando Toledo <ragnarok@docksud.com.arm>  Mon, 20 Nov 2012 19:20:21 -0300
+
+huayra-desktop (1.86) testing; urgency=low
+
+  * dependecia huayra-ayuda
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Mon, 19 Nov 2012 19:20:21 -0300
 
 huayra-desktop (1.85) testing; urgency=low
 
