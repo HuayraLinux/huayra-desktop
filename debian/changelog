@@ -6,13 +6,13 @@ huayra-desktop (1.88) testing; urgency=low
   * Agrego theme plymouth-themes-huayra con la vaca piloto.
   * Agrego version para e2fsprogs
 
- -- Mauro Lizaur <mauro@debian.org>  Mon, 19 Nov 2012 22:10:51 -0300
+ -- Mauro Lizaur <mauro@debian.org>  Tue, 20 Nov 2012 01:53:18 -0300
 
 huayra-desktop (1.87) testing; urgency=low
 
   * cambio de wallpaper
 
- -- Fernando Toledo <ragnarok@docksud.com.arm>  Mon, 20 Nov 2012 19:20:21 -0300
+ -- Fernando Toledo <ragnarok@docksud.com.arm>  Tue, 20 Nov 2012 19:20:21 -0300
 
 huayra-desktop (1.86) testing; urgency=low
 

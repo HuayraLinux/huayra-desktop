@@ -3,7 +3,7 @@ Section: x11
 Priority: extra
 Maintainer: Fernando Toledo <ragnarok@docksud.com.ar>
 Build-Depends: debhelper (>= 8.0.0)
-Standards-Version: 3.9.1
+Standards-Version: 3.9.3
 Homepage: http://huayra.conectarigualdad.gob.ar
 
 Package: huayra-desktop
@@ -13,6 +13,9 @@ Depends: ${misc:Depends}, gconf2, lighttpd, dconf-tools, huayra-bullets,
  huayra-backgrounds-extras, huayra-tuxguitar-settings, huayra-apps
 Description: Configuraciones de Huayra
  Aqui se encuentran las diferentes configuraciones de Huayra
+ .
+ Este paquete realiza las configuraciones basicas necesarias para tener 
+ un entorno para trabajar o estudiar.
 
 Package: huayra-apps
 Architecture: all
@@ -82,7 +85,7 @@ Description: Suite completa de aplicaciones disponibles en Debian para Huayra
 Package: plymouth-themes-huayra
 Architecture: all
 Depends: ${misc:Depends}, plymouth-drm (>= 0.8.5.1-5), 
-         firmware-linux-nonfree, debianutils
+         firmware-linux-nonfree, debianutils (>= 4.3.2)
 Provides: plymouth-theme
 Description: Graphical Boot Animation and Logger (Huayra theme)
  Plymouth provides an attractive boot animation in place of the text messages

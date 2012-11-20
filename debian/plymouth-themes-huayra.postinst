@@ -25,7 +25,7 @@ case "$1" in
        if [ -x /usr/sbin/plymouth-set-default-theme ];
        then
                 # actualizame al grub.
-                /usr/sbin/plymouth-set-default-theme huayra
+                plymouth-set-default-theme huayra
        fi
 
        # podemos generar la imagen?
