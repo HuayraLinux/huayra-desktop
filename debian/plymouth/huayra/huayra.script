@@ -1,4 +1,4 @@
-wallpaper_image = Image("vaca_piloto.png");
+wallpaper_image = Image("splash.png");
 screen_width = Window.GetWidth();
 screen_height = Window.GetHeight();
 resized_wallpaper_image = wallpaper_image.Scale(screen_width,screen_height);
