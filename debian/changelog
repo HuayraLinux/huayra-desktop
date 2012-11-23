@@ -1,3 +1,9 @@
+huayra-desktop (1.92) testing; urgency=low
+
+  * dependencia huayra-apps-debian
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 23 Nov 2012 15:38:05 -0300
+
 huayra-desktop (1.91) testing; urgency=low
 
   * Nueva version de plymouth-themes-huayra.
