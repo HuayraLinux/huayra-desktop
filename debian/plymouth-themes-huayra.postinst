@@ -14,12 +14,12 @@ case "$1" in
                 /etc/default/grub
        fi 
 
-       # hay grub? podemos actualizar?
-       if [ -n "`which update-grub2`" ];
-       then
-                # actualizame al grub.
-                update-grub2;
-       fi
+#       # hay grub? podemos actualizar?
+#       if [ -n "`which update-grub2`" ];
+#       then
+#                # actualizame al grub.
+#                update-grub2;
+#       fi
        
        # podemos setear al theme?
        if [ -x /usr/sbin/plymouth-set-default-theme ];
