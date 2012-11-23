@@ -1,8 +1,0 @@
-[Plymouth Theme]
-Name=Huayra
-Description=Splash para Huayra.
-ModuleName=script
-
-[script]
-ImageDir=/usr/share/plymouth/themes/huayra
-ScriptFile=/usr/share/plymouth/themes/huayra/huayra.script

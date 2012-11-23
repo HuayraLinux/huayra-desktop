@@ -1,3 +1,10 @@
+huayra-desktop (1.93) testing; urgency=low
+
+  * Quito plymouth-themes-huayra.
+  * Agrego pd-extended como dependencia en huayra-apps-debian.
+
+ -- Mauro Lizaur <mauro@debian.org>  Fri, 23 Nov 2012 17:57:59 -0300
+
 huayra-desktop (1.92) testing; urgency=low
 
   * dependencia huayra-apps-debian
