@@ -1,3 +1,9 @@
+huayra-desktop (1.90) testing; urgency=low
+
+  * no se puede ejecutar update-grub en el live
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 22 Nov 2012 08:15:49 -0300
+
 huayra-desktop (1.89) testing; urgency=low
 
   * Dependencia en plymouth-themes-huayra
