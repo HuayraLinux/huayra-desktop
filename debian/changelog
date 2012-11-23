@@ -1,3 +1,10 @@
+huayra-desktop (1.91) testing; urgency=low
+
+  * Nueva version de plymouth-themes-huayra.
+    (Proxima version en otro canal)
+
+ -- Mauro Lizaur <mauro@debian.org>  Thu, 22 Nov 2012 22:04:20 -0300
+
 huayra-desktop (1.90) testing; urgency=low
 
   * no se puede ejecutar update-grub en el live
