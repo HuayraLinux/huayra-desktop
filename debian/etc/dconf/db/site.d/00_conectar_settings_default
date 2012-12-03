@@ -33,3 +33,9 @@ tap-to-click=true
 
 [org/gnome/desktop/default-applications/office/calendar]
 exec='icedove'
+
+[org/gnome/desktop/interface]
+text-scaling-factor=0.9
+font-name="Canterell 9"
+monospace-font-name="Monospace 9"
+document-font-name="Sans 9"
