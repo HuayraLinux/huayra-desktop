@@ -10,12 +10,6 @@ home-icon-visible=true
 home-icon-name='Carpeta Personal'
 volumen-visible=true
 
-[org/gnome/desktop/interface]
-can-change-accels=true
-toolkit-accesibility=true
-icon-theme='huayra'
-enable-animations=false
-
 [org/gnome/desktop/screensaver]
 lock-enabled=false
 
@@ -35,7 +29,12 @@ tap-to-click=true
 exec='icedove'
 
 [org/gnome/desktop/interface]
+can-change-accels=true
+toolkit-accesibility=true
+icon-theme='huayra'
+enable-animations=false
 text-scaling-factor=0.9
 font-name="Canterell 9"
 monospace-font-name="Monospace 9"
 document-font-name="Sans 9"
+gtk-theme='HuayraVioleta'
