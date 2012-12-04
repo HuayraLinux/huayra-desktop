@@ -14,6 +14,7 @@ debian/etc/skel/.config/* etc/skel/.config/
 debian/etc/skel/.local/* etc/skel/.local/
 debian/etc/skel/.gimp-2.8/* etc/skel/.gimp-2.8/
 debian/etc/skel/.gnome2/* etc/skel/.gnome2/
+debian/etc/skel/.mozilla/* etc/skel/.mozilla
 debian/etc/dconf/db/site.d/* etc/dconf/db/site.d/
 debian/etc/dconf/profile/user etc/dconf/profile
 debian/etc/skel/.local/share/applications/libreoffice-math.desktop etc/skel/.local/share/applications/
