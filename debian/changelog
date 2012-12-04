@@ -2,6 +2,7 @@ huayra-desktop (1.95) testing; urgency=low
 
   * Cambia dependencia de huayra-icon-theme a huayra-icon-theme-all.
   * Se agrega dependencia en gnome-themes-huayra.
+  * Se agregan opciones en dconf.
 
  -- Mauro Lizaur <mauro@debian.org>  Tue, 04 Dec 2012 03:51:06 -0300
 
