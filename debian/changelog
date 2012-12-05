@@ -1,3 +1,10 @@
+huayra-desktop (1.96) testing; urgency=low
+
+  * Se agrega buscador de Educ.Ar
+  * Se agrega dependencia en ttf-aenigma.
+
+ -- Mauro Lizaur <mauro@debian.org>  Wed, 05 Dec 2012 00:36:10 -0300
+
 huayra-desktop (1.95) testing; urgency=low
 
   * Cambia dependencia de huayra-icon-theme a huayra-icon-theme-all.
