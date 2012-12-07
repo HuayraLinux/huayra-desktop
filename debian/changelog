@@ -1,3 +1,9 @@
+huayra-desktop (1.97) UNRELEASED; urgency=low
+
+  * Se agrega buscador de Educ.Ar para gnome-shell.
+
+ -- Mauro Lizaur <mauro@debian.org>  Wed, 05 Dec 2012 21:13:24 -0300
+
 huayra-desktop (1.96) testing; urgency=low
 
   * Se agrega buscador de Educ.Ar
