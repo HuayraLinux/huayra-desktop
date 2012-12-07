@@ -1,6 +1,8 @@
 huayra-desktop (1.97) UNRELEASED; urgency=low
 
   * Se agrega buscador de Educ.Ar para gnome-shell.
+  * Se agregan configs de gimp para modo ventana unica por defecto.
+  * Se agregan opciones en dconf.
 
  -- Mauro Lizaur <mauro@debian.org>  Wed, 05 Dec 2012 21:13:24 -0300
 

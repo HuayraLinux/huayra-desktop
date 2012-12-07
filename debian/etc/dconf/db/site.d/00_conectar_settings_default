@@ -38,3 +38,10 @@ font-name="Canterell 9"
 monospace-font-name="Monospace 9"
 document-font-name="Sans 9"
 gtk-theme='HuayraVioleta'
+
+[org/gnome/login-screen]
+logo='/usr/share/icons/huayra/64x64/places/start-here.png'
+fallback-logo='/usr/share/icons/huayra/64x64/places/start-here.png'
+
+[org/gnome/metacity]
+compositing-manager=false
