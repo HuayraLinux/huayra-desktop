@@ -13,3 +13,7 @@ echo  "file://$new_home/Vídeos" >> "$new_home/.gtk-bookmarks"
 echo  "file://$new_home/Música" >> "$new_home/.gtk-bookmarks"
 
 chown $new_user:$new_user "$new_home/.gtk-bookmarks"
+
+# agregando grupos de una manera poco elegante.
+gruposbase="lp fax voice cdrom floppy tape sudo audio dip www-data video plugdev fuse bluetooth scanner netdev pulse"
+for g in $gruposbase;do adduser $new_user $g;done
