@@ -22,7 +22,7 @@ if [ "$1" = "configure" ]; then
           -e '/GRUB_GFXMODE=/ s/=.*/=1024x600x32/' \
           -e '/GRUB_CMDLINE_LINUX_DEFAULT=/ s/=.*/="quiet splash"/' \
           /etc/default/grub
-  fi 
+  fi
   exit 0
 
 fi
