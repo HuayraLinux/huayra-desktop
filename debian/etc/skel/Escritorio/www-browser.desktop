@@ -2,7 +2,7 @@
 Name=Navegador Web
 Comment=Navegador Web
 Exec=iceweasel %u
-Icon=/usr/share/icons/huayra/scalable/apps/web-browser.svg
+Icon=web-browser
 Terminal=false
 X-MultipleArgs=false
 Type=Application

@@ -23,7 +23,7 @@ Package: huayra-apps
 Architecture: all
 Depends: ${misc:Depends}, anagramarama, ayni, gimp-paint-studio,
          huayra-ayuda, icaro, miescritorio, preziplayer, python-pilas, apicaro,
-         xul-ext-downloadhelper, xul-ext-spellchecker-es-ar, cdpedia
+         xul-ext-downloadhelper, xul-ext-spellchecker-es-ar, cdpedia, huayra-apps-icons
 Description: Suite completa de aplicaciones para Huayra
  Aqui se encuentran una serie de aplicaciones pensadas para Huayra.
  .
