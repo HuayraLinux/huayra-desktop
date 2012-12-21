@@ -45,3 +45,6 @@ fallback-logo='/usr/share/icons/huayra/64x64/places/start-here.png'
 
 [org/gnome/metacity]
 compositing-manager=false
+
+[org/gnome/shell/extensions/user-theme]
+name="HuayraVioleta"
