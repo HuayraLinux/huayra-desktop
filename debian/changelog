@@ -1,6 +1,7 @@
 huayra-desktop (2.00) testing; urgency=low
 
-  * Dependencias en huayra-apps-debian
+  * Dependencias en huayra-apps-debian.
+  * Configus de dconf.
 
  -- Mauro Lizaur <mauro@debian.org>  Wed, 19 Dec 2012 16:06:29 -0300
 
