@@ -1,3 +1,9 @@
+huayra-desktop (2.01) testing; urgency=low
+
+  * nueva imagen de grub
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 27 Dec 2012 18:47:21 -0300
+
 huayra-desktop (2.00) testing; urgency=low
 
   * Dependencias en huayra-apps-debian.
