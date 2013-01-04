@@ -1,3 +1,9 @@
+huayra-desktop (2.3) testing; urgency=low
+
+  * Agrego dependencia frei0r-plugins a huayra-apps-debian.
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Fri, 04 Jan 2013 11:12:35 -0300
+
 huayra-desktop (2.2) testing; urgency=low
 
   * nueva imagen de grub
