@@ -6,12 +6,19 @@ Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.3
 Homepage: http://huayra.conectarigualdad.gob.ar
 
+Package: huayra-conig
+Architecture: all
+Depends: ${misc:Depends},huayra-desktop, huayra-tpm
+Description: Configuraciones de Huayra para Conectar Igualdad
+ Este paquete realiza las configuraciones basicas necesarias para tener 
+ un entorno para trabajar o estudiar para el programa Conectar Igualdad.
+
 Package: huayra-desktop
 Architecture: all
 Depends: ${misc:Depends}, gconf2, lighttpd, dconf-tools, huayra-apps-debian,
  huayra-bullets, huayra-gnome-shell-extensions, huayra-icon-theme-all, 
  huayra-hostname-setup, huayra-backgrounds-extras, 
- huayra-tuxguitar-settings, huayra-apps, huayra-tpm, plymouth-themes-huayra, 
+ huayra-tuxguitar-settings, huayra-apps, plymouth-themes-huayra, 
  gnome-themes-huayra
 Description: Configuraciones de Huayra
  Aqui se encuentran las diferentes configuraciones de Huayra
