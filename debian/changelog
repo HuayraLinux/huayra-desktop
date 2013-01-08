@@ -1,3 +1,10 @@
+huayra-desktop (2.4) testing; urgency=low
+
+  * Creando paquete huayra-conig especifico para las maquinas
+	 de conectar igualdad (netbooks) 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 08 Jan 2013 15:45:00 -0300
+
 huayra-desktop (2.3) testing; urgency=low
 
   * Agrego dependencia frei0r-plugins a huayra-apps-debian.
