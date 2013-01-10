@@ -17,7 +17,7 @@ Package: huayra-desktop
 Architecture: all
 Depends: ${misc:Depends}, gconf2, lighttpd, dconf-tools, huayra-apps-debian,
  huayra-bullets, huayra-gnome-shell-extensions, huayra-icon-theme-all, 
- huayra-hostname-setup, huayra-backgrounds-extras, 
+ huayra-identinet, huayra-backgrounds-extras, 
  huayra-tuxguitar-settings, huayra-apps, plymouth-themes-huayra, 
  gnome-themes-huayra
 Description: Configuraciones de Huayra
