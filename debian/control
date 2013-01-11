@@ -8,7 +8,7 @@ Homepage: http://huayra.conectarigualdad.gob.ar
 
 Package: huayra-conig
 Architecture: all
-Depends: ${misc:Depends},huayra-desktop, huayra-tpm
+Depends: ${misc:Depends}, huayra-desktop, huayra-tpm
 Description: Configuraciones de Huayra para Conectar Igualdad
  Este paquete realiza las configuraciones basicas necesarias para tener 
  un entorno para trabajar o estudiar para el programa Conectar Igualdad.
@@ -39,7 +39,7 @@ Description: Suite completa de aplicaciones para Huayra
 
 Package: huayra-apps-debian
 Architecture: all
-Depends: ${misc:Depends}, arduino, arista, at-spi2-core, audacity, 
+Depends: ${misc:Depends}, alacarte, arduino, arista, at-spi2-core, audacity, 
           avahi-daemon, avogadro,
           avr-libc, babiloo, bkchem, blender, bluefish, calibre, caribou,
           celestia, cheese, clementine, cpufrequtils, default-jre,
@@ -74,7 +74,7 @@ Depends: ${misc:Depends}, arduino, arista, at-spi2-core, audacity,
           python-serial, python-tk, python-webkit, python-wxglade,
           python-wxgtk2.8, rar, scilab, scribus, shotwell, simple-scan,
           software-center, software-properties-gtk, sozi, sshfs, stellarium, 
-          sudo, synaptic,
+          sudo, synaptic, apt-xapian-index,
           transmission-gtk, tuxguitar, tuxpaint, ufraw, unetbootin, unrar, 
           update-manager-gnome, vim,
           vinagre, vlc, xdg-user-dirs, xdg-user-dirs-gtk, xdg-utils, zip,
