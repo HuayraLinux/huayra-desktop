@@ -39,7 +39,7 @@ Description: Suite completa de aplicaciones para Huayra
 
 Package: huayra-apps-debian
 Architecture: all
-Depends: ${misc:Depends}, arduino, arista, at-spi2-core, audacity, 
+Depends: ${misc:Depends}, alacarte, arduino, arista, at-spi2-core, audacity, 
           avahi-daemon, avogadro,
           avr-libc, babiloo, bkchem, blender, bluefish, calibre, caribou,
           celestia, cheese, clementine, cpufrequtils, default-jre,
