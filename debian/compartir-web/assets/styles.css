@@ -1,0 +1,85 @@
+/**
+  * @author Luciano Baraglia 
+  * 
+  * VIOLETA #6B4794
+  * VERDE	#579D1C
+  * GRIS	#626262
+  *
+  */
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	background: #ccc;
+}
+body {
+	font-size: 62.5%;
+	font-family: sans-serif;
+}
+div#wrapper {
+	width: 960px;
+	margin: 0 auto;
+	padding: 10px 0;
+	background: #fff;
+	border-right: 1px #bbb solid;
+}
+
+div#header,
+div#content {
+	width: 800px;
+}
+div#header {
+	height: 130px;
+	margin: 0 auto;
+	position: relative;
+}
+div#header h2 {
+	font-weight: normal;
+	position: absolute;
+	top: 40px;
+	left: 10px;
+	color: #626262;
+}
+div#header div#logo-huayra {
+	position: absolute;
+	top: 20px;
+	right: 10px;
+}
+div#content {
+	margin: 10px auto;
+	color: #626262;
+}
+div#content h1 {
+	font-size: 4.0em;
+	letter-spacing: .1em;
+	color: #6B4794;
+	font-family: "Archivo Black", sans-serif;
+	font-size: normal;
+}
+div#content div.summary {
+	color: #579D1C;
+	font-size: 1.8em;
+	margin: 10px 0 30px;
+}
+div#content div.summary p {
+	font-family: Gudea, sans-serif;
+	font-weight: bold;
+}
+div#content p,
+div#content ol {
+	font-size: 1.6em;
+	font-family: Gudea, sans-serif;
+	font-weight: normal;
+}
+div#content p {
+	line-height: 1.3em;
+	margin-top: 10px;
+}
+div#content ol {
+	list-style-position: inside;
+	margin: 20px 0;	
+}
+div#content ol li {
+	margin: 10px 0;	
+}
