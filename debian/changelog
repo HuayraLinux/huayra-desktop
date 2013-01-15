@@ -1,3 +1,9 @@
+huayra-desktop (2.9-2) testing; urgency=low
+
+  * merge cambios de miguel 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 15 Jan 2013 03:48:22 -0300
+
 huayra-desktop (2.9-1) testing; urgency=low
 
   * acceso a huayra-bullets desde el desktop
