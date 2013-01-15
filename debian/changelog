@@ -1,3 +1,9 @@
+huayra-desktop (2.10-1) testing; urgency=low
+
+  * Dependencia drgeo-doc.
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Mon, 15 Jan 2013 15:02:33 -0300
+
 huayra-desktop (2.9-2) testing; urgency=low
 
   * merge cambios de miguel 
