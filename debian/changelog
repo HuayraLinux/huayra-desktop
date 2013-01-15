@@ -1,3 +1,9 @@
+huayra-desktop (2.8-2) testing; urgency=low
+
+  * sacando thema de iconos huayra-apps 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 11 Jan 2013 17:52:58 -0300
+
 huayra-desktop (2.8-1) testing; urgency=low
 
   * apt-xapian-index
