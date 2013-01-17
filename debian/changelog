@@ -1,3 +1,15 @@
+huayra-desktop (2.13-1) testing; urgency=low
+
+  * Icono de huayra-bullets en el escritorio.
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Thu, 17 Jan 2013 15:47:12 -0300
+
+huayra-desktop (2.12-1) testing; urgency=low
+
+  * abrir por defecto mp3 con clementine.
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Wed, 16 Jan 2013 15:11:25 -0300
+
 huayra-desktop (2.11-1) testing; urgency=low
 
   * Dependencia gnome-contacts.

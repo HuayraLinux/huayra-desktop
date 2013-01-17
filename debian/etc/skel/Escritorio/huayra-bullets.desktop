@@ -4,5 +4,5 @@ Comment=Primeros Pasos en Huayra
 Exec=/usr/bin/huayra-bullets
 Terminal=false
 Type=Application
-Icon=help-browser
+Icon=huayra-bullets
 Categories=Documentation;
