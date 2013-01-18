@@ -1,3 +1,9 @@
+huayra-desktop (2.15-1) testing; urgency=low
+
+  * #213 dependencia myspell-es
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Fri, 18 Jan 2013 16:30:23 -0300
+
 huayra-desktop (2.14-2) testing; urgency=low
 
   * dependencia de system-config-printer
