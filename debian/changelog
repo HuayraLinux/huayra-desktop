@@ -1,3 +1,10 @@
+huayra-desktop (2.14-2) testing; urgency=low
+
+  * dependencia de system-config-printer
+  * nueva version del archivo de configuracion de axemenu
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 18 Jan 2013 14:52:01 -0300
+
 huayra-desktop (2.14-1) testing; urgency=low
 
   * #208 dependencia gnome-online-accounts
