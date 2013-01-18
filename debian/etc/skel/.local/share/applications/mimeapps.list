@@ -1,4 +1,4 @@
 
 [Default Applications]
 audio/mpeg=clementine.desktop;
-
+application/x-deb=gdebi.desktop;

@@ -1,3 +1,11 @@
+huayra-desktop (2.14-1) testing; urgency=low
+
+  * #208 dependencia gnome-online-accounts
+  * #210 dependecia empathy
+  * #220 abrir .deb con gdebi
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Fri, 18 Jan 2013 14:19:51 -0300
+
 huayra-desktop (2.13-1) testing; urgency=low
 
   * Icono de huayra-bullets en el escritorio.
