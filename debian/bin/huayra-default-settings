@@ -53,6 +53,10 @@ dconf write /org/gnome/desktop/background/picture-uri "'file:///usr/share/images
 # iconito de gdm3
 dconf write /org/gnome/login-screen/logo "'file:///usr/share/icons/huayra/128x128/places/start-here.png'"
 
+# altura de los paneles
+dconf write /org/gnome/gnome-panel/layout/toplevels/top-panel/size 21
+dconf write /org/gnome/gnome-panel/layout/toplevels/bottom-panel/size 21
+
 # abri calendario con icedove
 gsettings set org.gnome.desktop.default-applications.office.calendar exec icedove
 
