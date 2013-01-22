@@ -1,9 +1,8 @@
-huayra-desktop (2.16) testing; urgency=low
+huayra-desktop (2.17) testing; urgency=low
 
-  * #216 dependencia cups y cups-pk-helper
-  * Convertir en paquete nativo
+  * Correccion fecha de changelog
 
- -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Fri, 18 Jan 2013 16:30:23 -0300
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Tue, 22 Jan 2013 13:22:45 -0300
 
 huayra-desktop (2.15-1) testing; urgency=low
 
