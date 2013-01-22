@@ -85,7 +85,7 @@ Depends: ${misc:Depends}, alacarte, arduino, arista, at-spi2-core, audacity,
           ntfs-3g, rfkill, wireless-tools, xserver-xorg, libreoffice-l10n-es, 
           aspell-es, iceweasel-l10n-es-ar, icedove-l10n-es-ar, ttf-aenigma,
           colord, packagekit, pulseaudio-utils, freepats, alsa-base,
-          frei0r-plugins
+          frei0r-plugins, cups, cups-pk-helper
 Description: Suite completa de aplicaciones disponibles en Debian para Huayra
  Aqui se encuentran una serie de aplicaciones disponibles en Debian incluidas
  en la instalacion de Huayra.

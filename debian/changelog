@@ -1,3 +1,10 @@
+huayra-desktop (2.16) testing; urgency=low
+
+  * #216 dependencia cups y cups-pk-helper
+  * Convertir en paquete nativo
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Fri, 18 Jan 2013 16:30:23 -0300
+
 huayra-desktop (2.15-1) testing; urgency=low
 
   * #213 dependencia myspell-es
