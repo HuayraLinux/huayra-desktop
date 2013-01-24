@@ -24,4 +24,4 @@ debian/etc/grub.d/* etc/grub.d/
 debian/etc/huayra/gdm3/* etc/huayra/gdm3/
 debian/huayra-navegador.desktop usr/share/applications/
 debian/huayra-correo.desktop usr/share/applications/
-debian/educar.xml usr/share/gnome-shell/search_providers
+debian/educar.xml usr/share/gnome-shell/open-search_providers
