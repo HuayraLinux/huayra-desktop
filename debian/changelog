@@ -1,6 +1,7 @@
 huayra-desktop (2.18) testing; urgency=low
 
   * #219 Correccion de marcadores
+  * Correccion del provider de Educar
 
  -- Héctor Sanchez <hsanchez@pressenter.com.ar>  Thu, 24 Jan 2013 11:48:43 -0300
 
