@@ -1,3 +1,9 @@
+huayra-desktop (2.18) testing; urgency=low
+
+  * #219 Correccion de marcadores
+
+ -- Héctor Sanchez <hsanchez@pressenter.com.ar>  Thu, 24 Jan 2013 11:48:43 -0300
+
 huayra-desktop (2.17) testing; urgency=low
 
   * Correccion fecha de changelog
