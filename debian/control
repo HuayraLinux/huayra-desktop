@@ -26,14 +26,14 @@ Description: Configuraciones de Huayra para Conectar Igualdad
 
 Package: huayra-desktop-gnome
 Architecture: all
-Provides: huayra-desktop
+Provides: huayra-desktop-basic
 Conflicts: huayra-desktop, huayra-apps-debian
 Replaces: huayra-desktop, huayra-apps-debian
 Depends: ${misc:Depends},
   huayra-desktop-gnome-settings,
   huayra-ayuda,
   gnome-themes-huayra,
-  huayra-icons-theme-all,
+  huayra-icon-theme-all,
   huayra-desktop-common,
   gconf2,
   dconf-tools,
@@ -57,11 +57,11 @@ Description: Confirguraciones del entorno de escritorio Huayra con Gnome
 
 Package: huayra-desktop-xfce
 Architecture: all
-Provides: huayra-desktop
+Provides: huayra-desktop-basic
 Conflicts: huayra-desktop, huayra-apps-debian
 Replaces: huayra-desktop, huayra-apps-debian
 Depends: ${misc:Depends}, xfdesktop4, huayra-desktop-xfce-settings, gnome-themes-huayra,
-  huayra-icons-theme-all, huayra-ayuda-xfce, huayra-desktop-common
+  huayra-icon-theme-all, huayra-ayuda-xfce, huayra-desktop-common
 Description: Entorno de escritorio Huayra con XFCE
  Entorno de escritorio Huayra con XFCE
  .
