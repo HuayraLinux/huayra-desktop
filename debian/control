@@ -60,7 +60,7 @@ Architecture: all
 Provides: huayra-desktop
 Conflicts: huayra-desktop, huayra-apps-debian
 Replaces: huayra-desktop, huayra-apps-debian
-Depends: ${misc:Depends}, xfdesktop4, huayra-desktop-xfce-settings, gnome-themes-huayra
+Depends: ${misc:Depends}, xfdesktop4, huayra-desktop-xfce-settings, gnome-themes-huayra,
   huayra-icons-theme-all, huayra-ayuda-xfce, huayra-desktop-common
 Description: Entorno de escritorio Huayra con XFCE
  Entorno de escritorio Huayra con XFCE
