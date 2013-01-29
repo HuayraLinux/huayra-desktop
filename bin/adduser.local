@@ -5,7 +5,7 @@ new_gid=$3
 new_home=$4
 
 # creando gtk-bookmarks
-
+#@TODO intentar crear el arhicvo gtkbootmarks desde otro lado
 echo  "file://$new_home/Descargas" > "$new_home/.gtk-bookmarks"
 echo  "file://$new_home/Documentos" >> "$new_home/.gtk-bookmarks"
 echo  "file://$new_home/Imágenes" >> "$new_home/.gtk-bookmarks"

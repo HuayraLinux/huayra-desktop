@@ -1,3 +1,9 @@
+huayra-desktop (2.19) testing; urgency=low
+
+  * cambios totales de dependendcias y paquetes nuevos 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 29 Jan 2013 19:35:17 -0300
+
 huayra-desktop (2.18) testing; urgency=low
 
   * #219 Correccion de marcadores

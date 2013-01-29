@@ -105,7 +105,7 @@ Depends: ${misc:Depends},
   guvcview, gv, httrack, icedove, iceowl-extension,
   icedtea-6-plugin, iceweasel, imagej, inkscape, iptux, ipython,
   italc-client, italc-master, jclic, jmol, libgl1-mesa-dri,
-  libnss-mdns, libreoffice, lighttpd, mc, mdns-scan, menu,
+  libnss-mdns, libreoffice, mc, mdns-scan, menu,
   menu-xdg, mixxx, mypaint, myspell-es, nautilus,
   nautilus-image-converter, nautilus-open-terminal,
   network-manager-gnome, network-manager-openvpn-gnome, openjdk-6-jre,
@@ -148,3 +148,9 @@ Architecture: all
 Depends: ${misc:Depends}, huayra-archive-keyring, plymouth-themes-huayra
 Description: Paquetes base de Huayra
  Paquetes base de Huayra.
+
+Package: huayra-compartir-web
+Architecture: all
+Depends: ${misc:Depends}, lighttpd
+Description: Servicio de Compartir Web de Huayra
+ Servicio de Compartir Web de Huayra

@@ -2,7 +2,6 @@
 set -e
 
 if [ "$1" = "configure" ]; then
-  dconf update
 
   if ! dpkg-statoverride --list --quiet "/var/www" >/dev/null; 
   then
@@ -15,14 +14,10 @@ if [ "$1" = "configure" ]; then
       dpkg-statoverride --force --quiet --update \
           --add www-data www-data 0664 "/var/www/index.lighttpd.html"
   fi
-  gconftool-2 --direct --config-source xml:readwrite:/etc/gconf/gconf.xml.defaults/ --set --type bool /apps/gksu/sudo-mode 1
-  if [ -f /etc/default/grub ]; then
-      sed -i -e '/GRUB_DISTRIBUTOR=/ s/=.*/=Huayra/' \
-          -e 's,#GRUB_GFXMODE,GRUB_GFXMODE,g' \
-          -e '/GRUB_GFXMODE=/ s/=.*/=1024x600x32/' \
-          -e '/GRUB_CMDLINE_LINUX_DEFAULT=/ s/=.*/="quiet splash"/' \
-          /etc/default/grub
-  fi
+  # habiliar dirlisting en el lighttpd
+  lighty-enable-mod dir-listing    
+  invoke-rc.d lighttpd restart
+
   exit 0
 
 fi
