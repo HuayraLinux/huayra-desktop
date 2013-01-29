@@ -1,5 +1,2 @@
 usr/bin/adduser.local usr/local/sbin/adduser.local
-usr/share/doc/huayra-desktop/PUFs.pdf.gz usr/share/huayra-desktop/PUFs.pdf.gz 
-usr/share/doc/huayra-desktop/Loquehaciasconlohacescon.pdf.gz usr/share/huayra-desktop/Loquehaciasconlohacescon.pdf.gz 
-usr/share/doc/huayra-desktop/Los_once_primeros.pdf.gz usr/share/huayra-desktop/Los_once_primeros.pdf.gz 
 usr/share/images/huayra-desktop/huayra-grub.png boot/grub/huayra-grub.png
