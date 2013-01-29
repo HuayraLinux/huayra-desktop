@@ -8,88 +8,143 @@ Homepage: http://huayra.conectarigualdad.gob.ar
 
 Package: huayra-conig
 Architecture: all
-Depends: ${misc:Depends}, huayra-desktop, huayra-tpm
+Depends: ${misc:Depends},
+  anagramarama,
+  ayni,
+  huayra-tpm,
+  icaro,
+  miescritorio,
+  preziplayer,
+  apicaro,
+  cdpedia,
+  huayra-bullets
 Description: Configuraciones de Huayra para Conectar Igualdad
- Este paquete realiza las configuraciones basicas necesarias para tener 
+ Este meta-paquete instala las aplicaciones necesarias para tener
  un entorno para trabajar o estudiar para el programa Conectar Igualdad.
 
-Package: huayra-desktop
+Package: huayra-desktop-gnome
 Architecture: all
-Depends: ${misc:Depends}, gconf2, lighttpd, dconf-tools, huayra-apps-debian,
- huayra-bullets, huayra-gnome-shell-extensions, huayra-icon-theme-all, 
- huayra-identinet, huayra-backgrounds-extras, 
- huayra-tuxguitar-settings, huayra-apps, plymouth-themes-huayra, 
- gnome-themes-huayra
-Description: Configuraciones de Huayra
- Aqui se encuentran las diferentes configuraciones de Huayra
+Provides: huayra-desktop
+Depends: ${misc:Depends},
+  huayra-desktop-gnome-settings,
+  huayra-ayuda-gnome,
+  huayra-themes-all,
+  huayra-icons-theme-all,
+  huayra-desktop-common,
+  gconf2,
+  dconf-tools,
+  at-spi2-core,
+  huayra-gnome-shell-extensions,
+  gnome-shell
+Description: Entorno de escritorio Huayra con Gnome
+ Entorno de escritorio Huayra con Gnome
  .
- Este paquete realiza las configuraciones basicas necesarias para tener 
- un entorno para trabajar o estudiar.
+ Este paquete contiene el escritorio Gnome para Huayra.
+
+Package: huayra-desktop-gnome-settings
+Architecture: all
+Depends: ${misc:Depends}
+Description: Confirguraciones del entorno de escritorio Huayra con Gnome
+ Configuraciones del entorno de escritorio Huayra con Gnome
+ .
+ Este paquete contiene el escritorio Gnome para Huayra.
+
+Package: huayra-desktop-xfce
+Architecture: all
+Provides: huayra-desktop
+Depends: ${misc:Depends}, xfdesktop4, huayra-desktop-xfce-settings, huayra-themes-all,
+  huayra-icons-theme-all, huayra-ayuda-xfce, huayra-desktop-common
+Description: Entorno de escritorio Huayra con XFCE
+ Entorno de escritorio Huayra con XFCE
+ .
+ Este paquete contiene el escritorio XFCE4 para Huayra.
+
+Package: huayra-desktop-xfce-settings
+Architecture: all
+Depends: ${misc:Depends}
+Description: Configuraciones del entorno de escritorio Huayra con XFCE
+ Configuraciones del entorno de escritorio Huayra con XFCE
+
+Package: huayra-desktop-common
+Architecture: all
+Depends: ${misc:Depends}, huayra-backgrounds-extras
+Description: Configuraciones comunes para los entornos de escritorio
+ Configuraciones comunes para los entornos de escritorio
 
 Package: huayra-apps
 Architecture: all
-Depends: ${misc:Depends}, anagramarama, ayni, gimp-paint-studio,
-         huayra-ayuda, icaro, miescritorio, preziplayer, python-pilas, apicaro,
-         xul-ext-downloadhelper, xul-ext-spellchecker-es-ar, cdpedia,
+Depends: ${misc:Depends},
+  gimp-paint-studio,
+  python-pilas,
+  xul-ext-downloadhelper,
+  xul-ext-spellchecker-es-ar,
+  huayra-apps-settings,
+  lighttpd,
+  huayra-identinet,
+  alacarte, arduino, arista,  audacity,
+  avahi-daemon, avogadro,
+  avr-libc, babiloo, bkchem, blender, bluefish, calibre, caribou,
+  celestia, cheese, clementine, cpufrequtils, default-jre,
+  devede, dia, djmount, drgeo, drgeo-doc, eboard, empathy, eog, etoys,
+  euler, evince, file-roller, flashplugin-nonfree, freeciv-client-gtk,
+  freeciv-server, freemind, fritzing, fusioninventory-agent, gambas3,
+  gcalctool, gcc-avr, gcompris, gcompris-sound-es, gdebi, gdm3, gedit,
+  geogebra, gimp, gimp-help-es, gnome-applets, gnome-bluetooth,
+  gnome-contacts, gnome-control-center, gnome-documents,
+  gnome-font-viewer, gnome-keyring, gnome-mag, gnome-media, gnome-menus,
+  gnome-online-accounts,gnome-orca, gnome-panel,
+  gnome-power-manager, gnome-screensaver, gnome-screenshot,
+  gnome-search-tool, gnome-session, gnome-session-fallback,
+  gnome-subtitles, gnome-system-monitor,
+  gnome-terminal, gnome-themes-standard, gnome-tweak-tool,
+  gnome-user-guide,
+  gnucap, gnuchess, gscan2pdf, gstreamer0.10-ffmpeg,
+  gstreamer0.10-fluendo-mp3, gstreamer0.10-plugins-bad,
+  gstreamer0.10-plugins-good, gstreamer0.10-plugins-ugly,
+  gstreamer0.10-pulseaudio, gthumb, gtk-recordmydesktop,
+  guvcview, gv, httrack, icedove, iceowl-extension,
+  icedtea-6-plugin, iceweasel, imagej, inkscape, iptux, ipython,
+  italc-client, italc-master, jclic, jmol, libgl1-mesa-dri,
+  libnss-mdns, libreoffice, lighttpd, mc, mdns-scan, menu,
+  menu-xdg, mixxx, mypaint, myspell-es, nautilus,
+  nautilus-image-converter, nautilus-open-terminal,
+  network-manager-gnome, network-manager-openvpn-gnome, openjdk-6-jre,
+  openshot, os-prober, pd-aubio, pd-csound, pd-cyclone, pd-purepd,
+  pidgin, pulseaudio, puredata, pd-extended,
+  puredata-core, puredata-doc, puredata-extra, puredata-gui,
+  puredata-import, puredata-utils, python-pygame,
+  python-serial, python-tk, python-webkit, python-wxglade,
+  python-wxgtk2.8, rar, scilab, scribus, shotwell, simple-scan,
+  software-center, software-properties-gtk, sozi, sshfs, stellarium,
+  sudo, synaptic, system-config-printer, apt-xapian-index,
+  transmission-gtk, tuxguitar, tuxpaint, ufraw, unetbootin, unrar,
+  update-manager-gnome, vim,
+  vinagre, vlc, xdg-user-dirs, xdg-user-dirs-gtk, xdg-utils, zip,
+  acpi, acpi-support, acpi-support-base, dosfstools,
+  e2fsprogs (>= 1.42.5-1), firmware-brcm80211, firmware-intelwimax,
+  firmware-iwlwifi, firmware-linux, firmware-linux-nonfree,
+  firmware-ralink, firmware-realtek, gparted, mawk,
+  ntfs-3g, rfkill, wireless-tools, xserver-xorg, libreoffice-l10n-es,
+  aspell-es, iceweasel-l10n-es-ar, icedove-l10n-es-ar, ttf-aenigma,
+  colord, packagekit, pulseaudio-utils, freepats, alsa-base,
+  frei0r-plugins, cups, cups-pk-helper
 Description: Suite completa de aplicaciones para Huayra
  Aqui se encuentran una serie de aplicaciones pensadas para Huayra.
  .
- Este dummy meta-paquete depende de un conjunto de aplicaciones que proveen 
+ Este dummy meta-paquete depende de un conjunto de aplicaciones que proveen
  las herramientas necesarias para tener un entorno para trabajar o estudiar.
 
-Package: huayra-apps-debian
+Package: huayra-apps-settings
 Architecture: all
-Depends: ${misc:Depends}, alacarte, arduino, arista, at-spi2-core, audacity, 
-          avahi-daemon, avogadro,
-          avr-libc, babiloo, bkchem, blender, bluefish, calibre, caribou,
-          celestia, cheese, clementine, cpufrequtils, default-jre,
-          devede, dia, djmount, drgeo, drgeo-doc, eboard, empathy, eog, etoys,
-          euler, evince, file-roller, flashplugin-nonfree, freeciv-client-gtk,
-          freeciv-server, freemind, fritzing, fusioninventory-agent, gambas3,
-          gcalctool, gcc-avr, gcompris, gcompris-sound-es, gdebi, gdm3, gedit,
-          geogebra, gimp, gimp-help-es, gnome-applets, gnome-bluetooth,
-          gnome-contacts, gnome-control-center, gnome-documents,
-          gnome-font-viewer, gnome-keyring, gnome-mag, gnome-media, gnome-menus,
-          gnome-online-accounts,gnome-orca, gnome-panel,
-          gnome-power-manager, gnome-screensaver, gnome-screenshot,
-          gnome-search-tool, gnome-session, gnome-session-fallback,
-          gnome-shell, gnome-subtitles, gnome-system-monitor,
-          gnome-terminal, gnome-themes-standard, gnome-tweak-tool,
-          gnome-user-guide,
-          gnucap, gnuchess, gscan2pdf, gstreamer0.10-ffmpeg,
-          gstreamer0.10-fluendo-mp3, gstreamer0.10-plugins-bad,
-          gstreamer0.10-plugins-good, gstreamer0.10-plugins-ugly,
-          gstreamer0.10-pulseaudio, gthumb, gtk-recordmydesktop,
-          guvcview, gv, httrack, icedove, iceowl-extension, 
-          icedtea-6-plugin, iceweasel, imagej, inkscape, iptux, ipython, 
-          italc-client, italc-master, jclic, jmol, libgl1-mesa-dri, 
-          libnss-mdns, libreoffice, lighttpd, mc, mdns-scan, menu,
-          menu-xdg, mixxx, mypaint, myspell-es, nautilus,
-          nautilus-image-converter, nautilus-open-terminal,
-          network-manager-gnome, network-manager-openvpn-gnome, openjdk-6-jre,
-          openshot, os-prober, pd-aubio, pd-csound, pd-cyclone, pd-purepd, 
-          pidgin, pulseaudio, puredata, pd-extended,
-          puredata-core, puredata-doc, puredata-extra, puredata-gui,
-          puredata-import, puredata-utils, python-pygame,
-          python-serial, python-tk, python-webkit, python-wxglade,
-          python-wxgtk2.8, rar, scilab, scribus, shotwell, simple-scan,
-          software-center, software-properties-gtk, sozi, sshfs, stellarium, 
-          sudo, synaptic, system-config-printer, apt-xapian-index,
-          transmission-gtk, tuxguitar, tuxpaint, ufraw, unetbootin, unrar, 
-          update-manager-gnome, vim,
-          vinagre, vlc, xdg-user-dirs, xdg-user-dirs-gtk, xdg-utils, zip,
-          acpi, acpi-support, acpi-support-base, dosfstools, 
-          e2fsprogs (>= 1.42.5-1), firmware-brcm80211, firmware-intelwimax, 
-          firmware-iwlwifi, firmware-linux, firmware-linux-nonfree, 
-          firmware-ralink, firmware-realtek, gparted, mawk, 
-          ntfs-3g, rfkill, wireless-tools, xserver-xorg, libreoffice-l10n-es, 
-          aspell-es, iceweasel-l10n-es-ar, icedove-l10n-es-ar, ttf-aenigma,
-          colord, packagekit, pulseaudio-utils, freepats, alsa-base,
-          frei0r-plugins, cups, cups-pk-helper
-Description: Suite completa de aplicaciones disponibles en Debian para Huayra
- Aqui se encuentran una serie de aplicaciones disponibles en Debian incluidas
- en la instalacion de Huayra.
+Depends: ${misc:Depends}, huayra-tuxguitar-settings
+Description: Suite completa de aplicaciones para Huayra
+ Aqui se encuentran una serie de aplicaciones pensadas para Huayra.
  .
- Este dummy meta-paquete virtual depende de un conjunto de aplicaciones que 
- proveen las herramientas necesarias para tener un entorno para trabajar o 
- estudiar.
+ Este dummy meta-paquete depende de un conjunto de aplicaciones que proveen
+ las herramientas necesarias para tener un entorno para trabajar o estudiar.
+
+Package: huayra-base
+Architecture: all
+Depends: ${misc:Depends}, huayra-archive-keyring, plymouth-themes-huayra
+Description: Paquetes base de Huayra
+ Paquetes base de Huayra.
