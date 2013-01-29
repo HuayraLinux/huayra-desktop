@@ -8,6 +8,8 @@ Homepage: http://huayra.conectarigualdad.gob.ar
 
 Package: huayra-conig
 Architecture: all
+Conflicts: huayra-desktop, huayra-apps-debian
+Replaces: huayra-desktop, huayra-apps-debian
 Depends: ${misc:Depends},
   anagramarama,
   ayni,
@@ -25,10 +27,12 @@ Description: Configuraciones de Huayra para Conectar Igualdad
 Package: huayra-desktop-gnome
 Architecture: all
 Provides: huayra-desktop
+Conflicts: huayra-desktop, huayra-apps-debian
+Replaces: huayra-desktop, huayra-apps-debian
 Depends: ${misc:Depends},
   huayra-desktop-gnome-settings,
-  huayra-ayuda-gnome,
-  huayra-themes-all,
+  huayra-ayuda,
+  gnome-themes-huayra,
   huayra-icons-theme-all,
   huayra-desktop-common,
   gconf2,
@@ -43,6 +47,8 @@ Description: Entorno de escritorio Huayra con Gnome
 
 Package: huayra-desktop-gnome-settings
 Architecture: all
+Conflicts: huayra-desktop, huayra-apps-debian
+Replaces: huayra-desktop, huayra-apps-debian
 Depends: ${misc:Depends}
 Description: Confirguraciones del entorno de escritorio Huayra con Gnome
  Configuraciones del entorno de escritorio Huayra con Gnome
@@ -52,7 +58,9 @@ Description: Confirguraciones del entorno de escritorio Huayra con Gnome
 Package: huayra-desktop-xfce
 Architecture: all
 Provides: huayra-desktop
-Depends: ${misc:Depends}, xfdesktop4, huayra-desktop-xfce-settings, huayra-themes-all,
+Conflicts: huayra-desktop, huayra-apps-debian
+Replaces: huayra-desktop, huayra-apps-debian
+Depends: ${misc:Depends}, xfdesktop4, huayra-desktop-xfce-settings, gnome-themes-huayra
   huayra-icons-theme-all, huayra-ayuda-xfce, huayra-desktop-common
 Description: Entorno de escritorio Huayra con XFCE
  Entorno de escritorio Huayra con XFCE
@@ -61,18 +69,24 @@ Description: Entorno de escritorio Huayra con XFCE
 
 Package: huayra-desktop-xfce-settings
 Architecture: all
+Conflicts: huayra-desktop, huayra-apps-debian
+Replaces: huayra-desktop, huayra-apps-debian
 Depends: ${misc:Depends}
 Description: Configuraciones del entorno de escritorio Huayra con XFCE
  Configuraciones del entorno de escritorio Huayra con XFCE
 
 Package: huayra-desktop-common
 Architecture: all
+Conflicts: huayra-desktop, huayra-apps-debian
+Replaces: huayra-desktop, huayra-apps-debian
 Depends: ${misc:Depends}, huayra-backgrounds-extras
 Description: Configuraciones comunes para los entornos de escritorio
  Configuraciones comunes para los entornos de escritorio
 
 Package: huayra-apps
 Architecture: all
+Conflicts: huayra-desktop, huayra-apps-debian
+Replaces: huayra-desktop, huayra-apps-debian
 Depends: ${misc:Depends},
   gimp-paint-studio,
   python-pilas,
@@ -136,6 +150,8 @@ Description: Suite completa de aplicaciones para Huayra
 
 Package: huayra-apps-settings
 Architecture: all
+Conflicts: huayra-desktop, huayra-apps-debian
+Replaces: huayra-desktop, huayra-apps-debian
 Depends: ${misc:Depends}, huayra-tuxguitar-settings
 Description: Suite completa de aplicaciones para Huayra
  Aqui se encuentran una serie de aplicaciones pensadas para Huayra.
@@ -145,12 +161,16 @@ Description: Suite completa de aplicaciones para Huayra
 
 Package: huayra-base
 Architecture: all
+Conflicts: huayra-desktop, huayra-apps-debian
+Replaces: huayra-desktop, huayra-apps-debian
 Depends: ${misc:Depends}, huayra-archive-keyring, plymouth-themes-huayra
 Description: Paquetes base de Huayra
  Paquetes base de Huayra.
 
 Package: huayra-compartir-web
 Architecture: all
+Conflicts: huayra-desktop, huayra-apps-debian
+Replaces: huayra-desktop, huayra-apps-debian
 Depends: ${misc:Depends}, lighttpd
 Description: Servicio de Compartir Web de Huayra
  Servicio de Compartir Web de Huayra
