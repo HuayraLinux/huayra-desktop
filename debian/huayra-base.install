@@ -1,1 +1,2 @@
-etc/grub.d/* etc/grub.d/
+base/etc/grub.d/* etc/grub.d/
+base/images/* usr/share/images/huayra-desktop/
