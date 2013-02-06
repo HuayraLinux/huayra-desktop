@@ -1,3 +1,10 @@
+huayra-desktop (2.20) testing; urgency=low
+
+  * separando directorio para huayra-base
+  * correccion codificacion del html de compartir-web 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 30 Jan 2013 15:46:12 -0300
+
 huayra-desktop (2.19) testing; urgency=low
 
   * cambios totales de dependendcias y paquetes nuevos 
