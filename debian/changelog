@@ -1,3 +1,11 @@
+huayra-desktop (2.22) testing; urgency=low
+
+  * Reorganización de paquetes de impresión y firmwares
+  * Transfusión de paquetes de huayra-desktop a huayra-conig
+  * Mejoras en la instalación de archivos a /var/www en huayra-compartir-web
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Wed, 06 Feb 2013 00:55:12 -0300
+
 huayra-desktop (2.21) testing; urgency=low
 
   * separando directorio para huayra-base

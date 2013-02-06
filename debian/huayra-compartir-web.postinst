@@ -14,6 +14,16 @@ if [ "$1" = "configure" ]; then
       dpkg-statoverride --force --quiet --update \
           --add www-data www-data 0664 "/var/www/index.lighttpd.html"
   fi
+
+  if [ ! -e /var/www/index.html ] && [ ! -e /var/www/assets ];
+  then
+    ln -s /usr/share/huayra-compartir-web/assets /var/www/assets
+    ln -s /usr/share/huayra-compartir-web/index.html /var/www/index.html
+  fi
+
+
+
+
   # habiliar dirlisting en el lighttpd
   lighty-enable-mod dir-listing    
   invoke-rc.d lighttpd restart
