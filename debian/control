@@ -353,7 +353,7 @@ Depends: ${misc:Depends},
   firmware-linux-nonfree,
   firmware-ralink,
   firmware-realtek,
-  zd1212-firmware
+  zd1211-firmware
 Description: Meta-paquete que depende de paquetes que brindan firmware para distintos dispositivos.
  Instala firmware para distintos dispositivos que lo requieren, mayormente
  placas WiFi y Bluetooth.
