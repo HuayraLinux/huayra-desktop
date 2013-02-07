@@ -1,3 +1,9 @@
+huayra-desktop (2.23) testing; urgency=low
+
+  * Fix en firmware 
+
+ -- Héctor Sanchez <hsanchez@pressenter.com.ar>  Thu, 07 Feb 2013 11:39:39 -0300
+
 huayra-desktop (2.22) testing; urgency=low
 
   * Reorganización de paquetes de impresión y firmwares
