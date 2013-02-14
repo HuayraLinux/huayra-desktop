@@ -105,25 +105,25 @@ Description: Confirguraciones del entorno de escritorio Huayra con Gnome
  .
  Este paquete contiene el escritorio Gnome para Huayra.
 
-Package: huayra-desktop-xfce
+Package: huayra-desktop-mate
 Architecture: all
 Provides: huayra-desktop-basic
 Conflicts: huayra-desktop, huayra-apps-debian
 Replaces: huayra-desktop, huayra-apps-debian
-Depends: ${misc:Depends}, xfdesktop4, huayra-desktop-xfce-settings, gnome-themes-huayra,
-  huayra-icon-theme-all, huayra-ayuda-xfce, huayra-desktop-common
-Description: Entorno de escritorio Huayra con XFCE
- Entorno de escritorio Huayra con XFCE
+Depends: ${misc:Depends}, huayra-desktop-mate-settings, gnome-themes-huayra,
+  huayra-icon-theme-all, huayra-ayuda-mate, huayra-desktop-common
+Description: Entorno de escritorio Huayra con Mate
+ Entorno de escritorio Huayra con Mate
  .
- Este paquete contiene el escritorio XFCE4 para Huayra.
+ Este paquete contiene el escritorio Mate para Huayra.
 
-Package: huayra-desktop-xfce-settings
+Package: huayra-desktop-mate-settings
 Architecture: all
 Conflicts: huayra-desktop, huayra-apps-debian
 Replaces: huayra-desktop, huayra-apps-debian
 Depends: ${misc:Depends}
-Description: Configuraciones del entorno de escritorio Huayra con XFCE
- Configuraciones del entorno de escritorio Huayra con XFCE
+Description: Configuraciones del entorno de escritorio Huayra con Mate
+ Configuraciones del entorno de escritorio Huayra con Mate
 
 Package: huayra-desktop-common
 Architecture: all
