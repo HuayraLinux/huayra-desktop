@@ -111,7 +111,7 @@ Provides: huayra-desktop-basic
 Conflicts: huayra-desktop, huayra-apps-debian
 Replaces: huayra-desktop, huayra-apps-debian
 Depends: ${misc:Depends}, huayra-desktop-mate-settings, gnome-themes-huayra,
-  huayra-icon-theme-all, huayra-ayuda-mate, huayra-desktop-common
+  huayra-icon-theme-all, huayra-desktop-common
 Description: Entorno de escritorio Huayra con Mate
  Entorno de escritorio Huayra con Mate
  .
@@ -150,8 +150,8 @@ Depends: ${misc:Depends},
   calibre,
   caribou,
   cheese,
-  chromiun,
-  chromiun-l10n,
+  chromium,
+  chromium-l10n,
   clementine,
   colord,
   cpufrequtils,
