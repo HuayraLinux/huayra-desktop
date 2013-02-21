@@ -147,7 +147,7 @@ Depends: ${misc:Depends},
   mate-core,
   mate-desktop-environment,
   mate-archive-keyring,
-  gdm
+  gdm3
 Description: Entorno de escritorio Huayra con Mate
  Entorno de escritorio Huayra con Mate
  .
