@@ -2,6 +2,7 @@ bin/adduser.local usr/bin/
 images/* usr/share/images/huayra-desktop/
 huayra-navegador.desktop usr/share/applications/
 huayra-correo.desktop usr/share/applications/
+huayra-tda.desktop usr/share/applications/
 etc/skel/Compartir* etc/skel/
 etc/skel/Escritorio etc/skel/
 etc/skel/Descargas etc/skel/

@@ -5,7 +5,7 @@ Comment=Navege por la web
 Comment[es]=Navegue por la web
 GenericName=Navegador Web
 GenericName[es]=Navegador web
-Exec=chromiun %u
+Exec=chromium %u
 Terminal=false
 X-MultipleArgs=false
 Type=Application
@@ -17,4 +17,4 @@ StartupNotify=true
 [NewWindow Shortcut Group]
 Name=Open a New Window
 Name[es]=Abrir una ventana nueva
-Exec=chromiun %u -new-window
+Exec=chromium %u -new-window

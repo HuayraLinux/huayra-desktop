@@ -118,7 +118,10 @@ Depends: ${misc:Depends},
   huayra-desktop-common,
   huayra-desktop-gnome-settings,
   huayra-gnome-shell-extensions,
-  huayra-icon-theme-all
+  huayra-icon-theme-all,
+  nautilus,
+  nautilus-image-converter,
+  nautilus-open-terminal
 Description: Entorno de escritorio Huayra con Gnome
  Entorno de escritorio Huayra con Gnome
  .
@@ -140,14 +143,15 @@ Provides: huayra-desktop-basic
 Conflicts: huayra-desktop, huayra-apps-debian
 Replaces: huayra-desktop, huayra-apps-debian
 Depends: ${misc:Depends},
+  gdm3,
   gnome-themes-huayra,
   huayra-desktop-common,
   huayra-desktop-mate-settings,
   huayra-icon-theme-all,
-  mate-core,
-  mate-desktop-environment,
   mate-archive-keyring,
-  gdm3
+  mate-conf-editor,
+  mate-core,
+  mate-desktop-environment
 Description: Entorno de escritorio Huayra con Mate
  Entorno de escritorio Huayra con Mate
  .
@@ -253,9 +257,6 @@ Depends: ${misc:Depends},
   menu-xdg,
   mixxx,
   myspell-es,
-  nautilus,
-  nautilus-image-converter,
-  nautilus-open-terminal,
   network-manager-gnome,
   network-manager-openvpn-gnome,
   ntfs-3g,

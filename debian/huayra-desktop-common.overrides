@@ -6,4 +6,4 @@ huayra-desktop-common binary: file-in-usr-local usr/local/sbin/adduser.local
 
 # son accesos directos, no jodas lintian.
 huayra-desktop-common binary: desktop-command-not-in-package /usr/share/applications/huayra-correo.desktop icedove
-huayra-desktop-common binary: desktop-command-not-in-package usr/share/applications/huayra-navegador.desktop iceweasel
+huayra-desktop-common binary: desktop-command-not-in-package usr/share/applications/huayra-navegador.desktop chromium

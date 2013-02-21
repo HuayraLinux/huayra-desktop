@@ -1,0 +1,18 @@
+#! /bin/sh
+set -e
+
+CONF_CMD="mateconftool-2 --direct --config-source xml:readwrite:/etc/mateconf/mateconf.xml.defaults/ --set"
+
+if [ "$1" = "configure" ]; then
+
+  $CONF_CMD --type bool /apps/gksu/sudo-mode 1
+  $CONF_CMD --type string /desktop/mate/background/picture_filename "/usr/share/images/huayra-desktop/huayra-wallpaper.jpg"
+  $CONF_CMD --type string /desktop/mate/background/picture_options "zoom"   
+  $CONF_CMD --type string /desktop/mate/interface/gtk_theme "HuayraMayo"
+  $CONF_CMD --type string /desktop/mate/interface/icon-theme "huayra-mayo"
+
+  exit 0
+
+fi
+
+#DEBHELPER#
