@@ -1,0 +1,120 @@
+{
+   "checksum": "45628893da7a3b44a8f13969c98db104",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13005931455370245",
+            "id": "16",
+            "name": "Casa Rosada. Presidencia de la Naci\u00F3n Argentina. Presidencia",
+            "type": "url",
+            "url": "http://www.presidencia.gob.ar/"
+         }, {
+            "date_added": "13005931524620904",
+            "id": "17",
+            "name": "ANSES - Administraci\u00F3n Nacional de la Seguridad Social",
+            "type": "url",
+            "url": "http://www.anses.gob.ar/"
+         }, {
+            "date_added": "13005929997074140",
+            "id": "10",
+            "name": "Ministerio de Educaci\u00F3n de la Naci\u00F3n Argentina",
+            "type": "url",
+            "url": "http://portal.educacion.gov.ar/"
+         }, {
+            "date_added": "13005931582260610",
+            "id": "20",
+            "name": "Conectar Igualdad ",
+            "type": "url",
+            "url": "http://www.conectarigualdad.gob.ar/"
+         }, {
+            "date_added": "13005931211308468",
+            "id": "11",
+            "name": "Huayra Linux ",
+            "type": "url",
+            "url": "http://huayra.conectarigualdad.gob.ar/huayra"
+         }, {
+            "date_added": "13005932203093455",
+            "id": "24",
+            "name": "Biblioteca Nacional",
+            "type": "url",
+            "url": "http://www.bn.gov.ar/"
+         }, {
+            "date_added": "13005931406425233",
+            "id": "15",
+            "name": "Biblioteca Nacional de Maestros",
+            "type": "url",
+            "url": "http://www.bnm.me.gov.ar/"
+         }, {
+            "date_added": "13005931346649772",
+            "id": "14",
+            "name": "Portal educ.ar",
+            "type": "url",
+            "url": "http://www.educ.ar/"
+         }, {
+            "date_added": "13005931233761351",
+            "id": "12",
+            "name": "Canal Encuentro",
+            "type": "url",
+            "url": "http://www.encuentro.gov.ar/"
+         }, {
+            "date_added": "13005931685674943",
+            "id": "21",
+            "name": "Canal Pakapaka",
+            "type": "url",
+            "url": "http://www.pakapaka.gob.ar/"
+         }, {
+            "date_added": "13005931297273802",
+            "id": "13",
+            "name": "Conectate - eleg\u00ED, mir\u00E1 y descarg\u00E1",
+            "type": "url",
+            "url": "http://conectate.gov.ar/educar-portal-video-web/module/destacados/inicio.do?canalId=0"
+         }, {
+            "date_added": "13005929883733169",
+            "id": "8",
+            "name": "Arte argentino Conectar Igualdad",
+            "type": "url",
+            "url": "http://arteargentino.educ.ar/"
+         }, {
+            "date_added": "13005929936207866",
+            "id": "9",
+            "name": "Argentina Virtual Conectar Igualdad",
+            "type": "url",
+            "url": "http://www.argentinavirtual.educ.ar/"
+         }, {
+            "date_added": "13005931804083198",
+            "id": "22",
+            "name": "Archivo historico Conectar Igualdad",
+            "type": "url",
+            "url": "http://archivohistorico.educ.ar/"
+         }, {
+            "date_added": "13005931560151395",
+            "id": "19",
+            "name": "Festival Conectar",
+            "type": "url",
+            "url": "http://festivalconectar.educ.ar/"
+         } ],
+         "date_added": "13005929514125365",
+         "date_modified": "13005932233977147",
+         "id": "1",
+         "name": "Barra de marcadores",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13005929514125416",
+         "date_modified": "0",
+         "id": "2",
+         "name": "Otros marcadores",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13005929514125432",
+         "date_modified": "0",
+         "id": "3",
+         "name": "Marcadores del celular",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
