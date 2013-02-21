@@ -9,7 +9,7 @@ if [ "$1" = "configure" ]; then
   $CONF_CMD --type string /desktop/mate/background/picture_filename "/usr/share/images/huayra-desktop/huayra-wallpaper.jpg"
   $CONF_CMD --type string /desktop/mate/background/picture_options "zoom"   
   $CONF_CMD --type string /desktop/mate/interface/gtk_theme "HuayraMayo"
-  $CONF_CMD --type string /desktop/mate/interface/icon-theme "huayra-mayo"
+  $CONF_CMD --type string /desktop/mate/interface/icon_theme "huayra-mayo"
 
   exit 0
 
