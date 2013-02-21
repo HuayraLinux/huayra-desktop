@@ -1,3 +1,9 @@
+huayra-desktop (2.32) testing; urgency=low
+
+  * marcadores para chromium
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 21 Feb 2013 16:41:48 -0300
+
 huayra-desktop (2.31) testing; urgency=low
 
   * probando settings para mate 
