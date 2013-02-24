@@ -1,3 +1,9 @@
+huayra-desktop (2.39) testing; urgency=low
+
+  * dependencia vlc-plugin-pulse
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Sun, 24 Feb 2013 16:09:46 -0300
+
 huayra-desktop (2.38) testing; urgency=low
 
   * comprobacion si dirlisting esta habilitado en el lighty 
