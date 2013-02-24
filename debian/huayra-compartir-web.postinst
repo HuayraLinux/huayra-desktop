@@ -22,12 +22,14 @@ if [ "$1" = "configure" ]; then
   fi
 
 
-
-
-  # habiliar dirlisting en el lighttpd
-  lighty-enable-mod dir-listing    
-  invoke-rc.d lighttpd restart
-
+  if [ -f /etc/lighttpd/conf-enabled/10-dir-listing.conf ];
+  then
+    echo "El modulo dirlisting parece estar habilidado..."
+  else
+    # habiliar dirlisting en el lighttpd
+    lighty-enable-mod dir-listing    
+    invoke-rc.d lighttpd restart
+  fi
   exit 0
 
 fi
