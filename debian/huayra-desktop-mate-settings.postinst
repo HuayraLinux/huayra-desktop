@@ -8,9 +8,29 @@ if [ "$1" = "configure" ]; then
   $CONF_CMD --type bool /apps/gksu/sudo-mode 1
   $CONF_CMD --type string /desktop/mate/background/picture_filename "/usr/share/images/huayra-desktop/huayra-wallpaper.jpg"
   $CONF_CMD --type string /desktop/mate/background/picture_options "zoom"   
-  $CONF_CMD --type string /desktop/mate/interface/gtk_theme "HuayraMayo"
-  $CONF_CMD --type string /desktop/mate/interface/icon_theme "huayra-mayo"
+  $CONF_CMD --type string /desktop/mate/interface/gtk_theme "HuayraVioleta"
+  $CONF_CMD --type string /desktop/mate/interface/icon_theme "huayra"
 
+  # MAle settings
+  $CONF_CMD --type string /apps/marco/general/button_layout ":minimize,maximize,close"
+  $CONF_CMD --type string /apps/mate-notification-daemon/popup_location "bottom_right"
+  $CONF_CMD --type string /apps/mate-notification-daemon/theme "slider"
+  $CONF_CMD --type bool /apps/mate-terminal/use_menu_accelerators 0
+  $CONF_CMD --type string /apps/mate-terminal/profiles/Default/background_type "transparent"
+  $CONF_CMD --type string /apps/mate-terminal/profiles/Default/background_color "#2B9D2B9D2B9D"
+  $CONF_CMD --type float /apps/mate-terminal/profiles/Default/background_darkness 0.5
+  $CONF_CMD --type string /apps/mate-terminal/profiles/Default/foreground_color "#FFFFFFFFFFF"
+  $CONF_CMD --type bool /apps/mate-terminal/profiles/Default/use_theme_colors 0
+  $CONF_CMD --type string /apps/panel/applets/applet_0/applet_iid "WnckletFactory::ShowDesktopApplet"
+  $CONF_CMD --type float /apps/panel/applets/applet_0/position 48
+  $CONF_CMD --type string /apps/panel/applets/applet_1/applet_iid "MixerAppletFactory::MixerApplet"
+  $CONF_CMD --type float /apps/panel/applets/applet_1/position 802
+  $CONF_CMD --type string /apps/panel/applets/applet_2/applet_iid "NotificationAreaAppletFactory::NotificationArea"
+  $CONF_CMD --type float /apps/panel/applets/applet_2/position 928
+  $CONF_CMD --type bool /apps/panel/applets/clock_screen0/locked 1
+  $CONF_CMD --type float /apps/panel/applets/applet_2/position 440
+  $CONF_CMD --type string /apps/panel/applets/window_menu_screen0/tooltip "Huayra Menú"
+  
   exit 0
 
 fi
