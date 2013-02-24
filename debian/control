@@ -47,6 +47,7 @@ Depends: ${misc:Depends},
   huayra-compartir-web,
   huayra-firmware-full-support,
   huayra-printing-full-support,
+  huayra-tda,
   huayra-tpm,
   italc-client,
   italc-master,
@@ -353,7 +354,6 @@ Depends: ${misc:Depends},
 Description: Meta-paquete que depende de paquetes que brindan soporte de impresión.
  Instala drivers y programas que dan soporte en una gran variedad de impresoras.
 
-
 Package: huayra-firmware-full-support
 Architecture: all
 Depends: ${misc:Depends},
@@ -370,3 +370,11 @@ Depends: ${misc:Depends},
 Description: Meta-paquete que depende de paquetes que brindan firmware para distintos dispositivos.
  Instala firmware para distintos dispositivos que lo requieren, mayormente
  placas WiFi y Bluetooth.
+
+Package: huayra-tda
+Architecture: all
+Depends: ${misc:Depends}
+Description: Soporte de Televisión Digital Abierta para Huyra
+ Éste paquete contiene las configuraciones necesarias para tener
+ TDA (Televisión Digital Abierta) en Huayra.
+

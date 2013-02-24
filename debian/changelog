@@ -1,3 +1,9 @@
+huayra-desktop (2.35) testing; urgency=low
+
+  * agregando huayra-tda 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Sun, 24 Feb 2013 14:54:49 -0300
+
 huayra-desktop (2.34) testing; urgency=low
 
   * settings para mateconf 
