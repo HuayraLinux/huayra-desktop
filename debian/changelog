@@ -1,3 +1,9 @@
+huayra-desktop (2.34) testing; urgency=low
+
+  * settings para mateconf 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Sun, 24 Feb 2013 13:33:12 -0300
+
 huayra-desktop (2.33) testing; urgency=low
 
   * agregando servicio de notificacion de mate
