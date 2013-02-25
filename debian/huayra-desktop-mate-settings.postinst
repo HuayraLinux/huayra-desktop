@@ -19,7 +19,7 @@ if [ "$1" = "configure" ]; then
   $CONF_CMD --type string /apps/mate-terminal/profiles/Default/background_type "transparent"
   $CONF_CMD --type string /apps/mate-terminal/profiles/Default/background_color "#2B9D2B9D2B9D"
   $CONF_CMD --type float /apps/mate-terminal/profiles/Default/background_darkness 0.5
-  $CONF_CMD --type string /apps/mate-terminal/profiles/Default/foreground_color "#FFFFFFFFFFF"
+  $CONF_CMD --type string /apps/mate-terminal/profiles/Default/foreground_color "#FFFFFFFFFFFF"
   $CONF_CMD --type bool /apps/mate-terminal/profiles/Default/use_theme_colors 0
   $CONF_CMD --type string /apps/panel/applets/applet_0/applet_iid "WnckletFactory::ShowDesktopApplet"
   $CONF_CMD --type float /apps/panel/applets/applet_0/position 48

@@ -81,6 +81,7 @@ Provides: huayra-desktop-basic
 Conflicts: huayra-desktop, huayra-apps-debian
 Replaces: huayra-desktop, huayra-apps-debian
 Depends: ${misc:Depends},
+  alacarte,
   at-spi2-core,
   dconf-tools,
   file-roller,
@@ -183,7 +184,6 @@ Depends: ${misc:Depends},
   acpi,
   acpi-support,
   acpi-support-base,
-  alacarte,
   alsa-base,
   apt-xapian-index,
   arista,
