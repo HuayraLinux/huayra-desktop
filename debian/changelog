@@ -1,3 +1,9 @@
+huayra-desktop (2.41) testing; urgency=low
+
+  * generando 2.41 que elimina icono de ayuda del skel 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 25 Feb 2013 21:31:01 -0300
+
 huayra-desktop (2.40) testing; urgency=low
 
   * moviendo alacarte, solo para gnome
