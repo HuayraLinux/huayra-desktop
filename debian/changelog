@@ -1,3 +1,10 @@
+huayra-desktop (2.40) testing; urgency=low
+
+  * moviendo alacarte, solo para gnome
+  * dependencia vim-gnome
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 25 Feb 2013 16:33:04 -0300
+
 huayra-desktop (2.39) testing; urgency=low
 
   * dependencia vlc-plugin-pulse
