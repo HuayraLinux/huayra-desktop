@@ -1,0 +1,11 @@
+#! /bin/sh
+set -e
+
+if [ "$1" = "configure" ]; then
+
+  echo "Estableciendo preferencias de chromium"
+  #TODO: hay que hacer refactor a dpkg-divert
+  huayra-chromium-master-defaults
+fi
+
+#DEBHELPER#

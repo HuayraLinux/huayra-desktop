@@ -4,3 +4,5 @@ educar.xml etc/skel/.mozilla/firefox/default/searchplugins/
 etc/skel/.local/share/applications/libreoffice-math.desktop etc/skel/.local/share/applications/
 etc/skel/.local/share/applications/mimeapps.list etc/skel/.local/share/applications/
 etc/huayra/gdm3/* etc/huayra/gdm3/
+huayra-chromium-master-defaults usr/bin/
+huayra_chromium_bookmarks.html etc/huayra/

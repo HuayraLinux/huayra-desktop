@@ -1,3 +1,15 @@
+huayra-desktop (2.44) testing; urgency=low
+
+  * control de errores en el script de update 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 28 Feb 2013 20:29:56 -0300
+
+huayra-desktop (2.43) testing; urgency=low
+
+  * opciones de chromium por defecto y mas dependencias de paquetes
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 28 Feb 2013 18:48:50 -0300
+
 huayra-desktop (2.42) testing; urgency=low
 
   * dependencias de eject y lmms

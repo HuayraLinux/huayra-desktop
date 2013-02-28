@@ -1,0 +1,21 @@
+#!/usr/bin/env python
+import json, shutil, os.path
+from pprint import pprint
+
+if os.path.exists('/etc/chromium/master_preferences'):
+  # copiar el archivo original
+  shutil.copyfile ('/etc/chromium/master_preferences' ,'/etc/chromium/master_preferences.backup')
+  print "Cargando preferencias de chromium"
+  with open ('/etc/chromium/master_preferences', 'rb') as prefs:
+    js_prefs = json.load(prefs);
+    try:
+      js_prefs['homepage'] = 'http://www.conectarigualdad.gob.ar';
+      js_prefs['homepage_is_newtabpage'] = False;
+      js_prefs['distribution']['import_bookmarks_from_file'] = '/etc/huayra/huayra_chromium_bookmarks.html'
+    except Exception as e: 
+      print "Error en el diccionario de opciones: " + str(e)
+  print "Actualizando preferencias de chromium"
+  with open ('/etc/chromium/master_preferences', 'wb') as prefs:
+    json.dump(js_prefs, prefs, indent=4)
+else:
+  print "No existe el arhivo global de preferencias de chromium"
