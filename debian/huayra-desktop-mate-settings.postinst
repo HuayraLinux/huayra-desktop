@@ -23,19 +23,17 @@ if [ "$1" = "configure" ]; then
   $CONF_CMD --type string /apps/mate-terminal/profiles/Default/foreground_color "#FFFFFFFFFFFF"
   $CONF_CMD --type bool /apps/mate-terminal/profiles/Default/use_theme_colors 0
 
-  # Panel superior
+  # Panel
     
-  # Panel inferior
-
-  $CONF_CMD --type string /apps/panel/applets/applet_0/applet_iid "WnckletFactory::ShowDesktopApplet"
-  $CONF_CMD --type float /apps/panel/applets/applet_0/position 48
-  $CONF_CMD --type string /apps/panel/applets/applet_1/applet_iid "MixerAppletFactory::MixerApplet"
-  $CONF_CMD --type float /apps/panel/applets/applet_1/position 802
-  $CONF_CMD --type string /apps/panel/applets/applet_2/applet_iid "NotificationAreaAppletFactory::NotificationArea"
-  $CONF_CMD --type float /apps/panel/applets/applet_2/position 928
-  $CONF_CMD --type bool /apps/panel/applets/clock_screen0/locked 1
-  $CONF_CMD --type float /apps/panel/applets/applet_2/position 440
-  $CONF_CMD --type string /apps/panel/applets/window_menu_screen0/tooltip "Huayra Menú"
+  #$CONF_CMD --type string /apps/panel/applets/applet_0/applet_iid "WnckletFactory::ShowDesktopApplet"
+  #$CONF_CMD --type float /apps/panel/applets/applet_0/position 48
+  #$CONF_CMD --type string /apps/panel/applets/applet_1/applet_iid "MixerAppletFactory::MixerApplet"
+  #$CONF_CMD --type float /apps/panel/applets/applet_1/position 802
+  #$CONF_CMD --type string /apps/panel/applets/applet_2/applet_iid "NotificationAreaAppletFactory::NotificationArea"
+  #$CONF_CMD --type float /apps/panel/applets/applet_2/position 928
+  #$CONF_CMD --type bool /apps/panel/applets/clock_screen0/locked 1
+  #$CONF_CMD --type float /apps/panel/applets/applet_2/position 440
+  #$CONF_CMD --type string /apps/panel/applets/window_menu_screen0/tooltip "Huayra Menú"
   
   exit 0
 
