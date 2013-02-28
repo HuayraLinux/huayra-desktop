@@ -310,8 +310,6 @@ Depends: ${misc:Depends},
   xdg-utils,
   xsane,
   xserver-xorg,
-  xul-ext-downloadhelper,
-  xul-ext-spellchecker-es-ar,
   zip
 Description: Suite completa de aplicaciones para Huayra
  Aqui se encuentran una serie de aplicaciones pensadas para Huayra.
