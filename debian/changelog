@@ -1,3 +1,9 @@
+huayra-desktop (2.42) testing; urgency=low
+
+  * dependencias de eject y lmms
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 28 Feb 2013 00:33:43 -0300
+
 huayra-desktop (2.41) testing; urgency=low
 
   * generando 2.41 que elimina icono de ayuda del skel 
