@@ -4,3 +4,4 @@ etc/skel/.local/share/applications/mimeapps.list etc/skel/.local/share/applicati
 etc/huayra/gdm3/* etc/huayra/gdm3/
 huayra-chromium-master-defaults usr/bin/
 huayra_chromium_bookmarks.html etc/huayra/
+huayra-chat.desktop etc/skel/Escritorio
