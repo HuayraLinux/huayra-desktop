@@ -74,6 +74,7 @@ Depends: ${misc:Depends},
 Description: Configuraciones de Huayra para Conectar Igualdad
  Este meta-paquete instala las aplicaciones necesarias para tener
  un entorno para trabajar o estudiar para el programa Conectar Igualdad.
+ Dummy Package.
 
 Package: huayra-desktop-gnome
 Architecture: all
@@ -125,9 +126,8 @@ Depends: ${misc:Depends},
   nautilus-image-converter,
   nautilus-open-terminal
 Description: Entorno de escritorio Huayra con Gnome
- Entorno de escritorio Huayra con Gnome
- .
  Este paquete contiene el escritorio Gnome para Huayra.
+ Dummy Package.
 
 Package: huayra-desktop-gnome-settings
 Architecture: all
@@ -135,9 +135,7 @@ Conflicts: huayra-desktop, huayra-apps-debian
 Replaces: huayra-desktop, huayra-apps-debian
 Depends: ${misc:Depends}
 Description: Confirguraciones del entorno de escritorio Huayra con Gnome
- Configuraciones del entorno de escritorio Huayra con Gnome
- .
- Este paquete contiene el escritorio Gnome para Huayra.
+ Este paquete contiene configuraciones para el escritorio Gnome para Huayra.
 
 Package: huayra-desktop-mate
 Architecture: all
@@ -157,9 +155,8 @@ Depends: ${misc:Depends},
   mate-desktop-environment,
   mate-notification-daemon
 Description: Entorno de escritorio Huayra con Mate
- Entorno de escritorio Huayra con Mate
- .
  Este paquete contiene el escritorio Mate para Huayra.
+ Dummy Package.
 
 Package: huayra-desktop-mate-settings
 Architecture: all
@@ -167,7 +164,8 @@ Conflicts: huayra-desktop, huayra-apps-debian
 Replaces: huayra-desktop, huayra-apps-debian
 Depends: ${misc:Depends}
 Description: Configuraciones del entorno de escritorio Huayra con Mate
- Configuraciones del entorno de escritorio Huayra con Mate
+ Este paquete contiene configuraciones del entorno Mate para Huayra
+ Dummy Package.
 
 Package: huayra-desktop-common
 Architecture: all
@@ -175,7 +173,7 @@ Conflicts: huayra-desktop, huayra-apps-debian
 Replaces: huayra-desktop, huayra-apps-debian
 Depends: ${misc:Depends}, huayra-backgrounds-extras
 Description: Configuraciones comunes para los entornos de escritorio
- Configuraciones comunes para los entornos de escritorio
+ Opciones comunes para los entornos de escritorio
 
 Package: huayra-apps
 Architecture: all
@@ -322,11 +320,8 @@ Architecture: all
 Conflicts: huayra-desktop, huayra-apps-debian
 Replaces: huayra-desktop, huayra-apps-debian
 Depends: ${misc:Depends}, huayra-tuxguitar-settings
-Description: Suite completa de aplicaciones para Huayra
- Aqui se encuentran una serie de aplicaciones pensadas para Huayra.
- .
- Este dummy meta-paquete depende de un conjunto de aplicaciones que proveen
- las herramientas necesarias para tener un entorno para trabajar o estudiar.
+Description: Suite completa de aplicaciones para Huayra (settings)
+ Aqui se encuentran las opciones de configuracion de las aplicaciones pensadas para Huayra.
 
 Package: huayra-base
 Architecture: all
@@ -337,7 +332,7 @@ Depends: ${misc:Depends},
   huayra-archive-keyring,
   plymouth-themes-huayra
 Description: Paquetes base de Huayra
- Paquetes base de Huayra.
+ Paquetes del sistema base de Huayra.
 
 Package: huayra-compartir-web
 Architecture: all
@@ -345,7 +340,7 @@ Conflicts: huayra-desktop, huayra-apps-debian
 Replaces: huayra-desktop, huayra-apps-debian
 Depends: ${misc:Depends}, lighttpd
 Description: Servicio de Compartir Web de Huayra
- Servicio de Compartir Web de Huayra
+ Servicio de Compartir Web de Huayra a traves de Lighttpd y Avahi
 
 Package: huayra-printing-full-support
 Architecture: all
@@ -360,6 +355,7 @@ Depends: ${misc:Depends},
   printer-driver-foo2zjs
 Description: Meta-paquete que depende de paquetes que brindan soporte de impresión.
  Instala drivers y programas que dan soporte en una gran variedad de impresoras.
+ Dummy package.
 
 Package: huayra-firmware-full-support
 Architecture: all
@@ -374,9 +370,10 @@ Depends: ${misc:Depends},
   firmware-ralink,
   firmware-realtek,
   zd1211-firmware
-Description: Meta-paquete que depende de paquetes que brindan firmware para distintos dispositivos.
+Description: Firmware para distintos dispositivos en Huayra.
  Instala firmware para distintos dispositivos que lo requieren, mayormente
  placas WiFi y Bluetooth.
+ Dummy package.
 
 Package: huayra-tda
 Architecture: all

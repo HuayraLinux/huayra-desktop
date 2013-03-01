@@ -1,3 +1,9 @@
+huayra-desktop (2.45) testing; urgency=low
+
+  * manpages y lintian fixes 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 01 Mar 2013 01:09:19 -0300
+
 huayra-desktop (2.44) testing; urgency=low
 
   * control de errores en el script de update 
