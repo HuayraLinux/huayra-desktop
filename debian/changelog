@@ -1,3 +1,9 @@
+huayra-desktop (2.47) testing; urgency=low
+
+  * moviendo paquetes de apps a gnome 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 04 Mar 2013 09:13:19 -0300
+
 huayra-desktop (2.46) testing; urgency=low
 
   * vamos con el xchat! 
