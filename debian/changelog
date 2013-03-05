@@ -1,9 +1,10 @@
-huayra-desktop (2.47+nmu1) testing; urgency=low
+huayra-desktop (2.48) testing; urgency=low
 
   * Crear grupo microchip
   * Agregar por defecto a los usuarios creados al grupo microchip
+  * settings del panel de mate
 
- -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Tue, 05 Mar 2013 15:12:42 -0300
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 05 Mar 2013 15:12:42 -0300
 
 huayra-desktop (2.47) testing; urgency=low
 
