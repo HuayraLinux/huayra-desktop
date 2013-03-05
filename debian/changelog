@@ -1,3 +1,10 @@
+huayra-desktop (2.47+nmu1) testing; urgency=low
+
+  * Crear grupo microchip
+  * Agregar por defecto a los usuarios creados al grupo microchip
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Tue, 05 Mar 2013 15:12:42 -0300
+
 huayra-desktop (2.47) testing; urgency=low
 
   * moviendo paquetes de apps a gnome 
