@@ -5,17 +5,23 @@ CONF_CMD="mateconftool-2 --direct --config-source xml:readwrite:/etc/mateconf/ma
 
 if [ "$1" = "configure" ]; then
 
-  # desktop global
+  # desktop
   $CONF_CMD --type bool /apps/gksu/sudo-mode 1
   $CONF_CMD --type string /desktop/mate/background/picture_filename "/usr/share/images/huayra-desktop/huayra-wallpaper.jpg"
   $CONF_CMD --type string /desktop/mate/background/picture_options "zoom"   
   $CONF_CMD --type string /desktop/mate/interface/gtk_theme "HuayraVioleta"
+  $CONF_CMD --type string /desktop/mate/interface/gtk_key_theme "HuayraVioleta" # tema por defecto al volver del alto contraste
   $CONF_CMD --type string /desktop/mate/interface/icon_theme "huayra"
 
-  # Aplicaciones
+  # ícono de accesibilidad en el panel por defecto
+  $CONF_CMD --type bool /desktop/mate/accessibility/keyboard/enable 1
+
+  # Male settings
   $CONF_CMD --type string /apps/marco/general/button_layout ":minimize,maximize,close"
   $CONF_CMD --type string /apps/mate-notification-daemon/popup_location "bottom_right"
   $CONF_CMD --type string /apps/mate-notification-daemon/theme "slider"
+
+  # terminal 
   $CONF_CMD --type bool /apps/mate-terminal/use_menu_accelerators 0
   $CONF_CMD --type string /apps/mate-terminal/profiles/Default/background_type "transparent"
   $CONF_CMD --type string /apps/mate-terminal/profiles/Default/background_color "#2B9D2B9D2B9D"
@@ -23,17 +29,45 @@ if [ "$1" = "configure" ]; then
   $CONF_CMD --type string /apps/mate-terminal/profiles/Default/foreground_color "#FFFFFFFFFFFF"
   $CONF_CMD --type bool /apps/mate-terminal/profiles/Default/use_theme_colors 0
 
-  # Panel
-    
-  #$CONF_CMD --type string /apps/panel/applets/applet_0/applet_iid "WnckletFactory::ShowDesktopApplet"
-  #$CONF_CMD --type float /apps/panel/applets/applet_0/position 48
-  #$CONF_CMD --type string /apps/panel/applets/applet_1/applet_iid "MixerAppletFactory::MixerApplet"
-  #$CONF_CMD --type float /apps/panel/applets/applet_1/position 802
-  #$CONF_CMD --type string /apps/panel/applets/applet_2/applet_iid "NotificationAreaAppletFactory::NotificationArea"
-  #$CONF_CMD --type float /apps/panel/applets/applet_2/position 928
-  #$CONF_CMD --type bool /apps/panel/applets/clock_screen0/locked 1
-  #$CONF_CMD --type float /apps/panel/applets/applet_2/position 440
-  #$CONF_CMD --type string /apps/panel/applets/window_menu_screen0/tooltip "Huayra Menú"
+  # nuevo panel superior
+  $CONF_CMD --type string /apps/panel/default_setup/objects/object_menu/object_type "menu-object"
+  $CONF_CMD --type string /apps/panel/default_setup/objects/object_menu/toplevel_id "top_panel_screen0"
+  $CONF_CMD --type float /apps/panel/default_setup/objects/object_menu/position 1
+
+  $CONF_CMD --type string /apps/panel/default_setup/objects/object_sep1/object_type "separator"
+  $CONF_CMD --type float /apps/panel/default_setup/objects/object_sep1/position 2
+
+  $CONF_CMD --type float /apps/panel/default_setup/applets/window_menu_screen0/position 4
+  $CONF_CMD --type string /apps/panel/default_setup/applets/window_menu_screen0/tooltip "Huayra Menú"
+
+  $CONF_CMD --type float /apps/panel/default_setup/applets/clock_screen0/position 440
+  $CONF_CMD --type bool /apps/panel/default_setup/applets/clock_screen0/locked 1
+
+  # control center
+  $CONF_CMD --type string /apps/panel/default_setup/objects/object_control_center/object_type "launcher-object"
+  $CONF_CMD --type string /apps/panel/default_setup/objects/object_control_center/launcher_location "mate-control-center.desktop"
+  $CONF_CMD --type string /apps/panel/default_setup/objects/object_control_center/toplevel_id "top_panel_screen0"
+  $CONF_CMD --type float /apps/panel/default_setup/objects/object_control_center/position 470
+
+  $CONF_CMD --type float /apps/panel/default_setup/applets/notification_area_screen0/position 500
+
+  # accessibility
+  $CONF_CMD --type string /apps/panel/default_setup/applets/applet_mixer/object_type "external-applet"
+  $CONF_CMD --type string /apps/panel/default_setup/applets/applet_mixer/applet_iid "MixerAppletFactory::MixerApplet"
+  $CONF_CMD --type float /apps/panel/default_setup/applets/applet_mixer/position 440
+  $CONF_CMD --type string /apps/panel/default_setup/applets/applet_mixer/prefs/active-element "HDA Intel (Alsa mixer)"
+
+  $CONF_CMD --type string /apps/panel/default_setup/objects/object_shutdown/object_type "action-applet"
+  $CONF_CMD --type string /apps/panel/default_setup/objects/object_shutdown/action_type "shutdown"
+  $CONF_CMD --type string /apps/panel/default_setup/objects/object_shutdown/toplevel_id "top_panel_screen0"
+  $CONF_CMD --type float /apps/panel/default_setup/objects/object_shutdown/position 600
+
+  # sacar desktop switcher del panel de abajo
+  $CONF_CMD --type string /apps/panel/default_setup/applets/workspace_switcher_screen0/toplevel_id ""
+
+  # mover show desktop al panel de arriba
+  $CONF_CMD --type string /apps/panel/default_setup/applets/show_desktop_button_screen0/toplevel_id "top_panel_screen0"
+  $CONF_CMD --type float /apps/panel/default_setup/applets/show_desktop_button_screen0/position 2
   
   exit 0
 
