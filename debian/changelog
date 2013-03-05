@@ -1,3 +1,9 @@
+huayra-desktop (2.49) testing; urgency=low
+
+  * window list en el panel inferior de mate 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 05 Mar 2013 16:31:17 -0300
+
 huayra-desktop (2.48) testing; urgency=low
 
   * Crear grupo microchip

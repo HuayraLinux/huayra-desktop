@@ -91,11 +91,17 @@ if [ "$1" = "configure" ]; then
   #$CONF_CMD --type string /apps/panel/default_setup/objects/object_control_center/toplevel_id "top_panel"
   #$CONF_CMD --type int /apps/panel/default_setup/objects/object_control_center/position 470
 
+  # applet window_list (panel inferior)
+  $CONF_CMD --type string /apps/panel/default_setup/applets/window_list/toplevel_id "bottom_panel"
+  $CONF_CMD --type int /apps/panel/default_setup/applets/window_list/position 0
+  $CONF_CMD --type bool /apps/panel/default_setup/applets/window_list/locked 1
+  $CONF_CMD --type bool /apps/panel/default_setup/applets/window_list/panel_right_stick 0
+
   # sacar desktop switcher del panel de abajo
   $CONF_CMD --type string /apps/panel/default_setup/applets/workspace_switcher/toplevel_id ""
 
   # settings del top_panel
-  $CONF_CMD --type list --list-type string /apps/panel/default_setup/general/applet_id_list '[show_desktop_button,clock,window_menu,notification_area,applet_mixer]'
+  $CONF_CMD --type list --list-type string /apps/panel/default_setup/general/applet_id_list '[show_desktop_button,clock,window_menu,notification_area,applet_mixer,window_list]'
   $CONF_CMD --type list --list-type string /apps/panel/default_setup/general/object_id_list '[object_menu,object_access,object_shutdown]'
 
   exit 0
