@@ -1,3 +1,9 @@
+huayra-desktop (2.50) testing; urgency=low
+
+  * dependencia deja-dup 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 06 Mar 2013 17:42:04 -0300
+
 huayra-desktop (2.49+nmu1) testing; urgency=low
 
   * Agregue huayra-fonts como dependencia de huayra-desktop-common.
