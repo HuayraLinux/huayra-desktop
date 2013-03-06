@@ -1,3 +1,9 @@
+huayra-desktop (2.49+nmu1) testing; urgency=low
+
+  * Agregue huayra-fonts como dependencia de huayra-desktop-common.
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Wed, 06 Mar 2013 01:38:16 -0300
+
 huayra-desktop (2.49) testing; urgency=low
 
   * window list en el panel inferior de mate 
