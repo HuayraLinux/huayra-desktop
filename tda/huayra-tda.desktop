@@ -5,7 +5,7 @@ GenericName==Televisión Digital Abierta
 Comment=Visualizar Televisión Digital Abierta
 Exec=/usr/bin/vlc /etc/huayra/channels.conf
 TryExec=/usr/bin/vlc
-Icon=vlc
+Icon=tda
 Terminal=false
 Type=Application
 Categories=AudioVideo;Player;
