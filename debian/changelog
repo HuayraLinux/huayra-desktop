@@ -1,3 +1,10 @@
+huayra-desktop (2.51) testing; urgency=low
+
+  * sacando dependencias de tda y tpm de apps que van en el installer 
+  * correccion nombre de icono de huayra-chat
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 07 Mar 2013 17:30:36 -0300
+
 huayra-desktop (2.50) testing; urgency=low
 
   * dependencia deja-dup 
