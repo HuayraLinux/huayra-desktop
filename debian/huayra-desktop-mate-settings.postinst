@@ -10,8 +10,10 @@ if [ "$1" = "configure" ]; then
   $CONF_CMD --type string /desktop/mate/background/picture_filename "/usr/share/images/huayra-desktop/huayra-wallpaper.jpg"
   $CONF_CMD --type string /desktop/mate/background/picture_options "zoom"
   $CONF_CMD --type string /desktop/mate/interface/gtk_theme "HuayraVioleta"
-  $CONF_CMD --type string /desktop/mate/interface/gtk_key_theme "HuayraVioleta" # tema por defecto al volver del alto contraste
   $CONF_CMD --type string /desktop/mate/interface/icon_theme "huayra"
+
+  # un solo escritorio
+  $CONF_CMD --type float /apps/marco/general/num_workspaces 1
 
   # ícono de accesibilidad en el panel por defecto
   $CONF_CMD --type bool /desktop/mate/accessibility/keyboard/enable 1
@@ -86,10 +88,10 @@ if [ "$1" = "configure" ]; then
   $CONF_CMD --type bool /apps/panel/default_setup/objects/object_shutdown/panel_right_stick 1
 
   # objecto object_control_center
-  #$CONF_CMD --type string /apps/panel/default_setup/objects/object_control_center/object_type "launcher-object"
-  #$CONF_CMD --type string /apps/panel/default_setup/objects/object_control_center/launcher_location "mate-control-center.desktop"
-  #$CONF_CMD --type string /apps/panel/default_setup/objects/object_control_center/toplevel_id "top_panel"
-  #$CONF_CMD --type int /apps/panel/default_setup/objects/object_control_center/position 470
+  $CONF_CMD --type string /apps/panel/default_setup/objects/object_control_center/object_type "launcher-object"
+  $CONF_CMD --type string /apps/panel/default_setup/objects/object_control_center/launcher_location "mate-control-center.desktop"
+  $CONF_CMD --type string /apps/panel/default_setup/objects/object_control_center/toplevel_id "top_panel"
+  $CONF_CMD --type int /apps/panel/default_setup/objects/object_control_center/position 470
 
   # applet window_list (panel inferior)
   $CONF_CMD --type string /apps/panel/default_setup/applets/window_list/toplevel_id "bottom_panel"
@@ -102,7 +104,7 @@ if [ "$1" = "configure" ]; then
 
   # settings del top_panel
   $CONF_CMD --type list --list-type string /apps/panel/default_setup/general/applet_id_list '[show_desktop_button,clock,window_menu,notification_area,applet_mixer,window_list]'
-  $CONF_CMD --type list --list-type string /apps/panel/default_setup/general/object_id_list '[object_menu,object_access,object_shutdown]'
+  $CONF_CMD --type list --list-type string /apps/panel/default_setup/general/object_id_list '[object_menu,object_access,object_control_center,object_shutdown]'
 
   exit 0
 
