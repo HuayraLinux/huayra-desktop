@@ -80,18 +80,19 @@ if [ "$1" = "configure" ]; then
   $CONF_CMD --type bool /apps/panel/default_setup/applets/applet_mixer/locked 1
   $CONF_CMD --type string /apps/panel/default_setup/applets/applet_mixer/toplevel_id "top_panel"
 
+  # objecto object_control_center
+  $CONF_CMD --type string /apps/panel/default_setup/objects/object_control_center/object_type "launcher-object"
+  $CONF_CMD --type string /apps/panel/default_setup/objects/object_control_center/launcher_location "mate-control-center.desktop"
+  $CONF_CMD --type string /apps/panel/default_setup/objects/object_control_center/toplevel_id "top_panel"
+  $CONF_CMD --type int /apps/panel/default_setup/objects/object_control_center/position 5
+  $CONF_CMD --type bool /apps/panel/default_setup/objects/object_control_center/panel_right_stick 1
+
   # objeto object_shutdown
   $CONF_CMD --type string /apps/panel/default_setup/objects/object_shutdown/object_type "action-applet"
   $CONF_CMD --type string /apps/panel/default_setup/objects/object_shutdown/action_type "shutdown"
   $CONF_CMD --type string /apps/panel/default_setup/objects/object_shutdown/toplevel_id "top_panel"
   $CONF_CMD --type int /apps/panel/default_setup/objects/object_shutdown/position 0
   $CONF_CMD --type bool /apps/panel/default_setup/objects/object_shutdown/panel_right_stick 1
-
-  # objecto object_control_center
-  $CONF_CMD --type string /apps/panel/default_setup/objects/object_control_center/object_type "launcher-object"
-  $CONF_CMD --type string /apps/panel/default_setup/objects/object_control_center/launcher_location "mate-control-center.desktop"
-  $CONF_CMD --type string /apps/panel/default_setup/objects/object_control_center/toplevel_id "top_panel"
-  $CONF_CMD --type int /apps/panel/default_setup/objects/object_control_center/position 470
 
   # applet window_list (panel inferior)
   $CONF_CMD --type string /apps/panel/default_setup/applets/window_list/toplevel_id "bottom_panel"
