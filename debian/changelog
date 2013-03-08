@@ -1,3 +1,11 @@
+huayra-desktop (2.52) testing; urgency=low
+
+  * grupo users
+  * icono chat
+  * carpeta videos sin tilde
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 08 Mar 2013 15:58:12 -0300
+
 huayra-desktop (2.51) testing; urgency=low
 
   * sacando dependencias de tda y tpm de apps que van en el installer 
