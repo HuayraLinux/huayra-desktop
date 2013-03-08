@@ -7,7 +7,7 @@ if [ "$1" = "configure" ]; then
 
   # desktop
   $CONF_CMD --type bool /apps/gksu/sudo-mode 1
-  $CONF_CMD --type string /desktop/mate/background/picture_filename "/usr/share/images/huayra-desktop/huayra-wallpaper.jpg"
+  $CONF_CMD --type string /desktop/mate/background/picture_filename "/usr/share/images/huayra-desktop/huayra-wallpaper.png"
   $CONF_CMD --type string /desktop/mate/background/picture_options "zoom"
   $CONF_CMD --type string /desktop/mate/interface/gtk_theme "HuayraVioleta"
   $CONF_CMD --type string /desktop/mate/interface/icon_theme "huayra"

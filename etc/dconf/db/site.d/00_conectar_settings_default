@@ -17,7 +17,7 @@ lock-enabled=false
 button-layout=':minimize,maximize,close'
 
 [org/gnome/desktop/background]
-picture-uri='file:///usr/share/images/huayra-desktop/huayra-wallpaper.jpg'
+picture-uri='file:///usr/share/images/huayra-desktop/huayra-wallpaper.png'
 draw-background=true
 show-desktop-icons=true
 picture-options='stretched'
