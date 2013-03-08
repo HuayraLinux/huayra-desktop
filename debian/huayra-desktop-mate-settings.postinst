@@ -11,6 +11,7 @@ if [ "$1" = "configure" ]; then
   $CONF_CMD --type string /desktop/mate/background/picture_options "zoom"
   $CONF_CMD --type string /desktop/mate/interface/gtk_theme "HuayraVioleta"
   $CONF_CMD --type string /desktop/mate/interface/icon_theme "huayra"
+  $CONF_CMD --type bool /apps/caja/desktop/computer_icon_visible 0
 
   # un solo escritorio
   $CONF_CMD --type float /apps/marco/general/num_workspaces 1
