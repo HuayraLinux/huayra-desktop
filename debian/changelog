@@ -1,3 +1,10 @@
+huayra-desktop (2.53) testing; urgency=low
+
+  * icono del mate-control-center
+  * fix menu_accelerators mate-terminal 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Sat, 09 Mar 2013 15:44:45 -0300
+
 huayra-desktop (2.52) testing; urgency=low
 
   * grupo users
