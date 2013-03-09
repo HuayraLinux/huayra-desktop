@@ -1,3 +1,12 @@
+huayra-desktop (2.53+nmu1) testing; urgency=low
+
+  * Avoid autoremove of dependencies
+    when huayra-conig, huayra-apps,
+    huayra-desktop-gnome, huayra-desktop-mate or huayra-desktop-common
+    are removed.
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Sat, 09 Mar 2013 18:50:23 -0300
+
 huayra-desktop (2.53) testing; urgency=low
 
   * icono del mate-control-center
