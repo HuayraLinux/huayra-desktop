@@ -1,3 +1,9 @@
+huayra-desktop (2.53+nmu2) testing; urgency=low
+
+  * Agregue programa2mp como dependencia de huayra-conig
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Sun, 10 Mar 2013 01:22:25 -0300
+
 huayra-desktop (2.53+nmu1) testing; urgency=low
 
   * Avoid autoremove of dependencies

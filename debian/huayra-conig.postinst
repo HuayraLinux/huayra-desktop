@@ -60,6 +60,7 @@ APT
 	"^pd-cyclone";
 	"^pd-extended";
 	"^pd-purepd";
+	"^programa2mp";
 	"^puredata";
 	"^puredata-core";
 	"^puredata-doc";
