@@ -2,6 +2,17 @@
 set -e
 
 if [ "$1" = "configure" ]; then
+  if ! getent group | grep -q "^italc:" ; then
+    echo -n "Adding group italc.."
+    addgroup --quiet --system italc 2>/dev/null ||true
+    echo "..done"
+    @mkdir /etc/italc/keys
+    @mkdir /etc/italc/keys/public
+    @mkdir /etc/italc/keys/public/teacher
+    @mkdir /etc/italc/keys/private
+    @mkdir /etc/italc/keys/private/teache
+    chown -R :italc /etc/italc/keys
+  fi
 
   cat > /etc/apt/apt.conf.d/20huayra-conig <<EOF
 #

@@ -16,5 +16,5 @@ chown $new_user:$new_user "$new_home/.gtk-bookmarks"
 
 # agregando grupos de una manera poco elegante.
 #@TODO: ver de usar /etc/adduser.conf
-gruposbase="lp fax voice cdrom floppy tape sudo audio dip www-data video plugdev fuse bluetooth scanner netdev pulse dialout microchip users"
+gruposbase="lp fax voice cdrom floppy tape sudo audio dip www-data video plugdev fuse bluetooth scanner netdev pulse dialout microchip users italc"
 for g in $gruposbase;do adduser $new_user $g;done
