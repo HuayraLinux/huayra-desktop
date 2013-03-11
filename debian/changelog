@@ -1,3 +1,9 @@
+huayra-desktop (2.54+nmu5) testing; urgency=low
+
+  * Fix italc dir permissions 
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Mon, 11 Mar 2013 17:20:43 -0300
+
 huayra-desktop (2.54+nmu4) testing; urgency=low
 
   * Configuración del Chromium 
