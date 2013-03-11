@@ -110,8 +110,7 @@ if [ "$1" = "configure" ]; then
   $CONF_CMD --type list --list-type string /apps/panel/default_setup/general/object_id_list '[object_menu,object_access,object_control_center,object_shutdown]'
 
   # tapping en el touchpad
-  $CONF_CMD --type bool /desktop/mate/peripherals/touchpad 1
-
+  $CONF_CMD --type bool /desktop/mate/peripherals/touchpad/tap_to_click 1
 
   exit 0
 

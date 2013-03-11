@@ -1,9 +1,38 @@
-huayra-desktop (2.54+nmu1) UNRELEASED; urgency=low
+huayra-desktop (2.54+nmu6) testing; urgency=low
 
   * Non-maintainer upload.
   * Agregué la opción para que el touchpad funcione para hacer click tambien
 
  -- Julia Palandri <julia.palandri@gmail.com>  Mon, 11 Mar 2013 16:12:11 -0300
+huayra-desktop (2.54+nmu5) testing; urgency=low
+
+  * Fix italc dir permissions 
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Mon, 11 Mar 2013 17:20:43 -0300
+
+huayra-desktop (2.54+nmu4) testing; urgency=low
+
+  * Configuración del Chromium 
+
+ -- Alumno <alumno@huayra>  Mon, 11 Mar 2013 17:07:06 -0300
+
+huayra-desktop (2.54+nmu3) testing; urgency=low
+
+  * FIX mkdir italc dirs
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Mon, 11 Mar 2013 16:56:16 -0300
+
+huayra-desktop (2.54+nmu2) testing; urgency=low
+
+  [ Julia Palandri ]
+  * Non-maintainer upload.
+  * Agregué la opción para que el touchpad funcione para hacer click tambien
+
+  [ Miguel Angel Garcia ]
+  * Italc permissions and dirs
+  * Add users to italc group
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Mon, 11 Mar 2013 16:35:21 -0300
 
 huayra-desktop (2.54) testing; urgency=low
 
