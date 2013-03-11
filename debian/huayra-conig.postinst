@@ -6,11 +6,11 @@ if [ "$1" = "configure" ]; then
     echo -n "Adding group italc.."
     addgroup --quiet --system italc 2>/dev/null ||true
     echo "..done"
-    @mkdir /etc/italc/keys
-    @mkdir /etc/italc/keys/public
-    @mkdir /etc/italc/keys/public/teacher
-    @mkdir /etc/italc/keys/private
-    @mkdir /etc/italc/keys/private/teache
+    mkdir /etc/italc/keys || true
+    mkdir /etc/italc/keys/public || true
+    mkdir /etc/italc/keys/public/teacher || true
+    mkdir /etc/italc/keys/private || true
+    mkdir /etc/italc/keys/private/teacher || true
     chown -R :italc /etc/italc/keys
   fi
 
