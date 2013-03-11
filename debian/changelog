@@ -1,3 +1,10 @@
+huayra-desktop (2.54+nmu1) UNRELEASED; urgency=low
+
+  * Non-maintainer upload.
+  * Agregué la opción para que el touchpad funcione para hacer click tambien
+
+ -- Julia Palandri <julia.palandri@gmail.com>  Mon, 11 Mar 2013 16:12:11 -0300
+
 huayra-desktop (2.54) testing; urgency=low
 
   * dependencia gobby  
