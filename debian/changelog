@@ -1,3 +1,21 @@
+huayra-desktop (2.54+nmu3) testing; urgency=low
+
+  * FIX mkdir italc dirs
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Mon, 11 Mar 2013 16:56:16 -0300
+
+huayra-desktop (2.54+nmu2) testing; urgency=low
+
+  [ Julia Palandri ]
+  * Non-maintainer upload.
+  * Agregué la opción para que el touchpad funcione para hacer click tambien
+
+  [ Miguel Angel Garcia ]
+  * Italc permissions and dirs
+  * Add users to italc group
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Mon, 11 Mar 2013 16:35:21 -0300
+
 huayra-desktop (2.54) testing; urgency=low
 
   * dependencia gobby  
