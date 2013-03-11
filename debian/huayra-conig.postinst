@@ -12,6 +12,7 @@ if [ "$1" = "configure" ]; then
     mkdir /etc/italc/keys/private || true
     mkdir /etc/italc/keys/private/teacher || true
     chown -R :italc /etc/italc/keys
+    chmod -R g+w /etc/italc/keys
   fi
 
   cat > /etc/apt/apt.conf.d/20huayra-conig <<EOF
