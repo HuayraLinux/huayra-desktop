@@ -150,6 +150,7 @@ Depends: ${misc:Depends},
   huayra-desktop-common,
   huayra-desktop-mate-settings,
   huayra-icon-theme-all,
+  huayra-mate-screensavers,
   mate-archive-keyring,
   mate-conf-editor,
   mate-core,
@@ -382,3 +383,9 @@ Description: Soporte de Televisión Digital Abierta para Huyra
  Éste paquete contiene las configuraciones necesarias para tener
  TDA (Televisión Digital Abierta) en Huayra.
 
+Package: huayra-mate-screensavers
+Architecture: all
+Depends: ${misc:Depends}
+Description: Salvapantallas de Huayra para Mate Desktop
+ Este paquete contiene un conjunto de salvapantallas para Mate Desktop con
+ motivos de Huayra.
