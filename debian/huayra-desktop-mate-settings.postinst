@@ -14,7 +14,7 @@ if [ "$1" = "configure" ]; then
   $CONF_CMD --type bool /apps/caja/desktop/computer_icon_visible 0
 
   # un solo escritorio
-  $CONF_CMD --type float /apps/marco/general/num_workspaces 1
+  $CONF_CMD --type int /apps/marco/general/num_workspaces 1
 
   # ícono de accesibilidad en el panel por defecto
   $CONF_CMD --type bool /desktop/mate/accessibility/keyboard/enable 1
