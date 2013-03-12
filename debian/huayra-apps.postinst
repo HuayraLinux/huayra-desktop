@@ -27,7 +27,6 @@ APT
 	"^cheese";
 	"^chromium";
 	"^chromium-l10n";
-  "^clamtk";
 	"^clementine";
 	"^colord";
 	"^cpufrequtils";
@@ -79,7 +78,6 @@ APT
 	"^icedtea-6-plugin";
 	"^iceowl-extension";
 	"^imagej";
-  "^imagewriter";
 	"^inkscape";
 	"^iptux";
 	"^ipython";
