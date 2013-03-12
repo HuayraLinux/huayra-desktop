@@ -1,10 +1,14 @@
-huayra-desktop (2.54+nmu7) UNRELEASED; urgency=low
+huayra-desktop (2.54+nmu8) testing; urgency=low
 
+  [ Julia Palandri ]
   * Non-maintainer upload.
   * Agregué dependencias de huayra-apps: clamtk, imagewriter, gucharmap, tomboy
   * Agregué resolución por default para cheese en 640x480 (debería funcionar en todos los modelos) 
 
- -- Julia Palandri <julia.palandri@gmail.com>  Tue, 12 Mar 2013 00:14:40 -0300
+  [ Miguel Angel Garcia ]
+  * Agregue screensaver por default en mate
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Tue, 12 Mar 2013 00:51:25 -0300
 
 huayra-desktop (2.54+nmu5) testing; urgency=low
 

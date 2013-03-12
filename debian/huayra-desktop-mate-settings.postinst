@@ -112,6 +112,10 @@ if [ "$1" = "configure" ]; then
   # tapping en el touchpad
   $CONF_CMD --type bool /desktop/mate/peripherals/touchpad/tap_to_click 1
 
+  # screensaver
+  $CONF_CMD --type string /apps/mate-screensaver/mode "single"
+  $CONF_CMD --type list --list-type string /apps/mate-screensaver/themes '[screensavers-huayra-mate-flying-cow]'
+
   exit 0
 
 fi
