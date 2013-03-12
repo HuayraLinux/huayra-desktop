@@ -1,3 +1,9 @@
+huayra-desktop (2.57) testing; urgency=low
+
+  * fix hotkey terminal
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 12 Mar 2013 09:41:24 -0300
+
 huayra-desktop (2.56) testing; urgency=low
 
   * fix postint settings de mate 

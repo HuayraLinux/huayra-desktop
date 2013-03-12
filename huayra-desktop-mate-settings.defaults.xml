@@ -54,7 +54,7 @@
     <entry>
       <key>global_keybindings/run_command_terminal</key>
       <value>
-        <string>&lt;Primary&gt;&lt;Alt&gt;T"</string>
+        <string>&lt;Primary&gt;&lt;Alt&gt;T</string>
       </value>
     </entry>
     <entry>
