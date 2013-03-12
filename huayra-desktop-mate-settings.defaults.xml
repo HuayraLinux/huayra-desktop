@@ -482,4 +482,23 @@
       </value>
     </entry>
   </entrylist>
+  <!-- screensaver -->
+  <entrylist base="/apps/mate-screensaver">
+    <entry>
+      <key>mode</key>
+      <value>
+        <string>single</string>
+      </value>
+    </entry>  
+    <entry>
+      <key>themes</key>
+      <value>
+        <list type="string">
+          <value>
+            <string>screensavers-huayra-mate-flying-cow</string>
+          </value>
+        </list>
+      </value>
+    </entry>
+  </entrylist>
 </mateconfentryfile>

@@ -1,3 +1,9 @@
+huayra-desktop (2.56) testing; urgency=low
+
+  * fix postint settings de mate 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 12 Mar 2013 08:43:03 -0300
+
 huayra-desktop (2.55) testing; urgency=low
 
   * migrando mateconf settings xml
