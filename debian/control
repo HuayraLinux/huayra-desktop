@@ -379,7 +379,7 @@ Description: Firmware para distintos dispositivos en Huayra.
 
 Package: huayra-tda
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, wari
 Description: Soporte de Televisión Digital Abierta para Huyra
  Éste paquete contiene las configuraciones necesarias para tener
  TDA (Televisión Digital Abierta) en Huayra.

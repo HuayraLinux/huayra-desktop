@@ -3,8 +3,7 @@ Version=1.0
 Name=Televisión Digital Abierta
 GenericName==Televisión Digital Abierta
 Comment=Visualizar Televisión Digital Abierta
-Exec=/usr/bin/vlc /etc/huayra/channels.conf
-TryExec=/usr/bin/vlc
+Exec=/usr/bin/wari
 Icon=tda
 Terminal=false
 Type=Application

@@ -1,119 +1,14 @@
 #! /bin/sh
 set -e
 
-CONF_CMD="mateconftool-2 --direct --config-source xml:readwrite:/etc/mateconf/mateconf.xml.defaults/ --set"
+#DEBHELPER#
 
 if [ "$1" = "configure" ]; then
 
-  # desktop
-  $CONF_CMD --type bool /apps/gksu/sudo-mode 1
-  $CONF_CMD --type string /desktop/mate/background/picture_filename "/usr/share/images/huayra-desktop/huayra-wallpaper.png"
-  $CONF_CMD --type string /desktop/mate/background/picture_options "zoom"
-  $CONF_CMD --type string /desktop/mate/interface/gtk_theme "HuayraVioleta"
-  $CONF_CMD --type string /desktop/mate/interface/icon_theme "huayra"
-  $CONF_CMD --type bool /apps/caja/desktop/computer_icon_visible 0
-
-  # un solo escritorio
-  $CONF_CMD --type int /apps/marco/general/num_workspaces 1
-
-  # ícono de accesibilidad en el panel por defecto
-  $CONF_CMD --type bool /desktop/mate/accessibility/keyboard/enable 1
-
-  # Male settings
-  $CONF_CMD --type string /apps/marco/general/button_layout ":minimize,maximize,close"
-  $CONF_CMD --type string /apps/marco/general/theme "HuayraVioleta"
-  $CONF_CMD --type string /apps/mate-notification-daemon/popup_location "bottom_right"
-  $CONF_CMD --type string /apps/mate-notification-daemon/theme "slider"
-
-  # terminal
-  $CONF_CMD --type bool /apps/mate-terminal/global/use_menu_accelerators 0
-  $CONF_CMD --type string /apps/mate-terminal/profiles/Default/background_type "transparent"
-  $CONF_CMD --type string /apps/mate-terminal/profiles/Default/background_color "#2B9D2B9D2B9D"
-  $CONF_CMD --type float /apps/mate-terminal/profiles/Default/background_darkness 0.92
-  $CONF_CMD --type string /apps/mate-terminal/profiles/Default/foreground_color "#FFFFFFFFFFFF"
-  $CONF_CMD --type bool /apps/mate-terminal/profiles/Default/use_theme_colors 0
-  $CONF_CMD --type string /apps/mate-terminal/profiles/Default/background_type "transparent"
-
-  # objeto object_menu
-  $CONF_CMD --type string /apps/panel/default_setup/objects/object_menu/object_type "menu-object"
-  $CONF_CMD --type string /apps/panel/default_setup/objects/object_menu/toplevel_id "top_panel"
-  $CONF_CMD --type int /apps/panel/default_setup/objects/object_menu/position 1
-  $CONF_CMD --type string /apps/panel/default_setup/objects/object_menu/tooltip "Huayra"
-
-  # objeto object_sep1
-  #$CONF_CMD --type string /apps/panel/default_setup/objects/object_sep1/object_type "separator"
-  #$CONF_CMD --type int /apps/panel/default_setup/objects/object_sep1/position 2
-
-  # applet show_desktop_button
-  # (mover show desktop al panel de arriba)
-  $CONF_CMD --type string /apps/panel/default_setup/applets/show_desktop_button/toplevel_id "top_panel"
-  $CONF_CMD --type int /apps/panel/default_setup/applets/show_desktop_button/position 2
-
-  # applet window_menu (Selector de ventanas)
-  $CONF_CMD --type int /apps/panel/default_setup/applets/window_menu/position 5
-  $CONF_CMD --type bool /apps/panel/default_setup/applets/window_menu/locked 1
-  $CONF_CMD --type string /apps/panel/default_setup/applets/window_menu/toplevel_id "top_panel"
-  $CONF_CMD --type bool /apps/panel/default_setup/applets/window_menu/panel_right_stick 0
-
-  # applet clock
-  $CONF_CMD --type int /apps/panel/default_setup/applets/clock/position 400
-  $CONF_CMD --type bool /apps/panel/default_setup/applets/clock/locked 1
-  $CONF_CMD --type bool /apps/panel/default_setup/applets/clock/panel_right_stick 0
-
-  # applet notification_area
-  $CONF_CMD --type int /apps/panel/default_setup/applets/notification_area/position 30
-  $CONF_CMD --type bool /apps/panel/default_setup/applets/notification_area/panel_right_stick 1
-
-  # applet applet_mixer
-  $CONF_CMD --type string /apps/panel/default_setup/applets/applet_mixer/object_type "external-applet"
-  $CONF_CMD --type string /apps/panel/default_setup/applets/applet_mixer/applet_iid "MixerAppletFactory::MixerApplet"
-  $CONF_CMD --type int /apps/panel/default_setup/applets/applet_mixer/position 20
-  $CONF_CMD --type bool /apps/panel/default_setup/applets/applet_mixer/panel_right_stick 1
-  $CONF_CMD --type bool /apps/panel/default_setup/applets/applet_mixer/locked 1
-  $CONF_CMD --type string /apps/panel/default_setup/applets/applet_mixer/toplevel_id "top_panel"
-
-  # objeto object_access (accesibilidad)
-  $CONF_CMD --type string /apps/panel/default_setup/objects/object_access/object_type "menu-object"
-  $CONF_CMD --type string /apps/panel/default_setup/objects/object_access/menu_path "mate-applications:/Universal Access/"
-  $CONF_CMD --type string /apps/panel/default_setup/objects/object_access/tooltip "Accesibilidad"
-  $CONF_CMD --type string /apps/panel/default_setup/objects/object_access/toplevel_id "top_panel"
-  $CONF_CMD --type bool /apps/panel/default_setup/objects/object_access/locked 1
-  $CONF_CMD --type bool /apps/panel/default_setup/objects/object_access/use_menu_path 1
-  $CONF_CMD --type int /apps/panel/default_setup/objects/object_access/position 10
-  $CONF_CMD --type bool /apps/panel/default_setup/objects/object_access/panel_right_stick 1
-
-  # objecto object_control_center
-  $CONF_CMD --type string /apps/panel/default_setup/objects/object_control_center/object_type "launcher-object"
-  $CONF_CMD --type string /apps/panel/default_setup/objects/object_control_center/launcher_location "mate-control-center.desktop"
-  $CONF_CMD --type string /apps/panel/default_setup/objects/object_control_center/toplevel_id "top_panel"
-  $CONF_CMD --type int /apps/panel/default_setup/objects/object_control_center/position 5
-  $CONF_CMD --type bool /apps/panel/default_setup/objects/object_control_center/panel_right_stick 1
-
-  # objeto object_shutdown
-  $CONF_CMD --type string /apps/panel/default_setup/objects/object_shutdown/object_type "action-applet"
-  $CONF_CMD --type string /apps/panel/default_setup/objects/object_shutdown/action_type "shutdown"
-  $CONF_CMD --type string /apps/panel/default_setup/objects/object_shutdown/toplevel_id "top_panel"
-  $CONF_CMD --type int /apps/panel/default_setup/objects/object_shutdown/position 0
-  $CONF_CMD --type bool /apps/panel/default_setup/objects/object_shutdown/panel_right_stick 1
-
-  # applet window_list (panel inferior)
-  $CONF_CMD --type string /apps/panel/default_setup/applets/window_list/toplevel_id "bottom_panel"
-  $CONF_CMD --type int /apps/panel/default_setup/applets/window_list/position 0
-  $CONF_CMD --type bool /apps/panel/default_setup/applets/window_list/locked 1
-  $CONF_CMD --type bool /apps/panel/default_setup/applets/window_list/panel_right_stick 0
-
-  # sacar desktop switcher del panel de abajo
-  $CONF_CMD --type string /apps/panel/default_setup/applets/workspace_switcher/toplevel_id ""
-
-  # settings del top_panel
-  $CONF_CMD --type list --list-type string /apps/panel/default_setup/general/applet_id_list '[show_desktop_button,clock,window_menu,notification_area,applet_mixer,window_list]'
-  $CONF_CMD --type list --list-type string /apps/panel/default_setup/general/object_id_list '[object_menu,object_access,object_control_center,object_shutdown]'
-
-  # tapping en el touchpad
-  $CONF_CMD --type bool /desktop/mate/peripherals/touchpad/tap_to_click 1
+  MATECONF_CONFIG_SOURCE=`mateconftool-2 --get-default-source`
+  mateconftool-2 --config-source="${MATECONF_CONFIG_SOURCE}" --direct --load /etc/huayra/huayra-desktop-mate-settings.defaults.xml >/dev/null
 
   exit 0
 
 fi
 
-#DEBHELPER#

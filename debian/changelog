@@ -1,3 +1,9 @@
+huayra-desktop (2.55) testing; urgency=low
+
+  * migrando mateconf settings xml
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 12 Mar 2013 07:40:51 -0300
+
 huayra-desktop (2.54+nmu6) testing; urgency=low
 
   * Non-maintainer upload.
