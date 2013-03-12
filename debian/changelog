@@ -1,3 +1,10 @@
+huayra-desktop (2.59+nmu1) UNRELEASED; urgency=low
+
+  * Non-maintainer upload.
+  * Agregué brasero, gnome-sudoku y huayra-animaciones-interactivas a huayra-apps y huara-conig respectivamente
+
+ -- Julia Palandri <julia.palandri@gmail.com>  Tue, 12 Mar 2013 19:46:08 -0300
+
 huayra-desktop (2.59) testing; urgency=low
 
   * rollback de clam y imagewriter

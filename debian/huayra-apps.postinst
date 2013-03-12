@@ -22,6 +22,7 @@ APT
 	"^arista";
 	"^aspell-es";
 	"^bluefish";
+    "^brasero";
 	"^calibre";
 	"^caribou";
 	"^cheese";
@@ -56,6 +57,7 @@ APT
 	"^git";
 	"^git-man";
 	"^gitg";
+    "^gnome-sudoku";
 	"^gnucap";
 	"^gparted";
 	"^gscan2pdf";

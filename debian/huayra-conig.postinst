@@ -63,6 +63,7 @@ APT
 	"^huayra-compartir-web";
 	"^huayra-firmware-full-support";
 	"^huayra-printing-full-support";
+    "^huayra-simulaciones-interactivas";
 	"^italc-client";
 	"^italc-master";
 	"^jclic";
