@@ -27,6 +27,7 @@ APT
 	"^cheese";
 	"^chromium";
 	"^chromium-l10n";
+    "^clamtk";
 	"^clementine";
 	"^colord";
 	"^cpufrequtils";
@@ -66,6 +67,7 @@ APT
 	"^gstreamer0.10-pulseaudio";
 	"^gthumb";
 	"^gtk-recordmydesktop";
+    "^gucharmap";
 	"^guvcview";
 	"^gv";
 	"^httrack";
@@ -76,6 +78,7 @@ APT
 	"^icedtea-6-plugin";
 	"^iceowl-extension";
 	"^imagej";
+    "^imagewriter";
 	"^inkscape";
 	"^iptux";
 	"^ipython";
@@ -122,6 +125,7 @@ APT
 	"^sudo";
 	"^synaptic";
 	"^system-config-printer";
+    "^tomboy";
 	"^transmission-gtk";
 	"^ttf-aenigma";
 	"^ufraw";

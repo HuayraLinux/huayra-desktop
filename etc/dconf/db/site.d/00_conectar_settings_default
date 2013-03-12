@@ -51,3 +51,7 @@ compositing-manager=false
 
 [org/gnome/shell/extensions/user-theme]
 name="HuayraVioleta"
+
+[apps/cheese]
+video-x-resolution=640
+video-y-resolution=480

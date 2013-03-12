@@ -8,6 +8,10 @@ if [ "$1" = "configure" ]; then
   MATECONF_CONFIG_SOURCE=`mateconftool-2 --get-default-source`
   mateconftool-2 --config-source="${MATECONF_CONFIG_SOURCE}" --direct --load /etc/huayra/huayra-desktop-mate-settings.defaults.xml >/dev/null
 
+  # screensaver
+  $CONF_CMD --type string /apps/mate-screensaver/mode "single"
+  $CONF_CMD --type list --list-type string /apps/mate-screensaver/themes '[screensavers-huayra-mate-flying-cow]'
+
   exit 0
 
 fi

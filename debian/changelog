@@ -4,12 +4,18 @@ huayra-desktop (2.55) testing; urgency=low
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 12 Mar 2013 07:40:51 -0300
 
-huayra-desktop (2.54+nmu6) testing; urgency=low
+huayra-desktop (2.54+nmu8) testing; urgency=low
 
+  [ Julia Palandri ]
   * Non-maintainer upload.
-  * Agregué la opción para que el touchpad funcione para hacer click tambien
+  * Agregué dependencias de huayra-apps: clamtk, imagewriter, gucharmap, tomboy
+  * Agregué resolución por default para cheese en 640x480 (debería funcionar en todos los modelos) 
 
- -- Julia Palandri <julia.palandri@gmail.com>  Mon, 11 Mar 2013 16:12:11 -0300
+  [ Miguel Angel Garcia ]
+  * Agregue screensaver por default en mate
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Tue, 12 Mar 2013 00:51:25 -0300
+
 huayra-desktop (2.54+nmu5) testing; urgency=low
 
   * Fix italc dir permissions 
