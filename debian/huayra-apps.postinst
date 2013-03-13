@@ -126,7 +126,6 @@ APT
 	"^sudo";
 	"^synaptic";
 	"^system-config-printer";
-  "^tomboy";
 	"^transmission-gtk";
 	"^ttf-aenigma";
 	"^ufraw";
