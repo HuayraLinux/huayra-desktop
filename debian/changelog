@@ -1,3 +1,10 @@
+huayra-desktop (2.60+nmu1) UNRELEASED; urgency=low
+
+  * Non-maintainer upload.
+  * Borro el index.lighttp.html de /var/www 
+
+ -- Julia Palandri <julia.palandri@gmail.com>  Wed, 13 Mar 2013 21:12:35 -0300
+
 huayra-desktop (2.60) testing; urgency=low
 
   * correccion de temas en el greting de gdm
