@@ -13,6 +13,8 @@ if [ "$1" = "configure" ]; then
   then
       dpkg-statoverride --force --quiet --update \
           --add www-data www-data 0664 "/var/www/index.lighttpd.html"
+      rm "/var/www/index.lighttpd.html"
+
   fi
 
   if [ ! -e /var/www/index.html ] && [ ! -e /var/www/assets ];
@@ -24,7 +26,7 @@ if [ "$1" = "configure" ]; then
 
   if [ -f /etc/lighttpd/conf-enabled/10-dir-listing.conf ];
   then
-    echo "El modulo dirlisting parece estar habilidado..."
+    echo "El modulo dirlisting parece estar habilitado..."
   else
     # habiliar dirlisting en el lighttpd
     lighty-enable-mod dir-listing    

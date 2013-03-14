@@ -1,3 +1,10 @@
+huayra-desktop (2.62) testing; urgency=low
+
+  * build 2.62 
+  * merge de 2.60+nmu1 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 14 Mar 2013 13:20:36 -0300
+
 huayra-desktop (2.61) testing; urgency=low
 
   * correccion dependencia cdpedia -> cdpedia-launcher    
@@ -6,6 +13,13 @@ huayra-desktop (2.61) testing; urgency=low
   * correccion icono de teclado accesibilidad
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 14 Mar 2013 13:13:40 -0300
+
+huayra-desktop (2.60+nmu1) UNRELEASED; urgency=low
+
+  * Non-maintainer upload.
+  * Borro el index.lighttp.html de /var/www 
+
+ -- Julia Palandri <julia.palandri@gmail.com>  Wed, 13 Mar 2013 21:12:35 -0300
 
 huayra-desktop (2.60) testing; urgency=low
 
