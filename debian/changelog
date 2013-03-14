@@ -1,3 +1,12 @@
+huayra-desktop (2.61) testing; urgency=low
+
+  * correccion dependencia cdpedia -> cdpedia-launcher    
+  * se agrego caja-open-terminal
+  * se agrego matchbox-keyboard 
+  * correccion icono de teclado accesibilidad
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 14 Mar 2013 13:13:40 -0300
+
 huayra-desktop (2.60) testing; urgency=low
 
   * correccion de temas en el greting de gdm
