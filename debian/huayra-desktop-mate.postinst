@@ -14,12 +14,15 @@ APT
 {
   NeverAutoRemove
   {
+	"^caja-open-terminal";
 	"^gdm3";
 	"^gnome-themes-huayra";
 	"^huayra-ayuda-mate";
 	"^huayra-desktop-common";
 	"^huayra-desktop-mate-settings";
 	"^huayra-icon-theme-all";
+	"^matchbox-keyboard";
+  "^matchbox-keyboard-im";
 	"^mate-archive-keyring";
 	"^mate-conf-editor";
 	"^mate-core";
