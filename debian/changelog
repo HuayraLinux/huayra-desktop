@@ -1,3 +1,9 @@
+huayra-desktop (2.63) testing; urgency=low
+
+  * object_acccess no va al panel 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 15 Mar 2013 11:16:21 -0300
+
 huayra-desktop (2.62) testing; urgency=low
 
   * build 2.62 

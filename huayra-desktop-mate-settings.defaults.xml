@@ -269,57 +269,6 @@
       </value>
     </entry>
   </entrylist>
-  <!-- object access (acesibilidad)-->
-  <entrylist base="/apps/panel/default_setup/objects/object_access">
-    <entry>
-      <key>object_type</key>
-      <value>
-        <string>menu-object</string>
-      </value>
-    </entry>
-    <entry>
-      <key>menu_path</key>
-      <value>
-        <string>mate-applications:/Universal Access/</string>
-      </value>
-    </entry>
-    <entry>
-      <key>tooltip</key>
-      <value>
-        <string>Accesibilidad</string>
-      </value>
-    </entry>
-    <entry>
-      <key>toplevel_id</key>
-      <value>
-        <string>top_panel</string>
-      </value>
-    </entry>
-    <entry>
-      <key>locked</key>
-      <value>
-        <bool>true</bool>
-      </value>
-    </entry>
-    <entry>
-      <key>position</key>
-      <value>
-        <int>10</int>
-      </value>
-    </entry>
-    <entry>
-      <key>panel_right_stick</key>
-      <value>
-        <bool>true</bool>
-      </value>
-    </entry>
-    <entry>
-      <key>use_menu_path</key>
-      <value>
-        <bool>true</bool>
-      </value>
-    </entry>
-  </entrylist>
   <!-- object object_control_center -->
   <entrylist base="/apps/panel/default_setup/objects/object_control_center">
     <entry>
@@ -460,9 +409,6 @@
         <list type="string">
           <value>
             <string>object_menu</string>
-          </value>
-          <value>
-            <string>object_access</string>
           </value>
           <value>
             <string>object_control_center</string>
