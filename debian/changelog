@@ -1,3 +1,9 @@
+huayra-desktop (2.62+nmu1) testing; urgency=low
+
+  * Se agrega Portal del Estudiante a los bookmarks de Chromium
+
+ -- Luciano Baraglia <luciano.baraglia@gmail.com>  Fri, 15 Mar 2013 13:56:07 -0300
+
 huayra-desktop (2.62) testing; urgency=low
 
   * build 2.62 
