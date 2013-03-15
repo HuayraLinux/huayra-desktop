@@ -1,3 +1,9 @@
+huayra-desktop (2.64) testing; urgency=low
+
+  * build 2.64 merge con 2.62+nmu1 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 15 Mar 2013 14:12:21 -0300
+
 huayra-desktop (2.63) testing; urgency=low
 
   * object_acccess no va al panel 
