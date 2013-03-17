@@ -1,3 +1,9 @@
+huayra-desktop (2.68) testing; urgency=low
+
+  * habilita las actualizaciones automaticas cada 2 dias 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Sun, 17 Mar 2013 15:50:02 -0300
+
 huayra-desktop (2.67) testing; urgency=low
 
   * asociacion image/pdf 
@@ -128,7 +134,7 @@ huayra-desktop (2.54+nmu4) testing; urgency=low
 
   * Configuración del Chromium 
 
- -- Alumno <alumno@huayra>  Mon, 11 Mar 2013 17:07:06 -0300
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 11 Mar 2013 17:07:06 -0300
 
 huayra-desktop (2.54+nmu3) testing; urgency=low
 

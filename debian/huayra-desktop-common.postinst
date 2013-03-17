@@ -25,6 +25,10 @@ APT
   };
 };
 EOF
+
+  if [ ! -f /etc/apt/apt/apt.conf.d/10periodic ]; then
+    cp -f /etc/huayra/10periodic /etc/apt/apt.conf.d/
+  fi
 fi
 
 #DEBHELPER#
