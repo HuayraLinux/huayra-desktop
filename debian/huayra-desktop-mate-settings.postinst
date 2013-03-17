@@ -19,7 +19,7 @@ if [ "$1" = "configure" ]; then
   huayra-set-default-app image/jpeg eom.desktop
   huayra-set-default-app image/jpeg2000 eom.desktop
   huayra-set-default-app image/jpg eom.desktop
-  huayra-set-default-app image/pdf eom.desktop
+  huayra-set-default-app image/pdf atril.desktop
   huayra-set-default-app image/png eom.desktop
   huayra-set-default-app video/avi vlc.desktop
   huayra-set-default-app video/ogg vlc.desktop

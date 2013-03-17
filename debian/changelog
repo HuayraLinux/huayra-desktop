@@ -1,3 +1,9 @@
+huayra-desktop (2.67) testing; urgency=low
+
+  * asociacion image/pdf 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Sun, 17 Mar 2013 14:29:16 -0300
+
 huayra-desktop (2.66) testing; urgency=low
 
   * asociaciones por defecto para ogg 
