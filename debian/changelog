@@ -1,3 +1,9 @@
+huayra-desktop (2.66) testing; urgency=low
+
+  * asociaciones por defecto para ogg 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Sun, 17 Mar 2013 07:56:41 -0300
+
 huayra-desktop (2.65) testing; urgency=low
 
   * agregando asociacionaes a nivel sistema
