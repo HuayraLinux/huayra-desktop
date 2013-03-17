@@ -1,0 +1,65 @@
+#!/usr/bin/env python
+# coding: utf-8
+"""
+Modificar asociaciones de aplicaciones de los tipos mime conocidos
+"""
+from optparse import OptionParser
+import os
+import ConfigParser
+
+class MiConfig(ConfigParser.ConfigParser):
+  """ Sobreescribo write() para evitar los espacios entre opcion=valor """
+  def write(self, fp):
+    if self._defaults:
+      fp.write("[%s]\n" % DEFAULTSECT)
+      for (key, value) in self._defaults.items():
+        fp.write("%s=%s\n" % (key, str(value).replace('\n', '\n\t')))
+      fp.write("\n")
+    for section in self._sections:
+      fp.write("[%s]\n" % section)
+      for (key, value) in self._sections[section].items():
+        if key != "__name__":
+          fp.write("%s=%s\n" %
+                   (key, str(value).replace('\n', '\n\t')))
+      fp.write("\n")
+
+
+desc = 'Modifica las aplicaciones por defecto de los tipo mime a '
+desc += 'nivel sistema. Ejemplos: agregar una asociacion: %prog '
+desc += 'application/pdf evince.desktop . Eliminar: %prog '
+desc += '-d image/png'
+uso = '%prog [-d] tipo_mime [.desktop]'
+parser = OptionParser(usage=uso, description=desc, version="1.0")
+parser.add_option("-d","--delete",dest='mime',help="Elimina la asociacion del actual tipo mime")
+(options, args) = parser.parse_args()
+
+"""
+seccion default
+"""
+s = 'Default Applications'
+
+f = '/usr/share/applications/defaults.list'
+
+cfg = MiConfig()
+cfg.optionxform = str
+cfg.read(f)
+if not cfg.has_section(s):
+  cfg.add_section(s)
+
+if options.mime != None and len(args) == 0:
+  if cfg.has_option(s, options.mime):
+    cfg.remove_option(s, options.mime)
+  else:
+    print "Aviso: " + options.mime + " no estaba en el archivo defaults.list"
+elif options.mime == None and len(args) == 2 :
+  mime = args[0]
+  desktop = args[1]
+  cfg.set(s,mime,desktop)
+else:
+  print "Parametros incorrectos!"
+  parser.print_help()
+try:
+  with open(f, 'wb') as configfile:
+    cfg.write(configfile)
+except IOError:
+  print "Permiso denegado.\n Este comando requiere privilegios de superusuario(root o use sudo en su defecto)"

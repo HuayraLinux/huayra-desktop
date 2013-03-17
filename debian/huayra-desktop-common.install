@@ -10,3 +10,4 @@ etc/skel/Documentos etc/skel/
 etc/skel/Música etc/skel/
 etc/skel/Imágenes etc/skel/
 etc/skel/Videos etc/skel/
+common/huayra-set-default-app usr/bin/

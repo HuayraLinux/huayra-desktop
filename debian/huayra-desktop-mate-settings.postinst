@@ -7,6 +7,20 @@ if [ "$1" = "configure" ]; then
   # Se migro la configuracion a ../huayra-desktop-mate-settings.defaults.xml
   MATECONF_CONFIG_SOURCE=`mateconftool-2 --get-default-source`
   mateconftool-2 --config-source="${MATECONF_CONFIG_SOURCE}" --direct --load /etc/huayra/huayra-desktop-mate-settings.defaults.xml >/dev/null
+  #Asignando aplicaiciones por defecto
+  huayra-set-default-app application/pdf atril.desktop
+  huayra-set-default-app application/x-deb gdebi.desktop
+  huayra-set-default-app application/x-7z engrampa.desktop
+  huayra-set-default-app application/x-7z-compressed engrampa.desktop
+  huayra-set-default-app audio/mpeg clementine.desktop
+  huayra-set-default-app image/bmp eom.desktop
+  huayra-set-default-app image/gif eom.desktop
+  huayra-set-default-app image/jpeg eom.desktop
+  huayra-set-default-app image/jpeg2000 eom.desktop
+  huayra-set-default-app image/jpg eom.desktop
+  huayra-set-default-app image/pdf eom.desktop
+  huayra-set-default-app image/png eom.desktop
+  huayra-set-default-app video/avi vlc.desktop
 
   exit 0
 

@@ -1,3 +1,9 @@
+huayra-desktop (2.65) testing; urgency=low
+
+  * agregando asociacionaes a nivel sistema
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Sun, 17 Mar 2013 06:12:11 -0300
+
 huayra-desktop (2.64) testing; urgency=low
 
   * build 2.64 merge con 2.62+nmu1 

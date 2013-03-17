@@ -6,6 +6,19 @@ if [ "$1" = "configure" ]; then
   dconf update
   gconftool-2 --direct --config-source xml:readwrite:/etc/gconf/gconf.xml.defaults/ --set --type bool /apps/gksu/sudo-mode 1
 
+  #Asignando aplicaiciones por defecto  
+  huayra-set-default-app application/pdf evince.desktop  
+  huayra-set-default-app application/x-deb gdebi.desktop  
+  huayra-set-default-app audio/mpeg clementine.desktop  
+  huayra-set-default-app image/bmp eog.desktop  
+  huayra-set-default-app image/gif eog.desktop  
+  huayra-set-default-app image/jpeg eog.desktop  
+  huayra-set-default-app image/jpeg2000 eom.desktop  
+  huayra-set-default-app image/jpg eog.desktop  
+  huayra-set-default-app image/pdf eog.desktop  
+  huayra-set-default-app image/png eog.desktop  
+  huayra-set-default-app video/avi vlc.desktop
+
   exit 0
 
 fi
