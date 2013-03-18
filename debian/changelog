@@ -1,3 +1,9 @@
+huayra-desktop (2.70) testing; urgency=low
+
+  * dependencia gnome-orca, gnome-packagekit, at-spi2-core  
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 18 Mar 2013 12:07:35 -0300
+
 huayra-desktop (2.69) testing; urgency=low
 
   * correccion de asociciones text/plain y comentine 

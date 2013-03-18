@@ -146,8 +146,11 @@ Provides: huayra-desktop-basic
 Conflicts: huayra-desktop, huayra-apps-debian
 Replaces: huayra-desktop, huayra-apps-debian
 Depends: ${misc:Depends},
+  at-spi2-core,
   caja-open-terminal,
   gdm3,
+  gnome-orca,
+  gnome-packagekit,
   gnome-themes-huayra,
   huayra-ayuda-mate,
   huayra-desktop-common,

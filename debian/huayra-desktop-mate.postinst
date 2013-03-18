@@ -14,8 +14,11 @@ APT
 {
   NeverAutoRemove
   {
+	"^at-spi2-core";
 	"^caja-open-terminal";
 	"^gdm3";
+	"^gnome-orca";
+	"^gnome-packagekit";
 	"^gnome-themes-huayra";
 	"^huayra-ayuda-mate";
 	"^huayra-desktop-common";
