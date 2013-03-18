@@ -1,1 +1,2 @@
 huayra-desktop-mate-settings.defaults.xml etc/huayra/
+etc/skel/.config/menus/mate-* /etc/skel/.config/menus/
