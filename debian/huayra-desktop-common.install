@@ -12,3 +12,7 @@ etc/skel/Imágenes etc/skel/
 etc/skel/Videos etc/skel/
 common/huayra-set-default-app usr/bin/
 common/10periodic etc/huayra/
+common/huayra-flash-install usr/bin/
+common/huayra-flash-install.desktop usr/share/applications/
+common/huayra-flash-install.desktop etc/skel/Escritorio/
+

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Instalar Flash Plugin
+Comment=Instalar Flash Plugin
+GenericName=Instalar Flash Plugin
+Exec=huayra-flash-install
+Type=Application
+Icon=preferences-system
+Categories=Network;WebBrowser;

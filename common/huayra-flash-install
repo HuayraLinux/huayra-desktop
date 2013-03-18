@@ -1,0 +1,7 @@
+#!/bin/bash
+
+zenity --question --text="Esta aplicación instalará la última versión disponible del plugin de Flash de Adobe. Desea continuar?"
+if [ $? = 0 ]; then  
+  zenity --info --text "A continuación se instalará el plugin de Flash, deberás ingresar tu contraseña."  
+  gksu "update-flashplugin-nonfree --install --verbose"
+fi 
