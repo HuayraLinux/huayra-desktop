@@ -4,4 +4,10 @@ zenity --question --text="Esta aplicación instalará la última versión dispon
 if [ $? = 0 ]; then  
   zenity --info --text "A continuación se instalará el plugin de Flash, deberás ingresar tu contraseña."  
   gksu "update-flashplugin-nonfree --install --verbose"
+  if [ $? = 0 ];then
+    zenity --info --text="Instalación finalizada."
+  else
+    zenity --warning --text="Ocurrió algun problema en el proceso de instalación. Por favor compruebe su conexión a Internet. \\
+    \nPuede ejecutar el comando huayra-flash-install desde una terminal y visualizar el progreso del mismo para obtener más detalles."
+  fi
 fi 
