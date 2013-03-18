@@ -1,6 +1,8 @@
 huayra-desktop (2.69) testing; urgency=low
 
   * correccion de asociciones text/plain y comentine 
+  * asocaciones de svg a inkscape
+  * screenshoot guardar en imagenes
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 18 Mar 2013 11:16:13 -0300
 
