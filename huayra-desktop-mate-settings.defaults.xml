@@ -447,4 +447,13 @@
       </value>
     </entry>
   </entrylist>
+  <!-- mate-screenshot -->
+  <entrylist base="/apps/mate-screenshoot">
+    <entry>
+      <key>last_save_directory</key>
+      <value>
+        <string>file:///home/ragnarok/Im%C3%A1genes</string>
+      </value>
+    </entry>  
+  </entrylist>
 </mateconfentryfile>

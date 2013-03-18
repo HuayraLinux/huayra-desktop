@@ -1,3 +1,9 @@
+huayra-desktop (2.69) testing; urgency=low
+
+  * correccion de asociciones text/plain y comentine 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 18 Mar 2013 11:16:13 -0300
+
 huayra-desktop (2.68) testing; urgency=low
 
   * habilita las actualizaciones automaticas cada 2 dias 
