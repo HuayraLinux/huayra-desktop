@@ -1,3 +1,10 @@
+huayra-desktop (2.73) testing; urgency=low
+
+  * Non-maintainer upload.
+  * Correcciones al menu
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Mon, 18 Mar 2013 15:14:29 -0300
+
 huayra-desktop (2.72) testing; urgency=low
 
   * mejoras de programas de accesilibidad
