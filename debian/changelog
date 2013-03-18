@@ -1,3 +1,9 @@
+huayra-desktop (2.71) testing; urgency=low
+
+  *  icono en el desktop para instalar el plugin de flash
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 18 Mar 2013 14:09:32 -0300
+
 huayra-desktop (2.70+nmu1) UNRELEASED; urgency=low
 
   * Non-maintainer upload.
