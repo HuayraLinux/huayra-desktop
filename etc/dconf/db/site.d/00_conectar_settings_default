@@ -55,3 +55,4 @@ name="HuayraVioleta"
 [apps/cheese]
 video-x-resolution=640
 video-y-resolution=480
+video-path=/home/alumno/Videos

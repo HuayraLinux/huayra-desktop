@@ -1,3 +1,10 @@
+huayra-desktop (2.74+nmu1) UNRELEASED; urgency=low
+
+  * Non-maintainer upload.
+  * Agregué opción para cambiar la ruta de los videos de cheese 
+
+ -- Julia Palandri <julia.palandri@gmail.com>  Fri, 22 Mar 2013 09:26:27 -0300
+
 huayra-desktop (2.74) testing; urgency=low
 
   * check de la salida de la instalacion del flash 
