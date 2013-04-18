@@ -1,9 +1,13 @@
-huayra-desktop (2.74+nmu1) UNRELEASED; urgency=low
+huayra-desktop (3.0) UNRELEASED; urgency=low
 
+  [ Julia Palandri ]
   * Non-maintainer upload.
   * Agregué opción para cambiar la ruta de los videos de cheese 
 
- -- Julia Palandri <julia.palandri@gmail.com>  Fri, 22 Mar 2013 09:26:27 -0300
+  [ Miguel Angel Garcia ]
+  * Fix menu Huayra.
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Thu, 18 Apr 2013 14:40:53 -0300
 
 huayra-desktop (2.74) testing; urgency=low
 
