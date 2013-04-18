@@ -50,13 +50,13 @@
 			<Filename>ayuda-mate.desktop</Filename>
 		</Include>
 		<Include>
-			<Filename>identinet.desktop</Filename>
+			<Filename>huayra-identinet.desktop</Filename>
 		</Include>
 		<Include>
 			<Filename>cdpedia-launcher.desktop</Filename>
 		</Include>
 		<Include>
-			<Filename>miescritorio.desktop</Filename>
+			<Filename>educar-miescritorio.desktop</Filename>
 		</Include>
 		<Include>
 			<Filename>wari.desktop</Filename>

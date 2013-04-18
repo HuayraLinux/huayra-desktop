@@ -1,3 +1,10 @@
+huayra-desktop (2.74+nmu1) brisa-proposed-updates; urgency=low
+
+  * Non-maintainer upload.
+  * Fix: miescritorio y huayra-identinet en el menu Huayra.
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Thu, 18 Apr 2013 12:39:45 -0300
+
 huayra-desktop (2.74) testing; urgency=low
 
   * check de la salida de la instalacion del flash 
