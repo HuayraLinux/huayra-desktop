@@ -1,3 +1,9 @@
+huayra-desktop (2.74+nmu2) brisa-proposed-updates; urgency=low
+
+  * Fix: teclado virtual duplicado en menu Huayra.
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Thu, 25 Apr 2013 14:34:58 -0300
+
 huayra-desktop (2.74+nmu1) brisa-proposed-updates; urgency=low
 
   * Non-maintainer upload.
