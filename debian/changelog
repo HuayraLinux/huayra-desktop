@@ -1,3 +1,9 @@
+huayra-desktop (2.76) testing; urgency=low
+
+  * Move huayra-compartir-web sources to its own repo.
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Tue, 30 Apr 2013 14:10:33 -0300
+
 huayra-desktop (2.75) testing; urgency=low
 
   * Fix: teclado virtual duplicado en menu Huayra.

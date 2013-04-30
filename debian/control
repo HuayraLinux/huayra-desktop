@@ -349,14 +349,6 @@ Depends: ${misc:Depends},
 Description: Paquetes base de Huayra
  Paquetes del sistema base de Huayra.
 
-Package: huayra-compartir-web
-Architecture: all
-Conflicts: huayra-desktop, huayra-apps-debian
-Replaces: huayra-desktop, huayra-apps-debian
-Depends: ${misc:Depends}, lighttpd
-Description: Servicio de Compartir Web de Huayra
- Servicio de Compartir Web de Huayra a traves de Lighttpd y Avahi
-
 Package: huayra-printing-full-support
 Architecture: all
 Depends: ${misc:Depends},
