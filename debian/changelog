@@ -1,13 +1,9 @@
-huayra-desktop (3.0) UNRELEASED; urgency=low
+huayra-desktop (2.75) testing; urgency=low
 
-  [ Julia Palandri ]
-  * Non-maintainer upload.
-  * Agregué opción para cambiar la ruta de los videos de cheese 
+  * Fix: teclado virtual duplicado en menu Huayra.
+  * Agregadas dependencias lshw y hwinfo a huayra-apps.
 
-  [ Miguel Angel Garcia ]
-  * Fix menu Huayra.
-
- -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Thu, 18 Apr 2013 14:40:53 -0300
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Tue, 30 Apr 2013 12:29:31 -0300
 
 huayra-desktop (2.74) testing; urgency=low
 
