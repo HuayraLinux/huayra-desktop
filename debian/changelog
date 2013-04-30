@@ -1,4 +1,4 @@
-huayra-desktop (2.74+nmu2) brisa-proposed-updates; urgency=low
+huayra-desktop (2.74+nmu2) brisa-proposed; urgency=low
 
   * Fix: teclado virtual duplicado en menu Huayra.
   * Agregadas dependencias lshw y hwinfo a huayra-apps.
