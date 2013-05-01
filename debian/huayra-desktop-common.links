@@ -1,1 +1,2 @@
 usr/bin/adduser.local usr/local/sbin/adduser.local
+etc/menus/xdg/applications-merged etc/menus/xdg/mate-applications-merged 

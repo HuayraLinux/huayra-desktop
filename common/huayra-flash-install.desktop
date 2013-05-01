@@ -5,4 +5,4 @@ GenericName=Instalar Flash Plugin
 Exec=huayra-flash-install
 Type=Application
 Icon=preferences-system
-Categories=Network;WebBrowser;
+Categories=Network;WebBrowser;Huayra;

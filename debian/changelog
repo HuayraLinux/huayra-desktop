@@ -1,3 +1,9 @@
+huayra-desktop (2.77) testing; urgency=low
+
+  * cambios en el menu de apliaciones 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 01 May 2013 11:14:59 -0300
+
 huayra-desktop (2.76) testing; urgency=low
 
   * Move huayra-compartir-web sources to its own repo.

@@ -6,5 +6,5 @@ Exec=xchat --url irc://irc.freenode.net/huayragnulinux
 Icon=chat-huayra
 Terminal=false
 Type=Application
-Categories=Network;
+Categories=Network;Huayra;
 StartupNotify=true

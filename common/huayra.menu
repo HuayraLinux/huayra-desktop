@@ -1,0 +1,14 @@
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+"http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd">
+<Menu>
+  <Name>Applications</Name>
+  <Menu>
+    <Name>Huayra</Name>
+    <Directory>Huayra.directory</Directory>
+    <Include>
+      <Category>Huayra</Category>
+      <Filename>educar-miescritorio.desktop</Filename>
+      <Filename>cdpedia-launcher.desktop</Filename>
+    </Include>
+  </Menu>
+</Menu>

@@ -7,5 +7,5 @@ Exec=/usr/bin/wari
 Icon=tda
 Terminal=false
 Type=Application
-Categories=AudioVideo;Player;
+Categories=AudioVideo;Player;Huayra;
 Keywords=Player;TDA;
