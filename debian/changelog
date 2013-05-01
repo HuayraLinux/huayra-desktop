@@ -1,3 +1,9 @@
+huayra-desktop (2.78) testing; urgency=low
+
+  * faltó icono de gnome-tweak-tool en el skel  
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 01 May 2013 11:49:36 -0300
+
 huayra-desktop (2.77) testing; urgency=low
 
   * cambios en el menu de apliaciones 
