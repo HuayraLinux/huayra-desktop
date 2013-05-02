@@ -9,6 +9,12 @@
       <Category>Huayra</Category>
       <Filename>educar-miescritorio.desktop</Filename>
       <Filename>cdpedia-launcher.desktop</Filename>
+      <Filename>ayuda-mate.desktop</Filename>
+      <Filename>ayuda-gnome.desktop</Filename>
+      <Filename>huayra-simulaciones-interactivas.desktop</Filename>
+      <Filename>huayra-identinet.desktop</Filename>
+      <Filename>huayra-flash-install.desktop</Filename>
+      <Filename>huayra-tda.desktop</Filename>
     </Include>
   </Menu>
 </Menu>

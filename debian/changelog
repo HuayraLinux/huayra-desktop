@@ -1,3 +1,9 @@
+huayra-desktop (2.80) testing; urgency=low
+
+  * agregando iconos al menu Huayra
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 02 May 2013 01:05:22 -0300
+
 huayra-desktop (2.79) testing; urgency=low
 
   * correccion links simbolico del menu 
