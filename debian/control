@@ -164,7 +164,9 @@ Depends: ${misc:Depends},
   mate-conf-editor,
   mate-core,
   mate-desktop-environment,
-  mate-notification-daemon
+  mate-media-pulse,
+  mate-notification-daemon,
+  mate-settings-daemon-pulse
 Description: Entorno de escritorio Huayra con Mate
  Este paquete contiene el escritorio Mate para Huayra.
  Dummy Package.

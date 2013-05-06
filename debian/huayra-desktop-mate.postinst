@@ -31,7 +31,9 @@ APT
 	"^mate-conf-editor";
 	"^mate-core";
 	"^mate-desktop-environment";
+	"^mate-media-pulse";
 	"^mate-notification-daemon";
+	"^mate-settings-daemon-pulse";
   };
 };
 EOF

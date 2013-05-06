@@ -1,3 +1,9 @@
+huayra-desktop (2.82) testing; urgency=low
+
+  * correccion icono italc y alevt 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 06 May 2013 16:57:45 -0300
+
 huayra-desktop (2.81) testing; urgency=low
 
   * agregando huayra bullets al menu Huayra 
