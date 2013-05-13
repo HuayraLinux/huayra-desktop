@@ -231,43 +231,6 @@
         <bool>true</bool>
       </value>
     </entry>
-    <!-- applet mixer -->
-    <entry>
-      <key>applet_mixer/object_type</key>
-      <value>
-        <string>external-applet</string>
-      </value>
-    </entry>
-    <entry>
-      <key>applet_mixer/applet_iid</key>
-      <value>
-        <string>MixerAppletFactory::MixerApplet</string>
-      </value>
-    </entry>
-    <entry>
-      <key>applet_mixer/position</key>
-      <value>
-        <int>20</int>
-      </value>
-    </entry>
-    <entry>
-      <key>applet_mixer/locked</key>
-      <value>
-        <bool>true</bool>
-      </value>
-    </entry>
-    <entry>
-      <key>applet_mixer/panel_right_stick</key>
-      <value>
-        <bool>true</bool>
-      </value>
-    </entry>
-    <entry>
-      <key>applet_mixer/toplevel_id</key>
-      <value>
-        <string>top_panel</string>
-      </value>
-    </entry>
   </entrylist>
   <!-- object object_control_center -->
   <entrylist base="/apps/panel/default_setup/objects/object_control_center">

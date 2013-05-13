@@ -1,3 +1,10 @@
+huayra-desktop (2.83) testing; urgency=low
+
+  * el applet de mixer externo no se usa mas porque pulse agrega
+    el control de volumen al area de notificacion 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 07 May 2013 09:58:22 -0300
+
 huayra-desktop (2.82) testing; urgency=low
 
   * correccion icono italc y alevt 
