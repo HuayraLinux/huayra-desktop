@@ -1,3 +1,9 @@
+huayra-desktop (2.84) testing; urgency=low
+
+  * cambio de daemon de notificacion 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 15 May 2013 15:51:42 -0300
+
 huayra-desktop (2.83) testing; urgency=low
 
   * el applet de mixer externo no se usa mas porque pulse agrega
