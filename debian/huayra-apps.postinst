@@ -83,6 +83,7 @@ APT
 	"^inkscape";
 	"^iptux";
 	"^ipython";
+	"^less";
 	"^libgl1-mesa-dri";
 	"^libnss-mdns";
 	"^libreoffice";
