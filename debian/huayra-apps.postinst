@@ -57,7 +57,7 @@ APT
 	"^git";
 	"^git-man";
 	"^gitg";
-    "^gnome-sudoku";
+	"^gnome-sudoku";
 	"^gnucap";
 	"^gparted";
 	"^gscan2pdf";
@@ -69,7 +69,7 @@ APT
 	"^gstreamer0.10-pulseaudio";
 	"^gthumb";
 	"^gtk-recordmydesktop";
-  "^gucharmap";
+    "^gucharmap";
 	"^guvcview";
 	"^gv";
 	"^httrack";
@@ -103,6 +103,7 @@ APT
 	"^network-manager-gnome";
 	"^network-manager-openvpn-gnome";
 	"^ntfs-3g";
+	"^ntpdate";
 	"^openshot";
 	"^os-prober";
 	"^packagekit";
