@@ -57,6 +57,7 @@ APT
 	"^git";
 	"^git-man";
 	"^gitg";
+	"^gnome-subtitles";
 	"^gnome-sudoku";
 	"^gnucap";
 	"^gparted";

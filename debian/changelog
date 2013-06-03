@@ -1,3 +1,9 @@
+huayra-desktop (2.86) testing; urgency=low
+
+  * agregué gnome-subtitles en huayra-apps
+
+ -- juli <juli@huayra>  Mon, 03 Jun 2013 15:46:11 -0300
+
 huayra-desktop (2.85) testing; urgency=low
 
   [ juli ]
