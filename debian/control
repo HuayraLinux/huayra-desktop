@@ -25,6 +25,8 @@ Depends: ${misc:Depends},
   drgeo,
   drgeo-doc,
   eboard,
+  epoptes,
+  epoptes-client,
   etoys,
   euler,
   freeciv-client-gtk,
@@ -326,6 +328,7 @@ Depends: ${misc:Depends},
   xdg-utils,
   xsane,
   xserver-xorg,
+  xterm,
   zip
 Description: Suite completa de aplicaciones para Huayra
  Aqui se encuentran una serie de aplicaciones pensadas para Huayra.

@@ -22,7 +22,7 @@ APT
 	"^arista";
 	"^aspell-es";
 	"^bluefish";
-    "^brasero";
+	"^brasero";
 	"^calibre";
 	"^caribou";
 	"^cheese";
@@ -70,7 +70,7 @@ APT
 	"^gstreamer0.10-pulseaudio";
 	"^gthumb";
 	"^gtk-recordmydesktop";
-    "^gucharmap";
+	"^gucharmap";
 	"^guvcview";
 	"^gv";
 	"^httrack";
@@ -148,6 +148,7 @@ APT
 	"^xdg-utils";
 	"^xsane";
 	"^xserver-xorg";
+	"^xterm";
 	"^zip";
   };
 };

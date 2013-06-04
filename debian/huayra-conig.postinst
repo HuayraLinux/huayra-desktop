@@ -34,6 +34,8 @@ APT
 	"^drgeo";
 	"^drgeo-doc";
 	"^eboard";
+	"^epoptes";
+	"^epoptes-client";
 	"^etoys";
 	"^euler";
 	"^freeciv-client-gtk";
