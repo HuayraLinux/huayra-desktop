@@ -1,3 +1,9 @@
+huayra-desktop (2.88) testing; urgency=low
+
+  *  dependencia epoptes y xterm
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 04 Jun 2013 17:57:49 -0300
+
 huayra-desktop (2.87) testing; urgency=low
 
   * quitando italc como dependencia
