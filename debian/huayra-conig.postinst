@@ -74,6 +74,7 @@ APT
 	"^puredata-gui";
 	"^puredata-import";
 	"^puredata-utils";
+	"^python-openssl";
 	"^python-pilas";
 	"^scilab";
 	"^stellarium";

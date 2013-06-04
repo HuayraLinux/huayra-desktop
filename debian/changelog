@@ -1,3 +1,9 @@
+huayra-desktop (2.90) testing; urgency=low
+
+  * dependencia python-openssl para epoptes (debian bug #703512)
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 04 Jun 2013 18:27:55 -0300
+
 huayra-desktop (2.89) testing; urgency=low
 
   * correccion en script postintall 
