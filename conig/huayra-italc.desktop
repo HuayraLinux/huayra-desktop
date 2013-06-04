@@ -1,9 +1,0 @@
-[Desktop Entry]
-Encoding=UTF-8
-Name=iTALC
-Comment=Software de administración de clases
-Exec=italc
-Icon=/usr/share/pixmaps/italc.xpm
-Terminal=false
-Type=Application
-Categories=Huayra;
