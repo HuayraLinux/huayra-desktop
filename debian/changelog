@@ -1,3 +1,9 @@
+huayra-desktop (2.91) testing; urgency=low
+
+  * tema huayra-violeta-v2 por defecto
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 05 Jun 2013 15:32:31 -0300
+
 huayra-desktop (2.90) testing; urgency=low
 
   * dependencia python-openssl para epoptes (debian bug #703512)
