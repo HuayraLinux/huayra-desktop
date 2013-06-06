@@ -16,6 +16,7 @@
       <Filename>huayra-flash-install.desktop</Filename>
       <Filename>huayra-tda.desktop</Filename>
       <Filename>huayra-bullets.desktop</Filename>
+      <Filename>epoptes.desktop</Filename>
     </Include>
   </Menu>
 </Menu>
