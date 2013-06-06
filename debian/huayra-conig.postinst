@@ -78,6 +78,7 @@ APT
 	"^python-pilas";
 	"^scilab";
 	"^stellarium";
+	"^tbo";
 	"^tuxguitar";
 	"^tuxpaint";
   };

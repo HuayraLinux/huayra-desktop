@@ -71,6 +71,7 @@ Depends: ${misc:Depends},
   python-pilas,
   scilab,
   stellarium,
+  tbo,
   tuxguitar,
   tuxpaint
 Description: Configuraciones de Huayra para Conectar Igualdad
