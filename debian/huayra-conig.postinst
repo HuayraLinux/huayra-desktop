@@ -34,6 +34,7 @@ APT
 	"^eboard";
 	"^epoptes";
 	"^epoptes-client";
+	"^epoptes-client-config";
 	"^etoys";
 	"^euler";
 	"^freeciv-client-gtk";
