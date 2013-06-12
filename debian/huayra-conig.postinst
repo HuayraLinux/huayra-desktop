@@ -25,6 +25,7 @@ APT
 	"^avr-libc";
 	"^ayni";
 	"^babiloo";
+	"^babiloo-dicts-spanish";
 	"^bkchem";
 	"^blender";
 	"^cdpedia-launcher";

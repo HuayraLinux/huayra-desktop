@@ -1,3 +1,9 @@
+huayra-desktop (2.94) testing; urgency=low
+
+  * dependencia diccionarios babiloo español
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 12 Jun 2013 17:26:14 -0300
+
 huayra-desktop (2.93) testing; urgency=low
 
   * vuelve el icono del teclado virtual en accesibilidad
