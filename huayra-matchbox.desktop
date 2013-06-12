@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Teclado en Pantalla
+Comment=Teclado virtual en pantalla
+Exec=matchbox-keyboard --daemon
+Type=Application
+Icon=matchbox-keyboard.png
+Categories=Accessibility;
+X-MB-INPUT-MECHANSIM=True
