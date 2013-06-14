@@ -74,7 +74,11 @@ Depends: ${misc:Depends},
   stellarium,
   tbo,
   tuxguitar,
-  tuxpaint
+  tuxpaint,
+  xfonts-75dpi,
+  xfonts-base,
+  xfonts-encodings,
+  xfonts-scalable
 Description: Configuraciones de Huayra para Conectar Igualdad
  Este meta-paquete instala las aplicaciones necesarias para tener
  un entorno para trabajar o estudiar para el programa Conectar Igualdad.

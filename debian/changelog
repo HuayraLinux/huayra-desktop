@@ -1,3 +1,15 @@
+huayra-desktop (2.96) testing; urgency=low
+
+  * dependencia xfonts-base para euler
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 14 Jun 2013 17:58:37 -0300
+
+huayra-desktop (2.95) testing; urgency=low
+
+  * dependencias de fonts para euler
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 14 Jun 2013 17:46:29 -0300
+
 huayra-desktop (2.94) testing; urgency=low
 
   * dependencia diccionarios babiloo español

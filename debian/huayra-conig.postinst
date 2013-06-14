@@ -82,6 +82,10 @@ APT
 	"^tbo";
 	"^tuxguitar";
 	"^tuxpaint";
+	"^xfonts-75dpi";
+	"^xfonts-base";
+	"^xfonts-encodings";
+	"^xfonts-scalable";
   };
 };
 EOF
