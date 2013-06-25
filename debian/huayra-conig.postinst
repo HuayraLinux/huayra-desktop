@@ -49,6 +49,8 @@ APT
 	"^gcc-avr";
 	"^gcompris";
 	"^gcompris-sound-es";
+        "^geany";
+        "^geany-plugins";
 	"^geogebra";
 	"^gnuchess";
 	"^gobby-0.5";
