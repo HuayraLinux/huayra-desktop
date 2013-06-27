@@ -2,6 +2,7 @@ etc/skel/.gimp-2.8/* etc/skel/.gimp-2.8/
 etc/skel/.local/share/applications/libreoffice-math.desktop etc/skel/.local/share/applications/
 etc/skel/.local/share/applications/gnome-tweak-tool.desktop etc/skel/.local/share/applications/
 etc/huayra/gdm3/* etc/huayra/gdm3/
+etc/skel/.scribus/* etc/skel/.scribus/
 huayra-chromium-master-defaults usr/bin/
 huayra_chromium_bookmarks.html etc/huayra/
 huayra-chat.desktop etc/skel/Escritorio
