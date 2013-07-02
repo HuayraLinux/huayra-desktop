@@ -1,3 +1,10 @@
+huayra-desktop (2.97+nmu1) testing; urgency=low
+
+  * Non-maintainer upload.
+  * Saqué gnome-subtitles de huayra-desktop-gnome 
+
+ -- Julia Palandri <julia.palandri@gmail.com>  Tue, 02 Jul 2013 12:46:18 -0300
+
 huayra-desktop (2.97) UNRELEASED; urgency=low
 
   * corrección bookmark de chromium 

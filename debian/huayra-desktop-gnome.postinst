@@ -44,7 +44,6 @@ APT
 	"^gnome-session";
 	"^gnome-session-fallback";
 	"^gnome-shell";
-	"^gnome-subtitles";
 	"^gnome-system-monitor";
 	"^gnome-terminal";
 	"^gnome-themes-standard";
