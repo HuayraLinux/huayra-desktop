@@ -10,6 +10,19 @@ huayra-desktop (2.95) testing; urgency=low
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 14 Jun 2013 17:46:29 -0300
 
+huayra-desktop (2.94+nmu2) testing; urgency=low
+
+  * Agregué configuración para que scribus se lance en español
+
+ -- Julia Palandri <julia.palandri@gmail.com>  Thu, 27 Jun 2013 15:37:43 -0300
+
+huayra-desktop (2.94+nmu1) testing; urgency=low
+
+  * Non-maintainer upload.
+  * Agregué geany como dependencia
+
+ -- Julia Palandri <julia.palandri@gmail.com>  Tue, 25 Jun 2013 11:54:44 -0300
+
 huayra-desktop (2.94) testing; urgency=low
 
   * dependencia diccionarios babiloo español
