@@ -1,3 +1,9 @@
+huayra-desktop (2.97) UNRELEASED; urgency=low
+
+  * corrección bookmark de chromium 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 02 Jul 2013 11:36:26 -0300
+
 huayra-desktop (2.96) testing; urgency=low
 
   * dependencia xfonts-base para euler
