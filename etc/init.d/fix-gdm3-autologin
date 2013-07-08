@@ -1,0 +1,14 @@
+#!/bin/bash
+
+grep "^alumno:" /etc/passwd
+
+if [ ! $? -eq 0 ]; then
+	# No existe el usuario alumno
+	grep "^AutomaticLogin = alumno" /etc/gdm3/daemon.conf
+	if [ $? -eq 0 ]; then
+		# El autologin esta seteado para el usuario alumno, desactivarlo
+		sed -i -e 's/AutomaticLoginEnable = true/AutomaticLoginEnable = false/' /etc/gdm3/daemon.conf		
+	fi
+fi
+
+exit 0

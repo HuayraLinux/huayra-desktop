@@ -1,3 +1,10 @@
+huayra-desktop (2.97+nmu3) UNRELEASED; urgency=low
+
+  * Non-maintainer upload.
+  * Fix autologin cuando el usuario alumno no existe.
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Mon, 08 Jul 2013 15:42:53 -0300
+
 huayra-desktop (2.97+nmu1) testing; urgency=low
 
   * Non-maintainer upload.
