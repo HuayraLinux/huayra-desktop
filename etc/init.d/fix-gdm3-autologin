@@ -1,14 +1,29 @@
 #!/bin/bash
+### BEGIN INIT INFO
+# Provides:          fix-gdm3-autologin
+# Required-Start:    
+# Required-Stop:
+# Should-Start:      
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# X-Interactive:     true
+# Short-Description: Fix gdm3 autologin if alumno user doesn't exist.
+### END INIT INFO
 
-grep "^alumno:" /etc/passwd
+case "$1" in
+  start)
 
-if [ ! $? -eq 0 ]; then
-	# No existe el usuario alumno
-	grep "^AutomaticLogin = alumno" /etc/gdm3/daemon.conf
-	if [ $? -eq 0 ]; then
-		# El autologin esta seteado para el usuario alumno, desactivarlo
-		sed -i -e 's/AutomaticLoginEnable = true/AutomaticLoginEnable = false/' /etc/gdm3/daemon.conf		
+	grep "^alumno:" /etc/passwd
+
+	if [ ! $? -eq 0 ]; then
+		# No existe el usuario alumno
+		grep "^AutomaticLogin = alumno" /etc/gdm3/daemon.conf
+		if [ $? -eq 0 ]; then
+			# El autologin esta seteado para el usuario alumno, desactivarlo
+			sed -i -e 's/AutomaticLoginEnable = true/AutomaticLoginEnable = false/' /etc/gdm3/daemon.conf		
+		fi
 	fi
-fi
+  ;;
+esac
 
 exit 0
