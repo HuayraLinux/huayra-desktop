@@ -13,14 +13,15 @@
 case "$1" in
   start)
 
-	grep "^alumno:" /etc/passwd
+	grep "^AutomaticLoginEnable = true" /etc/gdm3/daemon.conf
+	if [ $? -eq 0 ]; then
+		# El autologin esta activado
+		USER=`grep "^AutomaticLogin =" /etc/gdm3/daemon.conf | sed -e 's/AutomaticLogin = //'`
 
-	if [ ! $? -eq 0 ]; then
-		# No existe el usuario alumno
-		grep "^AutomaticLogin = alumno" /etc/gdm3/daemon.conf
-		if [ $? -eq 0 ]; then
-			# El autologin esta seteado para el usuario alumno, desactivarlo
-			sed -i -e 's/AutomaticLoginEnable = true/AutomaticLoginEnable = false/' /etc/gdm3/daemon.conf		
+		grep "^$USER:" /etc/passwd
+		if [ ! $? -eq 0 ]; then
+			# el usuario no existe, desactivar el autologin
+			sed -i -e 's/AutomaticLoginEnable = true/AutomaticLoginEnable = false/' /etc/gdm3/daemon.conf
 		fi
 	fi
   ;;
