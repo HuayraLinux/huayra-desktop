@@ -10,21 +10,21 @@
 # Short-Description: Fix gdm3 autologin if alumno user doesn't exist.
 ### END INIT INFO
 
-case "$1" in
-  start)
+#case "$1" in
+#  start)
 
-	grep "^AutomaticLoginEnable = true" /etc/gdm3/daemon.conf
-	if [ $? -eq 0 ]; then
-		# El autologin esta activado
-		USER=`grep "^AutomaticLogin =" /etc/gdm3/daemon.conf | sed -e 's/AutomaticLogin = //'`
+grep "^AutomaticLoginEnable = true" /etc/gdm3/daemon.conf
+if [ $? -eq 0 ]; then
+	# El autologin esta activado
+	USER=`grep "^AutomaticLogin =" /etc/gdm3/daemon.conf | sed -e 's/AutomaticLogin = //'`
 
-		grep "^$USER:" /etc/passwd
-		if [ ! $? -eq 0 ]; then
-			# el usuario no existe, desactivar el autologin
-			sed -i -e 's/AutomaticLoginEnable = true/AutomaticLoginEnable = false/' /etc/gdm3/daemon.conf
-		fi
+	grep "^$USER:" /etc/passwd
+	if [ ! $? -eq 0 ]; then
+		# el usuario no existe, desactivar el autologin
+		sed -i -e 's/AutomaticLoginEnable = true/AutomaticLoginEnable = false/' /etc/gdm3/daemon.conf
 	fi
-  ;;
-esac
+fi
+#  ;;
+#esac
 
 exit 0

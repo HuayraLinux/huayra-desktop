@@ -1,7 +1,13 @@
-huayra-desktop (2.97+nmu3) UNRELEASED; urgency=low
+huayra-desktop (2.97+nmu4) testing; urgency=low
+
+  * Arreglo en fix autologin, faltaba copiar el script
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Fri, 12 Jul 2013 15:52:05 -0300
+
+huayra-desktop (2.97+nmu3) testing; urgency=low
 
   * Non-maintainer upload.
-  * Fix autologin cuando el usuario alumno no existe.
+  * Fix autologin cuando el usuario alumno no existe. 
 
  -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Mon, 08 Jul 2013 15:42:53 -0300
 

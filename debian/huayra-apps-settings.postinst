@@ -6,7 +6,7 @@ if [ "$1" = "configure" ]; then
   echo "Estableciendo preferencias de chromium"
   #TODO: hay que hacer refactor a dpkg-divert
   huayra-chromium-master-defaults
-  update-rc.d fix-gdm3-autologin enable
+  insserv /etc/init.d/fix-gdm3-autologin
 fi
 
 #DEBHELPER#

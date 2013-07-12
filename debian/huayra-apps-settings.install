@@ -6,3 +6,4 @@ etc/skel/.scribus/* etc/skel/.scribus/
 huayra-chromium-master-defaults usr/bin/
 huayra_chromium_bookmarks.html etc/huayra/
 huayra-chat.desktop etc/skel/Escritorio
+etc/init.d/* /etc/init.d/
