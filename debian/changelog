@@ -1,3 +1,10 @@
+huayra-desktop (2.97+nmu5) testing; urgency=low
+
+  * Non-maintainer upload.
+  * Agregué el tema Huayra para mixxx que cabe en la pantalla de la netbook
+
+ -- Julia Palandri <julia.palandri@gmail.com>  Mon, 15 Jul 2013 13:46:52 -0300
+
 huayra-desktop (2.97+nmu4) testing; urgency=low
 
   * Arreglo en fix autologin, faltaba copiar el script
