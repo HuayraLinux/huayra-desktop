@@ -58,11 +58,8 @@ osd_flags=0
 # Auto Image naming (filename-n.ext)
 image_inc=0
 # Image capture Full Path
-image_path='/home/cogot/Image.jpg'
 # Video capture Full Path
-video_path='/home/cogot/capture.avi'
 # control profiles Full Path
-profile_path='/home/cogot/default.gpfl'
 # audio codec properties (remove for default values
 acodec_bit_rate=160000
 # video codec (MJPG) properties (remove for default values
