@@ -1,3 +1,9 @@
+huayra-desktop (2.97+nmu6) testing; urgency=low
+
+  * #486 Corrección tamaño de ventana de guvcvuew
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Thu, 18 Jul 2013 15:13:06 -0300
+
 huayra-desktop (2.97+nmu5) testing; urgency=low
 
   * Non-maintainer upload.

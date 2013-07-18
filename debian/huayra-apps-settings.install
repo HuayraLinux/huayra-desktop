@@ -9,3 +9,5 @@ huayra-chat.desktop etc/skel/Escritorio
 etc/init.d/* /etc/init.d/
 usr/share/mixxx/skins/Huayra* /usr/share/mixxx/skins/
 mixxx.cfg /home/alumno/.mixxx/
+etc/skel/.guvcviewrc etc/skel/
+
