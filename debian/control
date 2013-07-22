@@ -93,7 +93,6 @@ Replaces: huayra-desktop, huayra-apps-debian
 Depends: ${misc:Depends},
   alacarte,
   at-spi2-core,
-  dconf-tools,
   eog,
   evince,
   file-roller,
@@ -168,7 +167,6 @@ Depends: ${misc:Depends},
   matchbox-keyboard,
   matchbox-keyboard-im,
   mate-archive-keyring,
-  mate-conf-editor,
   mate-core,
   mate-desktop-environment,
   mate-media-pulse,
@@ -191,7 +189,7 @@ Package: huayra-desktop-common
 Architecture: all
 Conflicts: huayra-desktop, huayra-apps-debian
 Replaces: huayra-desktop, huayra-apps-debian
-Depends: ${misc:Depends}, huayra-backgrounds-extras, huayra-fonts
+Depends: ${misc:Depends}, huayra-backgrounds-extras, huayra-fonts, dconf-editor
 Description: Configuraciones comunes para los entornos de escritorio
  Opciones comunes para los entornos de escritorio
 

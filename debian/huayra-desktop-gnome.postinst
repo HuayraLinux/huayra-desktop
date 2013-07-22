@@ -16,7 +16,6 @@ APT
   {
 	"^alacarte";
 	"^at-spi2-core";
-	"^dconf-tools";
 	"^eog";
 	"^evince";
 	"^file-roller";

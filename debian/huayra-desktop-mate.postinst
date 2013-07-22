@@ -28,7 +28,6 @@ APT
 	"^matchbox-keyboard";
 	"^matchbox-keyboard-im";
 	"^mate-archive-keyring";
-	"^mate-conf-editor";
 	"^mate-core";
 	"^mate-desktop-environment";
 	"^mate-media-pulse";

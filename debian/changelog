@@ -1,3 +1,9 @@
+huayra-desktop (2.98) testing; urgency=low
+
+  * Cambios de dependencias para mate 1.6
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 22 Jul 2013 15:34:37 -0300
+
 huayra-desktop (2.97+nmu7) testing; urgency=low
 
   * Fix typos en guvcviewrc
