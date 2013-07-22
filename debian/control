@@ -189,7 +189,7 @@ Package: huayra-desktop-common
 Architecture: all
 Conflicts: huayra-desktop, huayra-apps-debian
 Replaces: huayra-desktop, huayra-apps-debian
-Depends: ${misc:Depends}, huayra-backgrounds-extras, huayra-fonts, dconf-editor
+Depends: ${misc:Depends}, huayra-backgrounds-extras, huayra-fonts, dconf-tools
 Description: Configuraciones comunes para los entornos de escritorio
  Opciones comunes para los entornos de escritorio
 

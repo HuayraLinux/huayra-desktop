@@ -1,3 +1,9 @@
+huayra-desktop (2.99) testing; urgency=low
+
+  * cambio deconf-editor x dconf-tools  
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 22 Jul 2013 15:53:55 -0300
+
 huayra-desktop (2.98) testing; urgency=low
 
   * Cambios de dependencias para mate 1.6
@@ -103,7 +109,7 @@ huayra-desktop (2.91+nmu1) testing; urgency=low
   * Non-maintainer upload.
   * agregué tbo a huayra-conig
 
- -- juli <juli@bi>  Thu, 06 Jun 2013 11:43:06 -0300
+ -- juli <julia.palandri@gmail.com>  Thu, 06 Jun 2013 11:43:06 -0300
 
 huayra-desktop (2.91) testing; urgency=low
 
@@ -139,7 +145,7 @@ huayra-desktop (2.86) testing; urgency=low
 
   * agregué gnome-subtitles en huayra-apps
 
- -- juli <juli@huayra>  Mon, 03 Jun 2013 15:46:11 -0300
+ -- juli <julia.palandri@gmail.com>  Mon, 03 Jun 2013 15:46:11 -0300
 
 huayra-desktop (2.85) testing; urgency=low
 
@@ -150,7 +156,7 @@ huayra-desktop (2.85) testing; urgency=low
   * se agrego ntpdate
   * se cambio gobby x gobby-0.5
 
- -- juli <juli@huayra>  Tue, 28 May 2013 15:14:05 -0300
+ -- juli <julia.palandri@gmail.com>  Tue, 28 May 2013 15:14:05 -0300
 
 huayra-desktop (2.84) testing; urgency=low
 
