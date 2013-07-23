@@ -31,6 +31,7 @@ APT
 	"^mate-core";
 	"^mate-desktop-environment";
 	"^mate-media-pulse";
+        "^mate-system-tools";
 	"^notification-daemon";
 	"^mate-settings-daemon-pulse";
   };

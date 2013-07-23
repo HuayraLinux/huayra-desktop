@@ -1,3 +1,10 @@
+huayra-desktop (2.99+nmu1) testing; urgency=low
+
+  * Non-maintainer upload.
+  * Agregué la dependencia de mate-system-tools para tener menú de administración de usuarios
+
+ -- Julia Palandri <julia.palandri@gmail.com>  Tue, 23 Jul 2013 13:39:27 -0300
+
 huayra-desktop (2.99) testing; urgency=low
 
   * cambio deconf-editor x dconf-tools  

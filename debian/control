@@ -170,6 +170,7 @@ Depends: ${misc:Depends},
   mate-core,
   mate-desktop-environment,
   mate-media-pulse,
+  mate-system-tools,
   notification-daemon,
   mate-settings-daemon-pulse
 Description: Entorno de escritorio Huayra con Mate
