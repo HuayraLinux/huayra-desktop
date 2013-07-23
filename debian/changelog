@@ -1,3 +1,9 @@
+huayra-desktop (2.99+nmu2) testing; urgency=low
+
+  * migrando config de mateconf a gsettings(dconf) 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 23 Jul 2013 18:40:01 -0300
+
 huayra-desktop (2.99+nmu1) testing; urgency=low
 
   * Non-maintainer upload.

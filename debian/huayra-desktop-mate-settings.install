@@ -1,1 +1,2 @@
-huayra-desktop-mate-settings.defaults.xml etc/huayra/
+mate/etc/* etc/
+

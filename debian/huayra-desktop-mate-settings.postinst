@@ -4,9 +4,7 @@ set -e
 #DEBHELPER#
 
 if [ "$1" = "configure" ]; then
-  # Se migro la configuracion a ../huayra-desktop-mate-settings.defaults.xml
-  MATECONF_CONFIG_SOURCE=`mateconftool-2 --get-default-source`
-  mateconftool-2 --config-source="${MATECONF_CONFIG_SOURCE}" --direct --load /etc/huayra/huayra-desktop-mate-settings.defaults.xml >/dev/null
+
   #Asignando aplicaiciones por defecto
   huayra-set-default-app application/pdf atril.desktop
   huayra-set-default-app application/x-deb gdebi.desktop

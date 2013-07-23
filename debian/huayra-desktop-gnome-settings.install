@@ -1,6 +1,5 @@
 etc/skel/.gnome2/* etc/skel/.gnome2/
 etc/skel/.config/axemenu.conf etc/skel/.config/
-etc/dconf/db/site.d/* etc/dconf/db/site.d/
-etc/dconf/profile/user etc/dconf/profile
 huayra-desktop.xml usr/share/gnome-background-properties/
 educar.xml usr/share/gnome-shell/open-search-providers
+gnome/etc/* etc/
