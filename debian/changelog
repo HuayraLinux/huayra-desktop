@@ -1,3 +1,9 @@
+huayra-desktop (2.99+nmu3) testing; urgency=low
+
+  * error de sintaxis en postint
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 24 Jul 2013 12:19:56 -0300
+
 huayra-desktop (2.99+nmu2) testing; urgency=low
 
   * migrando config de mateconf a gsettings(dconf) 
