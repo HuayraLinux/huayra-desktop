@@ -1,3 +1,9 @@
+huayra-desktop (2.101) testing; urgency=low
+
+  * cambios de settings x defecto, los paths son con barras y no puntos
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 24 Jul 2013 14:32:15 -0300
+
 huayra-desktop (2.100) testing; urgency=low
 
   * mas sintaxis de bash en postinst

@@ -1,50 +1,49 @@
-[org.mate.desktop.background]
+[org/mate/desktop/background]
 picture-filename='/usr/share/images/huayra-desktop/huayra-wallpaper.png'
 picture-options='zoom'
 
-[org.mate.desktop.interface]
+[org/mate/desktop/interface]
 gtk-theme='HuayraVioleta'
 icon-theme='huayra-violeta-v2'
 
-[org.mate.desktop.accessibility.keyboard]
+[org/mate/desktop/accessibility/keyboard]
 enable=true
 
-[org.mate.caja.desktop]
+[org/mate/caja/desktop]
 computer-icon-visible=false
 
-[org.mate.marco.global-keybindings]
+[org/mate/marco/global-keybindings]
 run-command-terminal='<Primary><Alt>t'
 
-[org.mate.marco.general]
+[org/mate/marco/general]
 num-workspaces=1
 button-layout=':minimize,maximize,close'
 theme='HuayraVioleta'
 
-[org.mate.notification-daemon]
+[org/mate/notification-daemon]
 popup-location='bottom_right'
 theme='slider'
 
-[org.mate.terminal.global]
+[org/mate/terminal/global]
 use-menu-accelerators=false
 
-
-#[org.mate.terminal.profiles.Default]
+#[org/mate/terminal/profiles/Default]
 #background-type='transparent'
 #background-color='#2B9D2B9D2B9D'
 #background-darkness=0.92
 #foreground-color='#FFFFFFFFFFFF'
 #use-theme-colors=false
 
-[org.mate.desktop.peripherals.touchpad]
+[org/mate/desktop/peripherals/touchpad]
 tap-to-click=true
 
-[org.mate-screensaver]
+[org/mate-screensaver]
 mode='single'
 themes=['screensavers-huayra-mate-flying-cow']
 
-#[org.mate.screenshot]
+#[org/mate/screenshot]
 #last-save-directory='file:///tmp'
 
-
-
+[org/mate/desktop/media-handling]
+automount-open=false
 
