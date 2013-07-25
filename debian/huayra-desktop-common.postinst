@@ -34,6 +34,7 @@ EOF
   if [ -f /etc/dconf/db/site.d/00_conectar_settings_default ]; then
     echo "Eliminando opciones antiguas de dconf"
     rm -f /etc/dconf/db/site.d/00_conectar_settings_default
+    dconf update
   fi
 fi
 

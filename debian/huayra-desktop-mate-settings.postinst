@@ -5,7 +5,8 @@ set -e
 
 if [ "$1" = "configure" ]; then
 
-  #Asignando aplicaiciones por defecto
+  dconf update
+  #Asignando aplicaciones por defecto
   huayra-set-default-app application/pdf atril.desktop
   huayra-set-default-app application/x-deb gdebi.desktop
   huayra-set-default-app application/x-7z engrampa.desktop

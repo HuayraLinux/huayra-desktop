@@ -1,3 +1,9 @@
+huayra-desktop (2.102) testing; urgency=low
+
+  * update de dconf al instalar los settings 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 25 Jul 2013 10:51:32 -0300
+
 huayra-desktop (2.101) testing; urgency=low
 
   * cambios de settings x defecto, los paths son con barras y no puntos
