@@ -1,3 +1,9 @@
+huayra-desktop (2.99+nmu3) testing; urgency=low
+
+  * Agregué configuraciones para el guvcview para el codec de video y de foto
+
+ -- Julia Palandri <julia.palandri@gmail.com>  Wed, 24 Jul 2013 17:40:54 -0300
+
 huayra-desktop (2.99+nmu1) testing; urgency=low
 
   * Non-maintainer upload.
