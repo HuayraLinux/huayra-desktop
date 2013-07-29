@@ -19,9 +19,9 @@ spinbehave=0
 #Default action. 0 for picture, 1 for video.
 default_action=0
 # mode video format 'yuvy' 'yvyu' 'uyvy' 'yyuv' 'yu12' 'yv12' 'nv12' 'nv21' 'nv16' 'nv61' 'y41p' 'grey' 'y16 ' 's501' 's505' 's508' 'gbrg' 'grbg' 'ba81' 'rggb' 'rgb3' 'bgr3' 'jpeg' 'mjpg'(default)
-mode='mjpg'
+mode='rgb3'
 # frames per sec. - hardware supported - default( 25 )
-fps='1/30'
+fps='1/15'
 #Display Fps counter: 1- Yes 0- No
 fps_display=0
 #auto focus (continuous): 1- Yes 0- No
@@ -31,11 +31,11 @@ bpp=32
 # hardware accelaration: 0 1 (default - 1)
 hwaccel=1
 # video compression format: 0-MJPG 1-YUY2/UYVY 2-DIB (BMP 24) 3-MPEG1 4-FLV1 5-MPEG2 6-MS MPEG4 V3(DIV3) 7-MPEG4 (DIV5)
-vid_codec=0
+vid_codec=2
 # avi file max size (MAX: 1992294400 bytes)
 avi_max_len=1992294400
 # Auto Video naming (ex: filename-n.avi)
-vid_inc=0
+vid_inc=1
 # sound 0 - disable 1 - enable
 sound=1
 # sound API: 0- Portaudio  1- Pulseaudio
@@ -56,9 +56,11 @@ frame_flags=0
 #on screen display flags (VU meter)
 osd_flags=0
 # Auto Image naming (filename-n.ext)
-image_inc=0
+image_inc=1
 # Image capture Full Path
+image_path='Imágenes/Foto.jpg'
 # Video capture Full Path
+video_path='Videos/Video.avi'
 # control profiles Full Path
 # audio codec properties (remove for default values
 acodec_bit_rate=160000
