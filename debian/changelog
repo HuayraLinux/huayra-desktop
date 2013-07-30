@@ -1,3 +1,16 @@
+huayra-desktop (2.102+nmu2) testing; urgency=low
+
+  * Agregué configuraciones para el guvcview para el codec de video y de foto
+
+ -- Julia Palandri <julia.palandri@gmail.com>  Wed, 29 Jul 2013 17:40:54 -0300
+
+huayra-desktop (2.102+nmu1) testing; urgency=low
+
+  * Non-maintainer upload.
+  * Eliminé los archivos de configuración de mixxx, puse como dependencia el paquete mixxx-themes-huayra 
+
+ -- Julia Palandri <julia.palandri@gmail.com>  Mon, 29 Jul 2013 16:09:13 -0300
+
 huayra-desktop (2.102) testing; urgency=low
 
   * update de dconf al instalar los settings 
