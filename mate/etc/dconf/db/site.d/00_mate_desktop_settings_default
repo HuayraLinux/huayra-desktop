@@ -48,13 +48,13 @@ themes=['screensavers-huayra-mate-flying-cow']
 automount-open=false
 
 [org/mate/panel/objects/object-menu]
-object-type="menu-object"
+object-type="menu"
 toplevel-id="top"
 position=1
 tooltip="Huayra"
 locked=true
 
-[org/mate/panel/objects/show-desktop-button]
+[org/mate/panel/objects/show-desktop]
 object-type="applet"
 toplevel-id="top"
 position=2
@@ -85,7 +85,7 @@ position=30
 
 [org/mate/panel/objects/object-control-center]
 object-type="launcher"
-launcher-location="mate-control-center.desktop"
+launcher-location="/usr/share/applications/mate-control-center.desktop"
 toplevel-id="top"
 position=5
 panel-right-stick=true
@@ -110,10 +110,5 @@ panel-right-stick=false
 toplevel-id=""
 
 [org/mate/panel/general]
-object-id-list=["object-menu", "object-control-center", "object-shutdown", "shot-desktop-button", "clock", "window-menu", "notification-area", "window-list"]
-
-
-
-
-
+object-id-list=["object-menu", "object-control-center", "object-shutdown", "show-desktop", "clock", "window-menu", "notification-area", "window-list"]
 
