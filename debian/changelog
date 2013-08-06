@@ -1,3 +1,9 @@
+huayra-desktop (2.103) testing; urgency=low
+
+  * settings de mate-panel 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 06 Aug 2013 16:01:54 -0300
+
 huayra-desktop (2.102+nmu3) testing; urgency=low
 
   * migarcion de panel de mate a mateconf a dconf
