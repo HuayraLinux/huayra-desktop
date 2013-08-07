@@ -163,7 +163,6 @@ Depends: ${misc:Depends},
   huayra-desktop-common,
   huayra-desktop-mate-settings,
   huayra-icon-theme-all,
-  huayra-mate-screensavers,
   matchbox-keyboard,
   matchbox-keyboard-im,
   mate-archive-keyring,
@@ -188,9 +187,9 @@ Description: Configuraciones del entorno de escritorio Huayra con Mate
 
 Package: huayra-desktop-common
 Architecture: all
-Conflicts: huayra-desktop, huayra-apps-debian
+Conflicts: huayra-desktop, huayra-apps-debian, huayra-mate-screensavers
 Replaces: huayra-desktop, huayra-apps-debian
-Depends: ${misc:Depends}, huayra-backgrounds-extras, huayra-fonts, dconf-tools
+Depends: ${misc:Depends}, huayra-backgrounds-extras, huayra-fonts, dconf-tools, huayra-screensavers
 Description: Configuraciones comunes para los entornos de escritorio
  Opciones comunes para los entornos de escritorio
 
@@ -398,13 +397,7 @@ Description: Firmware para distintos dispositivos en Huayra.
 Package: huayra-tda
 Architecture: all
 Depends: ${misc:Depends}, wari
-Description: Soporte de Televisión Digital Abierta para Huyra
+Description: Soporte de Televisión Digital Abierta para Huayra
  Éste paquete contiene las configuraciones necesarias para tener
  TDA (Televisión Digital Abierta) en Huayra.
 
-Package: huayra-mate-screensavers
-Architecture: all
-Depends: ${misc:Depends}
-Description: Salvapantallas de Huayra para Mate Desktop
- Este paquete contiene un conjunto de salvapantallas para Mate Desktop con
- motivos de Huayra.

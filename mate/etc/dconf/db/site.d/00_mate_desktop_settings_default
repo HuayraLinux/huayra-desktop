@@ -39,7 +39,7 @@ tap-to-click=true
 
 [org/mate-screensaver]
 mode='single'
-themes=['screensavers-huayra-mate-flying-cow']
+themes=['screensavers-huayra-flying-cow']
 
 #[org/mate/screenshot]
 #last-save-directory='file:///tmp'

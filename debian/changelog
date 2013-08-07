@@ -1,3 +1,10 @@
+huayra-desktop (2.103+nmu1) testing; urgency=low
+
+  * Non-maintainer upload.
+  * Queda separado huayra-screensavers (que conflictúa con y reemplaza a huayra-mate-screensavers) 
+
+ -- Julia Palandri <julia.palandri@gmail.com>  Wed, 07 Aug 2013 17:31:05 -0300
+
 huayra-desktop (2.103) testing; urgency=low
 
   * settings de mate-panel 
