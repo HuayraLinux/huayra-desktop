@@ -1,7 +1,7 @@
 [Desktop Entry]
 Version=1.0
 Name=Televisión Digital Abierta
-GenericName==Televisión Digital Abierta
+GenericName=Televisión Digital Abierta
 Comment=Visualizar Televisión Digital Abierta
 Exec=/usr/bin/wari
 Icon=tda
