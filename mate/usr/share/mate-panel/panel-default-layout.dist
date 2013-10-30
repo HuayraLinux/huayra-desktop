@@ -10,6 +10,14 @@ position=1
 locked=true
 tooltip=Huayra
 
+[Object workspace-switch]
+object-type=applet
+applet-iid=WnckletFactory::WorkspaceSwitcherApplet
+toplevel-id=top
+position=30
+panel-right-stick=false
+locked=true
+
 [Object clock]
 object-type=applet
 applet-iid=ClockAppletFactory::ClockApplet
