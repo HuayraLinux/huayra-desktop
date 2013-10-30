@@ -1,0 +1,13 @@
+{
+  "ui" : {
+    "global" : {
+      "ui-type" : "side-doish"
+    }
+  },
+  "data-sink" : {
+    "global" : {
+      "disabled-plugins" : [
+      ]
+    }
+  }
+}

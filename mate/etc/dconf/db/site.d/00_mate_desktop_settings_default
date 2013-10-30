@@ -3,22 +3,28 @@ picture-filename='/usr/share/images/huayra-desktop/huayra-wallpaper.png'
 picture-options='zoom'
 
 [org/mate/desktop/interface]
-gtk-theme='HuayraVioleta'
-icon-theme='huayra-violeta-v2'
+gtk-theme='HuayraLimbo'
+icon-theme='huayra-limbo'
 
 [org/mate/desktop/accessibility/keyboard]
 enable=true
 
 [org/mate/caja/desktop]
 computer-icon-visible=false
+home-icon-visible=false
+network-icon-visible=false
+trash-icon-visible=false
+volumes-visible=false
 
 [org/mate/marco/global-keybindings]
 run-command-terminal='<Primary><Alt>t'
 
 [org/mate/marco/general]
-num-workspaces=1
+num-workspaces=2
 button-layout=':minimize,maximize,close'
-theme='HuayraVioleta'
+theme='HuayraLimbo'
+compositing-manager=true
+compositing-fast-alt-tab=true
 
 [org/mate/notification-daemon]
 popup-location='bottom_right'
