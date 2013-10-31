@@ -1,3 +1,9 @@
+huayra-desktop (2.106) unstable; urgency=low
+
+  * quitando gdm3 de mate-desktop
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 31 Oct 2013 11:15:46 -0300
+
 huayra-desktop (2.105) unstable; urgency=low
 
   * correccion de applet workspace

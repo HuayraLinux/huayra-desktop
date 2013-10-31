@@ -17,7 +17,6 @@ APT
 	"^at-spi2-core";
 	"^caja-open-terminal";
 	"^dasher";
-	"^gdm3";
 	"^gnome-orca";
 	"^gnome-packagekit";
 	"^gnome-themes-huayra";
@@ -31,7 +30,7 @@ APT
 	"^mate-core";
 	"^mate-desktop-environment";
 	"^mate-media-pulse";
-        "^mate-system-tools";
+	"^mate-system-tools";
 	"^notification-daemon";
 	"^mate-settings-daemon-pulse";
   };

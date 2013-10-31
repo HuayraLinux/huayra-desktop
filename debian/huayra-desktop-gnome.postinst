@@ -21,7 +21,6 @@ APT
 	"^file-roller";
 	"^gcalctool";
 	"^gconf2";
-	"^gdm3";
 	"^gedit";
 	"^gnome-applets";
 	"^gnome-bluetooth";
