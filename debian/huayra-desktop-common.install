@@ -13,7 +13,6 @@ common/huayra-set-default-app usr/bin/
 common/10periodic etc/huayra/
 common/huayra-flash-install usr/bin/
 common/huayra-flash-install.desktop usr/share/applications/
-common/huayra-flash-install.desktop etc/skel/Escritorio/
 common/huayra.menu etc/xdg/menus/applications-merged/
 common/Huayra.directory usr/share/desktop-directories/
 common/etc/* etc/

@@ -4,6 +4,5 @@ etc/skel/.local/share/applications/gnome-tweak-tool.desktop etc/skel/.local/shar
 etc/skel/.scribus/* etc/skel/.scribus/
 huayra-chromium-master-defaults usr/bin/
 huayra_chromium_bookmarks.html etc/huayra/
-huayra-chat.desktop etc/skel/Escritorio
 etc/skel/.guvcviewrc etc/skel/
 
