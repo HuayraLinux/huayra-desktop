@@ -1,2 +1,3 @@
 base/etc/grub.d/* etc/grub.d/
+base/etc/huayra_version etc/
 base/images/* usr/share/images/huayra-desktop/
