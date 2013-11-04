@@ -17,6 +17,7 @@ APT
 	"^at-spi2-core";
 	"^caja-open-terminal";
 	"^dasher";
+	"^docky";
 	"^gnome-orca";
 	"^gnome-packagekit";
 	"^gnome-themes-huayra";
@@ -36,6 +37,11 @@ APT
   };
 };
 EOF
+
+    if [ -f /etc/xdg/autostart/marco-sombras.desktop ]; then
+        echo "Eliminando marco-sombras.desktop anterior"
+        rm /etc/xdg/autostart/marco-sombras.desktop
+    fi
 fi
 
 #DEBHELPER#
