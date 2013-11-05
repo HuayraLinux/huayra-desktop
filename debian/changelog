@@ -1,3 +1,10 @@
+huayra-desktop (2.109) unstable; urgency=low
+
+  * recommeds huayra-sound-theme
+  * nuevo wallpaper
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 05 Nov 2013 12:35:36 -0300
+
 huayra-desktop (2.108) unstable; urgency=low
 
   * version 2.0beta
