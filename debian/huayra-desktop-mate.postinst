@@ -25,6 +25,7 @@ APT
 	"^huayra-desktop-common";
 	"^huayra-desktop-mate-settings";
 	"^huayra-icon-theme-all";
+	"^huayra-mdm";
 	"^matchbox-keyboard";
 	"^matchbox-keyboard-im";
 	"^mate-archive-keyring";

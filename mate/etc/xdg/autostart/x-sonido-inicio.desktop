@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Sonido del inicio
+Comment=Sonido inicial
+Exec=/usr/bin/paplay /usr/share/sounds/sonido-huayra/stereo/desktop-login.oga
+Icon=mixer
+Terminal=false
+Type=Application
+Categories=Settings;System;
+# X-GNOME-AutoRestart=true
