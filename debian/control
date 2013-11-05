@@ -150,6 +150,7 @@ Architecture: all
 Provides: huayra-desktop-basic
 Conflicts: huayra-desktop, huayra-apps-debian
 Replaces: huayra-desktop, huayra-apps-debian
+Recommends: huayra-sound-theme
 Depends: ${misc:Depends},
   at-spi2-core,
   caja-open-terminal,
