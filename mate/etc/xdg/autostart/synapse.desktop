@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Synapse
+Type=Application
+Exec=synapse --startup
+Icon=synapse
+X-GNOME-Autostart-enabled=true

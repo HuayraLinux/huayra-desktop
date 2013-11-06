@@ -172,7 +172,8 @@ Depends: ${misc:Depends},
   mate-media-pulse,
   mate-system-tools,
   notification-daemon,
-  mate-settings-daemon-pulse
+  mate-settings-daemon-pulse,
+  synapse
 Description: Entorno de escritorio Huayra con Mate
  Este paquete contiene el escritorio Mate para Huayra.
  Dummy Package.
@@ -181,7 +182,7 @@ Package: huayra-desktop-mate-settings
 Architecture: all
 Conflicts: huayra-desktop, huayra-apps-debian
 Replaces: huayra-desktop, huayra-apps-debian
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, gconf-editor
 Description: Configuraciones del entorno de escritorio Huayra con Mate
  Este paquete contiene configuraciones del entorno Mate para Huayra
  Dummy Package.
