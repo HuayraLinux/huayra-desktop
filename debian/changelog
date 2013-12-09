@@ -1,3 +1,9 @@
+huayra-desktop (2.111) unstable; urgency=low
+
+  * build con refactor de archivos
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 09 Dec 2013 14:22:48 -0300
+
 huayra-desktop (2.110) unstable; urgency=low
 
   * config de docky y synapse 
