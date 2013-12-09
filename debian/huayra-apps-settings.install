@@ -1,8 +1,9 @@
-etc/skel/.gimp-2.8/* etc/skel/.gimp-2.8/
-etc/skel/.local/share/applications/libreoffice-math.desktop etc/skel/.local/share/applications/
-etc/skel/.local/share/applications/gnome-tweak-tool.desktop etc/skel/.local/share/applications/
-etc/skel/.scribus/* etc/skel/.scribus/
-huayra-chromium-master-defaults usr/bin/
-huayra_chromium_bookmarks.html etc/huayra/
-etc/skel/.guvcviewrc etc/skel/
-
+app-settings/etc/skel/.gimp-2.8/* etc/skel/.gimp-2.8/
+app-settings/etc/skel/.scribus/* etc/skel/.scribus/
+app-settings/etc/skel/.guvcviewrc etc/skel/
+app-settings/etc/skel/.local/share/applications/libreoffice-math.desktop etc/skel/.local/share/applications/
+app-settings/etc/skel/.local/share/applications/gnome-tweak-tool.desktop etc/skel/.local/share/applications/
+app-settings/etc/skel/.config/* etc/skel/.config/
+app-settings/huayra-chromium-master-defaults usr/bin/
+app-settings/huayra_chromium_bookmarks.html etc/huayra/
+app-settings/docky.defaults.xml etc/huayra/
