@@ -1,3 +1,9 @@
+huayra-desktop (2.112) unstable; urgency=low
+
+  * moviendo config de docky a app-settings
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 10 Dec 2013 13:07:23 -0300
+
 huayra-desktop (2.111) unstable; urgency=low
 
   * build con refactor de archivos
