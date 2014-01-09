@@ -97,9 +97,10 @@ APT
 	"^menu";
 	"^menu-xdg";
 	"^mixxx";
-        "^mixxx-themes-huayra";
+    "^mixxx-themes-huayra";
 	"^mobile-broadband-provider-info";
 	"^modemmanager";
+	"^mozo";
 	"^myspell-es";
 	"^network-manager-gnome";
 	"^network-manager-openvpn-gnome";
@@ -146,6 +147,7 @@ APT
 	"^xdg-user-dirs";
 	"^xdg-user-dirs-gtk";
 	"^xdg-utils";
+	"^xournal";
 	"^xsane";
 	"^xserver-xorg";
 	"^xterm";

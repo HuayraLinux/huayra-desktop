@@ -1,3 +1,10 @@
+huayra-desktop (2.113) unstable; urgency=low
+
+  * dependencia de mozo y xournal
+  * settings del perfil de la terminal de mate
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 09 Jan 2014 15:42:00 -0300
+
 huayra-desktop (2.112) unstable; urgency=low
 
   * moviendo config de docky a app-settings
