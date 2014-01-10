@@ -1,3 +1,9 @@
+huayra-desktop (2.115) unstable; urgency=low
+
+  * version 2.0alfa de huayra
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 10 Jan 2014 14:16:55 -0300
+
 huayra-desktop (2.114) unstable; urgency=low
 
   * correccion de configs de terminal (tamaño de letra y paleta de colores)
