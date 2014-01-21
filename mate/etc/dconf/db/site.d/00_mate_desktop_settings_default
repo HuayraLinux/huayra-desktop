@@ -9,6 +9,9 @@ icon-theme='huayra-limbo'
 [org/mate/desktop/accessibility/keyboard]
 enable=true
 
+[org/mate/desktop/peripherals/keyboard]
+remember-numlock-state=false
+
 [org/mate/caja/desktop]
 computer-icon-visible=false
 home-icon-visible=false
