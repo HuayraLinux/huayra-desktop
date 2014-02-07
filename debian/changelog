@@ -1,3 +1,9 @@
+huayra-desktop (2.117) unstable; urgency=medium
+
+  * error dependencia huayra-stopmotion 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 07 Feb 2014 18:29:36 -0300
+
 huayra-desktop (2.116) unstable; urgency=medium
 
   * nuevo paquetes de aplicaciones 
