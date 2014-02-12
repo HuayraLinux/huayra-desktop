@@ -56,10 +56,12 @@ APT
 	"^icaro";
 	"^miescritorio";
 	"^huayra-bullets";
-	"^huayra-compartir-web";
+	"^huayra-compartir";
 	"^huayra-firmware-full-support";
 	"^huayra-printing-full-support";
 	"^huayra-simulaciones-interactivas";
+	"^huayra-visor-manual";
+	"^huayra-visor-manual-doc";
 	"^jclic";
 	"^jmol";
 	"^mypaint";

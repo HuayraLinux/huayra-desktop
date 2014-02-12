@@ -1,3 +1,9 @@
+huayra-desktop (2.118) unstable; urgency=low
+
+  * Directorio "Compartido"
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 12 Feb 2014 16:50:15 -0300
+
 huayra-desktop (2.117) unstable; urgency=medium
 
   * error dependencia huayra-stopmotion 
