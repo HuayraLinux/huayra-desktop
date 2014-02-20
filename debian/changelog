@@ -1,3 +1,11 @@
+huayra-desktop (2.119) unstable; urgency=medium
+
+  * version alfa6
+  * nuevo walppaper por defecto
+  * nuevo background de grub 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 20 Feb 2014 16:44:59 -0300
+
 huayra-desktop (2.118) unstable; urgency=low
 
   * Directorio "Compartido"
