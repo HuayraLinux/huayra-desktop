@@ -1,3 +1,10 @@
+huayra-desktop (2.120) unstable; urgency=medium
+
+  * error de sintaxis
+  * correccion de path de dconf para screensaver 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 05 Mar 2014 00:02:11 -0300
+
 huayra-desktop (2.119) unstable; urgency=medium
 
   * version alfa6

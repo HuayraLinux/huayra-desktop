@@ -52,7 +52,7 @@ font='Droid Sans Mono 12'
 [org/mate/desktop/peripherals/touchpad]
 tap-to-click=true
 
-[org/mate-screensaver]
+[org/mate/screensaver]
 mode='single'
 themes=['screensavers-huayra-flying-cow']
 
