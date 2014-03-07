@@ -2,7 +2,8 @@ huayra-desktop (2.121) unstable; urgency=low
 
   * Pseudo NMU.
   * Agrego dependencia en scilab-doc
-
+  * Nueva imagen de grub
+  * Corrección de xml de docky 
  -- Mauro Lizaur <mauro@debian.org>  Fri, 07 Mar 2014 12:37:58 -0300
 
 huayra-desktop (2.120) unstable; urgency=medium
