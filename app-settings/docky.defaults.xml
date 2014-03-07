@@ -139,7 +139,7 @@
       <value>
         <list type="string">
             <value>
-              <string>file:///usr/share/applications/wari.desktop</string>
+              <string>file:///usr/share/applications/chromium.desktop</string>
             </value>
             <value>
               <string>file:///usr/share/applications/huayra-bullets.desktop</string>
@@ -148,13 +148,10 @@
               <string>file:///usr/share/applications/libreoffice-startcenter.desktop</string>
             </value>
             <value>
-              <string>file:///home/felipe/.local/share/applications/mozo-made.desktop</string>
-            </value>
-            <value>
-              <string>file:///usr/share/applications/chromium.desktop</string>
-            </value>
-            <value>
               <string>file:///usr/share/applications/mate-terminal.desktop</string>
+            </value>
+            <value>
+              <string>file:///usr/share/applications/huayra-visor-manual.desktop</string>
             </value>
         </list>
       </value>
@@ -203,9 +200,6 @@
       <value>
         <list type="string">
             <value>
-              <string>/home/felipe/.local/share/applications/mozo-made.desktop</string>
-            </value>
-            <value>
               <string>TrashCan</string>
             </value>
             <value>
@@ -215,9 +209,6 @@
               <string>Clock</string>
             </value>
             <value>
-              <string>/usr/share/applications/wari.desktop</string>
-            </value>
-            <value>
               <string>/usr/share/applications/chromium.desktop</string>
             </value>
             <value>
@@ -225,9 +216,6 @@
             </value>
             <value>
               <string>/usr/share/applications/huayra-bullets.desktop</string>
-            </value>
-            <value>
-              <string>/usr/share/applications/ayuda-mate.desktop</string>
             </value>
         </list>
       </value>
@@ -345,24 +333,6 @@
         <list type="string">
             <value>
               <string>computer://</string>
-            </value>
-            <value>
-              <string>file:///home/felipe</string>
-            </value>
-            <value>
-              <string>file:///home/felipe/Descargas</string>
-            </value>
-            <value>
-              <string>file:///home/felipe/Documentos</string>
-            </value>
-            <value>
-              <string>file:///home/felipe/Im%C3%A1genes</string>
-            </value>
-            <value>
-              <string>file:///home/felipe/Videos</string>
-            </value>
-            <value>
-              <string>file:///home/felipe/M%C3%BAsica</string>
             </value>
         </list>
       </value>
@@ -841,42 +811,6 @@
     </entry>
     <entry>
       <key>Docky/Items/ColoredIconDockItem/computer___</key>
-      <value>
-        <int>0</int>
-      </value>
-    </entry>
-    <entry>
-      <key>Docky/Items/ColoredIconDockItem/file____home_felipe</key>
-      <value>
-        <int>0</int>
-      </value>
-    </entry>
-    <entry>
-      <key>Docky/Items/ColoredIconDockItem/file____home_felipe_Descargas</key>
-      <value>
-        <int>0</int>
-      </value>
-    </entry>
-    <entry>
-      <key>Docky/Items/ColoredIconDockItem/file____home_felipe_Documentos</key>
-      <value>
-        <int>0</int>
-      </value>
-    </entry>
-    <entry>
-      <key>Docky/Items/ColoredIconDockItem/file____home_felipe_Im_C3_A1genes</key>
-      <value>
-        <int>0</int>
-      </value>
-    </entry>
-    <entry>
-      <key>Docky/Items/ColoredIconDockItem/file____home_felipe_M_C3_BAsica</key>
-      <value>
-        <int>0</int>
-      </value>
-    </entry>
-    <entry>
-      <key>Docky/Items/ColoredIconDockItem/file____home_felipe_Videos</key>
       <value>
         <int>0</int>
       </value>
