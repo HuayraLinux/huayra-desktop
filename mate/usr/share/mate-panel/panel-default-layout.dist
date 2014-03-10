@@ -22,8 +22,8 @@ locked=true
 object-type=applet
 applet-iid=ClockAppletFactory::ClockApplet
 toplevel-id=top
-position=400
-panel-right-stick=false
+position=40
+panel-right-stick=true
 locked=true
 
 [Object notification-area]
