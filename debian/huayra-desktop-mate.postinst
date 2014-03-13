@@ -21,7 +21,6 @@ APT
 	"^gnome-orca";
 	"^gnome-packagekit";
 	"^gnome-themes-huayra";
-	"^huayra-ayuda-mate";
 	"^huayra-desktop-common";
 	"^huayra-desktop-mate-settings";
 	"^huayra-icon-theme-all";
