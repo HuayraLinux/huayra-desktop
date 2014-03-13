@@ -20,10 +20,10 @@ APT
 {
   NeverAutoRemove
   {
+	"^dconf-editor";
 	"^huayra-backgrounds-extras";
 	"^huayra-fonts";
 	"^huayra-screensavers";
-	"^dconf-editor";
   };
 };
 EOF

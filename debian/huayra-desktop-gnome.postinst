@@ -44,8 +44,8 @@ APT
 	"^gnome-shell";
 	"^gnome-system-monitor";
 	"^gnome-terminal";
-	"^gnome-themes-standard";
 	"^gnome-themes-huayra";
+	"^gnome-themes-standard";
 	"^gnome-tweak-tool";
 	"^gnome-user-guide";
 	"^huayra-ayuda-gnome";
