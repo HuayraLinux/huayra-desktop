@@ -1,3 +1,10 @@
+huayra-desktop (2.123) unstable; urgency=low
+
+  * dependencia de preciosa
+  * sort en los listados de paquetes
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 13 Mar 2014 16:58:17 -0300
+
 huayra-desktop (2.122) unstable; urgency=medium
 
   * correccion de url de descarga de wallpapers 
