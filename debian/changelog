@@ -1,6 +1,8 @@
 huayra-desktop (2.124) unstable; urgency=medium
 
   * Agrego huayra-libreoffice que contiene al nuevo LibreOffice 4.2
+  * Quitando cheese de las dependencias
+  * Fondo transparente del perfil por defecto del la terminal de mate
 
  -- Mauro Lizaur <mauro@debian.org>  Fri, 14 Mar 2014 14:13:02 -0300
 
