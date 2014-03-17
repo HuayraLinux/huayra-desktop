@@ -209,7 +209,6 @@ Depends: ${misc:Depends},
   alsa-base,
   apt-xapian-index,
   arista,
-  aspell-es,
   bluefish,
   calibre,
   caribou,
@@ -266,6 +265,7 @@ Depends: ${misc:Depends},
   huayra-identinet,
   huayra-stopmotion,
   huayra-stopmotion-doc,
+  huayra-libreoffice,
   hwinfo,
   icedove,
   icedove-l10n-es-ar,
@@ -278,9 +278,6 @@ Depends: ${misc:Depends},
   less,
   libgl1-mesa-dri,
   libnss-mdns,
-  libreoffice,
-  libreoffice-gnome,
-  libreoffice-l10n-es,
   lm-sensors,
   lmms,
   lshw,
@@ -294,7 +291,6 @@ Depends: ${misc:Depends},
   mobile-broadband-provider-info,
   modemmanager,
   mozo,
-  myspell-es,
   network-manager-gnome,
   network-manager-openvpn-gnome,
   ntfs-3g,
@@ -359,6 +355,7 @@ Depends: ${misc:Depends}, huayra-tuxguitar-settings
 Description: Suite completa de aplicaciones para Huayra (settings)
  Aqui se encuentran las opciones de configuracion de las aplicaciones pensadas para Huayra.
 
+
 Package: huayra-base
 Architecture: all
 Conflicts: huayra-desktop, huayra-apps-debian
@@ -410,3 +407,26 @@ Description: Soporte de Televisión Digital Abierta para Huayra
  Éste paquete contiene las configuraciones necesarias para tener
  TDA (Televisión Digital Abierta) en Huayra.
 
+Package: huayra-libreoffice
+Architecture: all
+Conflicts: libreoffice
+Replaces: libreoffice
+Depends: ${misc:Depends},
+  libreoffice4.2,
+  libreoffice4.2-debian-menus,
+  libreoffice4.2-es,
+  libreoffice4.2-en-us,
+  libreoffice4.2-dict-es,
+  libreoffice4.2-dict-en,
+  libreoffice4.2-base,
+  libreoffice4.2-calc,
+  libreoffice4.2-draw,
+  libreoffice4.2-impress,
+  libreoffice4.2-math,
+  libreoffice4.2-writer,
+  myspell-es,
+  aspell-es
+Description: Suite completa de ofimática de LibreOffice 4.2
+ Aquí se encuentra el paquete completo de ofimática de la versión
+ 4.2 de LibreOffice
+ Dummy Package.

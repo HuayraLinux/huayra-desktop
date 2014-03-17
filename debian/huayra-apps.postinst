@@ -86,9 +86,6 @@ APT
 	"^less";
 	"^libgl1-mesa-dri";
 	"^libnss-mdns";
-	"^libreoffice";
-	"^libreoffice-gnome";
-	"^libreoffice-l10n-es";
 	"^lm-sensors";
 	"^lmms";
 	"^mawk";
