@@ -38,7 +38,7 @@ use-menu-accelerators=false
 
 [org/mate/terminal/profiles/default]
 allow-bold=false
-background-type='solid'
+background-type='transparent'
 background-color='#232325252626'
 background-darkness=0.93
 foreground-color='#F6F6F5F5EEEE'
