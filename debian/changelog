@@ -1,3 +1,10 @@
+huayra-desktop (2.125) unstable; urgency=low
+
+  * Versión Beta1
+  * Dependencia de locales
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 19 Mar 2014 11:09:10 -0300
+
 huayra-desktop (2.124) unstable; urgency=medium
 
   * Agrego huayra-libreoffice que contiene al nuevo LibreOffice 4.2
