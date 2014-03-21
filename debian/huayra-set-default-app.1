@@ -1,0 +1,26 @@
+.TH HUAYRA-SET-DEFAULT-APP "1" "March 2014" "huayra-set-default-app 1.0" "User Commands"
+.SH NAME
+huayra-set-default-app \- manual page for huayra-set-default-app 1.0
+.SH SYNOPSIS
+.B huayra-set-default-app
+[\fI-d\fR] \fItipo_mime \fR[\fI.desktop\fR]
+.SH DESCRIPTION
+Modifica las aplicaciones por defecto de los tipo mime a nivel sistema.
+Ejemplos: agregar una asociacion: huayra\-set\-default\-app application/pdf
+evince.desktop . Eliminar: huayra\-set\-default\-app \fB\-d\fR image/png
+.SH OPTIONS
+.TP
+\fB\-\-version\fR
+show program's version number and exit
+.TP
+\fB\-h\fR, \fB\-\-help\fR
+show this help message and exit
+.TP
+\fB\-d\fR MIME, \fB\-\-delete\fR=\fIMIME\fR
+Elimina la asociacion del actual tipo mime
+.SH AUTHORS
+.B huayra-set-default-app
+was written by Huayra Developers <http://huayra.conectarigualdad.gob.ar/>.
+.P
+This manual page was written by Mauro Lizaur <mauro@krutt.org>
+for the Huayra project (but may be used by others).
