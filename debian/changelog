@@ -1,3 +1,10 @@
+huayra-desktop (2.128) UNRELEASED; urgency=medium
+
+  * Agrego archivo manpage para huayra-desktop-common
+  * Agrego manpage para huayra-set-default-app
+
+ -- Mauro Lizaur <mauro@krutt.org>  Fri, 21 Mar 2014 16:43:51 -0300
+
 huayra-desktop (2.127) unstable; urgency=medium
 
   * Correcciones varias de lintian.
