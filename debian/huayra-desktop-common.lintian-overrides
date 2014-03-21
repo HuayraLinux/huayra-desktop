@@ -1,0 +1,3 @@
+huayra-desktop-common binary: dir-in-usr-local
+huayra-desktop-common binary: file-in-usr-local
+huayra-desktop-common binary: file-in-unusual-dir

@@ -1,4 +1,12 @@
-huayra-desktop (2.126) UNRELEASED; urgency=low
+huayra-desktop (2.127) unstable; urgency=medium
+
+  * Agrego lintian overrides.
+  * Corrijo errores de lintian en debian/control
+  * Agrego dependencias para huayra huayra-desktop-common
+
+ -- Mauro Lizaur <mauro@krutt.org>  Fri, 21 Mar 2014 15:34:05 -0300
+
+huayra-desktop (2.126) unstable; urgency=low
 
   * Cambio matchbox-keyboard por florence.
 
