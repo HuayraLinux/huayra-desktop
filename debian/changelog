@@ -1,3 +1,9 @@
+huayra-desktop (2.126) UNRELEASED; urgency=low
+
+  * Cambio matchbox-keyboard por florence.
+
+ -- Mauro Lizaur <mauro@krutt.org>  Thu, 20 Mar 2014 15:56:41 -0300
+
 huayra-desktop (2.125) unstable; urgency=low
 
   * Versión Beta1
