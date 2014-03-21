@@ -136,8 +136,8 @@ Depends: ${misc:Depends},
   nautilus,
   nautilus-image-converter,
   nautilus-open-terminal
-Description: Entorno de escritorio Huayra con Gnome
- Este paquete contiene el escritorio Gnome para Huayra.
+Description: Entorno de escritorio Huayra con GNOME
+ Este paquete contiene el escritorio GNOME para Huayra.
  Dummy Package.
 
 Package: huayra-desktop-gnome-settings
@@ -145,8 +145,8 @@ Architecture: all
 Conflicts: huayra-desktop, huayra-apps-debian
 Replaces: huayra-desktop, huayra-apps-debian
 Depends: ${misc:Depends}
-Description: Confirguraciones del entorno de escritorio Huayra con Gnome
- Este paquete contiene configuraciones para el escritorio Gnome para Huayra.
+Description: Confirguraciones del entorno de escritorio Huayra con GNOME
+ Este paquete contiene configuraciones para el escritorio GNOME para Huayra.
 
 Package: huayra-desktop-mate
 Architecture: all
@@ -195,7 +195,7 @@ Architecture: all
 Conflicts: huayra-desktop, huayra-apps-debian, huayra-mate-screensavers
 Replaces: huayra-desktop, huayra-apps-debian
 Depends: ${misc:Depends}, huayra-backgrounds-extras, huayra-fonts, dconf-tools,
-         huayra-screensavers, python (>= 2.7), python (< 2.8)
+         huayra-screensavers, python (>= 2.7), python (<< 2.8)
 Description: Configuraciones comunes para los entornos de escritorio
  Opciones comunes para los entornos de escritorio
 

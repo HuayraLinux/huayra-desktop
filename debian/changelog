@@ -1,9 +1,7 @@
 huayra-desktop (2.127) unstable; urgency=medium
 
-  * Agrego lintian overrides.
-  * Corrijo errores de lintian en debian/control
-  * Agrego dependencias para huayra huayra-desktop-common
-  * Corrijo menu de florence.
+  * Correcciones varias de lintian.
+  * Agrego dependencias para huayra huayra-desktop-common.
 
  -- Mauro Lizaur <mauro@krutt.org>  Fri, 21 Mar 2014 15:34:05 -0300
 
