@@ -1,3 +1,11 @@
+huayra-desktop (2.129) unstable; urgency=low
+
+  * Bump version.
+  * Agrego dependencias faltantes
+  * Mejoro manpage para huayra-set-default-app
+
+ -- Mauro Lizaur <mauro@krutt.org>  Tue, 25 Mar 2014 17:14:00 -0300
+
 huayra-desktop (2.128) unstable; urgency=medium
 
   * Agrego archivo manpage para huayra-desktop-common
