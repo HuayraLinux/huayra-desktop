@@ -379,7 +379,7 @@ Depends: ${misc:Depends},
   libsane-hpaio,
   printer-driver-foo2zjs,
   printer-driver-hpijs
-Description: Meta-paquete que depende de paquetes que brindan soporte de impresión.
+Description: Meta-paquete que depende de paquetes que brindan soporte de impresión
  Instala drivers y programas que dan soporte en una gran variedad de impresoras.
  Dummy package.
 
@@ -396,7 +396,7 @@ Depends: ${misc:Depends},
   firmware-ralink,
   firmware-realtek,
   zd1211-firmware
-Description: Firmware para distintos dispositivos en Huayra.
+Description: Firmware para distintos dispositivos en Huayra
  Instala firmware para distintos dispositivos que lo requieren, mayormente
  placas WiFi y Bluetooth.
  Dummy package.
