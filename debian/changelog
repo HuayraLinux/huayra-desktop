@@ -1,3 +1,12 @@
+huayra-desktop (2.130) UNRELEASED; urgency=low
+
+  * Bump version
+  * Sale freeciv
+  * Entra minetest
+  * Se genera huayra-juegos
+
+ -- Mauro Lizaur <mauro@krutt.org>  Wed, 26 Mar 2014 14:27:20 -0300
+
 huayra-desktop (2.129) unstable; urgency=low
 
   * Bump version.
