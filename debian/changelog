@@ -1,4 +1,11 @@
-huayra-desktop (2.130) UNRELEASED; urgency=low
+huayra-desktop (2.131) UNRELEASED; urgency=low
+
+  * Bump version
+  * gksu vuelve al sudo-mode, pero ahora en Mate.
+
+ -- Mauro Lizaur <mauro@krutt.org>  Thu, 27 Mar 2014 11:16:53 -0300
+
+huayra-desktop (2.130) unstable; urgency=low
 
   * Bump version
   * Sale freeciv
