@@ -433,10 +433,15 @@ Package: huayra-juegos
 Architecture: all
 Depends: ${misc:Depends},
   minetest,
+  minetest-server,
   gnuchess,
   ayni,
   eboard,
-  gnome-sudoku
+  gnome-sudoku,
+  numptyphysics,
+  atomix,
+  enigma,
+  smc
 Description: Juegos seleccionados para Huayra
  Aquí se encuentra un listado de juegos seleccionados
  para la distribucion Huayra
