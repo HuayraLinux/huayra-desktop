@@ -66,3 +66,6 @@ automount-open=false
 [org/mate/control-center/appearance]
 mate-backgrounds-url='http://huayra.conectarigualdad.gob.ar/decargas'
 mate-themes-url='http://huayra.conectarigualdad.gob.ar/decargas'
+
+[apps/gksu]
+sudo-mode=true
