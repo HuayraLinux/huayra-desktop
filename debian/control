@@ -441,7 +441,8 @@ Depends: ${misc:Depends},
   numptyphysics,
   atomix,
   enigma,
-  smc
+  smc,
+  crack-attack
 Description: Juegos seleccionados para Huayra
  Aquí se encuentra un listado de juegos seleccionados
  para la distribucion Huayra

@@ -1,7 +1,8 @@
-huayra-desktop (2.131) UNRELEASED; urgency=low
+huayra-desktop (2.131) unstable; urgency=low
 
   * Bump version
   * gksu vuelve al sudo-mode, pero ahora en Mate.
+  * Se agregan juegos a huayra-juegos
 
  -- Mauro Lizaur <mauro@krutt.org>  Thu, 27 Mar 2014 11:16:53 -0300
 
