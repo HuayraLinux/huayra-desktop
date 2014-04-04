@@ -4,6 +4,7 @@ huayra-desktop (2.132) unstable; urgency=low
   * Versión RC1 en huayra-base
   * Quitando resoluciones de grub, se pasan a huayra-grub-themes
   * Agrego dependencias, conflictos y replaces.
+  * Nuevo wallpaper oficial
 
  -- Mauro Lizaur <mauro@krutt.org>  Fri, 28 Mar 2014 12:23:29 -0300
 
