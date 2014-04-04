@@ -4,4 +4,3 @@ exec tail -n +3 $0
 #
 set color_normal=dark-gray/black
 set color_highlight=white/cyan 
-set gfxmode=800x600x32
