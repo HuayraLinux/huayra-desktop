@@ -1,6 +1,7 @@
 huayra-desktop (2.132) unstable; urgency=low
 
   * Corrijo (de una manera poco elegante) sudo-mode en gksu.
+  * Agrego dependencias, conflictos y replaces.
 
  -- Mauro Lizaur <mauro@krutt.org>  Fri, 28 Mar 2014 12:23:29 -0300
 
