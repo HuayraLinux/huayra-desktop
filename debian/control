@@ -261,6 +261,7 @@ Depends: ${misc:Depends},
   huayra-stopmotion,
   huayra-stopmotion-doc,
   huayra-libreoffice,
+  huayra-tda-player,
   hwinfo,
   icedove,
   icedove-l10n-es-ar,
@@ -397,13 +398,6 @@ Description: Firmware para distintos dispositivos en Huayra
  Instala firmware para distintos dispositivos que lo requieren, mayormente
  placas WiFi y Bluetooth.
  Dummy package.
-
-Package: huayra-tda
-Architecture: all
-Depends: ${misc:Depends}, wari
-Description: Soporte de Televisión Digital Abierta para Huayra
- Éste paquete contiene las configuraciones necesarias para tener
- TDA (Televisión Digital Abierta) en Huayra.
 
 Package: huayra-libreoffice
 Architecture: all
