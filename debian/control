@@ -73,6 +73,9 @@ Depends: ${misc:Depends},
   scilab-doc,
   stellarium,
   tbo,
+  klavaro,
+  scratch,
+  librecad,
   tuxguitar,
   tuxpaint,
   xfonts-75dpi,
@@ -401,8 +404,20 @@ Description: Firmware para distintos dispositivos en Huayra
 
 Package: huayra-libreoffice
 Architecture: all
-Conflicts: libreoffice
-Replaces: libreoffice
+Conflicts: libreoffice,
+           libreoffice-base,
+           libreoffice-calc,
+           libreoffice-draw,
+           libreoffice-impress,
+           libreoffice-math,
+           libreoffice-writer
+Replaces: libreoffice,
+          libreoffice-base,
+          libreoffice-calc,
+          libreoffice-draw,
+          libreoffice-impress,
+          libreoffice-math,
+          libreoffice-writer
 Depends: ${misc:Depends},
   libreoffice4.2,
   libreoffice4.2-debian-menus,
