@@ -1,3 +1,9 @@
+huayra-desktop (2.133) unstable; urgency=low
+
+  * Bump version.
+
+ -- Huayra Developers <huayra-devel@huayragnulinux.com.ar>  Fri, 04 Apr 2014 14:35:41 -0300
+
 huayra-desktop (2.132) unstable; urgency=low
 
   * Corrijo (de una manera poco elegante) sudo-mode en gksu.
