@@ -3,7 +3,13 @@ huayra-desktop (2.136) unstable; urgency=medium
   * Bump 2.136.
   * Agrego pciutils
 
- -- Mauro Lizaur <mauro@krutt.org>  Mon, 07 Apr 2014 12:04:38 -0300
+ -- Mauro Lizaur <mauro@krutt.org>  Mon, 07 Apr 2014 15:01:33 -0300
+
+huayra-desktop (2.135+nmu1) unstable; urgency=low
+
+  * Screensaver huayra 2.0 por defecto. 
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Mon, 07 Apr 2014 13:22:00 -0300
 
 huayra-desktop (2.135) unstable; urgency=medium
 
