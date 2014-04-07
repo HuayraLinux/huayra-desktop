@@ -1,3 +1,10 @@
+huayra-desktop (2.135) unstable; urgency=medium
+
+  * bump version 2.135 
+  * Replaces libreoffice
+
+ -- Huayra Developers <huayra-devel@huayragnulinux.com.ar>  Fri, 04 Apr 2014 14:35:41 -0300
+
 huayra-desktop (2.134) unstable; urgency=medium
 
   * bump version 2.134 

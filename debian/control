@@ -405,6 +405,7 @@ Description: Firmware para distintos dispositivos en Huayra
 Package: huayra-libreoffice
 Architecture: all
 Conflicts: libreoffice,
+           libreoffice-common,
            libreoffice-base,
            libreoffice-calc,
            libreoffice-draw,
@@ -412,6 +413,7 @@ Conflicts: libreoffice,
            libreoffice-math,
            libreoffice-writer
 Replaces: libreoffice,
+          libreoffice-common,
           libreoffice-base,
           libreoffice-calc,
           libreoffice-draw,
