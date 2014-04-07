@@ -339,7 +339,8 @@ Depends: ${misc:Depends},
   xsane,
   xserver-xorg,
   xterm,
-  zip
+  zip,
+  pciutils
 Description: Suite completa de aplicaciones para Huayra
  Aqui se encuentran una serie de aplicaciones pensadas para Huayra.
  .

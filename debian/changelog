@@ -1,3 +1,10 @@
+huayra-desktop (2.136) unstable; urgency=medium
+
+  * Bump 2.136.
+  * Agrego pciutils
+
+ -- Mauro Lizaur <mauro@krutt.org>  Mon, 07 Apr 2014 12:04:38 -0300
+
 huayra-desktop (2.135) unstable; urgency=medium
 
   * bump version 2.135 
