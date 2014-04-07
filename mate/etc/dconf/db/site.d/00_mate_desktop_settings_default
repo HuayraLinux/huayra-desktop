@@ -55,7 +55,7 @@ tap-to-click=true
 [org/mate/screensaver]
 mode='single'
 idle-delay=5
-themes=['screensavers-huayra-flying-cow']
+themes=['screensavers-huayra-2_0']
 
 #[org/mate/screenshot]
 #last-save-directory='file:///tmp'
