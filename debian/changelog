@@ -1,3 +1,9 @@
+huayra-desktop (2.140) unstable; urgency=low
+
+  * Dependencia huayra2048 y bash-completion 
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Wed, 16 Apr 2014 15:27:37 -0300
+
 huayra-desktop (2.139.2) unstable; urgency=medium
 
   * Se agrega symlink a ayuda

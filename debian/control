@@ -211,6 +211,7 @@ Depends: ${misc:Depends},
   alsa-base,
   apt-xapian-index,
   arista,
+  bash-completion,
   bluefish,
   calibre,
   caribou,
@@ -456,7 +457,8 @@ Depends: ${misc:Depends},
   atomix,
   enigma,
   smc,
-  crack-attack
+  crack-attack,
+  huayra2048
 Description: Juegos seleccionados para Huayra
  Aquí se encuentra un listado de juegos seleccionados
  para la distribucion Huayra
