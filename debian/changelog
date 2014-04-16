@@ -1,3 +1,27 @@
+huayra-desktop (2.139.2) unstable; urgency=medium
+
+  * Se agrega symlink a ayuda
+
+ -- Mauro <mauro@krutt.org>  Wed, 16 Apr 2014 14:42:15 -0300
+
+huayra-desktop (2.139.1) unstable; urgency=medium
+
+  * Se agrega dependencia en huayra-avatares
+
+ -- mauro <mauro@krutt.org>  Tue, 15 Apr 2014 16:53:27 -0300
+
+huayra-desktop (2.139) unstable; urgency=medium
+
+  * Se agrega huayra-avatares
+
+ -- mauro <mauro@krutt.org>  Tue, 15 Apr 2014 16:00:38 -0300
+
+huayra-desktop (2.138.1) unstable; urgency=medium
+
+  * Update Docky.
+
+ -- Mauro <mauro@krutt.org>  Mon, 14 Apr 2014 15:43:19 -0300
+
 huayra-desktop (2.138) unstable; urgency=medium
 
   * Update Wallpaper

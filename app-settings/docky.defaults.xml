@@ -148,7 +148,16 @@
               <string>file:///usr/share/applications/libreoffice4.2-startcenter.desktop</string>
             </value>
             <value>
+              <string>file:///usr/share/applications/huayra-compartir.desktop</string>
+            </value>
+            <value>
               <string>file:///usr/share/applications/mate-terminal.desktop</string>
+            </value>
+            <value>
+              <string>file:///usr/share/applications/huayra-motion.desktop</string>
+            </value>
+            <value>
+              <string>file:///usr/share/applications/huayra-tda-player.desktop</string>
             </value>
             <value>
               <string>file:///usr/share/applications/huayra-visor-manual.desktop</string>
