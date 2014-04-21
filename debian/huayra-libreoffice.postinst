@@ -14,6 +14,7 @@ APT
 {
   NeverAutoRemove
   {
+	"^libobasis4.2-oofonts";
 	"^libreoffice4.2";
 	"^libreoffice4.2-debian-menus";
 	"^libreoffice4.2-es";
