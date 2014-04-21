@@ -1,6 +1,7 @@
 huayra-desktop (2.141) UNRELEASED; urgency=low
 
   * depedencia libobasis4.2-oofonts
+  * se deshabilita el password en el screensaver por defecto
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 21 Apr 2014 11:06:42 -0300
 
