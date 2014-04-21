@@ -18,6 +18,7 @@ APT
 	"^acpi-support";
 	"^acpi-support-base";
 	"^alsa-base";
+	"^alsa-utils";
 	"^apt-xapian-index";
 	"^arista";
 	"^aspell-es";

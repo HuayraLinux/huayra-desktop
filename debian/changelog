@@ -1,3 +1,9 @@
+huayra-desktop (2.142) UNRELEASED; urgency=low
+
+  * dependencia de alsa-utils para guardar el estado del volumen
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 21 Apr 2014 15:12:02 -0300
+
 huayra-desktop (2.141) unstable; urgency=low
 
   [ Fernando Toledo ]
