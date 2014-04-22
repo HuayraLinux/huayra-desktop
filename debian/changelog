@@ -1,3 +1,9 @@
+huayra-desktop (2.146) unstable; urgency=medium
+
+  * Agrego icono de huayra chat en docky.
+
+ -- mauro <mauro@krutt.org>  Tue, 22 Apr 2014 14:43:08 -0300
+
 huayra-desktop (2.145) unstable; urgency=low
 
   * dependencia de pilas-tutoriales 

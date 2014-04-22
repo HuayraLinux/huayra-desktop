@@ -1,6 +1,6 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Chat Online de Huayra
+Name=Ayuda Online de Huayra
 Comment=Chat con otros usuario de Huayra con X-Chat
 Exec=xchat --url irc://irc.freenode.net/huayragnulinux
 Icon=chat-huayra
