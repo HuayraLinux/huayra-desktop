@@ -107,6 +107,7 @@ APT
 	"^openshot";
 	"^os-prober";
 	"^packagekit";
+	"^pciutils";
 	"^pidgin";
 	"^pulseaudio";
 	"^pulseaudio-utils";

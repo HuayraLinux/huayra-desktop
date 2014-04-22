@@ -1,3 +1,9 @@
+huayra-desktop (2.144) unstable; urgency=low
+
+  * dependencia de theme para el lock screen
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 22 Apr 2014 11:50:09 -0300
+
 huayra-desktop (2.143) unstable; urgency=low
 
   * Corrección de dependencia de ooofonts
