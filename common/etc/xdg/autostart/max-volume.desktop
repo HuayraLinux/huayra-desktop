@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Maximo volumen
+Icon=
+Exec=pactl set-sink-volume 0 32500
+Type=Application
+Categories=
+NoDisplay=true
