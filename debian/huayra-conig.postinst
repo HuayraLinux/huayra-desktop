@@ -70,6 +70,7 @@ APT
 	"^pd-cyclone";
 	"^pd-extended";
 	"^pd-purepd";
+	"^pilas-tutoriales";
 	"^programa2mp";
 	"^puredata";
 	"^puredata-core";

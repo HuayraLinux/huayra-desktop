@@ -1,3 +1,9 @@
+huayra-desktop (2.145) unstable; urgency=low
+
+  * dependencia de pilas-tutoriales 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 22 Apr 2014 12:24:24 -0300
+
 huayra-desktop (2.144) unstable; urgency=low
 
   * dependencia de theme para el lock screen
