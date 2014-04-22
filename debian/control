@@ -426,7 +426,7 @@ Replaces: libreoffice,
           libreoffice-math,
           libreoffice-writer
 Depends: ${misc:Depends},
-  libobasis4.2-oofonts,
+  libobasis4.2-ooofonts,
   libreoffice4.2,
   libreoffice4.2-debian-menus,
   libreoffice4.2-es,

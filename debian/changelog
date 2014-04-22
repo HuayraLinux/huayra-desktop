@@ -1,3 +1,9 @@
+huayra-desktop (2.143) unstable; urgency=low
+
+  * Corrección de dependencia de ooofonts
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 22 Apr 2014 10:00:28 -0300
+
 huayra-desktop (2.142) unstable; urgency=low
 
   [Fernando Toledo]
