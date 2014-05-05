@@ -1,3 +1,9 @@
+huayra-desktop (2.147) unstable; urgency=low
+
+  * dependencia de gnome-theme-huayra por huayra-themes-all
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 05 May 2014 13:30:45 -0300
+
 huayra-desktop (2.146) unstable; urgency=medium
 
   * Agrego icono de huayra chat en docky.
