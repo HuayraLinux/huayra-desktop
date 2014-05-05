@@ -44,7 +44,6 @@ APT
 	"^gnome-shell";
 	"^gnome-system-monitor";
 	"^gnome-terminal";
-	"^gnome-themes-huayra";
 	"^gnome-themes-standard";
 	"^gnome-tweak-tool";
 	"^gnome-user-guide";
@@ -53,6 +52,7 @@ APT
 	"^huayra-desktop-gnome-settings";
 	"^huayra-gnome-shell-extensions";
 	"^huayra-icon-theme-all";
+	"^huayra-themes-all";
 	"^nautilus";
 	"^nautilus-image-converter";
 	"^nautilus-open-terminal";

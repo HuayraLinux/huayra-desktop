@@ -21,7 +21,6 @@ APT
 	"^florence";
 	"^gnome-orca";
 	"^gnome-packagekit";
-	"^gnome-themes-huayra";
 	"^huayra-avatares";
 	"^huayra-config-menu";
 	"^huayra-desktop-common";
@@ -31,6 +30,7 @@ APT
 	"^huayra-mdm-themes";
 	"^huayra-screensaver-themes";
 	"^huayra-sound-theme";
+	"^huayra-themes-all";
 	"^mate-archive-keyring";
 	"^mate-core";
 	"^mate-desktop-environment";
