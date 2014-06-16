@@ -6,7 +6,7 @@ huayra-desktop (2.149) unstable; urgency=medium
 
 huayra-desktop (2.148) unstable; urgency=medium
 
-  * version de huayra 2.0 
+  * version de huayra 2.0
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 14 May 2014 16:28:42 -0300
 
@@ -24,7 +24,7 @@ huayra-desktop (2.146) unstable; urgency=medium
 
 huayra-desktop (2.145) unstable; urgency=low
 
-  * dependencia de pilas-tutoriales 
+  * dependencia de pilas-tutoriales
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 22 Apr 2014 12:24:24 -0300
 
