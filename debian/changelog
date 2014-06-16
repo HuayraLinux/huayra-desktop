@@ -1,3 +1,9 @@
+huayra-desktop (2.147) unstable; urgency=medium
+
+  * Agrego dependencias.
+
+ -- mauro <mauro@krutt.org>  Mon, 16 Jun 2014 14:51:21 -0300
+
 huayra-desktop (2.146) unstable; urgency=medium
 
   * Agrego icono de huayra chat en docky.
