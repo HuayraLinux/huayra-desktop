@@ -1,3 +1,15 @@
+huayra-desktop (2.151) unstable; urgency=medium
+
+  * Agrego traduccion para Blender
+
+ -- mauro <mauro@krutt.org>  Tue, 17 Jun 2014 16:15:12 -0300
+
+huayra-desktop (2.150) unstable; urgency=medium
+
+  * Agrego aplicaciones de quimica.
+
+ -- mauro <mauro@krutt.org>  Tue, 17 Jun 2014 13:30:55 -0300
+
 huayra-desktop (2.149) unstable; urgency=medium
 
   * Agrego dependencias.
