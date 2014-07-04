@@ -1,3 +1,9 @@
+huayra-desktop (2.153) unstable; urgency=medium
+
+  * sacando dependencia de huayra-stopmotion-doc (obsoleto)
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 04 Jul 2014 13:14:30 -0300
+
 huayra-desktop (2.152) unstable; urgency=medium
 
   * Agrego .desktop faltantes.
