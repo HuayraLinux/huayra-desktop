@@ -1,3 +1,9 @@
+huayra-desktop (2.152) unstable; urgency=medium
+
+  * Agrego .desktop faltantes.
+
+ -- mauro <mauro@krutt.org>  Tue, 01 Jul 2014 12:57:29 -0300
+
 huayra-desktop (2.151) unstable; urgency=medium
 
   * Agrego traduccion para Blender
