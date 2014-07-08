@@ -1,3 +1,9 @@
+huayra-desktop (2.157) unstable; urgency=medium
+
+  * -e y -L para comprobar mate-help
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 08 Jul 2014 16:01:38 -0300
+
 huayra-desktop (2.156) unstable; urgency=medium
 
   * correccion de postinst de mate (symlink mate-help)
