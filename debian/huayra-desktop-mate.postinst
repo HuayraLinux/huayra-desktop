@@ -48,7 +48,7 @@ EOF
         rm /etc/xdg/autostart/marco-sombras.desktop
     fi
 
-    if [ ! -f /usr/bin/mate-help ]; then
+    if [ ! -e /usr/bin/mate-help ]; then
 	echo "Creando symlink de ayuda"
 	ln -s /usr/bin/huayra-visor-manual /usr/bin/mate-help
     fi
