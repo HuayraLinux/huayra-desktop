@@ -35,7 +35,6 @@ APT
 	"^cups-pk-helper";
 	"^default-jre";
 	"^deja-dup";
-	"^devede";
 	"^dia";
 	"^djmount";
 	"^dosfstools";
