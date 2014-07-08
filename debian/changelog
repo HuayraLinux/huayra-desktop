@@ -1,3 +1,9 @@
+huayra-desktop (2.155) unstable; urgency=medium
+
+  * quitando dependencia devede (conflicto con vlc)
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 08 Jul 2014 12:17:30 -0300
+
 huayra-desktop (2.154) unstable; urgency=low
 
   * Agrego dependencia pepperflashplugin-nonfree
