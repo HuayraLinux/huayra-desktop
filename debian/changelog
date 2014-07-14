@@ -1,3 +1,9 @@
+huayra-desktop (2.158) unstable; urgency=low
+
+  * Docky solo debe iniciare en MATE
+
+ -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Mon, 14 Jul 2014 12:43:56 -0300
+
 huayra-desktop (2.157) unstable; urgency=medium
 
   * -e y -L para comprobar mate-help

@@ -10,3 +10,4 @@ Comment=The finest dock no money can buy.
 NoDisplay=false
 Categories=Utility;
 Hidden=false
+OnlyShowIn=MATE;
