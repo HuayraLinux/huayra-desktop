@@ -1,3 +1,9 @@
+huayra-desktop (2.159) unstable; urgency=medium
+
+  * quitando huayra-flash-install (obsoleto)
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 14 Jul 2014 14:02:05 -0300
+
 huayra-desktop (2.158) unstable; urgency=low
 
   * Docky solo debe iniciare en MATE
