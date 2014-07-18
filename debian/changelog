@@ -1,3 +1,12 @@
+huayra-desktop (2.160) unstable; urgency=medium
+
+  * sacando dependendcias de apps que no tienen paquete para amd64
+    * miescritorio
+    * programa2mp
+    * tbo
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 18 Jul 2014 16:05:22 -0300
+
 huayra-desktop (2.159) unstable; urgency=medium
 
   * quitando huayra-flash-install (obsoleto)

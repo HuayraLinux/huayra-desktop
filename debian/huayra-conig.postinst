@@ -63,7 +63,6 @@ APT
 	"^icaro";
 	"^jclic";
 	"^jmol";
-	"^miescritorio";
 	"^mypaint";
 	"^pd-aubio";
 	"^pd-csound";
@@ -71,7 +70,6 @@ APT
 	"^pd-extended";
 	"^pd-purepd";
 	"^pilas-tutoriales";
-	"^programa2mp";
 	"^puredata";
 	"^puredata-core";
 	"^puredata-doc";
@@ -83,7 +81,6 @@ APT
 	"^python-pilas";
 	"^scilab";
 	"^stellarium";
-	"^tbo";
 	"^tuxguitar";
 	"^tuxpaint";
 	"^xfonts-75dpi";
