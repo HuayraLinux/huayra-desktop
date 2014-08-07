@@ -1,3 +1,9 @@
+huayra-desktop (2.161) unstable; urgency=medium
+
+  * Upgrade a Huayra 2.1
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 07 Aug 2014 15:02:17 -0300
+
 huayra-desktop (2.160) unstable; urgency=medium
 
   * sacando dependendcias de apps que no tienen paquete para amd64
