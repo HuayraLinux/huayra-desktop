@@ -1,3 +1,9 @@
+huayra-desktop (2.96.2) brisa-proposed; urgency=medium
+
+  * quitando manpagen de huayar-apps-settings que se mueve a huayra-desktop-common
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 27 Aug 2014 12:10:47 -0300
+
 huayra-desktop (2.96.1) brisa-proposed; urgency=low
 
   * quitando dependencia fusioninventory-agent
