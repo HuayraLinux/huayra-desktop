@@ -77,7 +77,7 @@ APT
 	"^huayra-identinet";
 	"^icedove";
 	"^icedove-l10n-es-ar";
-	"^icedtea-6-plugin";
+	"^icedtea-7-plugin";
 	"^iceowl-extension";
 	"^imagej";
 	"^inkscape";
@@ -121,7 +121,6 @@ APT
 	"^scribus";
 	"^shotwell";
 	"^simple-scan";
-	"^software-center";
 	"^software-properties-gtk";
 	"^sozi";
 	"^sshfs";
