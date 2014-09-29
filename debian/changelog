@@ -1,3 +1,11 @@
+huayra-desktop (2.162) unstable; urgency=medium
+
+  * actualizando dependencias java6 => java7
+  * sale software-center
+  * agregando integrancion de gtk para libreoffice4.2
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 29 Sep 2014 16:16:45 -0300
+
 huayra-desktop (2.161) unstable; urgency=medium
 
   * Upgrade a Huayra 2.1
