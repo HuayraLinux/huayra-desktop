@@ -27,7 +27,7 @@ num-workspaces=2
 button-layout=':minimize,maximize,close'
 theme='HuayraLimbo'
 compositing-manager=true
-compositing-fast-alt-tab=true
+compositing-fast-alt-tab=false
 
 [org/mate/notification-daemon]
 popup-location='bottom_right'
