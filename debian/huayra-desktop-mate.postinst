@@ -31,7 +31,6 @@ APT
 	"^huayra-screensaver-themes";
 	"^huayra-sound-theme";
 	"^huayra-themes-all";
-	"^mate-archive-keyring";
 	"^mate-core";
 	"^mate-desktop-environment";
 	"^mate-media-pulse";

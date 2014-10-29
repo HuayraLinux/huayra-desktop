@@ -22,7 +22,6 @@ APT
 	"^apt-xapian-index";
 	"^arista";
 	"^aspell-es";
-	"^bluefish";
 	"^brasero";
 	"^calibre";
 	"^caribou";
@@ -51,7 +50,6 @@ APT
 	"^ghostscript-cups";
 	"^gimp";
 	"^gimp-gutenprint";
-	"^gimp-help-es";
 	"^gimp-paint-studio";
 	"^git";
 	"^git-man";
@@ -61,7 +59,6 @@ APT
 	"^gnucap";
 	"^gparted";
 	"^gscan2pdf";
-	"^gstreamer0.10-ffmpeg";
 	"^gstreamer0.10-fluendo-mp3";
 	"^gstreamer0.10-plugins-bad";
 	"^gstreamer0.10-plugins-good";
