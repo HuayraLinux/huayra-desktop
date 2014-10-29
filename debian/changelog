@@ -1,3 +1,12 @@
+huayra-desktop (3.0) unstable; urgency=medium
+
+  * version 3.0 para sud (basada en jessie)
+  * correccion de dependencias (algunos paquetes todavia no estan en jessie)
+  * quitando keyring del repo de mate
+  * bump de /etc/huayra_version
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 29 Oct 2014 11:22:48 -0300
+
 huayra-desktop (2.162) unstable; urgency=medium
 
   * actualizando dependencias java6 => java7
