@@ -15,4 +15,3 @@ common/huayra-chat.desktop usr/share/applications/
 common/huayra.menu etc/xdg/menus/applications-merged/
 common/Huayra.directory usr/share/desktop-directories/
 common/etc/* etc/
-common/lmms.desktop usr/share/applications/
