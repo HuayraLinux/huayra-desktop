@@ -1,10 +1,3 @@
-huayra-desktop (2.161.1) huayra-pampero-proposed; urgency=medium
-
-  *  Actualización a versión 2.2 y corrección del .desktop de lmms que
-     ya no es necesario.
-
- -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 07 Nov 2014 15:23:32 -0300
-
 huayra-desktop (2.161) unstable; urgency=medium
 
   * Upgrade a Huayra 2.1

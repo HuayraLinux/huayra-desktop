@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=LMMS
+GenericName=LMMS
+Comment=Linux Multimedia Studio
+Icon=lmms
+Type=Application
+Categories=AudioVideo;Audio;AudioEditing;
+Exec=lmms
+StartupNotify=false
+Terminal=false
