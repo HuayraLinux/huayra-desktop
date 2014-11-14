@@ -1,4 +1,4 @@
-huayra-desktop (2.161.2) huayra-pampero-proposed; urgency=medium
+huayra-desktop (2.161.2) pampero-proposed; urgency=medium
 
   * Revert del icono del lmms (la corrección es en jessie, en wheezy
     todavia no trae el .desktop)
