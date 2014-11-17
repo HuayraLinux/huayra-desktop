@@ -1,3 +1,9 @@
+huayra-desktop (2.161.3) pampero-proposed; urgency=medium
+
+  * Actualización del fondo de escritorio.
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 17 Nov 2014 13:59:09 -0300
+
 huayra-desktop (2.161.2) pampero-proposed; urgency=medium
 
   * Revert del icono del lmms (la corrección es en jessie, en wheezy
