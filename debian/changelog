@@ -1,3 +1,9 @@
+huayra-desktop (2.161.4) pampero-proposed; urgency=medium
+
+  * Upgrade a  Huayra 2.2
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 21 Nov 2014 10:51:46 -0300
+
 huayra-desktop (2.161.3) pampero-proposed; urgency=medium
 
   * Actualización del fondo de escritorio.
