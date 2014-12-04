@@ -194,7 +194,7 @@ Package: huayra-desktop-common
 Architecture: all
 Conflicts: huayra-desktop, huayra-apps-debian, huayra-mate-screensavers
 Replaces: huayra-desktop, huayra-apps-debian
-Depends: ${misc:Depends}, huayra-backgrounds-extras, huayra-fonts, dconf-tools,
+Depends: ${misc:Depends}, huayra-fonts, dconf-tools,
          huayra-screensavers, python (>= 2.7), python (<< 2.8)
 Description: Configuraciones comunes para los entornos de escritorio
  Opciones comunes para los entornos de escritorio

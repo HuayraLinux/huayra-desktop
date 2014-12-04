@@ -1,3 +1,9 @@
+huayra-desktop (3.0.1) unstable; urgency=medium
+
+  * Quitando paquete de backgrounds (ahora estan separados por temas)
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 04 Dec 2014 14:54:07 -0300
+
 huayra-desktop (3.0) unstable; urgency=medium
 
   * version 3.0 para sud (basada en jessie)
