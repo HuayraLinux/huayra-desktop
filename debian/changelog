@@ -1,3 +1,9 @@
+huayra-desktop (3.0.3) unstable; urgency=medium
+
+  * sacando huayra tda player que no esta portado a wx3.0 todavia
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 16 Dec 2014 14:36:32 -0300
+
 huayra-desktop (3.0.2) unstable; urgency=medium
 
   * quitando drgeo y synapse porqeu noe stan en jessie
