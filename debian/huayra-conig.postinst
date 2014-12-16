@@ -30,8 +30,6 @@ APT
 	"^blender";
 	"^cdpedia-launcher";
 	"^celestia";
-	"^drgeo";
-	"^drgeo-doc";
 	"^eboard";
 	"^epoptes";
 	"^epoptes-client";

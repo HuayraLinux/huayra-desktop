@@ -1,3 +1,10 @@
+huayra-desktop (3.0.2) unstable; urgency=medium
+
+  * quitando drgeo y synapse porqeu noe stan en jessie
+  * reemplazando driver de hpcups
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 16 Dec 2014 13:33:53 -0300
+
 huayra-desktop (3.0.1) unstable; urgency=medium
 
   * Quitando paquete de backgrounds (ahora estan separados por temas)

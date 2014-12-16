@@ -23,8 +23,6 @@ Depends: ${misc:Depends},
   brasero,
   cdpedia-launcher,
   celestia,
-  drgeo,
-  drgeo-doc,
   epoptes,
   epoptes-client,
   epoptes-client-config,
@@ -175,8 +173,7 @@ Depends: ${misc:Depends},
   mate-media-pulse,
   mate-settings-daemon-pulse,
   mate-system-tools,
-  notification-daemon,
-  synapse
+  notification-daemon
 Description: Entorno de escritorio Huayra con Mate
  Este paquete contiene el escritorio Mate para Huayra.
  Dummy Package.
@@ -307,7 +304,6 @@ Depends: ${misc:Depends},
   python-tk,
   python-webkit,
   python-wxglade,
-  python-wxgtk2.8,
   rar,
   rfkill,
   scribus,
@@ -375,12 +371,11 @@ Architecture: all
 Depends: ${misc:Depends},
   hpijs-ppds,
   hplip,
-  hplip-cups,
-  hplip-data,
   libsane-extras,
   libsane-hpaio,
   printer-driver-foo2zjs,
-  printer-driver-hpijs
+  printer-driver-hpijs,
+  printer-driver-hpcups
 Description: Meta-paquete que depende de paquetes que brindan soporte de impresión
  Instala drivers y programas que dan soporte en una gran variedad de impresoras.
  Dummy package.

@@ -37,7 +37,6 @@ APT
 	"^mate-settings-daemon-pulse";
 	"^mate-system-tools";
 	"^notification-daemon";
-	"^synapse";
   };
 };
 EOF

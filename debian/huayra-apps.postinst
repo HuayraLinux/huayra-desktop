@@ -112,7 +112,6 @@ APT
 	"^python-tk";
 	"^python-webkit";
 	"^python-wxglade";
-	"^python-wxgtk2.8";
 	"^rar";
 	"^rfkill";
 	"^scribus";
