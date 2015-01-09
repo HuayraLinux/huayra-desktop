@@ -84,66 +84,6 @@ Description: Configuraciones de Huayra para Conectar Igualdad
  un entorno para trabajar o estudiar para el programa Conectar Igualdad.
  Dummy Package.
 
-Package: huayra-desktop-gnome
-Architecture: all
-Provides: huayra-desktop-basic
-Conflicts: huayra-desktop, huayra-apps-debian
-Replaces: huayra-desktop, huayra-apps-debian
-Depends: ${misc:Depends},
-  alacarte,
-  at-spi2-core,
-  eog,
-  evince,
-  file-roller,
-  gcalctool,
-  gconf2,
-  gedit,
-  gnome-applets,
-  gnome-bluetooth,
-  gnome-contacts,
-  gnome-control-center,
-  gnome-documents,
-  gnome-font-viewer,
-  gnome-keyring,
-  gnome-mag,
-  gnome-media,
-  gnome-menus,
-  gnome-online-accounts,
-  gnome-orca,
-  gnome-panel,
-  gnome-power-manager,
-  gnome-screensaver,
-  gnome-screenshot,
-  gnome-search-tool,
-  gnome-session,
-  gnome-session-fallback,
-  gnome-shell,
-  gnome-system-monitor,
-  gnome-terminal,
-  gnome-themes-standard,
-  gnome-tweak-tool,
-  gnome-user-guide,
-  huayra-ayuda-gnome,
-  huayra-desktop-common,
-  huayra-desktop-gnome-settings,
-  huayra-gnome-shell-extensions,
-  huayra-icon-theme-all,
-  huayra-themes-all,
-  nautilus,
-  nautilus-image-converter,
-  nautilus-open-terminal
-Description: Entorno de escritorio Huayra con GNOME
- Este paquete contiene el escritorio GNOME para Huayra.
- Dummy Package.
-
-Package: huayra-desktop-gnome-settings
-Architecture: all
-Conflicts: huayra-desktop, huayra-apps-debian
-Replaces: huayra-desktop, huayra-apps-debian
-Depends: ${misc:Depends}
-Description: Confirguraciones del entorno de escritorio Huayra con GNOME
- Este paquete contiene configuraciones para el escritorio GNOME para Huayra.
-
 Package: huayra-desktop-mate
 Architecture: all
 Provides: huayra-desktop-basic
