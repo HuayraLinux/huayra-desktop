@@ -1,5 +1,0 @@
-gnome/etc/skel/.gnome2/* etc/skel/.gnome2/
-gnome/etc/skel/.config/axemenu.conf etc/skel/.config/
-gnome/huayra-desktop.xml usr/share/gnome-background-properties/
-gnome/educar.xml usr/share/gnome-shell/open-search-providers
-gnome/etc/* etc/
