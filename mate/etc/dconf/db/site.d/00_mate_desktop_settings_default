@@ -3,8 +3,8 @@ picture-filename='/usr/share/images/huayra-desktop/huayra-wallpaper.png'
 picture-options='zoom'
 
 [org/mate/desktop/interface]
-gtk-theme='HuayraLimbo'
-icon-theme='huayra-limbo'
+gtk-theme='HuayraLiso'
+icon-theme='huayra-liso'
 
 [org/mate/desktop/accessibility/keyboard]
 enable=true
@@ -73,3 +73,5 @@ action='huayra-visor-manual'
 binding='F1'
 name='huayra-visor-manual'
 
+[org/mate/panel/general]
+default-layout='huayra'
