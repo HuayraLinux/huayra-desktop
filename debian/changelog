@@ -1,3 +1,9 @@
+huayra-desktop (3.0.6) unstable; urgency=medium
+
+  * correccion de alternatives para mate-terminal.wrapper
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 12 Jan 2015 15:20:42 -0300
+
 huayra-desktop (3.0.5) unstable; urgency=medium
 
   * quitango paquetes de gnome

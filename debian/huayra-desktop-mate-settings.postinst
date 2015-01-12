@@ -35,8 +35,12 @@ if [ "$1" = "configure" ]; then
   huayra-set-default-app text/html chromium.desktop
 
   # si esta mate-terminal, actualizamos las alternativas.
-  if [ `update-alternatives --list x-terminal-emulator|grep /usr/bin/mate-terminal` ]; then
-      update-alternatives --set x-terminal-emulator /usr/bin/mate-terminal;
+  echo "Configurar mate-terminal como terminal por defecto"
+  MATE_TERM=`update-alternatives --list x-terminal-emulator|grep mate-terminal | head -1`
+  if [ ! -z $MATE_TERM ]; then
+      update-alternatives --set x-terminal-emulator $MATE_TERM
+  else
+      echo "mater-terminal no está en la lista de alternativos"
   fi
 
   exit 0
