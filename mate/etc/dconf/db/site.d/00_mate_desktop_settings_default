@@ -25,7 +25,7 @@ run-command-terminal='<Primary><Alt>t'
 [org/mate/marco/general]
 num-workspaces=2
 button-layout=':minimize,maximize,close'
-theme='HuayraLimbo'
+theme='HuayraLiso'
 compositing-manager=true
 compositing-fast-alt-tab=false
 
