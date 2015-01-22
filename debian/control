@@ -91,10 +91,15 @@ Conflicts: huayra-desktop, huayra-apps-debian
 Replaces: huayra-desktop, huayra-apps-debian
 Depends: ${misc:Depends},
   at-spi2-core,
+  atril,
   caja-open-terminal,
   dasher,
   docky,
+  engrampa,
+  eom,
+  ffmpegthumbnailer,
   florence,
+  galculator,
   gnome-orca,
   gnome-packagekit,
   huayra-avatares,
@@ -108,12 +113,15 @@ Depends: ${misc:Depends},
   huayra-sound-theme,
   huayra-themes-liso,
   locales,
-  mate-core,
   mate-desktop-environment,
+  mate-notification-daemon,
   mate-media-pulse,
+  mate-power-manager,
+  mate-screensaver,
   mate-settings-daemon-pulse,
   mate-system-tools,
-  notification-daemon
+  notification-daemon,
+  pluma,
 Description: Entorno de escritorio Huayra con Mate
  Este paquete contiene el escritorio Mate para Huayra.
  Dummy Package.

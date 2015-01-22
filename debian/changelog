@@ -2,6 +2,7 @@ huayra-desktop (3.0.7) unstable; urgency=medium
 
   [ Fernando Toledo ]
   * Cambio de theme de marco por defecto a HuayraLiso
+  * Correcciones de apps de mate faltantes (atril, pluma, engrampa)
 
   [ Mauro ]
   * Actualizamos version de LibreOffice.
