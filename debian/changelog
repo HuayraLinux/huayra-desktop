@@ -1,12 +1,14 @@
-huayra-desktop (3.0.7) unstable; urgency=medium
+huayra-desktop (3.0.8) unstable; urgency=medium
 
-  [ Fernando Toledo ]
-  * Cambio de theme de marco por defecto a HuayraLiso
-  * Correcciones de apps de mate faltantes (atril, pluma, engrampa)
-
-  [ Mauro ]
   * Actualizamos version de LibreOffice.
   * Quito firmware-realtek de huayra-firmware-full-support
+
+ -- Mauro <mauro@krutt.org>  Thu, 22 Jan 2015 17:07:18 -0300
+
+huayra-desktop (3.0.7) unstable; urgency=medium
+
+  * Cambio de theme de marco por defecto a HuayraLiso
+  * Correcciones de apps de mate faltantes (atril, pluma, engrampa)
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 21 Jan 2015 13:37:38 -0300
 
