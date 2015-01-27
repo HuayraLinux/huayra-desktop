@@ -1,3 +1,10 @@
+huayra-desktop (3.0.9) UNRELEASED; urgency=medium
+
+  [Fernando Toledo]
+  * quitando zoom por defecto en docky
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 27 Jan 2015 12:55:18 -0300
+
 huayra-desktop (3.0.8) unstable; urgency=medium
 
   * Actualizamos version de LibreOffice.
