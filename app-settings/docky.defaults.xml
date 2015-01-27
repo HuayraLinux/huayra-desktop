@@ -250,7 +250,7 @@
       <key>Docky/Interface/DockPreferences/Dock1/ZoomEnabled</key>
       <schema_key>/schemas/apps/docky-2/Docky/Interface/DockPreferences/DockN/ZoomEnabled</schema_key>
       <value>
-        <bool>true</bool>
+        <bool>false</bool>
       </value>
     </entry>
     <entry>
@@ -367,7 +367,7 @@
       <key>Docky/Interface/DockPreferences/Dock2/ZoomEnabled</key>
       <schema_key>/schemas/apps/docky-2/Docky/Interface/DockPreferences/DockN/ZoomEnabled</schema_key>
       <value>
-        <bool>true</bool>
+        <bool>false</bool>
       </value>
     </entry>
     <entry>
@@ -475,7 +475,7 @@
       <key>Docky/Interface/DockPreferences/Dock3/ZoomEnabled</key>
       <schema_key>/schemas/apps/docky-2/Docky/Interface/DockPreferences/DockN/ZoomEnabled</schema_key>
       <value>
-        <bool>true</bool>
+        <bool>false</bool>
       </value>
     </entry>
     <entry>
@@ -583,7 +583,7 @@
       <key>Docky/Interface/DockPreferences/Dock4/ZoomEnabled</key>
       <schema_key>/schemas/apps/docky-2/Docky/Interface/DockPreferences/DockN/ZoomEnabled</schema_key>
       <value>
-        <bool>true</bool>
+        <bool>false</bool>
       </value>
     </entry>
     <entry>
@@ -691,7 +691,7 @@
       <key>Docky/Interface/DockPreferences/Dock5/ZoomEnabled</key>
       <schema_key>/schemas/apps/docky-2/Docky/Interface/DockPreferences/DockN/ZoomEnabled</schema_key>
       <value>
-        <bool>true</bool>
+        <bool>false</bool>
       </value>
     </entry>
     <entry>
@@ -799,7 +799,7 @@
       <key>Docky/Interface/DockPreferences/Dock6/ZoomEnabled</key>
       <schema_key>/schemas/apps/docky-2/Docky/Interface/DockPreferences/DockN/ZoomEnabled</schema_key>
       <value>
-        <bool>true</bool>
+        <bool>false</bool>
       </value>
     </entry>
     <entry>
