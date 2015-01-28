@@ -3,6 +3,9 @@ huayra-desktop (3.0.9) UNRELEASED; urgency=medium
   [Fernando Toledo]
   * quitando zoom por defecto en docky
 
+  [Mauro]
+  * Quito `huayra_version` porque va en base-files ahora
+
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 27 Jan 2015 12:55:18 -0300
 
 huayra-desktop (3.0.8.1) unstable; urgency=medium
