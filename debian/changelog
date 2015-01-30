@@ -1,4 +1,12 @@
-huayra-desktop (3.0.9) UNRELEASED; urgency=medium
+huayra-desktop (3.1.0) unstable; urgency=medium
+
+  * Agrego configuracion de debconf para MDM.
+  * Agrego script de python para la conf de MDM.
+  * Agrego dependencia en libreoffice-gnome.
+
+ -- Mauro <mauro@sdf.org>  Fri, 30 Jan 2015 11:49:11 -0300
+
+huayra-desktop (3.0.9) unstable; urgency=medium
 
   [Fernando Toledo]
   * quitando zoom por defecto en docky

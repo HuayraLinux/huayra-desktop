@@ -1,0 +1,11 @@
+Template: huayra-apps-settings/autologin
+Type: boolean
+Default: true
+Description: Autologin en MDM
+ Indique si desea entrar automaticamente.
+
+Template: huayra-apps-settings/username
+Type: string
+Default: alumno
+Description: Nombre de usuario
+ Ingrese el nombre de usuario para autologin

@@ -1,6 +1,14 @@
 #! /bin/sh
 set -e
 
+. /usr/share/debconf/confmodule
+
+MDM_CONF="/usr/bin/mdm-conf"
+MDM_CONF_FILE="/etc/mdm/mdm.conf"
+
+Grub_File=/etc/default/grub
+Theme_Dir=/boot/grub/themes
+
 if [ "$1" = "configure" ]; then
 
   echo "Cargando opciones por defecto de docky"
@@ -10,6 +18,33 @@ if [ "$1" = "configure" ]; then
   echo "Estableciendo preferencias de chromium"
   #TODO: hay que hacer refactor a dpkg-divert
   huayra-chromium-master-defaults
+
+  [ -f $MDM_CONF_FILE ] || touch $MDM_CONF_FILE;
+
+  db_version 2.0
+
+  # The following only on a new install
+  if [ "$2" = "" ]; then
+    echo "Instalando temas de grub por primera vez"
+  fi
+
+  db_get huayra-apps-settings/autologin
+  autologin="$RET"
+
+  if [ "$autologin" = "true" ]; then
+
+    db_get huayra-apps-settings/username
+    username="$RET"
+
+    $MDM_CONF -ds -u $username
+
+  else
+
+    $MDM_CONF -s daemon=AutomaticLoginEnable=false
+
+  fi
+
+
 fi
 
 #DEBHELPER#

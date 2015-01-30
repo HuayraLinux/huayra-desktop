@@ -378,6 +378,7 @@ Depends: ${misc:Depends},
   libreoffice-core,
   libreoffice-gtk,
   libreoffice-gtk3,
+  libreoffice-gnome,
   libreoffice-common,
   libreoffice-avmedia-backend-vlc,
   libreoffice-l10n-es,
@@ -392,9 +393,8 @@ Depends: ${misc:Depends},
   browser-plugin-libreoffice,
   myspell-es,
   aspell-es
-Description: Suite completa de ofimática de LibreOffice 4.2
- Aquí se encuentra el paquete completo de ofimática de la versión
- 4.2 de LibreOffice
+Description: Suite completa de ofimática de LibreOffice
+ Aquí se encuentra el paquete completo de ofimática de LibreOffice
  Dummy Package.
 
 Package: huayra-juegos
