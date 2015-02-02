@@ -7,4 +7,3 @@ app-settings/huayra-chromium-master-defaults usr/bin/
 app-settings/huayra_chromium_bookmarks.html etc/huayra/
 app-settings/docky.defaults.xml etc/huayra/
 app-settings/etc/vim/   etc/vim/
-debian/mdm-conf.py usr/share/huayra-apps-settings/
