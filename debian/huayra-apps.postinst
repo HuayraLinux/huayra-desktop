@@ -36,6 +36,8 @@ APT
 	"^deja-dup";
 	"^dia";
 	"^djmount";
+	"^dnsmasq-base";
+	"^dnsutils";
 	"^dosfstools";
 	"^dvb-apps";
 	"^e2fsprogs";
@@ -98,6 +100,7 @@ APT
 	"^myspell-es";
 	"^network-manager-gnome";
 	"^network-manager-openvpn-gnome";
+	"^ninja-ide";
 	"^ntfs-3g";
 	"^ntpdate";
 	"^openshot";
@@ -121,6 +124,7 @@ APT
 	"^sozi";
 	"^sshfs";
 	"^sudo";
+	"^synapse";
 	"^synaptic";
 	"^system-config-printer";
 	"^transmission-gtk";

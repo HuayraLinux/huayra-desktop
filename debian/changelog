@@ -1,3 +1,12 @@
+huayra-desktop (3.1.2) torbellino; urgency=medium
+
+  * Agregando nija-ide como dependencia de huayra-apps
+  * Agregando mate-tuils (para el screenshoot)
+  * Agregando synapse
+  * dnsutils y dnsmasq-base para red ad-hoc
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 05 Feb 2015 13:56:07 -0300
+
 huayra-desktop (3.1.1) unstable; urgency=medium
 
   * Muevo configs de MDM a huayra-mdm
@@ -70,7 +79,7 @@ huayra-desktop (3.0.3) unstable; urgency=medium
 
 huayra-desktop (3.0.2) unstable; urgency=medium
 
-  * quitando drgeo y synapse porqeu noe stan en jessie
+  * quitando drgeo y synapse porque no estan en jessie
   * reemplazando driver de hpcups
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 16 Dec 2014 13:33:53 -0300

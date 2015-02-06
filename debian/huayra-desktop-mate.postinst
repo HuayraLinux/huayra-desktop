@@ -36,6 +36,7 @@ APT
 	"^mate-media-pulse";
 	"^mate-settings-daemon-pulse";
 	"^mate-system-tools";
+	"^mate-utils";
 	"^notification-daemon";
   };
 };
