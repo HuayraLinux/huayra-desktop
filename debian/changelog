@@ -1,3 +1,9 @@
+huayra-desktop (3.1.4) torbellino; urgency=medium
+
+  * Correccion en el script de las preferencias por defecto de chromium
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 12 Feb 2015 19:28:33 -0300
+
 huayra-desktop (3.1.3) torbellino; urgency=medium
 
   * Nuevo wallpaper 
