@@ -1,3 +1,9 @@
+huayra-desktop (3.1.5) UNRELEASED; urgency=medium
+
+  * Agregando opcion por defecto en sudo para activar pwfeedback 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 12 Feb 2015 20:51:00 -0300
+
 huayra-desktop (3.1.4) torbellino; urgency=medium
 
   * Correccion en el script de las preferencias por defecto de chromium
