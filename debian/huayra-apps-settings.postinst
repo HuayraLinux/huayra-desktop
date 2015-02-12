@@ -3,9 +3,6 @@ set -e
 
 . /usr/share/debconf/confmodule
 
-Grub_File=/etc/default/grub
-Theme_Dir=/boot/grub/themes
-
 if [ "$1" = "configure" ]; then
 
   echo "Cargando opciones por defecto de docky"
