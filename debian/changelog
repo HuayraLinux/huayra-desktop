@@ -1,6 +1,7 @@
-huayra-desktop (3.1.3) UNRELEASED; urgency=medium
+huayra-desktop (3.1.3) torbellino; urgency=medium
 
   * Nuevo wallpaper 
+  * Eliminando postint (ya no hace falta modificar /etc/default/grub)
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 06 Feb 2015 17:00:23 -0300
 
