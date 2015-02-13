@@ -1,7 +1,8 @@
-huayra-desktop (3.1.5) UNRELEASED; urgency=medium
+huayra-desktop (3.1.5) unstable; urgency=medium
 
   * Agregando opcion por defecto en sudo para activar pwfeedback 
   * Agregando mate-system-monitor como dependencia 
+  * Corrección de fondo de pantalla
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 12 Feb 2015 20:51:00 -0300
 
