@@ -1,3 +1,9 @@
+huayra-desktop (3.1.6) unstable; urgency=medium
+
+  * nuevo fondo de grub 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 23 Feb 2015 16:52:39 -0300
+
 huayra-desktop (3.1.5) unstable; urgency=medium
 
   * Agregando opcion por defecto en sudo para activar pwfeedback 
