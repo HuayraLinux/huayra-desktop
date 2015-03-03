@@ -1,3 +1,9 @@
+huayra-desktop (3.1.7) torbellino; urgency=medium
+
+  * Se agregaron nuevas dependencias de paquetes
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 03 Mar 2015 11:12:09 -0300
+
 huayra-desktop (3.1.6) unstable; urgency=medium
 
   * nuevo fondo de grub 
