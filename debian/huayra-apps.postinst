@@ -32,6 +32,7 @@ APT
 	"^cpufrequtils";
 	"^cups";
 	"^cups-pk-helper";
+	"^darktable";
 	"^default-jre";
 	"^deja-dup";
 	"^dia";
@@ -73,7 +74,9 @@ APT
 	"^gv";
 	"^httrack";
 	"^huayra-apps-settings";
+	"^huayra-caripela";
 	"^huayra-identinet";
+	"^huayra-mu";
 	"^icedove";
 	"^icedove-l10n-es-ar";
 	"^icedtea-7-plugin";
@@ -129,7 +132,6 @@ APT
 	"^system-config-printer";
 	"^transmission-gtk";
 	"^ttf-aenigma";
-	"^ufraw";
 	"^unetbootin";
 	"^unrar";
 	"^usb-modeswitch";
