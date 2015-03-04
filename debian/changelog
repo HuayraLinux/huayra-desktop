@@ -1,3 +1,9 @@
+huayra-desktop (3.1.9) torbellino; urgency=medium
+
+  * Agregando dependencia huayra-curriculum
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 04 Mar 2015 18:44:15 -0300
+
 huayra-desktop (3.1.8) unstable; urgency=medium
 
   * Protector de pantalla Huayra 3.0 por defecto
