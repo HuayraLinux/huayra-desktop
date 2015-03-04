@@ -1,3 +1,9 @@
+huayra-desktop (3.1.8) unstable; urgency=medium
+
+  * Protector de pantalla Huayra 3.0 por defecto
+
+ -- Ignacio Juan Martín Benedetti <tranceway@gmail.com>  Wed, 04 Mar 2015 17:09:55 -0300
+
 huayra-desktop (3.1.7) torbellino; urgency=medium
 
   * Se agregaron nuevas dependencias de paquetes
@@ -6,14 +12,14 @@ huayra-desktop (3.1.7) torbellino; urgency=medium
 
 huayra-desktop (3.1.6) unstable; urgency=medium
 
-  * nuevo fondo de grub 
+  * nuevo fondo de grub
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 23 Feb 2015 16:52:39 -0300
 
 huayra-desktop (3.1.5) unstable; urgency=medium
 
-  * Agregando opcion por defecto en sudo para activar pwfeedback 
-  * Agregando mate-system-monitor como dependencia 
+  * Agregando opcion por defecto en sudo para activar pwfeedback
+  * Agregando mate-system-monitor como dependencia
   * Corrección de fondo de pantalla
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 12 Feb 2015 20:51:00 -0300
@@ -26,7 +32,7 @@ huayra-desktop (3.1.4) torbellino; urgency=medium
 
 huayra-desktop (3.1.3) torbellino; urgency=medium
 
-  * Nuevo wallpaper 
+  * Nuevo wallpaper
   * Eliminando postint (ya no hace falta modificar /etc/default/grub)
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 06 Feb 2015 17:00:23 -0300
@@ -280,7 +286,7 @@ huayra-desktop (2.141) unstable; urgency=low
 
 huayra-desktop (2.140) unstable; urgency=low
 
-  * Dependencia huayra2048 y bash-completion 
+  * Dependencia huayra2048 y bash-completion
 
  -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Wed, 16 Apr 2014 15:27:37 -0300
 
@@ -332,20 +338,20 @@ huayra-desktop (2.136) unstable; urgency=medium
 
 huayra-desktop (2.135+nmu1) unstable; urgency=low
 
-  * Screensaver huayra 2.0 por defecto. 
+  * Screensaver huayra 2.0 por defecto.
 
  -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Mon, 07 Apr 2014 13:22:00 -0300
 
 huayra-desktop (2.135) unstable; urgency=medium
 
-  * bump version 2.135 
+  * bump version 2.135
   * Replaces libreoffice
 
  -- Huayra Developers <huayra-devel@huayragnulinux.com.ar>  Fri, 04 Apr 2014 14:35:41 -0300
 
 huayra-desktop (2.134) unstable; urgency=medium
 
-  * bump version 2.134 
+  * bump version 2.134
   * keybinding para huayra-visor-manual
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Sat, 05 Apr 2014 21:52:07 -0300
@@ -353,7 +359,7 @@ huayra-desktop (2.134) unstable; urgency=medium
 huayra-desktop (2.133) unstable; urgency=low
 
   * Bump version.
-  * Quitando icono de libreoffice-math del skel 
+  * Quitando icono de libreoffice-math del skel
 
  -- Huayra Developers <huayra-devel@huayragnulinux.com.ar>  Fri, 04 Apr 2014 14:35:41 -0300
 
@@ -437,7 +443,7 @@ huayra-desktop (2.123) unstable; urgency=low
 
 huayra-desktop (2.122) unstable; urgency=medium
 
-  * correccion de url de descarga de wallpapers 
+  * correccion de url de descarga de wallpapers
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 07 Mar 2014 17:50:17 -0300
 
@@ -446,13 +452,13 @@ huayra-desktop (2.121) unstable; urgency=low
   * Pseudo NMU.
   * Agrego dependencia en scilab-doc
   * Nueva imagen de grub
-  * Corrección de xml de docky 
+  * Corrección de xml de docky
  -- Mauro Lizaur <mauro@debian.org>  Fri, 07 Mar 2014 12:37:58 -0300
 
 huayra-desktop (2.120) unstable; urgency=medium
 
   * error de sintaxis
-  * correccion de path de dconf para screensaver 
+  * correccion de path de dconf para screensaver
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 05 Mar 2014 00:02:11 -0300
 
@@ -460,7 +466,7 @@ huayra-desktop (2.119) unstable; urgency=medium
 
   * version alfa6
   * nuevo walppaper por defecto
-  * nuevo background de grub 
+  * nuevo background de grub
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 20 Feb 2014 16:44:59 -0300
 
@@ -472,13 +478,13 @@ huayra-desktop (2.118) unstable; urgency=low
 
 huayra-desktop (2.117) unstable; urgency=medium
 
-  * error dependencia huayra-stopmotion 
+  * error dependencia huayra-stopmotion
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 07 Feb 2014 18:29:36 -0300
 
 huayra-desktop (2.116) unstable; urgency=medium
 
-  * nuevo paquetes de aplicaciones 
+  * nuevo paquetes de aplicaciones
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 07 Feb 2014 17:27:43 -0300
 
@@ -515,7 +521,7 @@ huayra-desktop (2.111) unstable; urgency=low
 
 huayra-desktop (2.110) unstable; urgency=low
 
-  * config de docky y synapse 
+  * config de docky y synapse
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 06 Nov 2013 12:56:14 -0300
 
@@ -560,13 +566,13 @@ huayra-desktop (2.104) unstable; urgency=low
 huayra-desktop (2.103+nmu1) testing; urgency=low
 
   * Non-maintainer upload.
-  * Queda separado huayra-screensavers (que conflictúa con y reemplaza a huayra-mate-screensavers) 
+  * Queda separado huayra-screensavers (que conflictúa con y reemplaza a huayra-mate-screensavers)
 
  -- Julia Palandri <julia.palandri@gmail.com>  Wed, 07 Aug 2013 17:31:05 -0300
 
 huayra-desktop (2.103) testing; urgency=low
 
-  * settings de mate-panel 
+  * settings de mate-panel
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 06 Aug 2013 16:01:54 -0300
 
@@ -585,13 +591,13 @@ huayra-desktop (2.102+nmu2) testing; urgency=low
 huayra-desktop (2.102+nmu1) testing; urgency=low
 
   * Non-maintainer upload.
-  * Eliminé los archivos de configuración de mixxx, puse como dependencia el paquete mixxx-themes-huayra 
+  * Eliminé los archivos de configuración de mixxx, puse como dependencia el paquete mixxx-themes-huayra
 
  -- Julia Palandri <julia.palandri@gmail.com>  Mon, 29 Jul 2013 16:09:13 -0300
 
 huayra-desktop (2.102) testing; urgency=low
 
-  * update de dconf al instalar los settings 
+  * update de dconf al instalar los settings
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 25 Jul 2013 10:51:32 -0300
 
@@ -615,7 +621,7 @@ huayra-desktop (2.99+nmu3) testing; urgency=low
 
 huayra-desktop (2.99+nmu2) testing; urgency=low
 
-  * migrando config de mateconf a gsettings(dconf) 
+  * migrando config de mateconf a gsettings(dconf)
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 23 Jul 2013 18:40:01 -0300
 
@@ -628,7 +634,7 @@ huayra-desktop (2.99+nmu1) testing; urgency=low
 
 huayra-desktop (2.99) testing; urgency=low
 
-  * cambio deconf-editor x dconf-tools  
+  * cambio deconf-editor x dconf-tools
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 22 Jul 2013 15:53:55 -0300
 
@@ -666,20 +672,20 @@ huayra-desktop (2.97+nmu4) testing; urgency=low
 huayra-desktop (2.97+nmu3) testing; urgency=low
 
   * Non-maintainer upload.
-  * Fix autologin cuando el usuario alumno no existe. 
+  * Fix autologin cuando el usuario alumno no existe.
 
  -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Mon, 08 Jul 2013 15:42:53 -0300
 
 huayra-desktop (2.97+nmu1) testing; urgency=low
 
   * Non-maintainer upload.
-  * Saqué gnome-subtitles de huayra-desktop-gnome 
+  * Saqué gnome-subtitles de huayra-desktop-gnome
 
  -- Julia Palandri <julia.palandri@gmail.com>  Tue, 02 Jul 2013 12:46:18 -0300
 
 huayra-desktop (2.97) UNRELEASED; urgency=low
 
-  * corrección bookmark de chromium 
+  * corrección bookmark de chromium
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 02 Jul 2013 11:36:26 -0300
 
@@ -753,7 +759,7 @@ huayra-desktop (2.90) testing; urgency=low
 
 huayra-desktop (2.89) testing; urgency=low
 
-  * correccion en script postintall 
+  * correccion en script postintall
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 04 Jun 2013 18:11:23 -0300
 
@@ -788,26 +794,26 @@ huayra-desktop (2.85) testing; urgency=low
 
 huayra-desktop (2.84) testing; urgency=low
 
-  * cambio de daemon de notificacion 
+  * cambio de daemon de notificacion
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 15 May 2013 15:51:42 -0300
 
 huayra-desktop (2.83) testing; urgency=low
 
   * el applet de mixer externo no se usa mas porque pulse agrega
-    el control de volumen al area de notificacion 
+    el control de volumen al area de notificacion
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 07 May 2013 09:58:22 -0300
 
 huayra-desktop (2.82) testing; urgency=low
 
-  * correccion icono italc y alevt 
+  * correccion icono italc y alevt
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 06 May 2013 16:57:45 -0300
 
 huayra-desktop (2.81) testing; urgency=low
 
-  * agregando huayra bullets al menu Huayra 
+  * agregando huayra bullets al menu Huayra
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 02 May 2013 02:41:26 -0300
 
@@ -819,19 +825,19 @@ huayra-desktop (2.80) testing; urgency=low
 
 huayra-desktop (2.79) testing; urgency=low
 
-  * correccion links simbolico del menu 
+  * correccion links simbolico del menu
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 01 May 2013 23:41:03 -0300
 
 huayra-desktop (2.78) testing; urgency=low
 
-  * faltó icono de gnome-tweak-tool en el skel  
+  * faltó icono de gnome-tweak-tool en el skel
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 01 May 2013 11:49:36 -0300
 
 huayra-desktop (2.77) testing; urgency=low
 
-  * cambios en el menu de apliaciones 
+  * cambios en el menu de apliaciones
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 01 May 2013 11:14:59 -0300
 
@@ -850,7 +856,7 @@ huayra-desktop (2.75) testing; urgency=low
 
 huayra-desktop (2.74) testing; urgency=low
 
-  * check de la salida de la instalacion del flash 
+  * check de la salida de la instalacion del flash
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 18 Mar 2013 15:22:22 -0300
 
@@ -876,19 +882,19 @@ huayra-desktop (2.71) testing; urgency=low
 huayra-desktop (2.70+nmu1) UNRELEASED; urgency=low
 
   * Non-maintainer upload.
-  * typo 
+  * typo
 
  -- Julia Palandri <julia.palandri@gmail.com>  Mon, 18 Mar 2013 14:05:55 -0300
 
 huayra-desktop (2.70) testing; urgency=low
 
-  * dependencia gnome-orca, gnome-packagekit, at-spi2-core  
+  * dependencia gnome-orca, gnome-packagekit, at-spi2-core
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 18 Mar 2013 12:07:35 -0300
 
 huayra-desktop (2.69) testing; urgency=low
 
-  * correccion de asociciones text/plain y comentine 
+  * correccion de asociciones text/plain y comentine
   * asocaciones de svg a inkscape
   * screenshoot guardar en imagenes
 
@@ -896,19 +902,19 @@ huayra-desktop (2.69) testing; urgency=low
 
 huayra-desktop (2.68) testing; urgency=low
 
-  * habilita las actualizaciones automaticas cada 2 dias 
+  * habilita las actualizaciones automaticas cada 2 dias
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Sun, 17 Mar 2013 15:50:02 -0300
 
 huayra-desktop (2.67) testing; urgency=low
 
-  * asociacion image/pdf 
+  * asociacion image/pdf
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Sun, 17 Mar 2013 14:29:16 -0300
 
 huayra-desktop (2.66) testing; urgency=low
 
-  * asociaciones por defecto para ogg 
+  * asociaciones por defecto para ogg
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Sun, 17 Mar 2013 07:56:41 -0300
 
@@ -920,13 +926,13 @@ huayra-desktop (2.65) testing; urgency=low
 
 huayra-desktop (2.64) testing; urgency=low
 
-  * build 2.64 merge con 2.62+nmu1 
+  * build 2.64 merge con 2.62+nmu1
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 15 Mar 2013 14:12:21 -0300
 
 huayra-desktop (2.63) testing; urgency=low
 
-  * object_acccess no va al panel 
+  * object_acccess no va al panel
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 15 Mar 2013 11:16:21 -0300
 
@@ -938,16 +944,16 @@ huayra-desktop (2.62+nmu1) testing; urgency=low
 
 huayra-desktop (2.62) testing; urgency=low
 
-  * build 2.62 
-  * merge de 2.60+nmu1 
+  * build 2.62
+  * merge de 2.60+nmu1
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 14 Mar 2013 13:20:36 -0300
 
 huayra-desktop (2.61) testing; urgency=low
 
-  * correccion dependencia cdpedia -> cdpedia-launcher    
+  * correccion dependencia cdpedia -> cdpedia-launcher
   * se agrego caja-open-terminal
-  * se agrego matchbox-keyboard 
+  * se agrego matchbox-keyboard
   * correccion icono de teclado accesibilidad
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 14 Mar 2013 13:13:40 -0300
@@ -955,7 +961,7 @@ huayra-desktop (2.61) testing; urgency=low
 huayra-desktop (2.60+nmu1) UNRELEASED; urgency=low
 
   * Non-maintainer upload.
-  * Borro el index.lighttp.html de /var/www 
+  * Borro el index.lighttp.html de /var/www
 
  -- Julia Palandri <julia.palandri@gmail.com>  Wed, 13 Mar 2013 21:12:35 -0300
 
@@ -967,7 +973,7 @@ huayra-desktop (2.60) testing; urgency=low
 
 huayra-desktop (2.59+nmu2) testing; urgency=low
 
-  * Se modifica el wallpaper oficial 
+  * Se modifica el wallpaper oficial
 
  -- Luciano Baraglia <luciano.baraglia@gmail.com>  Wed, 13 Mar 2013 13:02:40 -0300
 
@@ -986,7 +992,7 @@ huayra-desktop (2.59) testing; urgency=low
 
 huayra-desktop (2.58) testing; urgency=low
 
-  * dependencia de extlinux 
+  * dependencia de extlinux
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 12 Mar 2013 13:32:57 -0300
 
@@ -998,7 +1004,7 @@ huayra-desktop (2.57) testing; urgency=low
 
 huayra-desktop (2.56) testing; urgency=low
 
-  * fix postint settings de mate 
+  * fix postint settings de mate
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 12 Mar 2013 08:43:03 -0300
 
@@ -1013,7 +1019,7 @@ huayra-desktop (2.54+nmu8) testing; urgency=low
   [ Julia Palandri ]
   * Non-maintainer upload.
   * Agregué dependencias de huayra-apps: clamtk, imagewriter, gucharmap, tomboy
-  * Agregué resolución por default para cheese en 640x480 (debería funcionar en todos los modelos) 
+  * Agregué resolución por default para cheese en 640x480 (debería funcionar en todos los modelos)
 
   [ Miguel Angel Garcia ]
   * Agregue screensaver por default en mate
@@ -1022,13 +1028,13 @@ huayra-desktop (2.54+nmu8) testing; urgency=low
 
 huayra-desktop (2.54+nmu5) testing; urgency=low
 
-  * Fix italc dir permissions 
+  * Fix italc dir permissions
 
  -- Miguel Angel Garcia <miguel.garcia@gmail.com>  Mon, 11 Mar 2013 17:20:43 -0300
 
 huayra-desktop (2.54+nmu4) testing; urgency=low
 
-  * Configuración del Chromium 
+  * Configuración del Chromium
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 11 Mar 2013 17:07:06 -0300
 
@@ -1052,7 +1058,7 @@ huayra-desktop (2.54+nmu2) testing; urgency=low
 
 huayra-desktop (2.54) testing; urgency=low
 
-  * dependencia gobby  
+  * dependencia gobby
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 11 Mar 2013 14:54:13 -0300
 
@@ -1086,7 +1092,7 @@ huayra-desktop (2.53+nmu1) testing; urgency=low
 huayra-desktop (2.53) testing; urgency=low
 
   * icono del mate-control-center
-  * fix menu_accelerators mate-terminal 
+  * fix menu_accelerators mate-terminal
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Sat, 09 Mar 2013 15:44:45 -0300
 
@@ -1100,14 +1106,14 @@ huayra-desktop (2.52) testing; urgency=low
 
 huayra-desktop (2.51) testing; urgency=low
 
-  * sacando dependencias de tda y tpm de apps que van en el installer 
+  * sacando dependencias de tda y tpm de apps que van en el installer
   * correccion nombre de icono de huayra-chat
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 07 Mar 2013 17:30:36 -0300
 
 huayra-desktop (2.50) testing; urgency=low
 
-  * dependencia deja-dup 
+  * dependencia deja-dup
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 06 Mar 2013 17:42:04 -0300
 
@@ -1119,7 +1125,7 @@ huayra-desktop (2.49+nmu1) testing; urgency=low
 
 huayra-desktop (2.49) testing; urgency=low
 
-  * window list en el panel inferior de mate 
+  * window list en el panel inferior de mate
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 05 Mar 2013 16:31:17 -0300
 
@@ -1133,25 +1139,25 @@ huayra-desktop (2.48) testing; urgency=low
 
 huayra-desktop (2.47) testing; urgency=low
 
-  * moviendo paquetes de apps a gnome 
+  * moviendo paquetes de apps a gnome
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 04 Mar 2013 09:13:19 -0300
 
 huayra-desktop (2.46) testing; urgency=low
 
-  * vamos con el xchat! 
+  * vamos con el xchat!
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 01 Mar 2013 15:09:01 -0300
 
 huayra-desktop (2.45) testing; urgency=low
 
-  * manpages y lintian fixes 
+  * manpages y lintian fixes
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 01 Mar 2013 01:09:19 -0300
 
 huayra-desktop (2.44) testing; urgency=low
 
-  * control de errores en el script de update 
+  * control de errores en el script de update
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 28 Feb 2013 20:29:56 -0300
 
@@ -1169,7 +1175,7 @@ huayra-desktop (2.42) testing; urgency=low
 
 huayra-desktop (2.41) testing; urgency=low
 
-  * generando 2.41 que elimina icono de ayuda del skel 
+  * generando 2.41 que elimina icono de ayuda del skel
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 25 Feb 2013 21:31:01 -0300
 
@@ -1188,7 +1194,7 @@ huayra-desktop (2.39) testing; urgency=low
 
 huayra-desktop (2.38) testing; urgency=low
 
-  * comprobacion si dirlisting esta habilitado en el lighty 
+  * comprobacion si dirlisting esta habilitado en el lighty
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Sun, 24 Feb 2013 15:59:46 -0300
 
@@ -1206,20 +1212,20 @@ huayra-desktop (2.36) testing; urgency=low
 
 huayra-desktop (2.35) testing; urgency=low
 
-  * agregando huayra-tda 
+  * agregando huayra-tda
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Sun, 24 Feb 2013 14:54:49 -0300
 
 huayra-desktop (2.34) testing; urgency=low
 
-  * settings para mateconf 
+  * settings para mateconf
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Sun, 24 Feb 2013 13:33:12 -0300
 
 huayra-desktop (2.33) testing; urgency=low
 
   * agregando servicio de notificacion de mate
-  * correccion mateconf theme de iconos 
+  * correccion mateconf theme de iconos
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 22 Feb 2013 11:38:34 -0300
 
@@ -1231,7 +1237,7 @@ huayra-desktop (2.32) testing; urgency=low
 
 huayra-desktop (2.31) testing; urgency=low
 
-  * probando settings para mate 
+  * probando settings para mate
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 21 Feb 2013 16:35:51 -0300
 
@@ -1243,14 +1249,14 @@ huayra-desktop (2.30) testing; urgency=low
 
 huayra-desktop (2.29) testing; urgency=low
 
-  * moviendo dependencias de huayra-apps a huayra-desktop-gnome y 
-    agregando mate-archive-keyring 
+  * moviendo dependencias de huayra-apps a huayra-desktop-gnome y
+    agregando mate-archive-keyring
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 20 Feb 2013 21:35:17 -0300
 
 huayra-desktop (2.28) testing; urgency=low
 
-  * moviendo paquetes gnome* de huayra-apps a huayra-desktop-gnome 
+  * moviendo paquetes gnome* de huayra-apps a huayra-desktop-gnome
   * agregando dependencias de mate
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 20 Feb 2013 01:40:40 -0300
@@ -1263,13 +1269,13 @@ huayra-desktop (2.27) testing; urgency=low
 
 huayra-desktop (2.26) testing; urgency=low
 
-  * chromiuN is not chromiuM 
+  * chromiuN is not chromiuM
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 15 Feb 2013 17:28:30 -0300
 
 huayra-desktop (2.25) testing; urgency=low
 
-  * sacando firmware intel hasta resolver installer 
+  * sacando firmware intel hasta resolver installer
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 15 Feb 2013 16:46:57 -0300
 
@@ -1281,7 +1287,7 @@ huayra-desktop (2.24) testing; urgency=low
 
 huayra-desktop (2.23) testing; urgency=low
 
-  * Fix en firmware 
+  * Fix en firmware
 
  -- Héctor Sanchez <hsanchez@pressenter.com.ar>  Thu, 07 Feb 2013 11:39:39 -0300
 
@@ -1296,7 +1302,7 @@ huayra-desktop (2.22) testing; urgency=low
 huayra-desktop (2.21) testing; urgency=low
 
   * separando directorio para huayra-base
-  * correccion codificacion del html de compartir-web 
+  * correccion codificacion del html de compartir-web
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 30 Jan 2013 15:46:12 -0300
 
@@ -1308,7 +1314,7 @@ huayra-desktop (2.20) testing; urgency=low
 
 huayra-desktop (2.19) testing; urgency=low
 
-  * cambios totales de dependendcias y paquetes nuevos 
+  * cambios totales de dependendcias y paquetes nuevos
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 29 Jan 2013 19:35:17 -0300
 
@@ -1372,7 +1378,7 @@ huayra-desktop (2.10-1) testing; urgency=low
 
 huayra-desktop (2.9-2) testing; urgency=low
 
-  * merge cambios de miguel 
+  * merge cambios de miguel
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 15 Jan 2013 03:48:22 -0300
 
@@ -1384,7 +1390,7 @@ huayra-desktop (2.9-1) testing; urgency=low
 
 huayra-desktop (2.8-2) testing; urgency=low
 
-  * sacando thema de iconos huayra-apps 
+  * sacando thema de iconos huayra-apps
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 11 Jan 2013 17:52:58 -0300
 
@@ -1403,7 +1409,7 @@ huayra-desktop (2.7-1) testing; urgency=low
 huayra-desktop (2.6-3) testing; urgency=low
 
   * axemenu solo debe mostrar Places
-  * dependencia software-properties-gtk 
+  * dependencia software-properties-gtk
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 10 Jan 2013 19:02:53 -0300
 
@@ -1428,7 +1434,7 @@ huayra-desktop (2.5) testing; urgency=low
 huayra-desktop (2.4) testing; urgency=low
 
   * Creando paquete huayra-conig especifico para las maquinas
-	 de conectar igualdad (netbooks) 
+	 de conectar igualdad (netbooks)
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 08 Jan 2013 15:45:00 -0300
 
@@ -1574,25 +1580,25 @@ huayra-desktop (1.83) testing; urgency=low
 
 huayra-desktop (1.82) testing; urgency=low
 
-  * correccion warnings de lintian (prueba de script) 
+  * correccion warnings de lintian (prueba de script)
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Sun, 11 Nov 2012 19:41:12 -0300
 
 huayra-desktop (1.81) testing; urgency=low
 
-  * sacando grub-common que es de grub1 
+  * sacando grub-common que es de grub1
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Sun, 11 Nov 2012 18:40:22 -0300
 
 huayra-desktop (1.80) testing; urgency=low
 
-  * dependencia gnome-font-viewer 
+  * dependencia gnome-font-viewer
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 08 Nov 2012 15:32:56 -0300
 
 huayra-desktop (1.79) testing; urgency=low
 
-  * dependencia gnome-user-guide 
+  * dependencia gnome-user-guide
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 07 Nov 2012 22:26:48 -0300
 
@@ -1604,13 +1610,13 @@ huayra-desktop (1.78) testing; urgency=low
 
 huayra-desktop (1.77) testing; urgency=low
 
-  * dependencia de synaptic e iconos para software-center cierra #153 
+  * dependencia de synaptic e iconos para software-center cierra #153
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 02 Nov 2012 17:16:32 -0300
 
 huayra-desktop (1.76) testing; urgency=low
 
-  * colores de grub 
+  * colores de grub
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 01 Nov 2012 18:50:28 -0300
 
@@ -1628,7 +1634,7 @@ huayra-desktop (1.74) testing; urgency=low
 
 huayra-desktop (1.73) testing; urgency=low
 
-  * dependencia at-spi2-core accesibilidad 
+  * dependencia at-spi2-core accesibilidad
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 31 Oct 2012 14:59:08 -0300
 
@@ -1640,26 +1646,26 @@ huayra-desktop (1.72) testing; urgency=low
 
 huayra-desktop (1.71) testing; urgency=low
 
-  * ouch , falto el then! porque pdebuilder no me genera este error? 
+  * ouch , falto el then! porque pdebuilder no me genera este error?
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 31 Oct 2012 03:05:23 -0300
 
 huayra-desktop (1.70) testing; urgency=low
 
-  * poner nombre de la distro en grub (no es permanente aun) 
+  * poner nombre de la distro en grub (no es permanente aun)
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 31 Oct 2012 02:55:51 -0300
 
 huayra-desktop (1.69) testing; urgency=low
 
-  * color del texto del grub por dark-gray 
+  * color del texto del grub por dark-gray
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 31 Oct 2012 02:06:22 -0300
 
 huayra-desktop (1.68) testing; urgency=low
 
   * archivos por defecto de otros paquetes
-  * se agrego archivo de doc que faltaba 
+  * se agrego archivo de doc que faltaba
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 31 Oct 2012 01:49:38 -0300
 
@@ -1671,13 +1677,13 @@ huayra-desktop (1.67) testing; urgency=low
 
 huayra-desktop (1.66) testing; urgency=low
 
-  * agregando paquetes que faltan (nautilus y libgl1-mesa-dri 
+  * agregando paquetes que faltan (nautilus y libgl1-mesa-dri
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 31 Oct 2012 01:08:46 -0300
 
 huayra-desktop (1.65) testing; urgency=low
 
-  * hook de grub para color de texto 
+  * hook de grub para color de texto
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 30 Oct 2012 17:48:49 -0300
 
@@ -1725,7 +1731,7 @@ huayra-desktop (1.59) testing; urgency=low
 
 huayra-desktop (1.58) testing; urgency=low
 
-  * quitando icono de firefox del skel 
+  * quitando icono de firefox del skel
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 24 Oct 2012 16:54:00 -0300
 
@@ -1737,7 +1743,7 @@ huayra-desktop (1.57) testing; urgency=low
 
 huayra-desktop (1.56) testing; urgency=low
 
-  * links para background del grub 
+  * links para background del grub
   * remover splash obsoleto
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 23 Oct 2012 23:14:54 -0300
@@ -1796,7 +1802,7 @@ huayra-desktop (1.48) wizy; urgency=low
 
 huayra-desktop (1.47) wizy; urgency=low
 
-  * fix extensiones habilitadas 
+  * fix extensiones habilitadas
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 11 Oct 2012 13:49:40 -0300
 
@@ -1877,7 +1883,7 @@ conectar-apps-distro (1.37) wizy; urgency=low
 conectar-apps-distro (1.36) wizy; urgency=low
 
   * splash de grub
-  * touchpad tap-to-click 
+  * touchpad tap-to-click
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Sun, 30 Sep 2012 03:29:30 -0300
 
@@ -1896,7 +1902,7 @@ conectar-apps-distro (1.34) wizy; urgency=low
 
 conectar-apps-distro (1.33) wizy; urgency=low
 
-  * fix typo 
+  * fix typo
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 28 Sep 2012 16:44:55 -0300
 
@@ -1908,7 +1914,7 @@ conectar-apps-distro (1.32) wizy; urgency=low
 
 conectar-apps-distro (1.31) wizy; urgency=low
 
-  * Cambio de background por defecto 
+  * Cambio de background por defecto
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 28 Sep 2012 02:09:41 -0300
 
@@ -1929,7 +1935,7 @@ conectar-apps-distro (1.28) wizy; urgency=low
 
   * NMU
   * Agregando dependencia de httpd (por el statoverride del /var/www)
-  * Corrección del owner de /var/www 
+  * Corrección del owner de /var/www
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 27 Sep 2012 18:32:32 -0300
 

@@ -55,7 +55,7 @@ tap-to-click=true
 [org/mate/screensaver]
 mode='single'
 idle-delay=5
-themes=['screensavers-huayra-2_0']
+themes=['screensavers-huayra-3_0']
 lock-enabled=false
 
 #[org/mate/screenshot]
