@@ -1,3 +1,9 @@
+huayra-desktop (3.2.0) torbellino; urgency=medium
+
+  * Agregando dependencia huayra-tda-player
+
+ -- Mauro <mauro@sdf.org>  Thu, 05 Mar 2015 15:12:31 -0300
+
 huayra-desktop (3.1.9) torbellino; urgency=medium
 
   * Agregando dependencia huayra-curriculum
