@@ -22,6 +22,7 @@ APT
 	"^gnome-orca";
 	"^gnome-packagekit";
 	"^huayra-avatares";
+	"^huayra-backgrounds-liso";
 	"^huayra-config-menu";
 	"^huayra-desktop-common";
 	"^huayra-desktop-mate-settings";
