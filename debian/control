@@ -28,6 +28,12 @@ Depends: ${misc:Depends},
   epoptes-client,
   epoptes-client-config,
   etoys,
+  etoys-doc,
+  programa2mp,
+  sopi,
+  klavaro,
+  bluefish,
+  devede,
   euler,
   freemind,
   freepats,
@@ -126,7 +132,7 @@ Depends: ${misc:Depends},
   mate-system-tools,
   mate-utils,
   notification-daemon,
-  pluma,
+  pluma
 Description: Entorno de escritorio Huayra con Mate
  Este paquete contiene el escritorio Mate para Huayra.
  Dummy Package.
@@ -294,7 +300,8 @@ Depends: ${misc:Depends},
   xsane,
   xserver-xorg,
   xterm,
-  zip
+  zip,
+  wine
 Description: Suite completa de aplicaciones para Huayra
  Aqui se encuentran una serie de aplicaciones pensadas para Huayra.
  .
@@ -424,7 +431,8 @@ Depends: ${misc:Depends},
   enigma,
   smc,
   crack-attack,
-  huayra2048
+  huayra2048,
+  playonlinux
 Description: Juegos seleccionados para Huayra
  Aquí se encuentra un listado de juegos seleccionados
  para la distribucion Huayra
