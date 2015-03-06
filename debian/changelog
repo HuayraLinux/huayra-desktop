@@ -1,3 +1,15 @@
+huayra-desktop (3.2.5) unstable; urgency=medium
+
+  * Agrego confs para blender
+
+ -- Mauro <mauro@sdf.org>  Fri, 06 Mar 2015 13:35:30 -0300
+
+huayra-desktop (3.2.4) unstable; urgency=medium
+
+  * Agrego mas deps.
+
+ -- Mauro <mauro@sdf.org>  Fri, 06 Mar 2015 13:21:30 -0300
+
 huayra-desktop (3.2.3) unstable; urgency=medium
 
   * Agrego config de Ninja IDE.
