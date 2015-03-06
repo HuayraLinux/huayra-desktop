@@ -1,3 +1,9 @@
+huayra-desktop (3.2.6) torbellino; urgency=medium
+
+  * mas faces!
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 06 Mar 2015 14:55:06 -0300
+
 huayra-desktop (3.2.5) unstable; urgency=medium
 
   * Agrego confs para blender
