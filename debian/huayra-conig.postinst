@@ -50,6 +50,7 @@ APT
 	"^geany";
 	"^geany-plugins";
 	"^geogebra";
+	"^ginga";
 	"^gnuchess";
 	"^gobby-0.5";
 	"^huayra-bullets";

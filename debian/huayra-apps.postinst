@@ -132,7 +132,6 @@ APT
 	"^system-config-printer";
 	"^transmission-gtk";
 	"^ttf-aenigma";
-	"^unetbootin";
 	"^unrar";
 	"^usb-modeswitch";
 	"^vim";
