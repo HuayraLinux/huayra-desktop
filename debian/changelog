@@ -1,3 +1,9 @@
+huayra-desktop (3.2.8) torbellino; urgency=medium
+
+  * quitando playonlinux
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 09 Mar 2015 14:26:46 -0300
+
 huayra-desktop (3.2.7) torbellino; urgency=medium
 
   * Falta dependencia de ginga
