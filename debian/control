@@ -432,7 +432,6 @@ Depends: ${misc:Depends},
   smc,
   crack-attack,
   huayra2048,
-  playonlinux
 Description: Juegos seleccionados para Huayra
  Aquí se encuentra un listado de juegos seleccionados
  para la distribucion Huayra
