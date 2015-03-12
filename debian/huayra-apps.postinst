@@ -71,7 +71,6 @@ APT
 	"^gtk-recordmydesktop";
 	"^gucharmap";
 	"^guvcview";
-	"^gv";
 	"^httrack";
 	"^huayra-apps-settings";
 	"^huayra-caripela";
