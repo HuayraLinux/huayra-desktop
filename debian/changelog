@@ -1,3 +1,9 @@
+huayra-desktop (3.2.10) unstable; urgency=medium
+
+  * Agrega las traducciones de las paginas Man.
+
+ -- Matias De lellis <mati86dl@gmail.com>  Wed, 08 Apr 2015 10:09:16 -0300
+
 huayra-desktop (3.2.9) unstable; urgency=medium
 
   * Quitando dependencia de gv ya que atril es el visor por defecto de documentos)
