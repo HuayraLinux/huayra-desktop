@@ -43,12 +43,10 @@ APT
 	"^dvb-apps";
 	"^e2fsprogs";
 	"^eject";
-	"^empathy";
 	"^extlinux";
 	"^flashplugin-nonfree";
 	"^foomatic-db";
 	"^foomatic-filters";
-	"^gdebi";
 	"^ghostscript";
 	"^ghostscript-cups";
 	"^gimp";
@@ -75,7 +73,11 @@ APT
 	"^huayra-apps-settings";
 	"^huayra-caripela";
 	"^huayra-identinet";
+	"^huayra-libreoffice";
 	"^huayra-mu";
+	"^huayra-stopmotion";
+	"^huayra-tda-player";
+	"^hwinfo";
 	"^icedove";
 	"^icedove-l10n-es-ar";
 	"^icedtea-7-plugin";
@@ -89,6 +91,8 @@ APT
 	"^libnss-mdns";
 	"^lm-sensors";
 	"^lmms";
+	"^manpages-es";
+	"^manpages-es-extra";
 	"^mawk";
 	"^mc";
 	"^mdns-scan";
@@ -148,6 +152,7 @@ APT
 	"^xserver-xorg";
 	"^xterm";
 	"^zip";
+	"^wine";
   };
 };
 EOF

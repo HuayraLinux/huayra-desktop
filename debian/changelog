@@ -1,3 +1,9 @@
+huayra-desktop (3.2.13) unstable; urgency=medium
+
+  * Elimina gdebi en favor de gpk-install-local-file
+
+ -- Matias De lellis <mati86dl@gmail.com>  Tue, 14 Apr 2015 12:56:23 -0300
+
 huayra-desktop (3.2.12) unstable; urgency=medium
 
   * Configura gtk3 para que muestre las carpetas primero.
