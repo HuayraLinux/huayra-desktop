@@ -75,3 +75,7 @@ name='huayra-visor-manual'
 
 [org/mate/panel/general]
 default-layout='huayra'
+
+[org/gtk/settings/file-chooser]
+sort-directories-first=true
+startup-mode='cwd'
