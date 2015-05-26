@@ -1,3 +1,9 @@
+huayra-desktop (3.2.14) unstable; urgency=medium
+
+  * Agrega youtube-dl
+
+ -- Ignacio Juan Martín Benedetti <tranceway@gmail.com>  Tue, 26 May 2015 13:48:41 -0300
+
 huayra-desktop (3.2.13) unstable; urgency=medium
 
   * Elimina gdebi en favor de gpk-install-local-file
@@ -38,7 +44,7 @@ huayra-desktop (3.2.8) torbellino; urgency=medium
 huayra-desktop (3.2.7) torbellino; urgency=medium
 
   * Falta dependencia de ginga
-  * Se remueve unetbootin (fue quitado de debian porque esta roto) 
+  * Se remueve unetbootin (fue quitado de debian porque esta roto)
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Sat, 07 Mar 2015 15:32:52 -0300
 
