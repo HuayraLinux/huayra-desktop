@@ -6,9 +6,6 @@ picture-options='zoom'
 gtk-theme='HuayraLiso'
 icon-theme='huayra-liso'
 
-[org/mate/desktop/accessibility/keyboard]
-enable=true
-
 [org/mate/desktop/peripherals/keyboard]
 remember-numlock-state=false
 
