@@ -290,7 +290,7 @@ Depends: ${misc:Depends},
   vinagre,
   vlc,
   vlc-plugin-pulse,
-  wine
+  wine,
   wireless-tools,
   xchat,
   xdg-user-dirs,
@@ -301,7 +301,7 @@ Depends: ${misc:Depends},
   xserver-xorg,
   xterm,
   youtube-dl,
-  zip,
+  zip
 Description: Suite completa de aplicaciones para Huayra
  Aqui se encuentran una serie de aplicaciones pensadas para Huayra.
  .
