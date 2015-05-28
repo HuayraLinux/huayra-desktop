@@ -152,7 +152,8 @@ Architecture: all
 Conflicts: huayra-desktop, huayra-apps-debian, huayra-mate-screensavers
 Replaces: huayra-desktop, huayra-apps-debian
 Depends: ${misc:Depends}, huayra-fonts, dconf-tools,
-         huayra-screensavers, python (>= 2.7), python (<< 2.8)
+  huayra-screensavers, python (>= 2.7), python (<< 2.8),
+  xserver-xorg-input-all, xserver-xorg-video-all
 Description: Configuraciones comunes para los entornos de escritorio
  Opciones comunes para los entornos de escritorio
 
@@ -175,6 +176,7 @@ Depends: ${misc:Depends},
   chromium-l10n,
   clementine,
   colord,
+  cowsay,
   cpufrequtils,
   cups,
   cups-pk-helper,
@@ -216,6 +218,7 @@ Depends: ${misc:Depends},
   gucharmap,
   guvcview,
   httrack,
+  huayra-alias,
   huayra-apps-settings,
   huayra-caripela,
   huayra-identinet,
@@ -280,6 +283,7 @@ Depends: ${misc:Depends},
   synapse,
   synaptic,
   system-config-printer,
+  tbo,
   transmission-gtk,
   ttf-aenigma,
   tupi,

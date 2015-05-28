@@ -29,6 +29,7 @@ APT
 	"^chromium-l10n";
 	"^clementine";
 	"^colord";
+	"^cowsay";
 	"^cpufrequtils";
 	"^cups";
 	"^cups-pk-helper";
@@ -70,6 +71,7 @@ APT
 	"^gucharmap";
 	"^guvcview";
 	"^httrack";
+	"^huayra-alias";
 	"^huayra-apps-settings";
 	"^huayra-caripela";
 	"^huayra-identinet";
@@ -133,6 +135,7 @@ APT
 	"^synapse";
 	"^synaptic";
 	"^system-config-printer";
+	"^tbo";
 	"^transmission-gtk";
 	"^ttf-aenigma";
 	"^unrar";
