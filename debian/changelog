@@ -1,3 +1,9 @@
+huayra-desktop (3.2.16) unstable; urgency=medium
+
+  * Agregando dependencia para huayra-accesibilidad
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 17 Jun 2015 16:23:05 -0300
+
 huayra-desktop (3.2.15) torbellino; urgency=medium
 
   * Agregando paquetes xserver-xorg-input-all y xserver-xorg-video-all

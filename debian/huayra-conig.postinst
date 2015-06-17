@@ -53,6 +53,7 @@ APT
 	"^ginga";
 	"^gnuchess";
 	"^gobby-0.5";
+	"^huayra-accesibilidad";
 	"^huayra-bullets";
 	"^huayra-compartir";
 	"^huayra-curriculum";
