@@ -21,6 +21,7 @@ APT
 	"^florence";
 	"^gnome-orca";
 	"^gnome-packagekit";
+	"^huayra-about";
 	"^huayra-avatares";
 	"^huayra-backgrounds-liso";
 	"^huayra-config-menu";
