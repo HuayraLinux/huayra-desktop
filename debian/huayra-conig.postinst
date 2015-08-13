@@ -61,6 +61,7 @@ APT
 	"^huayra-preciosa";
 	"^huayra-printing-full-support";
 	"^huayra-simulaciones-interactivas";
+	"^huayra-update";
 	"^huayra-visor-manual";
 	"^icaro";
 	"^jclic";
@@ -71,6 +72,7 @@ APT
 	"^pd-cyclone";
 	"^pd-extended";
 	"^pd-purepd";
+	"^pilas-engine-bloques";
 	"^pilas-tutoriales";
 	"^puredata";
 	"^puredata-core";
