@@ -16,7 +16,6 @@ APT
   {
 	"^at-spi2-core";
 	"^caja-open-terminal";
-	"^dasher";
 	"^docky";
 	"^florence";
 	"^gnome-orca";
