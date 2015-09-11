@@ -17,8 +17,6 @@ APT
 	"^at-spi2-core";
 	"^caja-open-terminal";
 	"^docky";
-	"^florence";
-	"^gnome-orca";
 	"^gnome-packagekit";
 	"^huayra-about";
 	"^huayra-avatares";
@@ -59,5 +57,3 @@ EOF
 fi
 
 #DEBHELPER#
-
-

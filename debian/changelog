@@ -1,3 +1,10 @@
+huayra-desktop (3.2.20) unstable; urgency=medium
+
+  * Quitando dependencia de gnome-orca y florence que se manejan
+    desde huayra-accesibility-settings
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 11 Sep 2015 14:59:30 -0300
+
 huayra-desktop (3.2.19) unstable; urgency=medium
 
   * quitando dasher (obsoleto)
