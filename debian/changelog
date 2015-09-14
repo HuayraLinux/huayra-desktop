@@ -1,3 +1,9 @@
+huayra-desktop (3.2.21) unstable; urgency=medium
+
+  * Agregando blueman como dependencia
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 14 Sep 2015 13:03:54 -0300
+
 huayra-desktop (3.2.20) unstable; urgency=medium
 
   * Quitando dependencia de gnome-orca y florence que se manejan
