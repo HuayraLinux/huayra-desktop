@@ -16,6 +16,7 @@ APT
   {
 	"^at-spi2-core";
 	"^caja-open-terminal";
+	"^blueman";
 	"^docky";
 	"^gnome-packagekit";
 	"^huayra-about";

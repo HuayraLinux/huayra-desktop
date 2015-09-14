@@ -104,6 +104,7 @@ Replaces: huayra-desktop, huayra-apps-debian
 Depends: ${misc:Depends},
   at-spi2-core,
   atril,
+  blueman,
   caja-open-terminal,
   docky,
   engrampa,
