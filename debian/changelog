@@ -1,3 +1,9 @@
+huayra-desktop (3.2.22) unstable; urgency=medium
+
+  * quitanto huayra-alias para el proximo release
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 15 Sep 2015 11:20:19 -0300
+
 huayra-desktop (3.2.21) unstable; urgency=medium
 
   * Agregando blueman como dependencia
