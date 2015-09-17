@@ -6,6 +6,9 @@ picture-options='zoom'
 gtk-theme='HuayraLiso'
 icon-theme='huayra-liso'
 
+[org/mate/desktop/peripherals/mouse]
+cursor-theme = 'Breeze_Huayra'
+
 [org/mate/desktop/peripherals/keyboard]
 remember-numlock-state=false
 

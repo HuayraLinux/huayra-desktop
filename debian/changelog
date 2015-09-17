@@ -1,3 +1,9 @@
+huayra-desktop (3.2.23) torbellino; urgency=medium
+
+  * Configura Breeze como cursor por defecto
+
+ -- Matias De lellis <mati86dl@gmail.com>  Thu, 17 Sep 2015 11:46:06 -0300
+
 huayra-desktop (3.2.22) unstable; urgency=medium
 
   * quitanto huayra-alias para el proximo release
