@@ -33,6 +33,7 @@ if [ "$1" = "configure" ]; then
   huayra-set-default-app image/x-eps inkscape.desktop
   huayra-set-default-app application/illustrator inkscape.desktop
   huayra-set-default-app text/html chromium.desktop
+  huayra-set-default-app text/x-arduino arduino.desktop
 
   # si esta mate-terminal, actualizamos las alternativas.
   echo "Configurar mate-terminal como terminal por defecto"

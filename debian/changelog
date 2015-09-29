@@ -1,3 +1,10 @@
+huayra-desktop (3.2.26) UNRELEASED; urgency=medium
+
+  * Agregando asociación para arduino ide 
+   (cierra http://bugs.huayra.conectarigualdad.gob.ar/issues/838) 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 29 Sep 2015 12:00:49 -0300
+
 huayra-desktop (3.2.25) unstable; urgency=medium
 
   * Huaypapers
