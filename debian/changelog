@@ -1,7 +1,15 @@
-huayra-desktop (3.2.26) UNRELEASED; urgency=medium
+huayra-desktop (3.2.27) unstable; urgency=medium
+
+  * chromiun => firefox ;)
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 23 Dec 2015 14:52:20 -0300
+
+huayra-desktop (3.2.26) unstable; urgency=medium
 
   * Agregando asociación para arduino ide 
    (cierra http://bugs.huayra.conectarigualdad.gob.ar/issues/838) 
+  * Cambiando a firefox por defecto como browser
+  * Quitando dependencias de chromium
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 29 Sep 2015 12:00:49 -0300
 
