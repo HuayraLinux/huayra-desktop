@@ -1,3 +1,10 @@
+huayra-desktop (3.2.28) unstable; urgency=medium
+
+  * moviendo dependencias huayra-config-menu a huayar-conig para dejar el
+    desktop sin arrastrar aplicaciones 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 30 Dec 2015 14:19:42 -0300
+
 huayra-desktop (3.2.27) unstable; urgency=medium
 
   * chromiun => firefox ;)

@@ -149,7 +149,6 @@ APT
 	"^xdg-utils";
 	"^xournal";
 	"^xsane";
-	"^xserver-xorg";
 	"^xterm";
 	"^zip";
 	"^wine";
