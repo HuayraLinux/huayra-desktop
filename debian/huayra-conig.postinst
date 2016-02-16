@@ -53,6 +53,7 @@ APT
 	"^ginga";
 	"^gnuchess";
 	"^gobby-0.5";
+	"^gtk-updates-daemon";
 	"^huayra-accesibilidad";
 	"^huayra-bullets";
 	"^huayra-compartir";
@@ -61,7 +62,6 @@ APT
 	"^huayra-preciosa";
 	"^huayra-printing-full-support";
 	"^huayra-simulaciones-interactivas";
-	"^huayra-update";
 	"^huayra-visor-manual";
 	"^icaro";
 	"^jclic";
