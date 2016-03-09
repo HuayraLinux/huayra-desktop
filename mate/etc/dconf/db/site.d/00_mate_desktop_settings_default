@@ -5,6 +5,7 @@ picture-options='zoom'
 [org/mate/desktop/interface]
 gtk-theme='HuayraLiso'
 icon-theme='huayra-liso'
+menus-have-icons=false
 
 [org/mate/desktop/peripherals/mouse]
 cursor-theme = 'Breeze_Huayra'
@@ -55,7 +56,7 @@ tap-to-click=true
 [org/mate/screensaver]
 mode='single'
 idle-delay=5
-themes=['screensavers-huayra-3_1']
+themes=['screensavers-huayra-default']
 lock-enabled=false
 
 #[org/mate/screenshot]
