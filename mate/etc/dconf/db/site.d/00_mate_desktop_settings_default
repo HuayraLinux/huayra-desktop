@@ -5,7 +5,7 @@ picture-options='zoom'
 [org/mate/desktop/interface]
 gtk-theme='HuayraLiso'
 icon-theme='huayra-liso'
-menus-have-icons=false
+menus-have-icons=true
 
 [org/mate/desktop/peripherals/mouse]
 cursor-theme = 'Breeze_Huayra'
