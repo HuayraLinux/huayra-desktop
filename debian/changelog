@@ -1,3 +1,10 @@
+huayra-desktop (3.2.30) unstable; urgency=medium
+
+  * cambio setting de screesaver
+  * rename gtk-updates-daemon => pk-updates-notifier
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 09 Mar 2016 14:24:49 -0300
+
 huayra-desktop (3.2.29) unstable; urgency=medium
 
   * cambio huayra-update -> gtk-updates-daemon
