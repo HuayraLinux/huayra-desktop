@@ -1,3 +1,9 @@
+huayra-desktop (3.2.32) unstable; urgency=medium
+
+  * Actualización wallpaper y background del grub 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 10 Mar 2016 12:49:11 -0300
+
 huayra-desktop (3.2.31) unstable; urgency=medium
 
   * revert de menu-have-icons 
