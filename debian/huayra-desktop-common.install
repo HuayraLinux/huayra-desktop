@@ -1,3 +1,4 @@
+common/bin/geticon usr/bin/
 common/bin/adduser.local usr/bin/
 common/images/* usr/share/images/huayra-desktop/
 common/huayra-correo.desktop usr/share/applications/

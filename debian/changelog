@@ -1,12 +1,18 @@
+huayra-desktop (3.2.33) unstable; urgency=medium
+
+  * Creando el comando geticon
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 10 Mar 2016 14:22:55 -0300
+
 huayra-desktop (3.2.32) unstable; urgency=medium
 
-  * Actualización wallpaper y background del grub 
+  * Actualización wallpaper y background del grub
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 10 Mar 2016 12:49:11 -0300
 
 huayra-desktop (3.2.31) unstable; urgency=medium
 
-  * revert de menu-have-icons 
+  * revert de menu-have-icons
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 09 Mar 2016 15:20:41 -0300
 
@@ -26,7 +32,7 @@ huayra-desktop (3.2.29) unstable; urgency=medium
 huayra-desktop (3.2.28) unstable; urgency=medium
 
   * moviendo dependencias huayra-config-menu a huayar-conig para dejar el
-    desktop sin arrastrar aplicaciones 
+    desktop sin arrastrar aplicaciones
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 30 Dec 2015 14:19:42 -0300
 
@@ -38,8 +44,8 @@ huayra-desktop (3.2.27) unstable; urgency=medium
 
 huayra-desktop (3.2.26) unstable; urgency=medium
 
-  * Agregando asociación para arduino ide 
-   (cierra http://bugs.huayra.conectarigualdad.gob.ar/issues/838) 
+  * Agregando asociación para arduino ide
+   (cierra http://bugs.huayra.conectarigualdad.gob.ar/issues/838)
   * Cambiando a firefox por defecto como browser
   * Quitando dependencias de chromium
 
