@@ -58,7 +58,6 @@ APT
 	"^huayra-compartir";
 	"^huayra-curriculum";
 	"^huayra-firmware-full-support";
-	"^huayra-preciosa";
 	"^huayra-printing-full-support";
 	"^huayra-simulaciones-interactivas";
 	"^huayra-visor-manual";

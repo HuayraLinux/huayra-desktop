@@ -1,6 +1,7 @@
 huayra-desktop (3.2.33) unstable; urgency=medium
 
   * Creando el comando geticon
+  * Sacando huayra-preciosa (obsoleto)
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 10 Mar 2016 14:22:55 -0300
 
