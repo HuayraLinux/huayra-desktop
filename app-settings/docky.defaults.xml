@@ -139,13 +139,13 @@
       <value>
         <list type="string">
             <value>
-              <string>file:///usr/share/applications/chromium.desktop</string>
+              <string>file:///usr/share/applications/firefox.desktop</string>
             </value>
             <value>
               <string>file:///usr/share/applications/huayra-bullets.desktop</string>
             </value>
             <value>
-              <string>file:///usr/share/applications/libreoffice4.2-startcenter.desktop</string>
+              <string>file:///usr/share/applications/libreoffice-startcenter.desktop</string>
             </value>
             <value>
               <string>file:///usr/share/applications/huayra-compartir.desktop</string>
@@ -250,7 +250,7 @@
       <key>Docky/Interface/DockPreferences/Dock1/ZoomEnabled</key>
       <schema_key>/schemas/apps/docky-2/Docky/Interface/DockPreferences/DockN/ZoomEnabled</schema_key>
       <value>
-        <bool>false</bool>
+        <bool>true</bool>
       </value>
     </entry>
     <entry>
