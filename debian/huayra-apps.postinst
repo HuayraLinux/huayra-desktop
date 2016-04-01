@@ -27,6 +27,7 @@ APT
 	"^caribou";
 	"^clementine";
 	"^colord";
+	"^consolekit";
 	"^cowsay";
 	"^cpufrequtils";
 	"^cups";

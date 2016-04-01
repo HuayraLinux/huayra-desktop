@@ -1,3 +1,10 @@
+huayra-desktop (3.2.35) unstable; urgency=medium
+
+  * agregando dependencia de consolekit para que el plugin de
+    synapse pueda apagar/hibernar el equipo.
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 01 Apr 2016 11:17:20 -0300
+
 huayra-desktop (3.2.34) unstable; urgency=medium
 
   * fix settings del docky
