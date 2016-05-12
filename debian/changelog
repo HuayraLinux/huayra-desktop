@@ -1,3 +1,9 @@
+huayra-desktop (3.2.36) unstable; urgency=medium
+
+  * agregando dependencias de josm
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 12 May 2016 13:08:10 -0300
+
 huayra-desktop (3.2.35) unstable; urgency=medium
 
   * agregando dependencia de consolekit para que el plugin de

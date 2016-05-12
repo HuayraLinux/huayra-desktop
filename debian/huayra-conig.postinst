@@ -64,6 +64,9 @@ APT
 	"^icaro";
 	"^jclic";
 	"^jmol";
+	"^josm";
+	"^josm-l10n";
+	"^josm-plugins";
 	"^mypaint";
 	"^pd-aubio";
 	"^pd-csound";
