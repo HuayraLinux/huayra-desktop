@@ -1,3 +1,9 @@
+huayra-desktop (3.2.37) unstable; urgency=medium
+
+  * valoers de fonts por defecto
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 17 May 2016 14:57:29 -0300
+
 huayra-desktop (3.2.36) unstable; urgency=medium
 
   * agregando dependencias de josm

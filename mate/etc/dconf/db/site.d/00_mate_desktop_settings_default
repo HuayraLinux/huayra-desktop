@@ -6,6 +6,8 @@ picture-options='zoom'
 gtk-theme='HuayraLiso'
 icon-theme='huayra-liso'
 menus-have-icons=true
+document-font-name='Asap 10'
+font-name='Asap 11'
 
 [org/mate/desktop/peripherals/mouse]
 cursor-theme = 'Breeze_Huayra'
@@ -19,6 +21,7 @@ home-icon-visible=false
 network-icon-visible=false
 trash-icon-visible=false
 volumes-visible=false
+font='Asap 13'
 
 [org/mate/marco/global-keybindings]
 run-command-terminal='<Primary><Alt>t'
@@ -29,6 +32,7 @@ button-layout=':minimize,maximize,close'
 theme='HuayraLiso'
 compositing-manager=true
 compositing-fast-alt-tab=false
+titlebar-font='Asap 12'
 
 [org/mate/notification-daemon]
 popup-location='bottom_right'
