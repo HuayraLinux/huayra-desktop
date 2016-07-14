@@ -450,3 +450,53 @@ Depends: ${misc:Depends}
 Description: Avatares para personalizar tu sesion
  Aquí se encuentra un listado de avatares diseñados
  desde la distribucion Huayra
+
+Package: huayra-desktop-gnome
+Architecture: all
+Depends: ${misc:Depends},
+ adwaita-icon-theme (>= 3.14),
+ dconf-gsettings-backend (>= 0.22),
+ dconf-tools (>= 0.22),
+ eog (>= 3.14),
+ evince (>= 3.14),
+ sound-theme-freedesktop,
+ gdm3 (>= 3.14),
+ gnome-backgrounds (>= 3.14),
+ gnome-bluetooth (>= 3.14),
+ gnome-calculator (>= 3.14),
+ gnome-control-center (>= 1:3.14),
+ gnome-disk-utility (>= 3.12),
+ gnome-font-viewer (>= 3.14),
+ gnome-keyring (>= 3.14),
+ gnome-menus (>= 3.13),
+ gnome-online-accounts (>= 3.14),
+ gnome-packagekit (>= 3.14),
+ gnome-screenshot (>= 3.14),
+ gnome-session (>= 3.14),
+ gnome-settings-daemon (>= 3.14),
+ gnome-shell (>= 3.14),
+ gnome-shell-extensions (>= 3.14),
+ gnome-system-log (>= 3.9.90),
+ gnome-system-monitor (>= 3.14),
+ gnome-terminal (>= 3.14),
+ gnome-themes-standard (>= 3.14),
+ gnome-user-share (>= 3.14),
+ gsettings-desktop-schemas (>= 3.14),
+ gstreamer1.0-plugins-base (>= 0.10.36),
+ gstreamer1.0-plugins-good (>= 0.10.31),
+ gstreamer1.0-pulseaudio (>= 0.10.31),
+ gtk2-engines (>= 2.20.2),
+ gucharmap (>= 1:3.14),
+ gvfs-backends (>= 1.22),
+ gvfs-bin (>= 1.22),
+ gvfs-fuse (>= 1.22),
+ libcanberra-pulse,
+ metacity (>= 1:2.34),
+ mousetweaks (>= 3.12),
+ nautilus (>= 3.14),
+ policykit-1-gnome (>= 0.105),
+ pulseaudio,
+ gnome-sushi (>= 3.12),
+Description: Escritorio para Huayra con Gnome Shell
+ Dependencias necesarias para ejecutar gnome shell en Huayra basado
+ en task-desktop-gnome

@@ -1,3 +1,9 @@
+huayra-desktop (3.2.38) unstable; urgency=medium
+
+  * Inicio de soporte de gnome-shell
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 14 Jul 2016 11:51:37 -0300
+
 huayra-desktop (3.2.37) unstable; urgency=medium
 
   * valoers de fonts por defecto
