@@ -497,6 +497,7 @@ Depends: ${misc:Depends},
  policykit-1-gnome (>= 0.105),
  pulseaudio,
  gnome-sushi (>= 3.12),
+ network-manager-gnome
 Description: Escritorio para Huayra con Gnome Shell
  Dependencias necesarias para ejecutar gnome shell en Huayra basado
  en task-desktop-gnome
