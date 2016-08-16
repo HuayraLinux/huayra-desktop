@@ -1,10 +1,10 @@
 [org/gnome/settings-daemon/plugins/media-keys]
-custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/bindings/custom0']
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0']
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
 binding='<Primary><Alt>t'
 command='gnome-terminal'
-name='GnomeTerminal'
+name='Gnome Terminal'
 
 [org/gnome/shell]
 enabled-extensions=['apps-menu@gnome-shell-extensions.gcampax.github.com']
