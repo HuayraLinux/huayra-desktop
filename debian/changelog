@@ -1,3 +1,9 @@
+huayra-desktop (4.0.2) unstable; urgency=medium
+
+  * configuraciones iniciales por defecto de gnome-shell
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 16 Aug 2016 14:57:53 -0300
+
 huayra-desktop (4.0.1) unstable; urgency=medium
 
   * sacando dependencia de huayar-config-menu (porque esta atada a 
