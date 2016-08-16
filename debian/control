@@ -458,6 +458,7 @@ Depends: ${misc:Depends},
  eog (>= 3.14),
  evince (>= 3.14),
  sound-theme-freedesktop,
+ file-roller (>= 3.14),
  gdm3 (>= 3.14),
  gnome-backgrounds (>= 3.14),
  gnome-bluetooth (>= 3.14),
@@ -488,6 +489,8 @@ Depends: ${misc:Depends},
  gvfs-backends (>= 1.22),
  gvfs-bin (>= 1.22),
  gvfs-fuse (>= 1.22),
+ huayra-desktop-common,
+ huayra-desktop-gnome-settings,
  libcanberra-pulse,
  metacity (>= 1:2.34),
  mousetweaks (>= 3.12),
@@ -499,3 +502,10 @@ Depends: ${misc:Depends},
 Description: Escritorio para Huayra con Gnome Shell
  Dependencias necesarias para ejecutar gnome shell en Huayra basado
  en task-desktop-gnome
+
+Package: huayra-desktop-gnome-settings
+Architecture: all
+Depends: ${misc:Depends},
+Description: Escritorio para Huayra con Gnome Shell (opciones por defecto)
+ Opciones por defecto del escritorio de Huayra con Gnome Shell
+

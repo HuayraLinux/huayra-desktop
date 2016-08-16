@@ -1,8 +1,11 @@
 [org/gnome/settings-daemon/plugins/media-keys]
-custom-keybindings='/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/bindings/custom0'
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/bindings/custom0']
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
 binding='<Primary><Alt>t'
 command='gnome-terminal'
 name='GnomeTerminal'
 
+[org/gnome/shell]
+enabled-extensions=['apps-menu@gnome-shell-extensions.gcampax.github.com']
+favorite-apps=['org.gnome.Nautilus.desktop', 'firefox-esr.desktop', 'gnome-terminal.desktop']

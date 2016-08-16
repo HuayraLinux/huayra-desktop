@@ -41,7 +41,7 @@ if [ "$1" = "configure" ]; then
   if [ ! -z $MATE_TERM ]; then
       update-alternatives --set x-terminal-emulator $MATE_TERM
   else
-      echo "mater-terminal no está en la lista de alternativos"
+      echo "mate-terminal no está en la lista de alternativos"
   fi
 
   exit 0

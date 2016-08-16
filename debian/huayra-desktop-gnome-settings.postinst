@@ -1,0 +1,46 @@
+#! /bin/sh
+set -e
+
+#DEBHELPER#
+
+if [ "$1" = "configure" ]; then
+
+  #Asignando aplicaciones por defecto
+  huayra-set-default-app application/pdf evince.desktop
+# huayra-set-default-app application/x-deb gdebi.desktop
+  huayra-set-default-app application/x-7z file-roller.desktop
+  huayra-set-default-app application/x-7z-compressed file-roller.desktop
+  huayra-set-default-app audio/mpeg clementine.desktop
+  huayra-set-default-app audio/ogg clementine.desktop
+  huayra-set-default-app image/bmp eog.desktop
+  huayra-set-default-app image/gif eog.desktop
+  huayra-set-default-app image/jpeg eog.desktop
+  huayra-set-default-app image/jpeg2000 eog.desktop
+  huayra-set-default-app image/jpg eog.desktop
+  huayra-set-default-app image/pdf evince.desktop
+  huayra-set-default-app image/png eog.desktop
+  huayra-set-default-app video/avi vlc.desktop
+  huayra-set-default-app video/ogg vlc.desktop
+  huayra-set-default-app audio/x-vorbis+ogg clementine.desktop
+  huayra-set-default-app text/plain gedit.desktop
+  huayra-set-default-app image/svg+xml inkscape.desktop
+  huayra-set-default-app image/svg+xml-compressed inkscape.desktop
+  huayra-set-default-app application/vnd.corel-draw inkscape.desktop
+  huayra-set-default-app image/x-eps inkscape.desktop
+  huayra-set-default-app application/illustrator inkscape.desktop
+  huayra-set-default-app text/html firefox.desktop
+  huayra-set-default-app text/x-arduino arduino.desktop
+
+  # Si esta gnome-terminal, actualizamos las alternativas.
+  echo "Configurar gnome-terminal como terminal por defecto"
+  GNOME_TERM=`update-alternatives --list x-terminal-emulator|grep gnome-terminal | head -1`
+  if [ ! -z $GNOME_TERM ]; then
+      update-alternatives --set x-terminal-emulator $GNOME_TERM
+  else
+      echo "gnome-terminal no está en la lista de alternativos"
+  fi
+
+  exit 0
+
+fi
+
