@@ -1,3 +1,9 @@
+huayra-desktop (4.0.0) unstable; urgency=medium
+
+  * correcciones de dependencias para el desktop con gnome
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 16 Aug 2016 10:05:57 -0300
+
 huayra-desktop (3.2.39) unstable; urgency=medium
 
   * agregando network-manager a huayra-desktop-gnome
