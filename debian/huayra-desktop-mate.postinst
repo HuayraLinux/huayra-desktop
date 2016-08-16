@@ -39,6 +39,7 @@ APT
 	"^mate-system-monitor";
 	"^mate-system-tools";
 	"^mate-utils";
+	"^mozo";
 	"^notification-daemon";
   };
 };

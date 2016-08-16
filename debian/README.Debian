@@ -1,8 +1,9 @@
 huayra-desktop for Debian
 -------------------------------
 
-Este paquete solamente contiene dependencias hacia otros paquetes.
+Este paquete contiene dependencias hacia otros paquetes. Y configuraciones
+para armar los desktops con MATE y GNOME para Huayra
 Se agregaron overrides de Lintian por la simple razon de que no aplican 
 todas las reglas de Debian.
 
- -- Huayra dev-team <huayradevel@listas.softwarelibreconcfk.com.ar>  Fri, 17 Aug 2012 18:15:31 -0300
+ -- Huayra dev-team <huayra-devel@listas.huayragnulinux.com.ar>  Fri, 17 Aug 2012 18:15:31 -0300
