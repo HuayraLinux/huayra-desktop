@@ -1,3 +1,10 @@
+huayra-desktop (4.0.5) unstable; urgency=medium
+
+  * fix path walpapper
+  * ejecutar dconf update en el postinstall
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 17 Aug 2016 14:20:36 -0300
+
 huayra-desktop (4.0.4) unstable; urgency=medium
 
   * fix path para el binding de la terminal de gnome (2do round)

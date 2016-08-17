@@ -5,7 +5,10 @@ set -e
 
 if [ "$1" = "configure" ]; then
 
-  #Asignando aplicaciones por defecto
+  echo "Actualizando opciones de dconf..."
+  dconf update
+
+  echo "Asignando aplicaciones por defecto..."
   huayra-set-default-app application/pdf evince.desktop
 # huayra-set-default-app application/x-deb gdebi.desktop
   huayra-set-default-app application/x-7z file-roller.desktop

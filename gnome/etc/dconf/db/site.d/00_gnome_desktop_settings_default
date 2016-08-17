@@ -11,5 +11,5 @@ enabled-extensions=['apps-menu@gnome-shell-extensions.gcampax.github.com']
 favorite-apps=['org.gnome.Nautilus.desktop', 'firefox-esr.desktop', 'gnome-terminal.desktop']
 
 [org/gnome/desktop/background]
-picture-uri='file:///usr/share/images/huayra-destkop/huayra-wallpaper.png'
+picture-uri='file:///usr/share/images/huayra-desktop/huayra-wallpaper.png'
 
