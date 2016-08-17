@@ -1,7 +1,7 @@
 [org/gnome/settings-daemon/plugins/media-keys]
-custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/']
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/customTerminal/']
 
-[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/customTerminal]
 binding='<Primary><Alt>t'
 command='gnome-terminal'
 name='Gnome Terminal'
