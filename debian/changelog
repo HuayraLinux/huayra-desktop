@@ -1,3 +1,9 @@
+huayra-desktop (4.0.4) unstable; urgency=medium
+
+  * fix path para el binding de la terminal de gnome (2do round)
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 17 Aug 2016 11:22:45 -0300
+
 huayra-desktop (4.0.3) unstable; urgency=medium
 
   * fix path del binding para gnome-terminal
