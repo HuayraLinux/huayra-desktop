@@ -424,17 +424,18 @@ Description: Suite completa de ofimática de LibreOffice
 Package: huayra-juegos
 Architecture: all
 Depends: ${misc:Depends},
+  atomix,
+  crack-attack,
+  eboard,
+  enigma,
+  gnome-sudoku,
+  gnuchess,
+  huayra2048,
+  numptyphysics,
   minetest,
   minetest-server,
-  gnuchess,
-  eboard,
-  gnome-sudoku,
-  numptyphysics,
-  atomix,
-  enigma,
-  smc,
-  crack-attack,
-  huayra2048,
+  supertux,
+  tierraluna
 Description: Juegos seleccionados para Huayra
  Aquí se encuentra un listado de juegos seleccionados
  para la distribucion Huayra
