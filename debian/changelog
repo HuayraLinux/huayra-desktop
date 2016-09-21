@@ -1,3 +1,9 @@
+huayra-desktop (4.0.6) unstable; urgency=medium
+
+  * cambios de paquetes tierraluna, ayni, smc
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 21 Sep 2016 15:36:23 -0300
+
 huayra-desktop (4.0.5) unstable; urgency=medium
 
   * fix path walpapper
