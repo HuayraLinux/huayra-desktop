@@ -41,6 +41,7 @@ APT
 	"^mate-utils";
 	"^mozo";
 	"^notification-daemon";
+	"^pk-updates-notifier";
   };
 };
 EOF

@@ -74,7 +74,6 @@ APT
 	"^pd-purepd";
 	"^pilas-engine-bloques";
 	"^pilas-tutoriales";
-	"^pk-updates-notifier";
 	"^puredata";
 	"^puredata-core";
 	"^puredata-doc";

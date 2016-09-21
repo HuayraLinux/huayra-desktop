@@ -72,7 +72,6 @@ Depends: ${misc:Depends},
   pd-purepd,
   pilas-engine-bloques,
   pilas-tutoriales (>= 0.2),
-  pk-updates-notifier,
   puredata,
   puredata-core,
   puredata-doc,
@@ -138,6 +137,7 @@ Depends: ${misc:Depends},
   mate-utils,
   mozo,
   notification-daemon,
+  pk-updates-notifier,
   pluma
 Description: Entorno de escritorio Huayra con Mate
  Este paquete contiene el escritorio Mate para Huayra.
