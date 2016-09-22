@@ -1,3 +1,10 @@
+huayra-desktop (4.0.8) unstable; urgency=medium
+
+  * theme por defecto HuayraOcho
+  * botones de maximizar/minimizar en 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 22 Sep 2016 15:21:20 -0300
+
 huayra-desktop (4.0.7) unstable; urgency=medium
 
   * quitando scripts innecesarios

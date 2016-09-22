@@ -13,3 +13,6 @@ favorite-apps=['org.gnome.Nautilus.desktop', 'firefox-esr.desktop', 'gnome-termi
 [org/gnome/desktop/background]
 picture-uri='file:///usr/share/images/huayra-desktop/huayra-wallpaper.png'
 
+[org/gnome/desktop/wm/preferences]
+button-layout='menu:minimize,maximize,close'
+theme='HuayraOcho'
