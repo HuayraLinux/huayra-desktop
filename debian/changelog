@@ -1,3 +1,10 @@
+huayra-desktop (4.0.9) UNRELEASED; urgency=medium
+
+  * quitando huayra-curriculum
+  * agregando huayra-ritmos
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 26 Sep 2016 11:51:17 -0300
+
 huayra-desktop (4.0.8) unstable; urgency=medium
 
   * theme por defecto HuayraOcho

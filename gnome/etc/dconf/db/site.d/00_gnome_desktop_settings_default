@@ -7,7 +7,7 @@ command='gnome-terminal'
 name='Gnome Terminal'
 
 [org/gnome/shell]
-enabled-extensions=['apps-menu@gnome-shell-extensions.gcampax.github.com']
+enabled-extensions=['apps-menu@gnome-shell-extensions.gcampax.github.com','user-theme@gnome-shell-extensions.gcampax.github.com']
 favorite-apps=['org.gnome.Nautilus.desktop', 'firefox-esr.desktop', 'gnome-terminal.desktop']
 
 [org/gnome/desktop/background]
@@ -16,3 +16,11 @@ picture-uri='file:///usr/share/images/huayra-desktop/huayra-wallpaper.png'
 [org/gnome/desktop/wm/preferences]
 button-layout='menu:minimize,maximize,close'
 theme='HuayraOcho'
+
+[org/gnome/desktop/interface]
+cursor-theme='Breeze_Huayra'
+gtk-theme='HuayraOcho'
+icon-theme='huayra-ocho'
+
+[org/gnome/shell/extensions/user-theme]
+name='HuayraOcho'
