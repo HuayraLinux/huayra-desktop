@@ -1,7 +1,10 @@
-huayra-desktop (4.0.9) UNRELEASED; urgency=medium
+huayra-desktop (4.0.9) unstable; urgency=medium
 
   * quitando huayra-curriculum
   * agregando huayra-ritmos
+  * agregando settings de themes
+  * agregando gedit
+  * agragando backgrounds (pixelarte)
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 26 Sep 2016 11:51:17 -0300
 
