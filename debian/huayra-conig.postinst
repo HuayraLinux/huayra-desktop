@@ -54,7 +54,6 @@ APT
 	"^gobby-0.5";
 	"^huayra-bullets";
 	"^huayra-compartir";
-	"^huayra-curriculum";
 	"^huayra-firmware-full-support";
 	"^huayra-printing-full-support";
 	"^huayra-simulaciones-interactivas";
