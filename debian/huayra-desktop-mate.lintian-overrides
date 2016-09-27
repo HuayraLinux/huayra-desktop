@@ -1,0 +1,4 @@
+huayra-desktop-mate: desktop-command-not-in-package usr/share/applications/mate-control-center.desktop mate-control-center
+huayra-desktop-mate: desktop-entry-invalid-category MATE usr/share/applications/mate-control-center.desktop
+huayra-desktop-mate: maintainer-script-should-not-use-gconftool postinst:62
+huayra-desktop-mate: maintainer-script-should-not-use-gconftool postinst:63

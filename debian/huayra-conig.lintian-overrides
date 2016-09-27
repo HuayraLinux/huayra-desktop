@@ -1,0 +1,3 @@
+huayra-conig binary: package-depends-on-an-x-font-package depends: xfonts-75dpi
+huayra-conig binary: package-depends-on-an-x-font-package depends: xfonts-base
+huayra-conig binary: package-depends-on-an-x-font-package depends: xfonts-scalable

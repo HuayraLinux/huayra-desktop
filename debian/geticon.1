@@ -1,0 +1,33 @@
+.TH GETICON "1" "September 2016" "geticon 1.0" "User Commands"
+.SH NAME
+geticon \- Obtiene el icono del theme gtk actual.
+.SH SYNOPSIS
+.B geticon
+\fInombre_icono \fR[\fItamaño\fR]
+.SH DESCRIPTION
+Con este comando se obtiene la ruta del icono en el tema actual de gtk. 
+En caso de no existir el icono en el tema, devuelve el del tema por defecto (gnome).
+.P
+Por lo general, \fBgeticon\fR es usado internamente por otras aplicaciones.
+.LP
+.SH EXAMPLES
+.P
+Buscar ruta del icono:
+.P
+\fBgeticon huayra-bullets 48
+.P
+.LP
+.SH OUTPUT
+
+.P
+\fB/usr/share/icons/huayra-liso/48x48/apps/huayra-bullets.png
+.P
+
+.P
+.SH AUTHORS
+geticon was written by Huayra Developers to satisfy lintian.
+.P
+http://huayra.conectarigualdad.gob.ar/
+.P
+This manual page was written by Fernando Toledo ragnarok@docksud.com.ar
+for the Huayra project (but may be used by others).

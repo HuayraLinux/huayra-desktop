@@ -3,7 +3,7 @@ Section: x11
 Priority: extra
 Maintainer: Fernando Toledo <ragnarok@docksud.com.ar>
 Build-Depends:  debhelper (>= 8)
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Homepage: http://huayra.conectarigualdad.gob.ar
 
 Package: huayra-conig
@@ -95,7 +95,7 @@ Depends: ${misc:Depends},
 Description: Configuraciones de Huayra para Conectar Igualdad
  Este meta-paquete instala las aplicaciones necesarias para tener
  un entorno para trabajar o estudiar para el programa Conectar Igualdad.
- Dummy Package.
+ This is a dummy package.
 
 Package: huayra-desktop-mate
 Architecture: all
@@ -142,7 +142,7 @@ Depends: ${misc:Depends},
   pluma
 Description: Entorno de escritorio Huayra con Mate
  Este paquete contiene el escritorio Mate para Huayra.
- Dummy Package.
+ This is a dummy package.
 
 Package: huayra-desktop-mate-settings
 Architecture: all
@@ -151,7 +151,7 @@ Replaces: huayra-desktop, huayra-apps-debian
 Depends: ${misc:Depends}, gconf-editor, huayra-desktop-common
 Description: Configuraciones del entorno de escritorio Huayra con Mate
  Este paquete contiene configuraciones del entorno Mate para Huayra
- Dummy Package.
+ This is a dummy package.
 
 Package: huayra-desktop-common
 Architecture: all
@@ -349,7 +349,7 @@ Depends: ${misc:Depends},
   printer-driver-hpcups
 Description: Meta-paquete que depende de paquetes que brindan soporte de impresión
  Instala drivers y programas que dan soporte en una gran variedad de impresoras.
- Dummy package.
+ This is a dummy package.
 
 Package: huayra-firmware-full-support
 Architecture: all
@@ -366,7 +366,7 @@ Depends: ${misc:Depends},
 Description: Firmware para distintos dispositivos en Huayra
  Instala firmware para distintos dispositivos que lo requieren, mayormente
  placas WiFi y Bluetooth.
- Dummy package.
+ This is a dummy package.
 
 Package: huayra-libreoffice
 Architecture: all
@@ -420,7 +420,7 @@ Depends: ${misc:Depends},
   aspell-es
 Description: Suite completa de ofimática de LibreOffice
  Aquí se encuentra el paquete completo de ofimática de LibreOffice
- Dummy Package.
+ This is a dummy package.
 
 Package: huayra-juegos
 Architecture: all
@@ -440,7 +440,7 @@ Depends: ${misc:Depends},
 Description: Juegos seleccionados para Huayra
  Aquí se encuentra un listado de juegos seleccionados
  para la distribucion Huayra
- Dummy Package.
+ this is a dummy package.
 
 Package: huayra-avatares
 Architecture: all
@@ -506,6 +506,8 @@ Depends: ${misc:Depends},
 Description: Escritorio para Huayra con Gnome Shell
  Dependencias necesarias para ejecutar gnome shell en Huayra basado
  en task-desktop-gnome
+ .
+ This is a dummy package
 
 Package: huayra-desktop-gnome-settings
 Architecture: all
