@@ -10,7 +10,8 @@ if [ "$1" = "configure" ]; then
 
   echo "Asignando aplicaciones por defecto..."
   huayra-set-default-app application/pdf evince.desktop
-# huayra-set-default-app application/x-deb gdebi.desktop
+  huayra-set-default-app application/x-deb gpk-install-local-file.desktop
+  huayra-set-default-app application/x-app-package gpk-install-local-file.desktop
   huayra-set-default-app application/x-7z file-roller.desktop
   huayra-set-default-app application/x-7z-compressed file-roller.desktop
   huayra-set-default-app audio/mpeg clementine.desktop
