@@ -1,3 +1,9 @@
+huayra-desktop (3.3.0) sud-proposed; urgency=medium
+
+  * Versión de desktop para 3.3 (cambio docky por plank que es mas estable)
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 28 Dec 2016 11:42:28 -0300
+
 huayra-desktop (3.2.37) unstable; urgency=medium
 
   * valoers de fonts por defecto
