@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Plank
+Type=Application
+Exec=plank
+Terminal=false
+Icon=docky
+Comment=El docky que no crashea
+NoDisplay=false
+Categories=Utility;
+Hidden=false
+OnlyShowIn=MATE;
