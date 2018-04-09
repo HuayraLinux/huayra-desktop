@@ -1,3 +1,9 @@
+huayra-desktop (4.0.13) unstable; urgency=medium
+
+  * cambio de greether
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 09 Apr 2018 14:38:22 -0300
+
 huayra-desktop (4.0.12) unstable; urgency=medium
 
   * Actualizando dependencias para stretch
