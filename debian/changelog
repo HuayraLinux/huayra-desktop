@@ -1,3 +1,9 @@
+huayra-desktop (4.0.16) unstable; urgency=medium
+
+  * quitando dependencia de ninja-ide 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 12 Apr 2018 15:16:54 -0300
+
 huayra-desktop (4.0.15) unstable; urgency=medium
 
   * Ajustando dependencias para stretch y libreoffice
