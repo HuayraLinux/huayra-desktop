@@ -6,4 +6,3 @@ Icon=mixer
 Terminal=false
 Type=Application
 Categories=Settings;System;
-# X-GNOME-AutoRestart=true
