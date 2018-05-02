@@ -1,7 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=x-Marco sombras
-Comment=Fix sombra del panel al iniciar la sesion
-Exec=marco --replace
-NoDisplay=true
-OnlyShowIn=MATE;
