@@ -2,7 +2,7 @@ Source: huayra-desktop
 Section: x11
 Priority: extra
 Maintainer: Fernando Toledo <ragnarok@docksud.com.ar>
-Build-Depends:  debhelper (>= 8)
+Build-Depends:  debhelper (>= 10)
 Standards-Version: 3.9.6
 Homepage: http://huayra.conectarigualdad.gob.ar
 

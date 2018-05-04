@@ -1,6 +1,6 @@
 huayra-desktop-common binary: dir-in-usr-local
 huayra-desktop-common binary: file-in-usr-local
 huayra-desktop-common binary: file-in-unusual-dir
-huayra-desktop-common binary: desktop-command-not-in-package usr/share/applications/huayra-correo.desktop icedove
+huayra-desktop-common binary: desktop-command-not-in-package usr/share/applications/huayra-correo.desktop thunderbird
 huayra-desktop-common binary: desktop-command-not-in-package usr/share/applications/huayra-chat.desktop xchat
 huayra-desktop-common binary: desktop-entry-invalid-category Huayra usr/share/applications/huayra-chat.desktop
