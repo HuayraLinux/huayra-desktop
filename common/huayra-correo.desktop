@@ -2,7 +2,7 @@
 Name=Correo Electronico
 Comment=Lector de Correos Electronicos
 GenericName=Correo Electronico
-Exec=icedove %u
+Exec=thunderbird %u
 Terminal=false
 X-MultipleArgs=false
 Type=Application
@@ -11,3 +11,4 @@ Categories=Network;Email;News;GTK;
 MimeType=message/rfc822;x-scheme-handler/mailto;
 StartupWMClass=Icedove-bin
 StartupNotify=true
+Hidden=true
