@@ -50,9 +50,7 @@ foreground-color='#F6F6F5F5EEEE'
 palette='#1C1C1D1D1919:#D0D01B1A2424:#A7A7D3D32C2C:#D8D8CFCF6767:#2D448BC5A5D7:#69695A5ABBBB:#871DCD6C7C33:#FEFEFFFFFEFE:#BABABABABABA:#D1D12A292423:#A7A7D3D32C2C:#D8D8CFCF6767:#7491BD7ED19C:#69695A5ABBBB:#D5D538386464:#FEFEFFFFFEFE'
 use-system-font=false
 use-theme-colors=false
-use-theme-background=false
-font='Droid Sans Mono 12'
-
+use-theme-background=true
 
 [org/mate/desktop/peripherals/touchpad]
 tap-to-click=true
@@ -63,20 +61,12 @@ idle-delay=5
 themes=['screensavers-huayra-default']
 lock-enabled=false
 
-#[org/mate/screenshot]
-#last-save-directory='file:///tmp'
-
 [org/mate/desktop/media-handling]
 automount-open=false
 
 [org/mate/control-center/appearance]
 mate-backgrounds-url='http://huayra.conectarigualdad.gob.ar/decargas'
 mate-themes-url='http://huayra.conectarigualdad.gob.ar/decargas'
-
-[org/mate/desktop/keybindings/visor-manual]
-action='huayra-visor-manual'
-binding='F1'
-name='huayra-visor-manual'
 
 [org/mate/panel/general]
 default-layout='huayra'
