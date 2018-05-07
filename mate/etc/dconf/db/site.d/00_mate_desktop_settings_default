@@ -48,9 +48,8 @@ background-color='#232325252626'
 background-darkness=0.93
 foreground-color='#F6F6F5F5EEEE'
 palette='#1C1C1D1D1919:#D0D01B1A2424:#A7A7D3D32C2C:#D8D8CFCF6767:#2D448BC5A5D7:#69695A5ABBBB:#871DCD6C7C33:#FEFEFFFFFEFE:#BABABABABABA:#D1D12A292423:#A7A7D3D32C2C:#D8D8CFCF6767:#7491BD7ED19C:#69695A5ABBBB:#D5D538386464:#FEFEFFFFFEFE'
-use-system-font=false
+use-system-font=true
 use-theme-colors=false
-use-theme-background=true
 
 [org/mate/desktop/peripherals/touchpad]
 tap-to-click=true
