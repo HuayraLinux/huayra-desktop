@@ -1,3 +1,9 @@
+huayra-desktop (4.0.17) unstable; urgency=medium
+
+  * Set de parches para Huayra 4
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 07 May 2018 12:22:21 -0300
+
 huayra-desktop (4.0.16) unstable; urgency=medium
 
   * quitando dependencia de ninja-ide 
