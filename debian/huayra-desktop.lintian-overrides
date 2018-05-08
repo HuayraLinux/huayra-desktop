@@ -1,5 +1,4 @@
 huayra-desktop source: changelog-should-mention-nmu
 huayra-desktop source: source-nmu-has-incorrect-version-number
 huayra-desktop-mate binary: desktop-entry-invalid-category
-huayra-desktop-common binary: desktop-command-not-in-package usr/share/applications/huayra-correo.desktop
 huayra-conig source: package-depends-on-an-x-font-package

@@ -1,7 +1,6 @@
 common/bin/geticon usr/bin/
 common/bin/adduser.local usr/bin/
 common/images/* usr/share/images/huayra-desktop/
-common/huayra-correo.desktop usr/share/applications/
 common/etc/skel/Escritorio etc/skel/
 common/etc/skel/Descargas etc/skel/
 common/etc/skel/Plantillas etc/skel/
@@ -11,7 +10,6 @@ common/etc/skel/Imágenes etc/skel/
 common/etc/skel/Videos etc/skel/
 common/huayra-set-default-app usr/bin/
 common/10periodic etc/huayra/
-common/huayra-chat.desktop usr/share/applications/
 common/huayra.menu etc/xdg/menus/applications-merged/
 common/Huayra.directory usr/share/desktop-directories/
 common/etc/* etc/
