@@ -1,3 +1,10 @@
+huayra-desktop (4.0.18) unstable; urgency=medium
+
+  * Cambio de tema greybird temporal mientras se hace el port del nuevo theme
+  * actualizacion de aplicaciones
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 10 May 2018 16:24:52 -0300
+
 huayra-desktop (4.0.17) unstable; urgency=medium
 
   * Set de parches para Huayra 4
