@@ -1,3 +1,9 @@
+huayra-desktop (4.0.19) unstable; urgency=medium
+
+  * quitando apps que no van mas
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 17 May 2018 15:48:34 -0300
+
 huayra-desktop (4.0.18) unstable; urgency=medium
 
   * Cambio de tema greybird temporal mientras se hace el port del nuevo theme
