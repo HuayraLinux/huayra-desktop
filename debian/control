@@ -81,7 +81,6 @@ Depends: ${misc:Depends},
   scilab-doc,
   stellarium,
   scratch,
-  tuxguitar,
   tuxpaint,
   xfonts-75dpi,
   xfonts-base,
@@ -198,7 +197,6 @@ Depends: ${misc:Depends},
   gimp-paint-studio,
   git,
   git-man,
-  gitg,
   gnome-subtitles,
   gnucap,
   gparted,
@@ -288,8 +286,7 @@ Package: huayra-apps-settings
 Architecture: all
 Conflicts: huayra-desktop, huayra-apps-debian
 Replaces: huayra-desktop, huayra-apps-debian
-Depends: ${misc:Depends}, huayra-tuxguitar-settings,
-         python (>= 2.7), python (<< 2.8)
+Depends: ${misc:Depends}, python (>= 2.7), python (<< 2.8)
 Description: Suite completa de aplicaciones para Huayra (settings)
  Aqui se encuentran las opciones de configuracion de las aplicaciones pensadas
  para Huayra.
