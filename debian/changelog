@@ -1,3 +1,9 @@
+huayra-desktop (4.0.20) unstable; urgency=medium
+
+  * Agrega configuraciones basicas para Lightdm
+
+ -- Matias De lellis <mati86dl@gmail.com>  Tue, 22 May 2018 12:18:08 -0300
+
 huayra-desktop (4.0.19) unstable; urgency=medium
 
   * quitando apps que no van mas
