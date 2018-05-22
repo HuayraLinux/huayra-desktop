@@ -13,4 +13,4 @@ common/10periodic etc/huayra/
 common/huayra.menu etc/xdg/menus/applications-merged/
 common/Huayra.directory usr/share/desktop-directories/
 common/etc/* etc/
-commom/usr/* usr/
+common/usr/* usr/
