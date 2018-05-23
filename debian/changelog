@@ -1,3 +1,9 @@
+huayra-desktop (4.0.21) unstable; urgency=medium
+
+  * D'Oh!. Separa configuracion del greeter y de lightdm.
+
+ -- Matias De lellis <mati86dl@gmail.com>  Wed, 23 May 2018 11:09:20 -0300
+
 huayra-desktop (4.0.20) unstable; urgency=medium
 
   * Agrega configuraciones basicas para Lightdm
