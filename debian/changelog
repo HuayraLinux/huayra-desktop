@@ -1,3 +1,9 @@
+huayra-desktop (4.0.22) unstable; urgency=medium
+
+  * Agregar herramientas para gestión de usuarios.
+
+ -- Ignacio Losiggio <iglosiggio@gmail.com>  Mon, 28 May 2018 14:03:12 -0300
+
 huayra-desktop (4.0.21) unstable; urgency=medium
 
   * D'Oh!. Separa configuracion del greeter y de lightdm.
