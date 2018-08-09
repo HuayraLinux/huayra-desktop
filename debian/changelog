@@ -1,3 +1,9 @@
+huayra-desktop (4.0.23) unstable; urgency=medium
+
+  * Fix nombre del theme gtk
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 09 Aug 2018 15:49:15 -0300
+
 huayra-desktop (4.0.22) unstable; urgency=medium
 
   * Agregar herramientas para gestión de usuarios.
