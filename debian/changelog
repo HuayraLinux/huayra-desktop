@@ -1,3 +1,9 @@
+huayra-desktop (4.0.26) unstable; urgency=medium
+
+  * Ajustando dependencias de plank
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 05 Nov 2018 16:10:41 -0300
+
 huayra-desktop (4.0.25) unstable; urgency=medium
 
   * Ajuste de themes
