@@ -1,3 +1,9 @@
+huayra-desktop (4.0.25) unstable; urgency=medium
+
+  * Ajuste de themes
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 05 Nov 2018 15:49:07 -0300
+
 huayra-desktop (4.0.24) unstable; urgency=medium
 
   * cambiando dependencias de juegos
