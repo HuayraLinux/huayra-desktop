@@ -1,3 +1,9 @@
+huayra-desktop (4.0.24) unstable; urgency=medium
+
+  * cambiando dependencias de juegos
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 05 Nov 2018 14:47:34 -0300
+
 huayra-desktop (4.0.23) unstable; urgency=medium
 
   * Fix nombre del theme gtk
