@@ -1,4 +1,5 @@
 [Desktop Entry]
 Name=Huayra
 Type=Directory
-Icon=start-here
+Icon=applications-huayra
+Comment=Aplicaciones de Huayra GNU/Linux

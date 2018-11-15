@@ -1,3 +1,9 @@
+huayra-desktop (4.0.27) unstable; urgency=medium
+
+  * Corrección de nombre de icono del menu
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 15 Nov 2018 15:20:28 -0300
+
 huayra-desktop (4.0.26) unstable; urgency=medium
 
   * Ajustando dependencias de plank
