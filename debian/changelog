@@ -1,6 +1,7 @@
 huayra-desktop (4.0.28) unstable; urgency=medium
 
   * huayra-base ya no instala themes de grub
+  * cambios de iconos del desktop
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 08 Apr 2019 11:39:53 -0300
 
