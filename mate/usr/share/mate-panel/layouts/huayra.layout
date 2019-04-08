@@ -50,3 +50,14 @@ position=0
 panel-right-stick=true
 locked=true
 
+[Toplevel bottom]
+expand=true
+orientation=botton
+size=24
+
+[Object window-list]
+object-type=applet
+applet-iid=WnckletFactory::WindowListApplet
+toplevel-id=bottom
+position=1
+locked=true

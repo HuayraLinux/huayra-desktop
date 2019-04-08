@@ -1,3 +1,9 @@
+huayra-desktop (4.0.28) unstable; urgency=medium
+
+  * huayra-base ya no instala themes de grub
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 08 Apr 2019 11:39:53 -0300
+
 huayra-desktop (4.0.27) unstable; urgency=medium
 
   * Corrección de nombre de icono del menu

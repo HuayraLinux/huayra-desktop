@@ -16,12 +16,12 @@ cursor-theme = 'Breeze_Huayra'
 remember-numlock-state=false
 
 [org/mate/caja/desktop]
-computer-icon-visible=false
-home-icon-visible=false
+computer-icon-visible=true
+home-icon-visible=true
 network-icon-visible=false
-trash-icon-visible=false
-volumes-visible=false
-font='Asap 13'
+trash-icon-visible=true
+volumes-visible=true
+font='Asap 12'
 
 [org/mate/marco/global-keybindings]
 run-command-terminal='<Primary><Alt>t'
