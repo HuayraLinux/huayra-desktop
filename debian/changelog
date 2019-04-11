@@ -1,3 +1,9 @@
+huayra-desktop (4.0.29) unstable; urgency=medium
+
+  * typo fix!
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 11 Apr 2019 12:10:33 -0300
+
 huayra-desktop (4.0.28) unstable; urgency=medium
 
   * huayra-base ya no instala themes de grub

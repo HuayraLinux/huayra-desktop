@@ -52,7 +52,7 @@ locked=true
 
 [Toplevel bottom]
 expand=true
-orientation=botton
+orientation=bottom
 size=24
 
 [Object window-list]
