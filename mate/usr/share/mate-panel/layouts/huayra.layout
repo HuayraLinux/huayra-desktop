@@ -36,7 +36,7 @@ locked=true
 
 [Object control-center]
 object-type=launcher
-launcher-location=/usr/share/applications/mate-control-center.desktop
+launcher-location=/usr/share/applications/matecc.desktop
 toplevel-id=top
 position=5
 locked=true
