@@ -5,10 +5,6 @@ set -e
 
 if [ "$1" = "configure" ]; then
 
-  echo "Actualizando dconf"
-  dconf update
-  gconftool-2 --direct --config-source xml:readwrite:/etc/gconf/gconf.xml.defaults/ --set --type bool /apps/gksu/sudo-mode 1
-
   #Asignando aplicaciones por defecto
   huayra-set-default-app application/pdf atril.desktop
   huayra-set-default-app application/x-deb gdebi.desktop
