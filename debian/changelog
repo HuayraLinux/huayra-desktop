@@ -1,6 +1,6 @@
-huayra-desktop (4.0.31) UNRELEASED; urgency=medium
+huayra-desktop (4.0.31) unstable; urgency=medium
 
-  *  
+  *  eliminado icedtea-plugin de stretch
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 30 Apr 2019 13:08:19 -0300
 
