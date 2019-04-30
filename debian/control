@@ -160,6 +160,7 @@ Depends: ${misc:Depends}, huayra-fonts, dconf-tools,
 Description: Configuraciones comunes para los entornos de escritorio
  Opciones comunes para los entornos de escritorio que contienen valores
  por defecto para dconf, GConf, el skel, lighdm e imagenes de fondos.
+ Este paquete es necesario para un escritorio con MATE
 
 Package: huayra-apps
 Architecture: all
