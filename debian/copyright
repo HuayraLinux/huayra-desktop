@@ -1,14 +1,8 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: huayra-desktop
 
-# If you want to use GPL v2 or later for the /debian/* files use 
-# the following clauses, or change it to suit. Delete these two lines
-Files: debian/*
-Copyright: 2012, 2016 Fernando Toledo <ragnarok@docksud.com.ar>
-License: GPL-2+
-
 Files: *
-Copyright: 2012, 2016 Fernando Toledo <ragnarok@docksud.com.ar>
+Copyright: 2012-2019 Fernando Toledo <ragnarok@docksud.com.ar>
 License: GPL-2+
 
 License: GPL-2+

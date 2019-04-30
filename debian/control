@@ -155,10 +155,11 @@ Architecture: all
 Conflicts: huayra-desktop, huayra-apps-debian, huayra-mate-screensavers
 Replaces: huayra-desktop, huayra-apps-debian
 Depends: ${misc:Depends}, huayra-fonts, dconf-tools,
-  huayra-screensavers, python (>= 2.7), python (<< 2.8),
-  xserver-xorg-input-all, xserver-xorg-video-all, xserver-xorg
+  huayra-screensavers, python (>= 2.7), xserver-xorg-input-all, 
+  xserver-xorg-video-all, xserver-xorg
 Description: Configuraciones comunes para los entornos de escritorio
- Opciones comunes para los entornos de escritorio
+ Opciones comunes para los entornos de escritorio que contienen valores
+ por defecto para dconf, GConf, el skel, lighdm e imagenes de fondos.
 
 Package: huayra-apps
 Architecture: all
@@ -279,7 +280,7 @@ Depends: ${misc:Depends},
   youtube-dl,
   zip
 Description: Suite completa de aplicaciones para Huayra
- Aqui se encuentran una serie de aplicaciones pensadas para Huayra.
+ Aqui se encuentran un lote de aplicaciones pensadas para Huayra.
  .
  Este dummy meta-paquete depende de un conjunto de aplicaciones que proveen
  las herramientas necesarias para tener un entorno para trabajar o estudiar.
@@ -291,8 +292,8 @@ Replaces: huayra-desktop, huayra-apps-debian
 Depends: ${misc:Depends}, python (>= 2.7), python (<< 2.8)
 Description: Suite completa de aplicaciones para Huayra (settings)
  Aqui se encuentran las opciones de configuracion de las aplicaciones pensadas
- para Huayra.
-
+ para Huayra que viene por defecto en la distribución. 
+ Se agregan opciones en /etc de vim, sudo, skel, etc.
 
 Package: huayra-base
 Architecture: all
@@ -302,9 +303,13 @@ Depends: ${misc:Depends},
   avahi-daemon,
   huayra-archive-keyring,
   plymouth-themes-huayra-ocho,
-  huayra-grub-themes-liso
-Description: Paquetes base de Huayra
- Paquetes del sistema base de Huayra.
+  huayra-grub-themes-huayra-4.0
+Description: Paquetes base de Huayra para armar la distribución
+ Paquetes del sistema base de Huayra. Contiene los themes por defecto de
+ grub, plymouth y el keyring ocn la llaves del repositorio.
+ Es un paquete virtual que instala estas dependencias.
+ .
+ This is a dummy package
 
 Package: huayra-printing-full-support
 Architecture: all
@@ -410,9 +415,10 @@ Description: Juegos seleccionados para Huayra
 Package: huayra-avatares
 Architecture: all
 Depends: ${misc:Depends}
-Description: Avatares para personalizar tu sesion
- Aquí se encuentra un listado de avatares diseñados
- desde la distribucion Huayra
+Description: Avatares para personalizar tu inicio de sesión
+ Aquí se encuentra un listado de avatares diseñados desde la 
+ distribución Huayra. Estas imágenes podés usarlas como iconos
+ de tu usuario al iniciar sesión.
 
 Package: huayra-desktop-gnome
 Architecture: all
@@ -469,8 +475,8 @@ Depends: ${misc:Depends},
  policykit-1-gnome (>= 0.105),
  pulseaudio,
  sound-theme-freedesktop
-Description: Escritorio para Huayra con Gnome Shell
- Dependencias necesarias para ejecutar gnome shell en Huayra basado
+Description: Escritorio para Huayra con GNOME Shell
+ Dependencias necesarias para ejecutar GNOME shell en Huayra basado
  en task-desktop-gnome
  .
  This is a dummy package
@@ -478,6 +484,8 @@ Description: Escritorio para Huayra con Gnome Shell
 Package: huayra-desktop-gnome-settings
 Architecture: all
 Depends: ${misc:Depends},
-Description: Escritorio para Huayra con Gnome Shell (opciones por defecto)
- Opciones por defecto del escritorio de Huayra con Gnome Shell
-
+Description: Escritorio para Huayra con GNOME Shell (opciones por defecto)
+ Opciones por defecto del escritorio de Huayra con GNOME Shell
+ .
+ Estos paquetes fueron experimentales y contienen las valores por defecto
+ para armar el escritorio basado en GNOME.
