@@ -10,7 +10,7 @@ document-font-name='Asap 10'
 font-name='Asap 11'
 
 [org/mate/desktop/peripherals/mouse]
-cursor-theme = 'Breeze_Huayra'
+cursor-theme = 'Huayra4'
 
 [org/mate/desktop/peripherals/keyboard]
 remember-numlock-state=false
