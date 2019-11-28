@@ -57,7 +57,7 @@ tap-to-click=true
 [org/mate/screensaver]
 mode='single'
 idle-delay=5
-themes=['screensavers-huayra-default']
+themes=['screensavers-huayra-invaders']
 lock-enabled=false
 
 [org/mate/desktop/media-handling]
