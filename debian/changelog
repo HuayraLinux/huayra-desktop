@@ -1,3 +1,9 @@
+huayra-desktop (4.0.33) unstable; urgency=medium
+
+  * Set invaders as default Screen saver
+
+ -- Matias De lellis <mati86dl@gmail.com>  Thu, 24 Sep 2020 13:27:48 -0300
+
 huayra-desktop (4.0.32) unstable; urgency=medium
 
   * Corrección de avisos de Lintian
