@@ -390,6 +390,7 @@ Depends: ${misc:Depends},
   libreoffice-impress,
   libreoffice-math,
   libreoffice-writer,
+  libreoffice-style-breeze,
   myspell-es,
   aspell-es
 Description: Suite completa de ofimática de LibreOffice

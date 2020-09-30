@@ -1,3 +1,10 @@
+huayra-desktop (4.0.36) unstable; urgency=medium
+
+  * Actualiza las configuraciones de libreoffice por defecto
+  * Pone los iconos breze por defecto en libreoffice.
+
+ -- Matias De lellis <mati86dl@gmail.com>  Wed, 30 Sep 2020 12:23:17 -0300
+
 huayra-desktop (4.0.35) unstable; urgency=medium
 
   * Remove Vim
