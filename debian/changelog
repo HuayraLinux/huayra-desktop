@@ -1,3 +1,15 @@
+huayra-desktop (4.0.35) unstable; urgency=medium
+
+  * Remove Vim
+
+ -- Matias De lellis <mati86dl@gmail.com>  Wed, 30 Sep 2020 12:08:23 -0300
+
+huayra-desktop (4.0.34) unstable; urgency=medium
+
+  * Bump nuew version
+
+ -- Matias De lellis <mati86dl@gmail.com>  Fri, 25 Sep 2020 11:15:56 -0300
+
 huayra-desktop (4.0.33) unstable; urgency=medium
 
   * Set invaders as default Screen saver

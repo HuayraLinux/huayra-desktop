@@ -268,7 +268,6 @@ Depends: ${misc:Depends},
   tupi,
   unrar,
   usb-modeswitch,
-  vim,
   vinagre,
   vlc,
   wine,
@@ -294,7 +293,7 @@ Depends: ${misc:Depends}, python (>= 2.7), python (<< 2.8)
 Description: Suite completa de aplicaciones para Huayra (settings)
  Aqui se encuentran las opciones de configuracion de las aplicaciones pensadas
  para Huayra que viene por defecto en la distribución. 
- Se agregan opciones en /etc de vim, sudo, skel, etc.
+ Se agregan opciones en /etc de sudo, skel, etc.
 
 Package: huayra-base
 Architecture: all
