@@ -276,7 +276,6 @@ Depends: ${misc:Depends},
   xdg-user-dirs-gtk,
   xdg-utils,
   xournal,
-  xterm,
   youtube-dl,
   zip
 Description: Suite completa de aplicaciones para Huayra
