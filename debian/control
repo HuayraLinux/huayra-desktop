@@ -264,7 +264,6 @@ Architecture: all
 Depends: ${misc:Depends},
  adwaita-icon-theme (>= 3.14),
  dconf-gsettings-backend (>= 0.22),
- dconf-tools (>= 0.22),
  eog (>= 3.14),
  evince (>= 3.14),
  file-roller (>= 3.14),

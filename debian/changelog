@@ -1,3 +1,9 @@
+huayra-desktop (5.0.1) unstable; urgency=medium
+
+  * sacando dconf-tools 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 08 Feb 2021 13:51:38 -0300
+
 huayra-desktop (5.0.0) unstable; urgency=medium
 
   * actulalizacion de dependencias para austral/buster
