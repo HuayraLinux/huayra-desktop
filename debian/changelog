@@ -1,3 +1,9 @@
+huayra-desktop (5.0.4) unstable; urgency=medium
+
+  * sacando tierraluna por dependencia de python-pilas 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 10 Feb 2021 04:54:57 -0300
+
 huayra-desktop (5.0.3) unstable; urgency=medium
 
   * sacando stopmotion (ver branch develop) 

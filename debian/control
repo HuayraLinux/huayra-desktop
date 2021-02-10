@@ -242,8 +242,7 @@ Depends: ${misc:Depends},
   huayra2048,
   numptyphysics,
   minetest,
-  supertux,
-  tierraluna
+  supertux
 Description: Juegos seleccionados para Huayra
  Aquí se encuentra un listado de juegos seleccionados
  para la distribucion Huayra
