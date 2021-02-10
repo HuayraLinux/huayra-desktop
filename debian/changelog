@@ -1,3 +1,9 @@
+huayra-desktop (5.0.3) unstable; urgency=medium
+
+  * sacando stopmotion (ver branch develop) 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 10 Feb 2021 04:27:08 -0300
+
 huayra-desktop (5.0.2) unstable; urgency=medium
 
   * sacando djmount 
