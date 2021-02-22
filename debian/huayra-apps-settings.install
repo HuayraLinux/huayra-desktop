@@ -1,4 +1,2 @@
-app-settings/etc/skel/.gimp-2.8/* etc/skel/.gimp-2.8/
-app-settings/etc/skel/.scribus/* etc/skel/.scribus/
 app-settings/etc/skel/.config/* etc/skel/.config/
 app-settings/etc/sudoers.d/* etc/sudoers.d/

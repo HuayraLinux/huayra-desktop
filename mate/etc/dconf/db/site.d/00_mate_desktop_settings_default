@@ -3,8 +3,8 @@ picture-filename='/usr/share/images/huayra-desktop/huayra-wallpaper.png'
 picture-options='zoom'
 
 [org/mate/desktop/interface]
-gtk-theme='HuayraQuatro'
-icon-theme='huayra-4'
+gtk-theme='Huayra-jm'
+icon-theme='huayra-jm'
 menus-have-icons=true
 document-font-name='Asap 10'
 font-name='Asap 11'
@@ -29,7 +29,7 @@ run-command-terminal='<Primary><Alt>t'
 [org/mate/marco/general]
 num-workspaces=2
 button-layout=':minimize,maximize,close'
-theme='HuayraQuatro'
+theme='Huayra-jm'
 compositing-manager=true
 compositing-fast-alt-tab=false
 titlebar-font='Asap 12'
@@ -64,8 +64,8 @@ lock-enabled=false
 automount-open=false
 
 [org/mate/control-center/appearance]
-mate-backgrounds-url='http://huayra.conectarigualdad.gob.ar/decargas'
-mate-themes-url='http://huayra.conectarigualdad.gob.ar/decargas'
+mate-backgrounds-url='http://huayra.educar.gob.ar'
+mate-themes-url='http://huayra.educar.gob.ar'
 
 [org/mate/panel/general]
 default-layout='huayra'

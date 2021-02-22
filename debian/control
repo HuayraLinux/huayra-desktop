@@ -4,7 +4,7 @@ Priority: extra
 Maintainer: Fernando Toledo <ragnarok@docksud.com.ar>
 Build-Depends:  debhelper (>= 10)
 Standards-Version: 3.9.8
-Homepage: http://huayra.conectarigualdad.gob.ar
+Homepage: http://huayra.educar.gob.ar
 
 Package: huayra-desktop-mate
 Architecture: all
