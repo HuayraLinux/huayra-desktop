@@ -1,3 +1,9 @@
+huayra-desktop (5.0.5) unstable; urgency=medium
+
+  * Actualizacion de settings para Huayra 5
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Mon, 22 Feb 2021 17:27:41 -0300
+
 huayra-desktop (5.0.4) unstable; urgency=medium
 
   * sacando tierraluna por dependencia de python-pilas 
