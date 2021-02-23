@@ -1,3 +1,9 @@
+huayra-desktop (5.0.6) unstable; urgency=medium
+
+  * correccion de nombres de themes 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 23 Feb 2021 14:51:41 -0300
+
 huayra-desktop (5.0.5) unstable; urgency=medium
 
   * Actualizacion de settings para Huayra 5

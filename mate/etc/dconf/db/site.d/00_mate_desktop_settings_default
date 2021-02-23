@@ -3,14 +3,14 @@ picture-filename='/usr/share/images/huayra-desktop/huayra-wallpaper.png'
 picture-options='zoom'
 
 [org/mate/desktop/interface]
-gtk-theme='Huayra-jm'
+gtk-theme='Huayra-JM'
 icon-theme='huayra-jm'
 menus-have-icons=true
 document-font-name='Asap 10'
 font-name='Asap 11'
 
 [org/mate/desktop/peripherals/mouse]
-cursor-theme = 'Huayra4'
+cursor-theme = 'HuayraLiso'
 
 [org/mate/desktop/peripherals/keyboard]
 remember-numlock-state=false
@@ -29,7 +29,7 @@ run-command-terminal='<Primary><Alt>t'
 [org/mate/marco/general]
 num-workspaces=2
 button-layout=':minimize,maximize,close'
-theme='Huayra-jm'
+theme='Huayra-JM'
 compositing-manager=true
 compositing-fast-alt-tab=false
 titlebar-font='Asap 12'
