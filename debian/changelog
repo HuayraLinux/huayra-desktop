@@ -1,3 +1,15 @@
+huayra-desktop (5.0.10) unstable; urgency=medium
+
+  * Abre el menu con la tecla Huayra.
+
+ -- Matias De lellis <mati86dl@gmail.com>  Thu, 22 Apr 2021 11:20:17 -0300
+
+huayra-desktop (5.0.9) unstable; urgency=medium
+
+  * Arregla Wallpapper oficial..
+
+ -- Matias De lellis <mati86dl@gmail.com>  Tue, 09 Mar 2021 08:44:59 -0300
+
 huayra-desktop (5.0.8) unstable; urgency=medium
 
   * Nuevo wallpapper JM

@@ -25,6 +25,7 @@ font='Asap 12'
 
 [org/mate/marco/global-keybindings]
 run-command-terminal='<Primary><Alt>t'
+panel-main-menu='Super_L'
 
 [org/mate/marco/general]
 num-workspaces=2
