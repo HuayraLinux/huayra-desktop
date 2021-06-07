@@ -1,10 +1,10 @@
 Source: huayra-desktop
 Section: x11
-Priority: extra
+Priority: optional
 Maintainer: Fernando Toledo <ragnarok@docksud.com.ar>
 Build-Depends:  debhelper (>= 10)
-Standards-Version: 3.9.8
-Homepage: http://huayra.educar.gob.ar
+Standards-Version: 4.3.0
+Homepage: https://huayra.educar.gob.ar
 
 Package: huayra-desktop-mate
 Architecture: all

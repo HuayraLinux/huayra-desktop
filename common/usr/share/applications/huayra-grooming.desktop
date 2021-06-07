@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Hablemos de Grooming
+GenericName=Hablemos de Grooming
+Comment=Hablemos de Grooming
+Keywords=huayra;grooming;internet;redes;
+Categories=Huayra;
+Exec=atril -s /usr/share/huayra-desktop-common/grooming.pdf
+Icon=huayra-grooming
+StartupNotify=true
+Terminal=false
+Type=Application
