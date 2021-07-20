@@ -1,5 +1,4 @@
 common/bin/geticon usr/bin/
-common/bin/adduser.local usr/bin/
 common/images/* usr/share/images/huayra-desktop/
 common/etc/skel/Escritorio etc/skel/
 common/etc/skel/Descargas etc/skel/

@@ -1,4 +1,0 @@
-# necesitamos estos para que los usuarios se generen ok.
-huayra-desktop-common binary: dir-in-usr-local    usr/local/sbin/
-huayra-desktop-common binary: file-in-usr-local   usr/local/sbin/adduser.local
-huayra-desktop-common binary: file-in-unusual-dir usr/local/sbin/adduser.local
