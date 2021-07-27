@@ -1,3 +1,9 @@
+huayra-desktop (5.0.12) unstable; urgency=medium
+
+  * asociacion archivos .jar
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 27 Jul 2021 12:37:20 -0300
+
 huayra-desktop (5.0.11) unstable; urgency=medium
 
   * Crear icono de huayra-grooming
