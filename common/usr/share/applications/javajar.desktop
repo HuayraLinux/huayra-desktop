@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Maquina virtual de Java
+GenericName=Maquina Virtual de Java
+Comment=Ejecutar con la maquina virtual de Java
+Keywords=java;jar;
+Categories=Utility;
+Exec=/usr/bin/java -jar %F
+Icon=package-x-generic
+StartupNotify=true
+Terminal=false
+Type=Application
+NoDisplay=true
+
