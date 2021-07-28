@@ -3,7 +3,6 @@ huayra-desktop (5.0.13) unstable; urgency=medium
   * fix de huayra-set-default-app para mate
   * agregado de gdebi
   * fix mimetype de javajar.desktop
-=======
 
  -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 27 Jul 2021 22:10:30 -0300
 
