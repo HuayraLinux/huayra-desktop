@@ -1,3 +1,9 @@
+huayra-desktop (5.0.14) unstable; urgency=medium
+
+  * fix postinst con el mime de jar
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 28 Jul 2021 10:27:45 -0300
+
 huayra-desktop (5.0.13) unstable; urgency=medium
 
   * fix de huayra-set-default-app para mate
