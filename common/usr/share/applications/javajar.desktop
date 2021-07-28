@@ -10,4 +10,4 @@ StartupNotify=true
 Terminal=false
 Type=Application
 NoDisplay=true
-
+MimeType=application/x-java-archive;application/x-jar;
