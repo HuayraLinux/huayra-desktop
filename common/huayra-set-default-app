@@ -38,28 +38,30 @@ seccion default
 """
 s = 'Default Applications'
 
-f = '/usr/share/applications/defaults.list'
+files = ['/usr/share/applications/defaults.list','/usr/share/mate/applications/defaults.list']
 
-cfg = MiConfig()
-cfg.optionxform = str
-cfg.read(f)
-if not cfg.has_section(s):
-  cfg.add_section(s)
+for f in files:
+    print "Procesando:" + f
+    cfg = MiConfig()
+    cfg.optionxform = str
+    cfg.read(f)
+    if not cfg.has_section(s):
+      cfg.add_section(s)
 
-if options.mime != None and len(args) == 0:
-  if cfg.has_option(s, options.mime):
-    cfg.remove_option(s, options.mime)
-  else:
-    print "Aviso: " + options.mime + " no estaba en el archivo defaults.list"
-elif options.mime == None and len(args) == 2 :
-  mime = args[0]
-  desktop = args[1]
-  cfg.set(s,mime,desktop)
-else:
-  print "Parametros incorrectos!"
-  parser.print_help()
-try:
-  with open(f, 'wb') as configfile:
-    cfg.write(configfile)
-except IOError:
-  print "Permiso denegado.\n Este comando requiere privilegios de superusuario(root o use sudo en su defecto)"
+    if options.mime != None and len(args) == 0:
+      if cfg.has_option(s, options.mime):
+        cfg.remove_option(s, options.mime)
+      else:
+        print "Aviso: " + options.mime + " no estaba en el archivo defaults.list"
+    elif options.mime == None and len(args) == 2 :
+      mime = args[0]
+      desktop = args[1]
+      cfg.set(s,mime,desktop)
+    else:
+      print "Parametros incorrectos!"
+      parser.print_help()
+    try:
+      with open(f, 'wb') as configfile:
+        cfg.write(configfile)
+    except IOError:
+      print "Permiso denegado.\n Este comando requiere privilegios de superusuario(root o use sudo en su defecto)"
