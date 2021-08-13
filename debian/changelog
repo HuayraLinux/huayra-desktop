@@ -1,3 +1,9 @@
+huayra-desktop (5.0.17) unstable; urgency=medium
+
+  *cabmio gnome-system-tools -> xings-user-accounts
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 13 Aug 2021 13:57:16 -0300
+
 huayra-desktop (5.0.16) unstable; urgency=medium
 
   * Cambia nombre institucional.
