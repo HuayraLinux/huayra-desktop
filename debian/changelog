@@ -1,3 +1,9 @@
+huayra-desktop (5.0.15) unstable; urgency=medium
+
+  * Agrega icono del Plan Federal Juana Manso en el escritorio.
+
+ -- Matias De lellis <mati86dl@gmail.com>  Fri, 13 Aug 2021 11:37:44 -0300
+
 huayra-desktop (5.0.14) unstable; urgency=medium
 
   * fix postinst con el mime de jar
