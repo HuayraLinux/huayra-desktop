@@ -1,6 +1,6 @@
 [Desktop Entry]
-Name=Crear icono del Plan Federal Juana Manso
-Comment=Crear icono del Plan Federal Juana Manso en el escritorio
+Name=Crear icono de la Plataforma Juana Manso
+Comment=Crear icono de la Plataforma Juana Manso en el escritorio
 Exec=xdg-desktop-icon install --novendor /usr/share/applications/huayra-juana-manso.desktop
 Icon=huayra-juana-manso
 Terminal=false
