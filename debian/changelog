@@ -1,3 +1,15 @@
+huayra-desktop (5.0.19) unstable; urgency=medium
+
+  * Agrega transmission
+
+ -- Matias De lellis <mati86dl@gmail.com>  Sun, 22 Aug 2021 11:21:17 -0300
+
+huayra-desktop (5.0.18) unstable; urgency=medium
+
+  * Dependencia a huayra-accesibility-settings
+
+ -- Matias De lellis <mati86dl@gmail.com>  Fri, 20 Aug 2021 11:06:00 -0300
+
 huayra-desktop (5.0.17) unstable; urgency=medium
 
   *cabmio gnome-system-tools -> xings-user-accounts
