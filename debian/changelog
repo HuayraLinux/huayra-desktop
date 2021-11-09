@@ -1,3 +1,15 @@
+huayra-desktop (5.0.21) unstable; urgency=medium
+
+  * Arregla tema y cursor de lightdm. Issue #32
+
+ -- Matias De lellis <mati86dl@gmail.com>  Tue, 09 Nov 2021 09:51:02 -0300
+
+huayra-desktop (5.0.20) unstable; urgency=medium
+
+  * Deshabilita icono JM en el escritorio.
+
+ -- Matias De lellis <mati86dl@gmail.com>  Tue, 09 Nov 2021 09:31:47 -0300
+
 huayra-desktop (5.0.19) unstable; urgency=medium
 
   * Agrega transmission

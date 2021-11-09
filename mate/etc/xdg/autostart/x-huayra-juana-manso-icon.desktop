@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=Crear icono de la Plataforma Juana Manso
-Comment=Crear icono de la Plataforma Juana Manso en el escritorio
-Exec=xdg-desktop-icon install --novendor /usr/share/applications/huayra-juana-manso.desktop
-Icon=huayra-juana-manso
-Terminal=false
-Type=Application
-Categories=Settings;System;
