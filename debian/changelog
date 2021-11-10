@@ -1,3 +1,9 @@
+huayra-desktop (5.0.22) unstable; urgency=medium
+
+  * Nuevo fondo por defecto.
+
+ -- Matias De lellis <mati86dl@gmail.com>  Wed, 10 Nov 2021 09:38:13 -0300
+
 huayra-desktop (5.0.21) unstable; urgency=medium
 
   * Arregla tema y cursor de lightdm. Issue #32
