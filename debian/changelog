@@ -1,3 +1,9 @@
+huayra-desktop (5.0.23) unstable; urgency=medium
+
+  * Aumenta tipografia en lightdm y elimina grooming
+
+ -- Matias De lellis <mati86dl@gmail.com>  Wed, 29 Jun 2022 18:42:37 -0300
+
 huayra-desktop (5.0.22) unstable; urgency=medium
 
   * Nuevo fondo por defecto.
