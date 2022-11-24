@@ -1,3 +1,9 @@
+huayra-desktop (6.0) unstable; urgency=medium
+
+  * cambio de paquetes para bullseye (sozi)
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 24 Nov 2022 19:03:38 -0300
+
 huayra-desktop (5.0.23) unstable; urgency=medium
 
   * Aumenta tipografia en lightdm y elimina grooming
