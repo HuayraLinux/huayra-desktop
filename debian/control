@@ -54,7 +54,7 @@ Package: huayra-desktop-mate-settings
 Architecture: all
 Conflicts: huayra-desktop, huayra-apps-debian
 Replaces: huayra-desktop, huayra-apps-debian
-Depends: ${misc:Depends}, gconf-editor, huayra-desktop-common
+Depends: ${misc:Depends}, huayra-desktop-common
 Description: Configuraciones del entorno de escritorio Huayra con Mate
  Este paquete contiene configuraciones del entorno Mate para Huayra
  This is a dummy package.
@@ -68,7 +68,7 @@ Depends: ${misc:Depends}, huayra-fonts,
   xserver-xorg-video-all, xserver-xorg
 Description: Configuraciones comunes para los entornos de escritorio
  Opciones comunes para los entornos de escritorio que contienen valores
- por defecto para dconf, GConf, el skel, lighdm e imagenes de fondos.
+ por defecto para dconf, el skel, lighdm e imagenes de fondos.
  Este paquete es necesario para un escritorio con MATE
 
 Package: huayra-apps
