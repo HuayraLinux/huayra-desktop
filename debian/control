@@ -64,7 +64,7 @@ Architecture: all
 Conflicts: huayra-desktop, huayra-apps-debian, huayra-mate-screensavers
 Replaces: huayra-desktop, huayra-apps-debian
 Depends: ${misc:Depends}, huayra-fonts,
-  huayra-screensavers, python (>= 2.7), xserver-xorg-input-all, 
+  python (>= 2.7), xserver-xorg-input-all, 
   xserver-xorg-video-all, xserver-xorg
 Description: Configuraciones comunes para los entornos de escritorio
  Opciones comunes para los entornos de escritorio que contienen valores
@@ -213,13 +213,10 @@ Replaces: libobasis4.2-ooofonts,
 Depends: ${misc:Depends},
   libreoffice,
   libreoffice-core,
-  libreoffice-gtk2,
   libreoffice-gtk3,
   libreoffice-gnome,
   libreoffice-common,
-  libreoffice-avmedia-backend-vlc,
   libreoffice-l10n-es,
-  libreoffice-pdfimport,
   libreoffice-base,
   libreoffice-base-drivers,
   libreoffice-calc,

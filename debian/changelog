@@ -1,3 +1,16 @@
+huayra-desktop (6.0.3) unstable; urgency=medium
+
+  * fix dependencias de libreoffice
+ 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 29 Nov 2022 16:06:55 -0300
+
+huayra-desktop (6.0.2) unstable; urgency=medium
+
+  * eliminando screensaver (gtk2)
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 24 Nov 2022 20:25:00 -0300
+
 huayra-desktop (6.0.1) unstable; urgency=medium
 
   * gconf-editor no existe mas 
