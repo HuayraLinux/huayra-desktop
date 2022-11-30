@@ -1,3 +1,9 @@
+huayra-desktop (6.0.3+nmu1) torbellino; urgency=medium
+
+  * Actualizaciones de estetica.
+
+ -- Matias De lellis <mati86dl@gmail.com>  Wed, 30 Nov 2022 11:58:53 -0300
+
 huayra-desktop (6.0.3) unstable; urgency=medium
 
   * fix dependencias de libreoffice
