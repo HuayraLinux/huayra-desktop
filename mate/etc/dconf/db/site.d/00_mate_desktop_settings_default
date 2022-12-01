@@ -10,7 +10,7 @@ document-font-name='Asap 10'
 font-name='Asap 11'
 
 [org/mate/desktop/peripherals/mouse]
-cursor-theme = 'HuayraLiso'
+cursor-theme = 'Huayra6'
 
 [org/mate/desktop/peripherals/keyboard]
 remember-numlock-state=false
@@ -70,6 +70,7 @@ mate-themes-url='http://huayra.educar.gob.ar'
 
 [org/mate/panel/general]
 default-layout='huayra'
+enable-sni-support=true
 
 [org/gtk/settings/file-chooser]
 sort-directories-first=true

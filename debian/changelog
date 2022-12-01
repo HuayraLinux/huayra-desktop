@@ -1,3 +1,16 @@
+huayra-desktop (6.0.3+nmu3) torbellino; urgency=medium
+
+  * Cambia tema de cursos a Huayra6
+
+ -- Matias De lellis <mati86dl@gmail.com>  Thu, 01 Dec 2022 12:22:10 -0300
+
+huayra-desktop (6.0.3+nmu2) torbellino; urgency=medium
+
+  * Cambia gnome-packagekit por xings-software.
+  * Habilita sni en el panel de notificaciones.
+
+ -- Matias De lellis <mati86dl@gmail.com>  Wed, 30 Nov 2022 21:44:53 -0300
+
 huayra-desktop (6.0.3+nmu1) torbellino; urgency=medium
 
   * Actualizaciones de estetica.

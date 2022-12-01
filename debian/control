@@ -21,8 +21,6 @@ Depends: ${misc:Depends},
   ffmpegthumbnailer,
   firefox-installer,
   galculator,
-  gdebi,
-  gnome-packagekit,
   greybird-gtk-theme,
   huayra-accesibility-settings,
   huayra-avatares,
@@ -44,7 +42,7 @@ Depends: ${misc:Depends},
   mozo,
   notification-daemon,
   transmission-gtk,
-  pk-updates-notifier,
+  xings-software,
   pluma
 Description: Entorno de escritorio Huayra con Mate
  Este paquete contiene el escritorio Mate para Huayra.
