@@ -1,3 +1,9 @@
+huayra-desktop (6.0.4) unstable; urgency=medium
+
+  * Arregla varias esteticas por defecto..
+
+ -- Matias De lellis <mati86dl@gmail.com>  Wed, 08 Mar 2023 10:49:29 -0300
+
 huayra-desktop (6.0.3+nmu3) torbellino; urgency=medium
 
   * Cambia tema de cursos a Huayra6
