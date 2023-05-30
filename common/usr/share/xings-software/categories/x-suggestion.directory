@@ -2,8 +2,8 @@
 Version=1.0
 Type=Directory
 Icon=emblem-default
-Packages=ardour;mapmap;simulide;
+Packages=ardour;simulide;kodi;octave;homebank;gnome-maps;
 Name=Suggestions
 Name[es]=Sugerencias
 Comment=Software suggestions
-Comment[es]=Sugerencias de Softwarwe
+Comment[es]=Sugerencias de Software

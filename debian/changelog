@@ -1,8 +1,23 @@
+huayra-desktop (6.0.9) unstable; urgency=medium
+
+  * update wallpaper
+  * (merge versiones previas) 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 30 May 2023 20:46:04 -0300
+
+huayra-desktop (6.0.8) unstable; urgency=medium
+
+  * Elimina archivo que entro por error.
+
+ -- Matias De lellis <mati86dl@gmail.com>  Fri, 05 May 2023 09:37:21 -0300
+
 huayra-desktop (6.0.7) unstable; urgency=medium
 
-  * update wallpapaer
+  * Agrega Screensaver por defecto
+  * Agrega Mapmap
+  * Revisa sugerencias de software..
 
- -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 30 May 2023 20:11:11 -0300
+ -- Matias De lellis <mati86dl@gmail.com>  Thu, 04 May 2023 14:31:00 -0300
 
 huayra-desktop (6.0.6) unstable; urgency=medium
 
