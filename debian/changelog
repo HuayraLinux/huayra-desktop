@@ -1,3 +1,9 @@
+huayra-desktop (6.0.7) unstable; urgency=medium
+
+  * update wallpapaer
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Tue, 30 May 2023 20:11:11 -0300
+
 huayra-desktop (6.0.6) unstable; urgency=medium
 
   * Agrega dependencias para Huayra 6.0
