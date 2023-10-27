@@ -2,7 +2,7 @@ Source: huayra-desktop
 Section: x11
 Priority: optional
 Maintainer: Fernando Toledo <ragnarok@docksud.com.ar>
-Build-Depends:  debhelper (>= 10)
+Build-Depends:  debhelper (>= 13)
 Standards-Version: 4.3.0
 Homepage: https://huayra.educar.gob.ar
 
@@ -68,7 +68,7 @@ Architecture: all
 Conflicts: huayra-desktop, huayra-apps-debian, huayra-mate-screensavers
 Replaces: huayra-desktop, huayra-apps-debian
 Depends: ${misc:Depends}, huayra-fonts,
-  python (>= 2.7), xserver-xorg-input-all, 
+  python3 (>= 3.11), xserver-xorg-input-all, 
   xserver-xorg-video-all, xserver-xorg
 Description: Configuraciones comunes para los entornos de escritorio
  Opciones comunes para los entornos de escritorio que contienen valores
@@ -114,7 +114,7 @@ Depends: ${misc:Depends},
   network-manager-openvpn-gnome,
   ntfs-3g,
   ntpdate,
-  openshot,
+  openshot-qt,
   pencil2d,
   pulseaudio,
   pulseaudio-utils,
@@ -146,7 +146,7 @@ Package: huayra-apps-settings
 Architecture: all
 Conflicts: huayra-desktop, huayra-apps-debian
 Replaces: huayra-desktop, huayra-apps-debian
-Depends: ${misc:Depends}, python (>= 2.7), python (<< 2.8)
+Depends: ${misc:Depends}, python3 (>= 3.11)
 Description: Suite completa de aplicaciones para Huayra (settings)
  Aqui se encuentran las opciones de configuracion de las aplicaciones pensadas
  para Huayra que viene por defecto en la distribución. 

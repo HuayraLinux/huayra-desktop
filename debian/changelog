@@ -1,3 +1,11 @@
+huayra-desktop (6.5.1) unstable; urgency=medium
+
+  * cambio de dependencias
+  * python2 -> python3
+  * openshot -> openshot-qt  
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 27 Oct 2023 07:57:47 -0300
+
 huayra-desktop (6.0.9) unstable; urgency=medium
 
   * update wallpaper
