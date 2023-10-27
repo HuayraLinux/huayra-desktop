@@ -1,3 +1,9 @@
+huayra-desktop (6.5.2) unstable; urgency=medium
+
+  * fix path de python en shellbang 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 27 Oct 2023 16:54:49 -0300
+
 huayra-desktop (6.5.1) unstable; urgency=medium
 
   * cambio de dependencias
