@@ -41,7 +41,7 @@ s = 'Default Applications'
 files = ['/usr/share/applications/defaults.list','/usr/share/mate/applications/defaults.list']
 
 for f in files:
-    print "Procesando:" + f
+    print ("Procesando:" + f)
     cfg = MiConfig()
     cfg.optionxform = str
     cfg.read(f)
@@ -52,16 +52,16 @@ for f in files:
       if cfg.has_option(s, options.mime):
         cfg.remove_option(s, options.mime)
       else:
-        print "Aviso: " + options.mime + " no estaba en el archivo defaults.list"
+        print ("Aviso: " + options.mime + " no estaba en el archivo defaults.list")
     elif options.mime == None and len(args) == 2 :
       mime = args[0]
       desktop = args[1]
       cfg.set(s,mime,desktop)
     else:
-      print "Parametros incorrectos!"
+      print ("Parametros incorrectos!")
       parser.print_help()
     try:
       with open(f, 'wb') as configfile:
         cfg.write(configfile)
     except IOError:
-      print "Permiso denegado.\n Este comando requiere privilegios de superusuario(root o use sudo en su defecto)"
+      print ("Permiso denegado.\n Este comando requiere privilegios de superusuario(root o use sudo en su defecto)")
