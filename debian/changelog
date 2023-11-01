@@ -1,3 +1,9 @@
+huayra-desktop (6.5.3) unstable; urgency=medium
+
+  * Background v 6.5 para Huayra 6.5
+
+ -- Daniel Ferro <dferro@educar.gob.ar>  Wed, 01 Nov 2023 15:44:48 -0300
+
 huayra-desktop (6.5.2) unstable; urgency=medium
 
   * fix path de python en shellbang 
