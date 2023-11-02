@@ -1,8 +1,15 @@
+huayra-desktop (6.5.4) unstable; urgency=medium
+
+  * merge Huayra_6.5
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 01 Nov 2023 21:04:08 -0300
+
 huayra-desktop (6.5.3) unstable; urgency=medium
 
   * print para python3 
+  * Background v 6.5 para Huayra 6.5
 
- -- Fernando Toledo <ragnarok@docksud.com.ar>  Wed, 01 Nov 2023 18:57:25 -0300
+ -- Daniel Ferro <dferro@educar.gob.ar>  Wed, 01 Nov 2023 15:44:48 -0300
 
 huayra-desktop (6.5.2) unstable; urgency=medium
 
