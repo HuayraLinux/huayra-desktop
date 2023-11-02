@@ -1,3 +1,9 @@
+huayra-desktop (6.5.5) unstable; urgency=medium
+
+  * fix configparser para python3 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Thu, 02 Nov 2023 19:04:41 -0300
+
 huayra-desktop (6.5.4) unstable; urgency=medium
 
   * merge Huayra_6.5

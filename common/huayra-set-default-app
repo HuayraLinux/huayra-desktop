@@ -5,9 +5,9 @@ Modificar asociaciones de aplicaciones de los tipos mime conocidos
 """
 from optparse import OptionParser
 import os
-import ConfigParser
+import configparser
 
-class MiConfig(ConfigParser.ConfigParser):
+class MiConfig(configparser.ConfigParser):
   """ Sobreescribo write() para evitar los espacios entre opcion=valor """
   def write(self, fp):
     if self._defaults:
