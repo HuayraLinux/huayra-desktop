@@ -1,3 +1,9 @@
+huayra-desktop (6.5.6) unstable; urgency=medium
+
+  * a bytes-like object is required, not 'str' 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Fri, 03 Nov 2023 18:57:33 -0300
+
 huayra-desktop (6.5.5) unstable; urgency=medium
 
   * fix configparser para python3 

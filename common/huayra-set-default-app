@@ -61,7 +61,7 @@ for f in files:
       print ("Parametros incorrectos!")
       parser.print_help()
     try:
-      with open(f, 'wb') as configfile:
+      with open(f, 'w') as configfile:
         cfg.write(configfile)
     except IOError:
       print ("Permiso denegado.\n Este comando requiere privilegios de superusuario(root o use sudo en su defecto)")
