@@ -1,3 +1,9 @@
+huayra-desktop (6.5.7) unstable; urgency=medium
+
+  * cambio a xdg-mime para seleccionar apps 
+
+ -- Fernando Toledo <ragnarok@docksud.com.ar>  Sat, 04 Nov 2023 22:49:29 -0300
+
 huayra-desktop (6.5.6) unstable; urgency=medium
 
   * a bytes-like object is required, not 'str' 
