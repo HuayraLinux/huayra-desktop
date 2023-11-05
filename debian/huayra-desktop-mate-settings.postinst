@@ -6,31 +6,31 @@ set -e
 if [ "$1" = "configure" ]; then
 
   #Asignando aplicaciones por defecto
-  huayra-set-default-app application/pdf atril.desktop
-  huayra-set-default-app application/x-deb gdebi.desktop
-  huayra-set-default-app application/x-7z engrampa.desktop
-  huayra-set-default-app application/x-7z-compressed engrampa.desktop
-  huayra-set-default-app audio/mpeg clementine.desktop
-  huayra-set-default-app audio/ogg clementine.desktop
-  huayra-set-default-app image/bmp eom.desktop
-  huayra-set-default-app image/gif eom.desktop
-  huayra-set-default-app image/jpeg eom.desktop
-  huayra-set-default-app image/jpeg2000 eom.desktop
-  huayra-set-default-app image/jpg eom.desktop
-  huayra-set-default-app image/pdf atril.desktop
-  huayra-set-default-app image/png eom.desktop
-  huayra-set-default-app video/avi vlc.desktop
-  huayra-set-default-app video/ogg vlc.desktop
-  huayra-set-default-app audio/x-vorbis+ogg clementine.desktop
-  huayra-set-default-app text/plain pluma.desktop
-  huayra-set-default-app image/svg+xml inkscape.desktop
-  huayra-set-default-app image/svg+xml-compressed inkscape.desktop
-  huayra-set-default-app application/vnd.corel-draw inkscape.desktop
-  huayra-set-default-app image/x-eps inkscape.desktop
-  huayra-set-default-app application/illustrator inkscape.desktop
-  huayra-set-default-app text/html firefox.desktop
-  huayra-set-default-app text/x-arduino arduino.desktop
-  huayra-set-default-app application/x-java-archive javajar.desktop
+  xdg-mime default atril.desktop application/pdf
+  xdg-mime default gdebi.desktop application/x-deb
+  xdg-mime default engrampa.desktop application/x-7z
+  xdg-mime default engrampa.desktop application/x-7z-compressed
+  xdg-mime default clementine.desktop audio/mpeg
+  xdg-mime default clementine.desktop audio/ogg
+  xdg-mime default eom.desktop image/bmp
+  xdg-mime default eom.desktop image/gif
+  xdg-mime default eom.desktop image/jpeg
+  xdg-mime default eom.desktop image/jpeg2000
+  xdg-mime default eom.desktop image/jpg
+  xdg-mime default atril.desktop image/pdf
+  xdg-mime default eom.desktop image/png
+  xdg-mime default vlc.desktop video/avi
+  xdg-mime default vlc.desktop video/ogg
+  xdg-mime default clementine.desktop audio/x-vorbis+ogg
+  xdg-mime default pluma.desktop text/plain
+  xdg-mime default inkscape.desktop image/svg+xml
+  xdg-mime default inkscape.desktop image/svg+xml-compressed
+  xdg-mime default inkscape.desktop application/vnd.corel-draw
+  xdg-mime default inkscape.desktop image/x-eps
+  xdg-mime default inkscape.desktop application/illustrator
+  xdg-mime default firefox.desktop text/html
+  xdg-mime default arduino.desktop text/x-arduino
+  xdg-mime default javajar.desktop application/x-java-archive
 
   # si esta mate-terminal, actualizamos las alternativas.
   echo "Configurar mate-terminal como terminal por defecto"

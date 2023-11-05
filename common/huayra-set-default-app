@@ -1,11 +1,15 @@
 #!/usr/bin/env python
 # coding: utf-8
+
+print("Esto esta deprecado usar xgd-mime")
+exit(0)
 """
 Modificar asociaciones de aplicaciones de los tipos mime conocidos
 """
 from optparse import OptionParser
 import os
 import configparser
+import argparse
 
 class MiConfig(configparser.ConfigParser):
   """ Sobreescribo write() para evitar los espacios entre opcion=valor """
@@ -29,7 +33,7 @@ desc += 'nivel sistema. Ejemplos: agregar una asociacion: %prog '
 desc += 'application/pdf evince.desktop . Eliminar: %prog '
 desc += '-d image/png'
 uso = '%prog [-d] tipo_mime [.desktop]'
-parser = OptionParser(usage=uso, description=desc, version="1.0")
+parser = argparse.ArgumentParser(usage=uso, description=desc)
 parser.add_option("-d","--delete",dest='mime',help="Elimina la asociacion del actual tipo mime")
 (options, args) = parser.parse_args()
 
