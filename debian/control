@@ -49,7 +49,8 @@ Depends: ${misc:Depends},
   notification-daemon,
   transmission-gtk,
   xings-software,
-  pluma
+  pluma,
+  xdg-desktop-portal-gtk
 Description: Entorno de escritorio Huayra con Mate
  Este paquete contiene el escritorio Mate para Huayra.
  This is a dummy package.
