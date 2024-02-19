@@ -1,3 +1,9 @@
+huayra-desktop (6.5.9) unstable; urgency=medium
+
+  * Migramos a Firefox empaquetado oficialmente para Debian
+
+ -- Matias De lellis <mati86dl@gmail.com>  Mon, 19 Feb 2024 16:09:01 -0300
+
 huayra-desktop (6.5.8) unstable; urgency=medium
 
   * agrega dependencia xdg-desktop-portal-gtk
