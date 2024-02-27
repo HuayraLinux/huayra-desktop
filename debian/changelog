@@ -1,3 +1,9 @@
+huayra-desktop (6.5.10) unstable; urgency=medium
+
+  * Arreglo logos institucionales
+
+ -- Matias De lellis <mati86dl@gmail.com>  Tue, 27 Feb 2024 14:49:46 -0300
+
 huayra-desktop (6.5.9) unstable; urgency=medium
 
   * Migramos a Firefox empaquetado oficialmente para Debian
