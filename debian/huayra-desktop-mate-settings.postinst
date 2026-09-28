@@ -8,6 +8,7 @@ if [ "$1" = "configure" ]; then
   #Asignando aplicaciones por defecto
   xdg-mime default atril.desktop application/pdf
   xdg-mime default gdebi.desktop application/x-deb
+  xdg-mime default gdebi.desktop application/vnd.debian.binary-package
   xdg-mime default engrampa.desktop application/x-7z
   xdg-mime default engrampa.desktop application/x-7z-compressed
   xdg-mime default clementine.desktop audio/mpeg
