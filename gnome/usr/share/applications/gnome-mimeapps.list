@@ -1,0 +1,11 @@
+[Default Applications]
+application/pdf=atril.desktop;
+application/x-7z-compressed=engrampa.desktop;
+image/bmp=eom.desktop;
+image/gif=eom.desktop;
+image/jpeg=eom.desktop;
+image/png=eom.desktop;
+video/x-msvideo=vlc.desktop;
+text/plain=pluma.desktop;
+text/html=firefox.desktop;
+image/svg+xml=org.inkscape.Inkscape.desktop;

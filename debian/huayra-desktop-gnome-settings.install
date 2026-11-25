@@ -1,1 +1,2 @@
 gnome/etc/* etc/
+gnome/usr/share/applications/gnome-mimeapps.list usr/share/applications/
