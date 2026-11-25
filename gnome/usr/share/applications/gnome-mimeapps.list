@@ -1,15 +1,11 @@
 [Default Applications]
 application/pdf=org.gnome.Evince.desktop;
 application/x-7z-compressed=org.gnome.FileRoller.desktop;
-audio/mpeg=org.clementine_player.Clementine.desktop;
-audio/ogg=org.clementine_player.Clementine.desktop;
-audio/x-vorbis+ogg=org.clementine_player.Clementine.desktop;
 image/bmp=org.gnome.eog.desktop;
 image/gif=org.gnome.eog.desktop;
 image/jpeg=org.gnome.eog.desktop;
 image/png=org.gnome.eog.desktop;
 video/x-msvideo=vlc.desktop;
-video/ogg=vlc.desktop;
 text/plain=org.gnome.gedit.desktop;
+text/html=firefox-esr.desktop;
 image/svg+xml=org.inkscape.Inkscape.desktop;
-text/x-arduino=arduino.desktop;
